@@ -1,0 +1,10 @@
+{
+  "url": "https://optifine.net/adloadx?f=OptiFine_1.7.10_HD_U_E7.jar",
+  "follows": ["Download"],
+  "fileName": "OptiFine_1.7.10_HD_U_E7.jar"
+  "installationPolicy": {
+    "name": "OptiFine",
+    "optionalKey": "$",
+    "selectedByDefault": false,
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "url": "https://github.com/GTNewHorizons/StandardQuestingPack/releases/download/3.0.190-GTNH/StandardExpansion-1.7.10-3.0.190-GTNH.jar",
+  "installationPolicy": {
+    "name": "BQ Standard GTNH Fork",
+    "continueOnFailedDownload": false
+  }
+}

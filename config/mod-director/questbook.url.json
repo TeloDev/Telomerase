@@ -1,0 +1,7 @@
+{
+  "url": "https://github.com/GTNewHorizons/QuestBook/releases/download/2.1.3-GTNH/questbook-1.7.10-2.1.3-GTNH.jar",
+  "installationPolicy": {
+    "name": "BQ Quest Book GTNH Fork",
+    "continueOnFailedDownload": false
+  }
+}

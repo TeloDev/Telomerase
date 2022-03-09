@@ -1,0 +1,7 @@
+{
+  "url": "https://github.com/GTNewHorizons/EnderCore/releases/download/0.2.6/endercore-1.7.10-0.2.6.jar",
+  "installationPolicy": {
+    "name": "Ender Core GTNH Fork",
+    "continueOnFailedDownload": false
+  }
+}

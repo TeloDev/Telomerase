@@ -1,0 +1,7 @@
+{
+  "url": "https://github.com/GTNewHorizons/CraftTweaker/releases/download/3.2.8/CraftTweaker-1.7.10-3.2.8.jar",
+  "installationPolicy": {
+    "name": "Mine Tweaker GTNH Fork",
+    "continueOnFailedDownload": false
+  }
+}
