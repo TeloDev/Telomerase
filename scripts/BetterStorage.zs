@@ -1,0 +1,4 @@
+recipes.removeShaped(<betterstorage:craftingStation>);
+recipes.addShaped(<betterstorage:craftingStation>, [[<ore:stoneCobble>,<minecraft:wooden_pressure_plate>,<ore:stoneCobble>],[<minecraft:piston>,<ore:craftingTableWood>,<minecraft:piston>],[<ore:plankWood>,<betterstorage:crate>,<ore:plankWood>]]);
+recipes.removeShaped(<betterstorage:crate>);
+recipes.addShaped(<betterstorage:crate>,[[<ImmersiveEngineering:treatedWood>, <ImmersiveEngineering:material>, <ImmersiveEngineering:treatedWood>],[<ImmersiveEngineering:material>, null,<ImmersiveEngineering:material>], [<ImmersiveEngineering:treatedWood>, <ImmersiveEngineering:material>, <ImmersiveEngineering:treatedWood>]]);

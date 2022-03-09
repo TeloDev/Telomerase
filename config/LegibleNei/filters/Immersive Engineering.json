@@ -1,0 +1,16 @@
+{
+ImmersiveEngineering:[
+    {hide:[[*Shader*,ore,blueprint,metalDecoration2,multiblock,clothDevice,hemp,seed,stoneDevice,toolbox],[]]};
+    {hide:[[storage,storageSlab],[0,1,2,3,4,5,6]]};
+    {show:[[metalDecoration2],[0,1,2]]};
+    {keep:[[bullet],[0,2]]};
+    {keep:[[stoneDecoration],[1,3,4,5,6]]};
+    {hide:[[metalDecoration],[2]]};
+    {hide:[[material],[3,4]]};
+    {hide:[[fluidContainers],[]]};
+    {keep:[[toolupgrade],[0,3,4,7,8,9]]};
+    {hide:[[stoneSlab,metalMultiblock],[0]]};
+    {keep:[[metal],[20,24]]};
+    {hide:[[woodenDevice],[4]]}
+]
+}

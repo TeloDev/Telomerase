@@ -1,0 +1,9 @@
+{
+BigReactors:[
+    {hide:[[YelloriteOre,BRDevice,bucketYellorium,bucketCyanite,BRDebugTool,BRMultiblockCreativePart,tile.fluid*],[]]};
+    {hide:[[BRMetalBlock],[3,4]]};
+    {hide:[[BRReactorPart],[3,6,7]]};
+    {hide:[[BRTurbinePart],[5]]};
+    {hide:[[BRIngot],[2,3,4,5,6,7,8,9]]};
+]
+}

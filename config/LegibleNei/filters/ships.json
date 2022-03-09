@@ -1,0 +1,5 @@
+{
+cuchaz.ships:[
+    {hide:[[blockAirWall,blockBerth,BlockAirRoof],[]]};
+]
+}
