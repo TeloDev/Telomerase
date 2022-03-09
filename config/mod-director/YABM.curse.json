@@ -1,8 +1,4 @@
 {
   "addonId": 223260,
-  "fileId": 2220024,
-  "installationPolicy": {
-    "name": "Yet Another Backup Mod",
-    "continueOnFailedDownload": false
-  }
+  "fileId": 2220024
 }

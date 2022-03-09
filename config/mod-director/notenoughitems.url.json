@@ -1,7 +1,3 @@
 {
-  "url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.10-GTNH/NotEnoughItems-1.7.10-2.2.10-GTNH.jar",
-  "installationPolicy": {
-    "name": "Not Enough Items GTNH Fork",
-    "continueOnFailedDownload": false
-  }
+  "url": "https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.10-GTNH/NotEnoughItems-1.7.10-2.2.10-GTNH.jar"
 }

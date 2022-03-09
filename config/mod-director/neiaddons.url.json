@@ -1,7 +1,3 @@
 {
-  "url": "https://github.com/GTNewHorizons/neiaddons/releases/download/1.12.19/NEIAddons-1.7.10-1.12.19.jar",
-  "installationPolicy": {
-    "name": "NEI Addons GTNH Fork",
-    "continueOnFailedDownload": false
-  }
+  "url": "https://github.com/GTNewHorizons/neiaddons/releases/download/1.12.19/NEIAddons-1.7.10-1.12.19.jar"
 }
