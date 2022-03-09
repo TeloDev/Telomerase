@@ -5,6 +5,6 @@
   "installationPolicy": {
     "name": "OptiFine",
     "optionalKey": "$",
-    "selectedByDefault": false,
+    "selectedByDefault": false
   }
 }
