@@ -1206,6 +1206,11 @@ recipes.addShapedMirrored(<ImmersiveEngineering:railgun>,[[null, <ImmersiveEngin
 recipes.removeShaped(<ImmersiveEngineering:toolupgrade:9>);
 recipes.addShaped(<ImmersiveEngineering:toolupgrade:9>,[[<ImmersiveEngineering:coil:2>,null,null],[<ImmersiveEngineering:metalDevice:7>,null,null]]);
 
+
+//empty barrel recipe
+recipes.addShapeless(<ImmersiveEngineering:metalDevice2:7>,[<ImmersiveEngineering:metalDevice2:7>]);
+recipes.addShapeless(<ImmersiveEngineering:woodenDevice:6>,[<ImmersiveEngineering:woodenDevice:6>]);
+
 /*
 recipes.addShapedMirrored(<TeloAddon:Chainsaw_Housing>,[[null, <ImmersiveEngineering:material:9>, null], [<ImmersiveEngineering:coil:1>, <ImmersiveEngineering:metalDecoration:5>, <ImmersiveEngineering:metalDevice:6>], [<ImmersiveEngineering:material:12>, <teloaddon:Aluminum_Double_Sheet>, null]]);
 

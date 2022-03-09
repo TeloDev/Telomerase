@@ -334,10 +334,10 @@ mods.forestry.Carpenter.addRecipe(<terrafirmacraftplus:item.TFC Leather>*4, [[<t
 <ore:burlapFiber>.add(<terrafirmacraftplus:item.Sisal Fibre>);
 <ore:burlapFiber>.add(<terrafirmacraftplus:item.Jute Fibre>);
 
-mods.forestry.Carpenter.addRecipe(<terrafirmacraftplus:item.WoolCloth>,[[<terrafirmacraftplus:item.Wool>,<terrafirmacraftplus:item.WoolYarn>,<terrafirmacraftplus:item.WoolYarn>],[<terrafirmacraftplus:item.WoolYarn>,<terrafirmacraftplus:item.WoolYarn>,<terrafirmacraftplus:item.WoolYarn>],[<terrafirmacraftplus:item.WoolYarn>,<terrafirmacraftplus:item.WoolYarn>,<terrafirmacraftplus:item.WoolYarn>]], 40);
+mods.forestry.Carpenter.addRecipe(<terrafirmacraftplus:item.WoolCloth>,[[<terrafirmacraftplus:item.Wool>,<terrafirmacraftplus:item.Wool>,null]], 40);
 mods.forestry.Carpenter.addRecipe(<terrafirmacraftplus:item.LinenCloth>,[[<terrafirmacraftplus:item.Flax Fibre>,<terrafirmacraftplus:item.Flax Fibre>,null],[<terrafirmacraftplus:item.Flax Fibre>,<terrafirmacraftplus:item.Flax Fibre>,null]], 40);
 //mods.forestry.Carpenter.addRecipe(<terrafirmacraftplus:item.SilkCloth>,[[<terrafirmacraftplus:item.SilkString>,<terrafirmacraftplus:item.SilkString>,<terrafirmacraftplus:item.SilkString>],[<terrafirmacraftplus:item.SilkString>,<terrafirmacraftplus:item.SilkString>,<terrafirmacraftplus:item.SilkString>],[<terrafirmacraftplus:item.SilkString>,<terrafirmacraftplus:item.SilkString>,<terrafirmacraftplus:item.SilkString>]], 40);
-mods.forestry.Carpenter.addRecipe(<terrafirmacraftplus:item.CottonCloth>,[[<terrafirmacraftplus:item.Cotton>,<terrafirmacraftplus:item.CottonYarn>,<terrafirmacraftplus:item.CottonYarn>],[<terrafirmacraftplus:item.CottonYarn>,<terrafirmacraftplus:item.CottonYarn>,<terrafirmacraftplus:item.CottonYarn>],[<terrafirmacraftplus:item.CottonYarn>,<terrafirmacraftplus:item.CottonYarn>,<terrafirmacraftplus:item.CottonYarn>]], 40);
+mods.forestry.Carpenter.addRecipe(<terrafirmacraftplus:item.CottonCloth>,[[<terrafirmacraftplus:item.Cotton>,<terrafirmacraftplus:item.Cotton>,<terrafirmacraftplus:item.Cotton>]], 40);
 mods.forestry.Carpenter.addRecipe(<terrafirmacraftplus:item.BurlapCloth>,[[<ore:burlapFiber>,<ore:burlapFiber>,<ore:burlapFiber>],[<ore:burlapFiber>,<ore:burlapFiber>,<ore:burlapFiber>],[<ore:burlapFiber>,<ore:burlapFiber>,<ore:burlapFiber>]], 40);
 
 mods.forestry.Carpenter.addRecipe(<terrafirmacraftplus:item.WoolYarn>*8,[[<terrafirmacraftplus:item.Wool>]], 40);
