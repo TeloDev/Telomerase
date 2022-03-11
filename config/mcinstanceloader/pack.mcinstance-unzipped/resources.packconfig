@@ -211,6 +211,13 @@ type = url
 url = https://github.com/GTNewHorizons/EnderCore/releases/download/0.2.6/endercore-1.7.10-0.2.6.jar
 destination = mods/endercore-1.7.10-0.2.6.jar
 
+[Bookshelf]
+type = curseforge
+projectId = 228525
+fileId = 2278984
+sourceFileName = Bookshelf-1.7.10-1.0.4.187.jar
+destination = mods/Bookshelf-1.7.10-1.0.4.187.jar
+
 [CoFH Core]
 type = curseforge
 projectId = 69162
@@ -271,13 +278,6 @@ projectId = 241994
 fileId = 2282591
 sourceFileName = BigReactors-0.4.3A.jar
 destination = mods/BigReactors-0.4.3A.jar
-
-[Bookshelf]
-type = curseforge
-projectId = 228525
-fileId = 2278984
-sourceFileName = Bookshelf-1.7.10-1.0.4.187.jar
-destination = mods/Bookshelf-1.7.10-1.0.4.187.jar
 
 [Carpenter's Blocks]
 type = curseforge
