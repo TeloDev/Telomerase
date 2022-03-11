@@ -197,6 +197,13 @@ url = https://github.com/GTNewHorizons/LunatriusCore/releases/download/1.1.6-GTN
 destination = mods/LunatriusCore-1.7.10-1.1.6-GTNH.jar
 side = client
 
+[ResourceLoader]
+type = curseforge
+projectId = 226447
+fileId = 2292845
+sourceFileName = ResourceLoader-MC1.7.10-1.3.jar
+destination = mods/ResourceLoader-MC1.7.10-1.3.jar
+
 #------------------------------------------------------------------------------------------------------------------------
 #Cores
 #------------------------------------------------------------------------------------------------------------------------
@@ -408,10 +415,3 @@ projectId = 230898
 fileId = 2274165
 sourceFileName = BetterBoat-1.7.10-1.1.0.jar
 destination = mods/BetterBoat-1.7.10-1.1.0.jar
-
-[Better FPS]
-type = curseforge
-projectId = 229876
-fileId = 2244002
-sourceFileName = BetterFps-1.0.1.jar
-destination = mods/BetterFps-1.0.1.jar
