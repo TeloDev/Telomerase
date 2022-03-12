@@ -10,6 +10,30 @@ sourceFileName = [1.7.10]DamageIndicatorsMod-3.3.2.jar
 destination = mods/[1.7.10]DamageIndicatorsMod-3.3.2.jar
 side = client
 
+[Flying Cullers]
+type = curseforge
+projectId = 433524
+fileId = 3364996
+sourceFileName = FlyingCullers-1.7.10-1.3.jar
+destination = mods/FlyingCullers-1.7.10-1.3.jar
+side = client
+
+[Triangulators]
+type = curseforge
+projectId = 583352
+fileId = 3684584
+sourceFileName = triangulator-mc1.7.10-1.3.0.jar
+destination = mods/triangulator-mc1.7.10-1.3.0.jar
+side = client
+
+[AnimFix]
+type = curseforge
+projectId = 585734
+fileId = 3671098
+sourceFileName = animfix-mc1.7.10-1.2.1.jar
+destination = mods/animfix-mc1.7.10-1.2.1.jar
+side = client
+
 [CraftPresence]
 type = curseforge
 projectId = 297038
@@ -80,14 +104,6 @@ projectId = 32274
 fileId = 2367915
 sourceFileName = journeymap-1.7.10-5.1.4p2-unlimited.jar
 destination = mods/journeymap-1.7.10-5.1.4p2-unlimited.jar
-side = client
-
-[Flying Cullers]
-type = curseforge
-projectId = 433524
-fileId = 3364996
-sourceFileName = FlyingCullers-1.7.10-1.3.jar
-destination = mods/FlyingCullers-1.7.10-1.3.jar
 side = client
 
 [InGameXML]
