@@ -271,55 +271,51 @@ recipes.remove(<minecraft:flower_pot>);
 
 //vanilla dye fix
 recipes.removeShapeless(<minecraft:dye:6>);
-<ore:dye>.remove(<minecraft:dye:6>);
 <ore:dyeCyan>.remove(<minecraft:dye:6>);
 recipes.addShapeless(<terrafirmacraftplus:item.dyePowder:6>*2,[<ore:dyeBlue>,<ore:dyeGreen>]);
 
 recipes.removeShapeless(<minecraft:dye:5>);
-<ore:dye>.remove(<minecraft:dye:5>);
 <ore:dyePurple>.remove(<minecraft:dye:5>);
 recipes.addShapeless(<terrafirmacraftplus:item.dyePowder:5>*2,[<ore:dyeBlue>,<ore:dyeRed>]);
 
 recipes.removeShapeless(<minecraft:dye:7>);
-<ore:dye>.remove(<minecraft:dye:7>);
 <ore:dyeLightGray>.remove(<minecraft:dye:7>);
 recipes.addShapeless(<terrafirmacraftplus:item.dyePowder:7>*2,[<ore:dyeGray>,<ore:dyeWhite>]);
 recipes.addShapeless(<terrafirmacraftplus:item.dyePowder:7>*2,[<ore:dyeBlack>,<ore:dyeWhite>,<ore:dyeWhite>]);
 
 recipes.removeShapeless(<minecraft:dye:8>);
-<ore:dye>.remove(<minecraft:dye:8>);
 <ore:dyeGray>.remove(<minecraft:dye:8>);
 recipes.addShapeless(<terrafirmacraftplus:item.dyePowder:8>*2,[<ore:dyeBlack>,<ore:dyeWhite>]);
 
 recipes.removeShapeless(<minecraft:dye:9>);
-<ore:dye>.remove(<minecraft:dye:9>);
 <ore:dyePink>.remove(<minecraft:dye:9>);
 recipes.addShapeless(<terrafirmacraftplus:item.dyePowder:9>*2,[<ore:dyeRed>,<ore:dyeWhite>]);
 
 recipes.removeShapeless(<minecraft:dye:10>);
-<ore:dye>.remove(<minecraft:dye:10>);
 <ore:dyeLime>.remove(<minecraft:dye:10>);
 recipes.addShapeless(<terrafirmacraftplus:item.dyePowder:10>*2,[<ore:dyeGreen>,<ore:dyeWhite>]);
 
 recipes.removeShapeless(<minecraft:dye:12>);
-<ore:dye>.remove(<minecraft:dye:12>);
 <ore:dyeLightBlue>.remove(<minecraft:dye:12>);
 recipes.addShapeless(<terrafirmacraftplus:item.dyePowder:12>*2,[<ore:dyeBlue>,<ore:dyeWhite>]);
 
 recipes.removeShapeless(<minecraft:dye:13>);
-<ore:dye>.remove(<minecraft:dye:13>);
 <ore:dyeMagenta>.remove(<minecraft:dye:13>);
 recipes.addShapeless(<terrafirmacraftplus:item.dyePowder:13>*2,[<ore:dyePurple>,<ore:dyePink>]);
 recipes.addShapeless(<terrafirmacraftplus:item.dyePowder:13>*3,[<ore:dyeBlue>,<ore:dyeRed>,<ore:dyePink>]);
 recipes.addShapeless(<terrafirmacraftplus:item.dyePowder:13>*4,[<ore:dyeBlue>,<ore:dyeRed>,<ore:dyeRed>,<ore:dyeWhite>]);
 
 recipes.removeShapeless(<minecraft:dye:14>);
-<ore:dye>.remove(<minecraft:dye:14>);
 <ore:dyeOrange>.remove(<minecraft:dye:14>);
 recipes.addShapeless(<terrafirmacraftplus:item.dyePowder:14>*2,[<ore:dyeRed>,<ore:dyeYellow>]);
 
-<ore:dye>.remove(<minecraft:dye:15>);
 <ore:dyeWhite>.remove(<minecraft:dye:15>);
+<ore:dyeBlack>.remove(<minecraft:dye>);
+<ore:dyeRed>.remove(<minecraft:dye:1>);
+<ore:dyeGreen>.remove(<minecraft:dye:2>);
+<ore:dyeBrown>.remove(<minecraft:dye:3>);
+<ore:dyeBlue>.remove(<minecraft:dye:4>);
+<ore:dyeYellow>.remove(<minecraft:dye:11>);
 
 recipes.addShapedMirrored(<minecraft:brick_stairs>*4,[[null,null,<terrafirmacraftplus:Bricks>],[null,<terrafirmacraftplus:Bricks>,<terrafirmacraftplus:Bricks>],[<terrafirmacraftplus:Bricks>,<terrafirmacraftplus:Bricks>,<terrafirmacraftplus:Bricks>]]);
 recipes.addShapedMirrored(<minecraft:stone_slab:4>*6,[[<terrafirmacraftplus:Bricks>,<terrafirmacraftplus:Bricks>,<terrafirmacraftplus:Bricks>]]);
