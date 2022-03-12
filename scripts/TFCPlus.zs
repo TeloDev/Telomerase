@@ -283,7 +283,7 @@ recipes.addShapeless(<terrafirmacraftplus:item.dyePowder:5>*2,[<ore:dyeBlue>,<or
 recipes.removeShapeless(<minecraft:dye:7>);
 <ore:dye>.remove(<minecraft:dye:7>);
 <ore:dyeLightGray>.remove(<minecraft:dye:7>);
-recipes.addShapeless(<minecraft:dye:7>*2,[<ore:dyeGray>,<ore:dyeWhite>]);
+recipes.addShapeless(<terrafirmacraftplus:item.dyePowder:7>*2,[<ore:dyeGray>,<ore:dyeWhite>]);
 recipes.addShapeless(<terrafirmacraftplus:item.dyePowder:7>*2,[<ore:dyeBlack>,<ore:dyeWhite>,<ore:dyeWhite>]);
 
 recipes.removeShapeless(<minecraft:dye:8>);
