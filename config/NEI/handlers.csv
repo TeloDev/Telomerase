@@ -45,7 +45,7 @@ com.rwtema.extrautils.nei.FMPMicroBlocksHandler,ExtraUtilities,ForgeMicroblock:s
 com.rwtema.extrautils.nei.InfoHandler,ExtraUtilities,ExtraUtilities:chandelier,,ExtraUtilities,TRUE,,,135,,2,,,,,,"Info on blocks, can vary wildly. EQ was this length, there might be a longer one"
 com.rwtema.extrautils.nei.MicroBlocksHandler,ExtraUtilities,ExtraUtilities:microblocks:1,,ExtraUtilities,TRUE,,,,,,,,,,,
 com.rwtema.extrautils.nei.SoulHandler,ExtraUtilities,ExtraUtilities:mini-soul,,ExtraUtilities,TRUE,,,,,,,,,,,
-hellfirepvp.beebetteratbees.client.gui.BBABGuiRecipeTreeHandler,Bees,Forestry:beeQueenGE,,Forestry,TRUE,,,140,,2,,,,,,
+hellfirepvp.beebetteratbees.client.gui.BBABGuiRecipeTreeHandler,Forestry,Forestry:beeQueenGE,,Forestry,TRUE,,,140,,2,,,,,,
 forestry.factory.recipes.nei.NEIHandlerBottler,Forestry,Forestry:factory,,Forestry,TRUE,,,68,,5,,,,,,
 forestry.factory.recipes.nei.NEIHandlerCarpenter,Forestry,Forestry:factory:1,,Forestry,TRUE,,,65,,5,,,,,,
 forestry.factory.recipes.nei.NEIHandlerCentrifuge,Forestry,Forestry:factory:2,,Forestry,TRUE,,,65,,5,,,,,,
