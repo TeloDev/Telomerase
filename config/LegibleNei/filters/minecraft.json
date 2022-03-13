@@ -4,9 +4,9 @@ minecraft:[
     {show:[[*rail,noteblock,piston,glass,glass_pane,trapdoor,ladder,iron_bars,daylight_detector,*pressure_plate,redstone_block,redstone,clay,hardened_clay,coal_block,dropper,tripwire_hook,string,feather,
     gunpowder,flint,lever,stone_button,painting,sign,*door,minecart,snow,snowball,boat,paper,book,slime_ball,compass,clock,bed,repeater,ender_pearl,spider_eye,rotten_flesh,writable_book,written_book,
 	item_frame,map,fireworks,firework_charge,comparator,cauldron,trapped_chest,tnt,hopper,dispenser,redstone_lamp,lapis_block,brick_stairs,glowstone,glowstone_dust,fence],[]]};
-    {show:[[dye],[5,6,7,8,9,10,12,13,14]]};
     {show:[[stained_hardened_clay,stained_glass_pane,stained_glass],[]]};
     {show:[[carpet],[]]};
+    {show:[[wool],[]]};
     {show:[[stone_slab],[0,4]]};
 ]
 }

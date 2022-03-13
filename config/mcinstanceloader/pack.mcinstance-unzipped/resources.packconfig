@@ -10,6 +10,30 @@ sourceFileName = [1.7.10]DamageIndicatorsMod-3.3.2.jar
 destination = mods/[1.7.10]DamageIndicatorsMod-3.3.2.jar
 side = client
 
+[Flying Cullers]
+type = curseforge
+projectId = 433524
+fileId = 3364996
+sourceFileName = FlyingCullers-1.7.10-1.3.jar
+destination = mods/FlyingCullers-1.7.10-1.3.jar
+side = client
+
+[Triangulators]
+type = curseforge
+projectId = 583352
+fileId = 3684584
+sourceFileName = triangulator-mc1.7.10-1.3.0.jar
+destination = mods/triangulator-mc1.7.10-1.3.0.jar
+side = client
+
+[AnimFix]
+type = curseforge
+projectId = 585734
+fileId = 3671098
+sourceFileName = animfix-mc1.7.10-1.2.1.jar
+destination = mods/animfix-mc1.7.10-1.2.1.jar
+side = client
+
 [CraftPresence]
 type = curseforge
 projectId = 297038
@@ -102,6 +126,14 @@ projectId = 282313
 fileId = 3069971
 sourceFileName = TipTheScales-1.7.10-3.0.0.2.jar
 destination = mods/TipTheScales-1.7.10-3.0.0.2.jar
+side = client
+
+[Better Placement]
+type = curseforge
+projectId = 278406
+fileId = 2481883
+sourceFileName = BetterPlacement-MC1.7.10-1.0.0-1.jar
+destination = mods/BetterPlacement-MC1.7.10-1.0.0-1.jar
 side = client
 
 [Waila]
@@ -204,6 +236,19 @@ fileId = 2292845
 sourceFileName = ResourceLoader-MC1.7.10-1.3.jar
 destination = mods/ResourceLoader-MC1.7.10-1.3.jar
 
+[Mod Director]
+type = curseforge
+projectId = 367103
+fileId = 3517526
+sourceFileName = mod-director-launchwrapper-1.5.1-SNAPSHOT-all.jar
+destination = mods/mod-director-launchwrapper-1.5.1-SNAPSHOT-all.jar
+side = client
+
+[TelomeraseCoreMod]
+type = url
+url = https://github.com/Jerome226/TelomeraseCoreMod/releases/download/2.2/TeloCoreMod-1.7.10-2.2.jar
+destination = mods/TeloCoreMod-1.7.10-2.2.jar
+
 #------------------------------------------------------------------------------------------------------------------------
 #Cores
 #------------------------------------------------------------------------------------------------------------------------
@@ -244,10 +289,10 @@ type = url
 url = https://github.com/GTNewHorizons/OpenModsLib/releases/download/0.10.6/OpenModsLibs-1.7.10-0.10.6.jar
 destination = mods/OpenModsLibs-1.7.10-0.10.6.jar
 
-[Grimoire]
+[Sponge Mixins]
 type = url
-url = https://github.com/Aizistral-Studios/Grimoire/releases/download/v3.2.10/Grimoire-mc1.7.10-3.2.10.jar
-destination = mods/Grimoire-mc1.7.10-3.2.10.jar
+url = https://github.com/DrParadox7/SpongeMixins/releases/download/1.5.0/SpongeMixins-1.5.0.jar
+destination = mods/SpongeMixins-1.5.0.jar
 
 #------------------------------------------------------------------------------------------------------------------------
 #Content Mods
