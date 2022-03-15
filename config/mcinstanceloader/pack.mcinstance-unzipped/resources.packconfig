@@ -120,6 +120,14 @@ sourceFileName = Controlling-1.7.10-1.0.0.jar
 destination = mods/Controlling-1.7.10-1.0.0.jar
 side = client
 
+[Sound Filters]
+type = curseforge
+projectId = 222789
+fileId = 2224003
+sourceFileName = SoundFilters-0.8_for_1.7.X.jar
+destination = mods/SoundFilters-0.8_for_1.7.X.jar
+side = client
+
 [TipTheScales]
 type = curseforge
 projectId = 282313
