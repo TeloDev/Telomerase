@@ -262,6 +262,11 @@ mods.forestry.Centrifuge.addRecipe([<Forestry:honeyDrop> % 100, <terrafirmacraft
 // instant honeywater from pure honey drop
 mods.Terrafirmacraft.Barrel.addItemFluidConversion(<liquid:honeywater> * 3000, <Forestry:honeyDrop>, <liquid:freshwater> * 3000, 0, false, 0, true, true);
 
+//ingotfix
+<ore:ingotCopper>.remove(<Forestry:ingotCopper>);
+<ore:ingotTin>.remove(<Forestry:ingotTin>);
+<ore:ingotBronze>.remove(<Forestry:ingotBronze>);
+
 recipes.removeShaped(<minecraft:speckled_melon>);
 
 mods.forestry.Still.removeRecipe(<liquid:bioethanol>);

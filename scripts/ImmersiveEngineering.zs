@@ -43,6 +43,22 @@ recipes.addShapeless(<ImmersiveEngineering:metal:20>*9,[<BigReactors:BRMetalBloc
 recipes.addShaped(<ImmersiveEngineering:storage:7>,[[<ore:stickSteel>,<ImmersiveEngineering:stoneDecoration:4>,<ore:stickSteel>]]);
 recipes.addShaped(<ImmersiveEngineering:storageSlab:7>,[[<ImmersiveEngineering:stoneSlab:1>],[<ore:stickSteel>]]);
 
+//ingot fix
+<ore:ingotCopper>.remove(<ImmersiveEngineering:metal>);
+<ore:ingotAluminum>.remove(<ImmersiveEngineering:metal:1>);
+<ore:ingotLead>.remove(<ImmersiveEngineering:metal:2>);
+<ore:ingotSilver>.remove(<ImmersiveEngineering:metal:3>);
+<ore:ingotNickel>.remove(<ImmersiveEngineering:metal:4>);
+<ore:ingotConstantan>.remove(<ImmersiveEngineering:metal:5>);
+<ore:ingotCupronickel>.remove(<ImmersiveEngineering:metal:5>);
+<ore:ingotElectrum>.remove(<ImmersiveEngineering:metal:6>);
+<ore:ingotSteel>.remove(<ImmersiveEngineering:metal:7>);
+<ore:plateIron>.remove(<ImmersiveEngineering:metal:30>);
+<ore:plateAluminum>.remove(<ImmersiveEngineering:metal:32>);
+<ore:plateLead>.remove(<ImmersiveEngineering:metal:33>);
+<ore:plateConstantan>.remove(<ImmersiveEngineering:metal:36>);
+<ore:plateSteel>.remove(<ImmersiveEngineering:metal:38>);
+
 //dispenser recipe
 recipes.removeShaped(<minecraft:dispenser>);
 recipes.addShaped(<minecraft:dispenser>,[[<ore:cobblestone>,<ore:cobblestone>,<ore:cobblestone>],[<ore:cobblestone>,<ImmersiveEngineering:metalDevice:11>,<ore:cobblestone>],[<ore:cobblestone>,<minecraft:redstone>,<ore:cobblestone>]]);

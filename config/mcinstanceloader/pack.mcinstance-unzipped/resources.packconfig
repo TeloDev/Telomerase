@@ -120,6 +120,14 @@ sourceFileName = Controlling-1.7.10-1.0.0.jar
 destination = mods/Controlling-1.7.10-1.0.0.jar
 side = client
 
+[Sound Filters]
+type = curseforge
+projectId = 222789
+fileId = 2224003
+sourceFileName = SoundFilters-0.8_for_1.7.X.jar
+destination = mods/SoundFilters-0.8_for_1.7.X.jar
+side = client
+
 [TipTheScales]
 type = curseforge
 projectId = 282313
@@ -166,28 +174,28 @@ fileId = 3204442
 sourceFileName = [1.7.10]TerraFirmaCraftPlus-0.87.0.jar
 destination = mods/[1.7.10]TerraFirmaCraftPlus-0.87.0.jar
 
-[TFC+Additions]
+[TFC+ Additions]
 type = curseforge
 projectId = 442203
 fileId = 3204681
 sourceFileName = [1.7.10]TFC-Additions-1.7.10-1.0.8.jar
 destination = mods/[1.7.10]TFC-Additions-1.7.10-1.0.8.jar
 
-[TFC+Tweaker]
+[TFC+ Tweaker]
 type = curseforge
 projectId = 420101
 fileId = 3206470
 sourceFileName = 1.7.10-TFCPlusTweaker-1.2.0.3.jar
 destination = mods/1.7.10-TFCPlusTweaker-1.2.0.3.jar
 
-[TFC+NEI]
+[TFC+ NEI]
 type = curseforge
 projectId = 345516
 fileId = 3377679
 sourceFileName = TerraFirmaCraftPlusNEIplugin-1.7.10-1.8.0.jar
 destination = mods/TerraFirmaCraftPlusNEIplugin-1.7.10-1.8.0.jar
 
-[TFC+Aesthetics]
+[TFC+ Aesthetics]
 type = curseforge
 projectId = 574993
 fileId = 3657886
@@ -201,6 +209,7 @@ fileId = 3641909
 sourceFileName = TelomeraseAddon-1.0.6.jar
 destination = mods/TelomeraseAddon-1.0.6.jar
 
+#Pack Making
 [CraftTweaker]
 type = curseforge
 projectId = 239197
@@ -213,7 +222,7 @@ type = url
 url = https://github.com/DrParadox7/ModTweaker/releases/download/0.9.6/ModTweaker2-0.9.6-patched.jar
 destination = mods/ModTweaker2-0.9.6-patched.jar
 
-[Not Enough Items]
+[NotEnoughItems]
 type = url
 url = https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.10-GTNH/NotEnoughItems-1.7.10-2.2.10-GTNH.jar
 destination = mods/NotEnoughItems-1.7.10-2.2.10-GTNH.jar
@@ -236,7 +245,7 @@ fileId = 2292845
 sourceFileName = ResourceLoader-MC1.7.10-1.3.jar
 destination = mods/ResourceLoader-MC1.7.10-1.3.jar
 
-[Mod Director]
+[ModDirector]
 type = curseforge
 projectId = 367103
 fileId = 3517526
@@ -244,21 +253,30 @@ sourceFileName = mod-director-launchwrapper-1.5.1-SNAPSHOT-all.jar
 destination = mods/mod-director-launchwrapper-1.5.1-SNAPSHOT-all.jar
 side = client
 
+[It's the little things]
+type = curseforge
+projectId = 232791
+fileId = 3335234
+sourceFileName = itlt-1.7.x-1.0.3.jar
+destination = mods/itlt-1.7.x-1.0.3.jar
+side = client
+
 [TelomeraseCoreMod]
 type = url
 url = https://github.com/Jerome226/TelomeraseCoreMod/releases/download/2.2/TeloCoreMod-1.7.10-2.2.jar
 destination = mods/TeloCoreMod-1.7.10-2.2.jar
+side = client
 
 #------------------------------------------------------------------------------------------------------------------------
 #Cores
 #------------------------------------------------------------------------------------------------------------------------
 
-[Code Chicken Core]
+[CodeChickenCore]
 type = url
 url = https://github.com/GTNewHorizons/CodeChickenCore/releases/download/1.1.5/CodeChickenCore-1.7.10-1.1.5.jar
 destination = mods/CodeChickenCore-1.7.10-1.1.5.jar
 
-[Ender Core]
+[EnderCore]
 type = url
 url = https://github.com/GTNewHorizons/EnderCore/releases/download/0.2.6/endercore-1.7.10-0.2.6.jar
 destination = mods/endercore-1.7.10-0.2.6.jar
@@ -270,7 +288,7 @@ fileId = 2278984
 sourceFileName = Bookshelf-1.7.10-1.0.4.187.jar
 destination = mods/Bookshelf-1.7.10-1.0.4.187.jar
 
-[CoFH Core]
+[CoFHCore]
 type = curseforge
 projectId = 69162
 fileId = 2388750
@@ -284,12 +302,12 @@ fileId = 2273524
 sourceFileName = CTMLib-MC1.7.10-1.4.1.5.jar
 destination = mods/CTMLib-MC1.7.10-1.4.1.5.jar
 
-[Open Mods Lib]
+[OpenModsLib]
 type = url
 url = https://github.com/GTNewHorizons/OpenModsLib/releases/download/0.10.6/OpenModsLibs-1.7.10-0.10.6.jar
 destination = mods/OpenModsLibs-1.7.10-0.10.6.jar
 
-[Sponge Mixins]
+[SpongeMixins]
 type = url
 url = https://github.com/DrParadox7/SpongeMixins/releases/download/1.5.0/SpongeMixins-1.5.0.jar
 destination = mods/SpongeMixins-1.5.0.jar
@@ -317,7 +335,7 @@ fileId = 2248061
 sourceFileName = BetterStorage-1.7.10-0.13.1.126.jar
 destination = mods/BetterStorage-1.7.10-0.13.1.126.jar
 
-[Bibliocraft]
+[BiblioCraft]
 type = curseforge
 projectId = 228027
 fileId = 2423369
@@ -338,7 +356,7 @@ fileId = 2719376
 sourceFileName = Carpenter's Blocks v3.3.8.2 - MC 1.7.10.jar
 destination = mods/Carpenter's Blocks v3.3.8.2 - MC 1.7.10.jar
 
-[Dakimakura Mod]
+[Dakimakura]
 type = curseforge
 projectId = 301478
 fileId = 2747016
@@ -346,9 +364,11 @@ sourceFileName = dakimakuramod-1.7.10-1.5.jar
 destination = mods/dakimakuramod-1.7.10-1.5.jar
 
 [Forestry]
-type = url
-url = https://github.com/GTNewHorizons/ForestryMC/releases/download/4.4.6/Forestry-1.7.10-4.4.6.jar
-destination = mods/Forestry-1.7.10-4.4.6.jar
+type = curseforge
+projectId = 59751
+fileId = 2333823
+sourceFileName = forestry_1.7.10-4.2.16.64.jar
+destination = mods/forestry_1.7.10-4.2.16.64.jar
 
 [GraveStone Mod]
 type = curseforge
@@ -383,7 +403,7 @@ fileId = 2209728
 sourceFileName = PistonEverything-mc1.7.X-1.0.4.jar
 destination = mods/PistonEverything-mc1.7.X-1.0.4.jar
 
-[Quest Book]
+[Better Questing Book]
 type = url
 url = https://github.com/GTNewHorizons/QuestBook/releases/download/2.1.3-GTNH/questbook-1.7.10-2.1.3-GTNH.jar
 destination = mods/questbook-1.7.10-2.1.3-GTNH.jar
@@ -400,7 +420,7 @@ fileId = 2254977
 sourceFileName = shipsMod-v1.7.10-1.0.4.jar
 destination = mods/shipsMod-v1.7.10-1.0.4.jar
 
-[Standard Expansion]
+[Better Questing SE]
 type = url
 url = https://github.com/GTNewHorizons/StandardQuestingPack/releases/download/3.0.190-GTNH/StandardExpansion-1.7.10-3.0.190-GTNH.jar
 destination = mods/StandardExpansion-1.7.10-3.0.190-GTNH.jar
@@ -460,3 +480,12 @@ projectId = 230898
 fileId = 2274165
 sourceFileName = BetterBoat-1.7.10-1.1.0.jar
 destination = mods/BetterBoat-1.7.10-1.1.0.jar
+
+#------------------------------------------------------------------------------------------------------------------------
+#Resources Packs
+#------------------------------------------------------------------------------------------------------------------------
+
+[Vanilla Themed TFC+]
+type = url
+url = https://www.curseforge.com/minecraft/texture-packs/vanilla-themed-tfc/download/3613004
+destination = resourcepacks/Vanilla+Themed+TFC+v0.5.0.zip
