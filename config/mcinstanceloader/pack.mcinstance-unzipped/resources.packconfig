@@ -491,3 +491,15 @@ projectId = 230898
 fileId = 2274165
 sourceFileName = BetterBoat-1.7.10-1.1.0.jar
 destination = mods/BetterBoat-1.7.10-1.1.0.jar
+
+#------------------------------------------------------------------------------------------------------------------------
+#Resources Packs
+#------------------------------------------------------------------------------------------------------------------------
+
+[Vanilla Themed TFC+]
+type = curseforge
+projectId = 401494
+fileId = 3613004
+sourceFileName = Vanilla+Themed+TFC+v0.5.0.zip
+destination = resourcepacks/Vanilla+Themed+TFC+v0.5.0.zip
+side = client
