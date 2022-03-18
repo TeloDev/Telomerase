@@ -4,8 +4,7 @@
 !*/
 !.gitignore
 
-!/armourersWorkshop/**
-!/journeymap/**
+!/armourersWorkshop/Telomerase_Official/**
 !/resources/telomerase/**
 !/scripts/**
 !/LICENSE
@@ -17,12 +16,15 @@
 !/config/BigReactors/**
 !/config/cofh/**
 !/config/dsurround/**
-!/config/endercore/**
-!/config/forestry/**
+!/config/endercore/endercore.cfg
+!/config/forestry/*
 !/config/itlt/**
-!/config/LegibleNei/**
-!/config/matmos/**
-!/config/mcinstanceloader/**
+!/config/LegibleNei/filters/**
+!/config/matmos/alias.map
+!/config/matmos/expansions_userconfig/**
+!/config/mcinstanceloader/pack.mcinstance-unzipped/**
+!/config/mcinstanceloader/config.cfg
+!/config/mcinstanceloader/pack.mcinstance
 !/config/mixingasm/**
 !/config/mod-director/**
 !/config/NEI/**

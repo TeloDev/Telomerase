@@ -486,6 +486,7 @@ destination = mods/BetterBoat-1.7.10-1.1.0.jar
 #------------------------------------------------------------------------------------------------------------------------
 
 [Vanilla Themed TFC+]
-type = url
-url = https://www.curseforge.com/minecraft/texture-packs/vanilla-themed-tfc/download/3613004
+type = curseforge
+projectId = 401494
+fileId = 3613004
 destination = resourcepacks/Vanilla+Themed+TFC+v0.5.0.zip
