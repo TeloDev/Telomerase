@@ -13,6 +13,7 @@
 
 # only include edited config files
 !/config/armourersWorkshop/**
+!/config/Betterloadingscreen/**
 !/config/betterquesting/**
 !/config/BigReactors/**
 !/config/cofh/**
@@ -43,8 +44,10 @@
 !/config/NEIAddons.cfg
 !/config/OpenBlocks.cfg
 !/config/PistonEverything.cfg
+!/config/splash.properties
 !/config/StorageDrawers.cfg
 !/config/TeloAddon.cfg
 !/config/test.txt
 !/config/TFCOre.cfg
 !/config/YABM.cfg
+!background.png
