@@ -368,22 +368,24 @@ recipes.addShaped(<ImmersiveEngineering:metalMultiblock:2>*2, [[<terrafirmacraft
 recipes.removeShaped(<ImmersiveEngineering:metalMultiblock:3>, [[<ore:ingotIron>, <minecraft:piston:*>, <ore:ingotIron>], [<ImmersiveEngineering:material:11>, <ore:dyeBlue>, <ImmersiveEngineering:material:11>], [<ore:ingotIron>, <minecraft:piston:*>, <ore:ingotIron>]]);
 recipes.addShaped(<ImmersiveEngineering:metalMultiblock:3>*2, [[<terrafirmacraftplus:item.Wrought Iron Sheet>, <ore:barrelWood>, <ImmersiveEngineering:material:11>]]);
 
-recipes.removeShaped(<ImmersiveEngineering:metalDevice:9>, [[<ore:dustRedstone>, <ImmersiveEngineering:storage:8>, <ore:dustRedstone>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
 
-recipes.removeShaped(<ImmersiveEngineering:metalDevice:10>, [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [<ore:plateConstantan>, <ImmersiveEngineering:storage:8>, <ore:plateConstantan>], [<ore:plateConstantan>, <ore:plateConstantan>, <ore:plateConstantan>]]);
+
 
 //Generators
 val sheetColoredSteel = <ore:sheetColoredSteel>;
 
 sheetColoredSteel.add(<terrafirmacraftplus:item.Blue Steel Sheet>);
 sheetColoredSteel.add(<terrafirmacraftplus:item.Red Steel Sheet>);
-
+//thermoelectric
+recipes.removeShaped(<ImmersiveEngineering:metalDevice:10>, [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [<ore:plateConstantan>, <ImmersiveEngineering:storage:8>, <ore:plateConstantan>], [<ore:plateConstantan>, <ore:plateConstantan>, <ore:plateConstantan>]]);
 recipes.addShaped(<ImmersiveEngineering:metalDevice:10>, [[null, <terrafirmacraftplus:item.Steel Sheet>, null], [<terrafirmacraftplus:item.Bismuth Sheet>, <ImmersiveEngineering:storage:8>, <terrafirmacraftplus:item.Copper Sheet>],[null,<ore:sheetColoredSteel>,null]]);
-
+//kinetic dynamo
+recipes.removeShaped(<ImmersiveEngineering:metalDevice:9>, [[<ore:dustRedstone>, <ImmersiveEngineering:storage:8>, <ore:dustRedstone>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
 recipes.addShaped(<ImmersiveEngineering:metalDevice:9>, [[<ore:sheetColoredSteel>],[<ImmersiveEngineering:storage:8>], [<ImmersiveEngineering:material:11>]]);
-
+// conveyor belt
 recipes.removeShaped(<ImmersiveEngineering:metalDevice:11>, [[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
 recipes.addShaped(<ImmersiveEngineering:metalDevice:11>*16, [[<terrafirmacraftplus:item.TFC Leather>, <terrafirmacraftplus:item.TFC Leather>, <terrafirmacraftplus:item.TFC Leather>], [<ImmersiveEngineering:material:11>, null, <ImmersiveEngineering:material:11>]]);
+recipes.addShaped(<ImmersiveEngineering:metalDevice:11>*16, [[<ore:materialBurlap>, <ore:materialBurlap>, <ore:materialBurlap>], [<ImmersiveEngineering:material:11>, null, <ImmersiveEngineering:material:11>]]);
 
 recipes.removeShaped(<ImmersiveEngineering:metalDevice:15>, [[<ImmersiveEngineering:metalDevice:11>], [<minecraft:hopper:*>]]);
 recipes.addShaped(<ImmersiveEngineering:metalDevice:15>, [[<ImmersiveEngineering:metalDevice:11>], [<minecraft:trapdoor:*>]]);
@@ -966,12 +968,16 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraftplus:item.Copper 
 <ore:blockSandSilica>.add(<terrafirmacraftplus:Sand:11>);
 <ore:blockSandSilica>.add(<terrafirmacraftplus:Sand:15>);
 //glass pane recipes must come first
-mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraftplus:item.Sheet Mold:6>*5, <ore:blockSandSilica>*7, null, 100, 2048,[<terrafirmacraftplus:item.Soda>*7,<terrafirmacraftplus:item.Lime>*7,<terrafirmacraftplus:item.Sheet Mold:1>*5], "Glassworking");
-mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraftplus:item.Sheet Mold:6>*5, <ore:blockSandSilica>*7, null, 100, 2048,[<terrafirmacraftplus:item.Powder:13>*14,<terrafirmacraftplus:item.Lime>*7,<terrafirmacraftplus:item.Sheet Mold:1>*5], "Glassworking");
+for sand in <ore:blockSandSilica>.items{ // for some reason we can't add oredict with amount multiplier
+  mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraftplus:item.Sheet Mold:6>*5, sand*7, null, 100, 2048,[<terrafirmacraftplus:item.Soda>*7,<terrafirmacraftplus:item.Lime>*7,<terrafirmacraftplus:item.Sheet Mold:1>*5], "Glassworking");
+  mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraftplus:item.Sheet Mold:6>*5, sand*7, null, 100, 2048,[<terrafirmacraftplus:item.Powder:13>*14,<terrafirmacraftplus:item.Lime>*7,<terrafirmacraftplus:item.Sheet Mold:1>*5], "Glassworking");
+}
 mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraftplus:item.Sheet Mold:6>*5, <minecraft:glass>, null, 100, 2048,[<terrafirmacraftplus:item.Sheet Mold:1>*5], "Glassworking");
 //glass block
-mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:glass>, <ore:blockSandSilica>*7, null, 100, 2048,[<terrafirmacraftplus:item.Soda>*7,<terrafirmacraftplus:item.Lime>*7], "Glassworking");
-mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:glass>, <ore:blockSandSilica>*7, null, 100, 2048,[<terrafirmacraftplus:item.Powder:13>*14,<terrafirmacraftplus:item.Lime>*7], "Glassworking");
+for sand in <ore:blockSandSilica>.items{ // for some reason we can't add oredict with amount multiplier
+  mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:glass>, sand*7, null, 100, 2048,[<terrafirmacraftplus:item.Soda>*7,<terrafirmacraftplus:item.Lime>*7], "Glassworking");
+  mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:glass>, sand*7, null, 100, 2048,[<terrafirmacraftplus:item.Powder:13>*14,<terrafirmacraftplus:item.Lime>*7], "Glassworking");
+}
 mods.immersiveengineering.ArcFurnace.addRecipe(<minecraft:glass>, <minecraft:glass_pane>*5, null, 100, 2048, [], "Glassworking");
 
 //glowstone
