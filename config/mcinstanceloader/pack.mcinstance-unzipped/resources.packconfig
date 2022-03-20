@@ -274,7 +274,7 @@ type = curseforge
 projectId = 585637
 fileId = 3671400
 sourceFileName = IEBPT-1.0.jar
-destination = IEBPT-1.0.jar
+destination = mods/IEBPT-1.0.jar
 
 [ModTweaker]
 type = url
