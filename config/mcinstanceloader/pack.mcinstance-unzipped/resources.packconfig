@@ -30,8 +30,8 @@ side = client
 
 [Telomerase Loading Screen]
 type = url
-url = https://github.com/Jerome226/TelomeraseLoadingScreen/releases/download/1.0/TeloLoadingScreen-1.7.10-1.0.jar
-destination = mods/TeloLoadingScreen-1.7.10-1.0.jar
+url = https://github.com/Jerome226/TelomeraseLoadingScreen/releases/download/1.0/TeloLoadingScreen-1.7.10-1.1.jar
+destination = mods/TeloLoadingScreen-1.7.10-1.1.jar
 side = client
 
 #------------------------------------------------------------------------------------------------------------------------
