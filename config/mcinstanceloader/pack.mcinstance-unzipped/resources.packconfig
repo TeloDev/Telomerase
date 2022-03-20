@@ -149,6 +149,14 @@ url = https://github.com/GTNewHorizons/InGame-Info-XML/releases/download/2.8.3.9
 destination = mods/InGameInfoXML-1.7.10-2.8.3.91.jar
 side = client
 
+[Schematica]
+type = curseforge
+projectId = 225603
+fileId = 2274295
+sourceFileName = Schematica-1.7.10-1.7.6.131-universal.jar
+destination = mods/Schematica-1.7.10-1.7.6.131-universal.jar
+side = client
+
 [Controlling]
 type = curseforge
 projectId = 250398
@@ -253,6 +261,13 @@ projectId = 239197
 fileId = 2838720
 sourceFileName = CraftTweaker-1.7.10-3.1.0-legacy.jar
 destination = mods/CraftTweaker-1.7.10-3.1.0-legacy.jar
+
+[Immersive Engineering Blueprint Tweaker]
+type = curseforge
+projectId = 585637
+fileId = 3671400
+sourceFileName = IEBPT-1.0.jar
+destination = IEBPT-1.0.jar
 
 [ModTweaker]
 type = url
@@ -391,6 +406,13 @@ fileId = 2374232
 sourceFileName = GraveStone Mod 0.7.10.3.jar
 destination = mods/GraveStone Mod 0.7.10.3.jar
 
+[Hopper Ducts]
+type = curseforge
+projectId = 72210
+fileId = 2211247
+sourceFileName = hopperductmod-1.7.10-1.3.2.jar
+destination = mods/hopperductmod-1.7.10-1.3.2.jar
+
 [Immersive Engineering]
 type = curseforge
 projectId = 231951
@@ -416,6 +438,13 @@ projectId = 79038
 fileId = 2209728
 sourceFileName = PistonEverything-mc1.7.X-1.0.4.jar
 destination = mods/PistonEverything-mc1.7.X-1.0.4.jar
+
+[Redstone Paste]
+type = curseforge
+projectId = 67508
+fileId = 2211249
+sourceFileName = RedstonePasteMod-1.7.10-1.6.2.jar
+destination = mods/RedstonePasteMod-1.7.10-1.6.2.jar
 
 [Better Questing Book]
 type = url

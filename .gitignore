@@ -4,7 +4,6 @@
 !*/
 !.gitignore
 
-!/armourersWorkshop/Telomerase_Official/**
 !/resources/telomerase/**
 !/scripts/**
 !/LICENSE
@@ -26,6 +25,7 @@
 !/config/mcinstanceloader/pack.mcinstance-unzipped/**
 !/config/mcinstanceloader/config.cfg
 !/config/mcinstanceloader/pack.mcinstance
+!/config/mcinstanceloader/pack.bat
 !/config/mixingasm/**
 !/config/mod-director/**
 !/config/NEI/**
