@@ -5,7 +5,7 @@
 !.gitignore
 
 !/armourersWorkshop/Telomerase_Official/**
-!/resources/telomerase/**
+!/resources/**
 !/scripts/**
 !/LICENSE
 !/mods/mcinstanceloader*

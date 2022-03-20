@@ -1,7 +1,7 @@
 {
-    "packName": "Telomerase Installer",
+    "packName": "Telomerase",
     "icon": {
-        "path": "resources/telomerase/logo.png",
+        "path": "https://raw.githubusercontent.com/Jerome226/TelomeraseCoreMod/master/src/main/resources/assets/telomerase/logo.png",
         "width": 64,
         "height": 64
    }
