@@ -1,0 +1,167 @@
+{
+    "images":
+    {
+        "bar": {
+			"image": "custommainmenu:textures/menuBar.png",
+			"posX": -60,
+			"posY": 0,
+			"width": 120,
+			"height": 4096,
+			"alignment": "top_center"
+		},
+        "title":
+        {
+            "image" : "telomerase:title.png",
+            "posX" : -147,
+            "posY" : 10,
+            "width" : 282,
+            "height" : 78,
+            "alignment" : "top_center"
+        }
+
+    },
+
+    "buttons":
+    {
+        "singleplayer":
+        {
+            
+            "text" : "Singleplayer",
+			"normalTextColor": -1,
+			"hoverTextColor": 11513775,
+            "texture": "custommainmenu:textures/gui/transparent.png",
+            "posX" : -58,
+            "posY" : 38,
+            "width" : 120,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "Multiplayer",
+			"normalTextColor": -1,
+			"hoverTextColor": 11513775,
+            "texture": "custommainmenu:textures/gui/transparent.png",
+            "posX" : -58,
+            "posY" : 58,
+            "width" : 120,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+
+        "options":
+        {
+            "text" : "Options",
+			"normalTextColor": -1,
+			"hoverTextColor": 11513775,
+            "texture": "custommainmenu:textures/gui/transparent.png",
+            "posX" : -58,
+            "posY" : 78,
+            "width" : 120,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "Mods",
+			"normalTextColor": -1,
+			"hoverTextColor": 11513775,
+            "texture": "custommainmenu:textures/gui/transparent.png",
+            "posX" : -59,
+            "posY" : 98,
+            "width" : 120,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "quit":
+        {
+            "text" : "Quit Game",
+			"normalTextColor": 16728128,
+			"hoverTextColor": 16711680,
+            "texture": "custommainmenu:textures/gui/transparent.png",
+            "posX" : -58,
+            "posY" : 132,
+            "width" : 120,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "",
+            "posX" : -10,
+            "posY" : 40,
+            "width" : 20,
+            "height" : 20,
+            "texture": "custommainmenu:textures/gui/transparent.png",
+            "alignment": "top_center",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "texts":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+        "version":
+        {
+            "text" : "Telomerase 1.20",
+            "posX" : 2,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+       
+        "background":
+        {
+            "image" : "",
+            "slideshow":
+            {
+                "images" : [
+                    "custommainmenu:textures/backgrounds/01.png",
+                    "custommainmenu:textures/backgrounds/02.png",
+                    "custommainmenu:textures/backgrounds/03.png",
+                    "custommainmenu:textures/backgrounds/04.png"
+                ],
+                "displayDuration" : 200,
+                "fadeDuration" : 50,
+                "shuffle": true
+            }
+        }
+    }
+}
