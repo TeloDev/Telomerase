@@ -2,12 +2,12 @@
     "images":
     {
         "bar": {
-			"image": "custommainmenu:textures/menuBar.png",
-			"posX": -60,
-			"posY": 0,
-			"width": 120,
-			"height": 4096,
-			"alignment": "top_center"
+	     "image": "custommainmenu:textures/menuBar.png",
+	     "posX": -60,
+	     "posY": 0,
+             "width": 120,
+             "height": 4096,
+	     "alignment": "top_center"
 		},
         "title":
         {
@@ -27,8 +27,8 @@
         {
             
             "text" : "Singleplayer",
-			"normalTextColor": -1,
-			"hoverTextColor": 11513775,
+	    "normalTextColor": -1,
+	    "hoverTextColor": 11513775,
             "texture": "custommainmenu:textures/gui/transparent.png",
             "posX" : -58,
             "posY" : 38,
@@ -44,8 +44,8 @@
         "multiplayer":
         {
             "text" : "Multiplayer",
-			"normalTextColor": -1,
-			"hoverTextColor": 11513775,
+	    "normalTextColor": -1,
+	    "hoverTextColor": 11513775,
             "texture": "custommainmenu:textures/gui/transparent.png",
             "posX" : -58,
             "posY" : 58,
@@ -61,8 +61,8 @@
         "options":
         {
             "text" : "Options",
-			"normalTextColor": -1,
-			"hoverTextColor": 11513775,
+	    "normalTextColor": -1,
+	    "hoverTextColor": 11513775,
             "texture": "custommainmenu:textures/gui/transparent.png",
             "posX" : -58,
             "posY" : 78,
@@ -78,8 +78,8 @@
         "mods":
         {
             "text" : "Mods",
-			"normalTextColor": -1,
-			"hoverTextColor": 11513775,
+	    "normalTextColor": -1,
+	    "hoverTextColor": 11513775,
             "texture": "custommainmenu:textures/gui/transparent.png",
             "posX" : -59,
             "posY" : 98,
@@ -95,8 +95,8 @@
         "quit":
         {
             "text" : "Quit Game",
-			"normalTextColor": 16728128,
-			"hoverTextColor": 16711680,
+	    "normalTextColor": 16728128,
+	    "hoverTextColor": 16711680,
             "texture": "custommainmenu:textures/gui/transparent.png",
             "posX" : -58,
             "posY" : 132,
