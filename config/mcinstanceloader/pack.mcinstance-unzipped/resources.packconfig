@@ -297,6 +297,13 @@ url = https://github.com/GTNewHorizons/LunatriusCore/releases/download/1.1.6-GTN
 destination = mods/LunatriusCore-1.7.10-1.1.6-GTNH.jar
 side = client
 
+[Default Keys]
+type = curseforge
+projectId = 232131
+fileId = 2277197
+sourceFileName = defaultkeys-mc1.7.10-1.0.28.jar
+destination = mods/defaultkeys-mc1.7.10-1.0.28.jar
+
 #------------------------------------------------------------------------------------------------------------------------
 #Cores
 #------------------------------------------------------------------------------------------------------------------------
