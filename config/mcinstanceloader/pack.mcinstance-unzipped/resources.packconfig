@@ -538,3 +538,8 @@ type = curseforge
 projectId = 401494
 fileId = 3613004
 destination = resourcepacks/Vanilla+Themed+TFC+v0.5.0.zip
+
+[MATmos Default Soundpack]
+type = url
+url = https://github.com/Jerome226/Files/releases/download/matdefault2016/matdefault2016.zip
+destination = resourcepacks/matdefault2016.zip
