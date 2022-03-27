@@ -186,7 +186,7 @@ recipes.addShaped(<minecraft:coal_block>,[[<ore:gemCoal>,<ore:gemCoal>,<ore:gemC
 
 //book
 recipes.removeShapeless(<minecraft:book>);
-recipes.addShapeless(<<minecraft:book>,[<minecraft:paper>,<minecraft:paper>,<minecraft:paper>,<terrafirmacraftplus:item.TFC Leather>]);
+recipes.addShapeless(<minecraft:book>,[<minecraft:paper>,<minecraft:paper>,<minecraft:paper>,<terrafirmacraftplus:item.TFC Leather>]);
 
 //book and quill
 recipes.removeShapeless(<minecraft:writable_book>);
