@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:2
 clouds:true
-resourcePacks:["Vanilla+Themed+TFC+v0.5.0.zip","matdefault2016.zip"]
+resourcePacks:["TelomeraseResources.zip","Vanilla+Themed+TFC+v0.5.0.zip","matdefault2016.zip"]
 lastServer:
 lang:en_US
 chatVisibility:0
