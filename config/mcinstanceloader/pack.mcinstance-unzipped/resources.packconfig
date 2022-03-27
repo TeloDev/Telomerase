@@ -46,6 +46,14 @@ sourceFileName = [1.7.10]DamageIndicatorsMod-3.3.2.jar
 destination = mods/[1.7.10]DamageIndicatorsMod-3.3.2.jar
 side = client
 
+[Damage Tilt]
+type = curseforge
+projectId = 411705
+fileId = 3097543
+sourceFileName = DamageTilt-1.7.10-0.1.0.jar
+destination = mods/DamageTilt-1.7.10-0.1.0.jar
+side = client
+
 [Flying Cullers]
 type = curseforge
 projectId = 433524
