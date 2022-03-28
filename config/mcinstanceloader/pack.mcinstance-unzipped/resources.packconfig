@@ -73,17 +73,17 @@ side = client
 [Triangulators]
 type = curseforge
 projectId = 583352
-fileId = 3684584
-sourceFileName = triangulator-mc1.7.10-1.3.0.jar
-destination = mods/triangulator-mc1.7.10-1.3.0.jar
+fileId = 3718208
+sourceFileName = triangulator-mc1.7.10-1.3.2.jar
+destination = mods/triangulator-mc1.7.10-1.3.2.jar
 side = client
 
 [AnimFix]
 type = curseforge
 projectId = 585734
-fileId = 3671098
-sourceFileName = animfix-mc1.7.10-1.2.1.jar
-destination = mods/animfix-mc1.7.10-1.2.1.jar
+fileId = 3720581
+sourceFileName = animfix-mc1.7.10-1.3.2.jar
+destination = mods/animfix-mc1.7.10-1.3.2.jar
 side = client
 
 [CraftPresence]
@@ -432,6 +432,13 @@ projectId = 231951
 fileId = 2299019
 sourceFileName = ImmersiveEngineering-0.7.7.jar
 destination = mods/ImmersiveEngineering-0.7.7.jar
+
+[Immersive Integration]
+type = curseforge
+projectId = 232159
+fileId = 2289306
+sourceFileName = immersiveintegration-0.6.8.jar
+destination = mods/immersiveintegration-0.6.8.jar
 
 [Morpheus]
 type = curseforge
