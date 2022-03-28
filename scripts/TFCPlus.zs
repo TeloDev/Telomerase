@@ -196,6 +196,9 @@ recipes.addShapeless(<minecraft:writable_book>,[<minecraft:book>,<minecraft:feat
 recipes.removeShaped(<minecraft:wooden_pressure_plate>);
 recipes.addShaped(<minecraft:wooden_pressure_plate>,[[<ore:woodLumber>,<ore:woodLumber>]]);
 
+//charcoal from ash
+recipes.addShapeless(<terrafirmacraftplus:item.coal:1>,[<terrafirmacraftplus:item.Powder:13>,<terrafirmacraftplus:item.Powder:13>,<terrafirmacraftplus:item.Powder:13>,<terrafirmacraftplus:item.Powder:13>,<terrafirmacraftplus:item.Powder:13>,<terrafirmacraftplus:item.Powder:13>,<terrafirmacraftplus:item.Powder:13>,<terrafirmacraftplus:item.Powder:13>,<terrafirmacraftplus:item.Powder:13>]);
+
 // vanilla blocks
 recipes.removeShaped(<minecraft:brick_stairs>);
 recipes.removeShaped(<minecraft:stone_slab:4>);
@@ -351,7 +354,7 @@ mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:13> * 2
 mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:13>, <tfcaths:Loose_Flowered_Orchid:3>);
 mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:13>, <tfcaths:Thistle:3>);
 mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:13>, <tfcaths:Arpophyllum_Giganteum>);
-
+mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:13> * 2, <tfcaths:Mallow:3>);
 
 #orange
 recipes.removeShapeless(<minecraft:dye:14>);
