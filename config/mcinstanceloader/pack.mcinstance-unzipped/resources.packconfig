@@ -467,6 +467,11 @@ fileId = 2209728
 sourceFileName = PistonEverything-mc1.7.X-1.0.4.jar
 destination = mods/PistonEverything-mc1.7.X-1.0.4.jar
 
+[Pistronics 2]
+type = url
+url = https://github.com/Jerome226/TelomeraseFiles/releases/download/1.0/Pistronics2-1.7.10-0.6.4-patched.jar
+destination = mods/Pistronics2-1.7.10-0.6.4-patched.jar
+
 [Redstone Paste]
 type = curseforge
 projectId = 67508
