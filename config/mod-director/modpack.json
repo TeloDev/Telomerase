@@ -1,8 +1,0 @@
-{
-    "packName": "Telomerase",
-    "icon": {
-        "path": "https://raw.githubusercontent.com/Jerome226/TelomeraseCoreMod/master/src/main/resources/assets/telomerase/logo.png",
-        "width": 64,
-        "height": 64
-   }
-}

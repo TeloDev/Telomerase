@@ -28,7 +28,6 @@
 !/config/mcinstanceloader/config.cfg
 !/config/mcinstanceloader/pack.mcinstance
 !/config/mixingasm/**
-!/config/mod-director/**
 !/config/NEI/**
 !/config/betterquesting.cfg
 !/config/betterstorage.cfg
