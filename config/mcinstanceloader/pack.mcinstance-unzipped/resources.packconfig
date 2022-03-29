@@ -571,7 +571,7 @@ destination = resourcepacks/Vanilla+Themed+TFC+v0.5.0.zip
 
 [MATmos Default Soundpack]
 type = url
-url = https://github.com/Jerome226/Files/releases/download/matdefault2016/matdefault2016.zip
+url = https://github.com/Jerome226/TelomeraseFiles/releases/download/1.0/matdefault2016.zip
 destination = resourcepacks/matdefault2016.zip
 
 [Telomerase Resources]
