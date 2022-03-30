@@ -14,9 +14,9 @@ side = client
 
 [OptiFine]
 type = url
-destination = mods/Optifine 1.7.10 E7.jar
+destination = mods/OptiFine_1.7.10_HD_U_E7.jar
 url = https://optifine.net/adloadx?f=OptiFine_1.7.10_HD_U_E7.jar
-follows = Download
+follows = OptiFine 1.7.10 HD U E7
 side = client
 
 [Custom Main Menu]
@@ -88,9 +88,9 @@ side = client
 [AnimFix]
 type = curseforge
 projectId = 585734
-fileId = 3720581
-sourceFileName = animfix-mc1.7.10-1.3.2.jar
-destination = mods/animfix-mc1.7.10-1.3.2.jar
+fileId = 3721998
+sourceFileName = animfix-mc1.7.10-1.3.3.jar
+destination = mods/animfix-mc1.7.10-1.3.3.jar
 side = client
 
 [CraftPresence]
@@ -219,6 +219,14 @@ side = client
 type = url
 url = https://github.com/GTNewHorizons/WAILAPlugins/releases/download/0.2.5/WAILAPlugins-1.7.10-0.2.5.jar
 destination = mods/WAILAPlugins-1.7.10-0.2.5.jar
+side = client
+
+[ItemPhysic Lite]
+type = curseforge
+projectId = 270441
+fileId = 2462371
+sourceFileName = ItemPhysic Lite 1.1.5 mc1.7.10.jar
+destination = mods/ItemPhysic Lite 1.1.5 mc1.7.10.jar
 side = client
 
 #------------------------------------------------------------------------------------------------------------------------
@@ -355,11 +363,6 @@ destination = mods/OpenModsLibs-1.7.10-0.10.6.jar
 type = url
 url = https://github.com/DrParadox7/SpongeMixins/releases/download/1.5.0/SpongeMixins-1.5.0.jar
 destination = mods/SpongeMixins-1.5.0.jar
-
-[Creative Core]
-type = url
-url = https://github.com/GTNewHorizons/CreativeCore/releases/download/1.3.26-GTNH/creativecore-1.7.10-1.3.26-GTNH.jar
-destination = mods/creativecore-1.7.10-1.3.26-GTNH.jar
 
 #------------------------------------------------------------------------------------------------------------------------
 #Content Mods
@@ -506,13 +509,6 @@ projectId = 225738
 fileId = 2265493
 sourceFileName = MmmMmmMmmMmm-1.7.10-1.9.jar
 destination = mods/MmmMmmMmmMmm-1.7.10-1.9.jar
-
-[ItemPhysics]
-type = curseforge
-projectId = 258587
-fileId = 2498124
-sourceFileName = ItemPhysic Full 1.2.5 mc1.7.10.jar
-destination = mods/ItemPhysic Full 1.2.5 mc1.7.10.jar
 
 #------------------------------------------------------------------------------------------------------------------------
 #Bug Fixes
