@@ -23,13 +23,15 @@
 !/config/itlt/**
 !/config/LegibleNei/filters/**
 !/config/matmos/alias.map
-!/config/matmos/expansions_userconfig/**
+!/config/matmos/expansions_userconfig/*earthlies.cfg
+!/config/matmos/expansions_userconfig/*atmospheres.cfg
 !/config/mcinstanceloader/pack.mcinstance-unzipped/**
 !/config/mcinstanceloader/config.cfg
 !/config/mcinstanceloader/pack.mcinstance
+!/config/mcinstanceloader/pack.bat
+!/config/mcinstanceloader/clear_mods.bat
 !/config/mixingasm/**
 !/config/NEI/**
-!/config/betterquesting.cfg
 !/config/betterstorage.cfg
 !/config/BiblioCraft.cfg
 !/config/bq_standard.cfg
