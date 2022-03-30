@@ -37,7 +37,7 @@ key_key.LockTool:38
 key_key.ToolMode:50
 key_key.LockTool:38
 key_key.PrevChiselMode:49
-key_key.betterquesting.quests:34
+key_key.betterquesting.quests:41
 key_ingameinfoxml.key.toggle:0
 key_openblocks.keybind.vario_switch:0
 key_openblocks.keybind.vario_vol_up:0
@@ -73,6 +73,6 @@ key_key.journeymap.zoom_out:208
 key_key.journeymap.minimap_type:0
 key_key.journeymap.minimap_type:0
 key_key.journeymap.minimap_preset:43
-key_key.journeymap.create_waypoint:35
 key_key.control:0
+key_key.journeymap.create_waypoint:45
 key_key.portaitreposition:0
