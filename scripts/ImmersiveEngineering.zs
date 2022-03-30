@@ -567,29 +567,6 @@ recipes.removeShaped(<ImmersiveEngineering:metalDevice2:2>, [[null, <ImmersiveEn
 recipes.addShaped(<ImmersiveEngineering:metalDevice2:2>, [[null, <ImmersiveEngineering:tool:2>, null], [null, <ImmersiveEngineering:storage:8>, null], [<terrafirmacraftplus:item.Wrought Iron Ingot>, <ImmersiveEngineering:storage:8>, <terrafirmacraftplus:item.Wrought Iron Ingot>]]);
 
 //metal press
-mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Bismuth Double Sheet>);
-mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Steel Double Sheet>);
-mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Tin Double Sheet>);
-mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Zinc Double Sheet>);
-mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Brass Double Sheet>);
-mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Gold Double Sheet>);
-mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Lead Double Sheet>);
-mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Platinum Double Sheet>);
-mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Silver Double Sheet>);
-mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Sterling Silver Double Sheet>);
-mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Nickel Double Sheet>);
-mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Pig Iron Double Sheet>);
-mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Bismuth Bronze Double Sheet>);
-mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Black Bronze Double Sheet>);
-mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Black Steel Double Sheet>);
-mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Blue Steel Double Sheet>);
-mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Bronze Double Sheet>);
-mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Copper Double Sheet>);
-mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Wrought Iron Double Sheet>);
-mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Red Steel Double Sheet>);
-mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Rose Gold Double Sheet>);
-mods.immersiveengineering.MetalPress.removeRecipe(<teloaddon:Aluminum_Double_Sheet>);
-
 mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Bismuth Sheet>);
 mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Steel Sheet>);
 mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Tin Sheet>);
@@ -1301,3 +1278,27 @@ mods.Terrafirmacraft.Anvil.addAnvilRecipe(<BigReactors:BRTurbineRotorPart>, <tel
 mods.Terrafirmacraft.Anvil.addPlanRecipe("compoundbowlimbs", 13, 24, 3);
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<TeloAddon:Compound_Bow_Limbs>, <terrafirmacraftplus:item.Black Steel Ingot>, "compoundbowlimbs", 5);
 */
+
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Bismuth Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Steel Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Tin Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Zinc Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Brass Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Gold Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Lead Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Platinum Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Silver Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Sterling Silver Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Nickel Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Pig Iron Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Bismuth Bronze Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Black Bronze Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Black Steel Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Blue Steel Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Bronze Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Copper Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Wrought Iron Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Red Steel Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Rose Gold Double Sheet>);
+mods.immersiveengineering.MetalPress.removeRecipe(<teloaddon:Aluminum_Double_Sheet>);
+
