@@ -226,7 +226,7 @@ recipes.addShapeless(<teloaddon:Oily_Mash>,[<ore:itemHammer>.transformDamage(),<
 recipes.addShapeless(<teloaddon:Oily_Mash>,[<ore:itemHammer>.transformDamage(),<terrafirmacraftplus:item.CoconutMeat>.onlyWithTag({foodWeight: 160.0 as float})]);
 recipes.addShapeless(<teloaddon:Oily_Mash>,[<ore:itemHammer>.transformDamage(),<terrafirmacraftplus:item.Soybeans>.onlyWithTag({foodWeight: 160.0 as float})]);
 mods.forestry.Squeezer.addRecipe(<liquid:plantoil> * 3000, 200, [<teloaddon:Oily_Mash>]);
-mods.forestry.Squeezer.addRecipe(<liquid:agavejuice> * 15, <terrafirmacraftplus:item.Sisal Fibre>, [<terrafirmacraftplus:item.Agave>], 20);
+mods.forestry.Squeezer.addRecipe(<liquid:agavejuice> * 40, <terrafirmacraftplus:item.Sisal Fibre>, [<terrafirmacraftplus:item.Agave>], 20);
 mods.forestry.Squeezer.addRecipe(<liquid:wax> * 300, <Forestry:propolis> % 5, [<terrafirmacraftplus:item.EmptyHoneycomb>], 20);
 mods.forestry.Squeezer.removeRecipe(<liquid:for.honey>);
 mods.forestry.Squeezer.addRecipe(<liquid:honey> * 125, <Forestry:propolis> % 20, [<Forestry:honeyDrop>], 20);
@@ -239,10 +239,10 @@ for seed in seeds.items{
   mods.forestry.Squeezer.addRecipe(<liquid:plantoil> * 25, 40, [seed]);
 }
 
-mods.forestry.Squeezer.addRecipe(<liquid:ammoniumchloride> * 1000, <terrafirmacraftplus:item.Red Steel Bucket Empty> % 100, [<terrafirmacraftplus:item.Powder:14>, <terrafirmacraftplus:item.Powder:14>, <terrafirmacraftplus:item.Red Steel Bucket Water>], 20);
-mods.forestry.Squeezer.addRecipe(<liquid:ammoniumchloride> * 1000, <terrafirmacraftplus:item.Ceramic Bucket Empty> % 100, [<terrafirmacraftplus:item.Powder:14>, <terrafirmacraftplus:item.Powder:14>, <terrafirmacraftplus:item.Ceramic Bucket Water>], 20);
-mods.forestry.Squeezer.addRecipe(<liquid:ammoniumchloride> * 1000, <terrafirmacraftplus:item.Wooden Bucket Empty> % 100, [<terrafirmacraftplus:item.Powder:14>, <terrafirmacraftplus:item.Powder:14>, <terrafirmacraftplus:item.Wooden Bucket Water>], 20);
-mods.forestry.Squeezer.addRecipe(<liquid:ammoniumchloride> * 500, <terrafirmacraftplus:item.Glass Bottle> * 2 % 100, [<terrafirmacraftplus:item.Powder:14>, <terrafirmacraftplus:item.Water Bottle>, <terrafirmacraftplus:item.Water Bottle>], 20);
+//mods.forestry.Squeezer.addRecipe(<liquid:ammoniumchloride> * 1000, <terrafirmacraftplus:item.Red Steel Bucket Empty> % 100, [<terrafirmacraftplus:item.Powder:14>, <terrafirmacraftplus:item.Powder:14>, <terrafirmacraftplus:item.Red Steel Bucket Water>], 20);
+//mods.forestry.Squeezer.addRecipe(<liquid:ammoniumchloride> * 1000, <terrafirmacraftplus:item.Ceramic Bucket Empty> % 100, [<terrafirmacraftplus:item.Powder:14>, <terrafirmacraftplus:item.Powder:14>, <terrafirmacraftplus:item.Ceramic Bucket Water>], 20);
+//mods.forestry.Squeezer.addRecipe(<liquid:ammoniumchloride> * 1000, <terrafirmacraftplus:item.Wooden Bucket Empty> % 100, [<terrafirmacraftplus:item.Powder:14>, <terrafirmacraftplus:item.Powder:14>, <terrafirmacraftplus:item.Wooden Bucket Water>], 20);
+//mods.forestry.Squeezer.addRecipe(<liquid:ammoniumchloride> * 500, <terrafirmacraftplus:item.Glass Bottle> * 2 % 100, [<terrafirmacraftplus:item.Powder:14>, <terrafirmacraftplus:item.Water Bottle>, <terrafirmacraftplus:item.Water Bottle>], 20);
 
 mods.forestry.Squeezer.addRecipe(<liquid:pitch>*50,<Forestry:propolis> % 1,[<terrafirmacraftplus:item.Resin>],20);
 
@@ -368,6 +368,14 @@ mods.forestry.Fermenter.removeRecipe(<minecraft:brown_mushroom>);
 mods.forestry.Fermenter.removeRecipe(<minecraft:red_mushroom>);
 mods.forestry.Fermenter.removeRecipe(<Forestry:honeydew>);
 
+mods.forestry.Fermenter.removeFuel(<Forestry:mulch>);
+mods.forestry.Fermenter.removeFuel(<Forestry:fertilizerCompound>);
+mods.forestry.Fermenter.removeFuel(<Forestry:fertilizerBio>);
+//mods.forestry.Fermenter.addFuel(<terrafirmacraftplus:item.coal>, 5, 200);
+//mods.forestry.Fermenter.addFuel(<terrafirmacraftplus:item.coal:1>, 5, 150);
+mods.forestry.Fermenter.addFuel(<terrafirmacraftplus:item.coal>, 20, 1000);
+mods.forestry.Fermenter.addFuel(<terrafirmacraftplus:item.coal:1>, 20, 1000);
+
 var juices = [<liquid:agavejuice>, <liquid:barleywater>, <liquid:berryjuice>, <liquid:canejuice>, <liquid:cherryjuice>, <liquid:applejuice>,
 								<liquid:cornwater>, <liquid:datejuice>, <liquid:lemonjuice>, <liquid:honeywater>, <liquid:orangejuice>, <liquid:papayajuice>, <liquid:peachjuice>, <liquid:plumjuice>,
 								<liquid:potatowater>, <liquid:ryewater>, <liquid:sake>, <liquid:wheatwater>, <liquid:grapejuice>, <liquid:figjuice>] as ILiquidStack[];
@@ -380,3 +388,22 @@ for i, juice in juices{
 	mods.forestry.Fermenter.addRecipe(alcoholsIndex[i], <teloaddon:Yeast>, juice, 10000, 1);
 	mods.Terrafirmacraft.Barrel.addItemFluidConversion(alcoholsIndex[i] * 10000, <teloaddon:Yeast>, juice * 10000, 0, true, 72, true, true);
 }
+
+var tanninLogs = [<terrafirmacraftplus:item.Log:0>, <terrafirmacraftplus:item.Log:1>,
+									<terrafirmacraftplus:item.Log:4>, <terrafirmacraftplus:item.Log:5>,
+									<terrafirmacraftplus:item.Log:6>, <terrafirmacraftplus:item.Log:7>,
+									<terrafirmacraftplus:item.Log:8>, <terrafirmacraftplus:item.Log:9>,
+									<terrafirmacraftplus:item.Log:10>, <terrafirmacraftplus:item.Log:11>,
+									<terrafirmacraftplus:item.Log:12>, <terrafirmacraftplus:item.Log:13>,
+									<terrafirmacraftplus:item.Log:18>, <terrafirmacraftplus:item.Log:19>,
+									<terrafirmacraftplus:item.Log:32>, <terrafirmacraftplus:item.Log:33>,
+									<terrafirmacraftplus:item.Log:38>, <terrafirmacraftplus:item.Log:39>,
+									<terrafirmacraftplus:item.Log:42>, <terrafirmacraftplus:item.Log:43>,
+									<terrafirmacraftplus:item.Log:44>, <terrafirmacraftplus:item.Log:45>] as IItemStack[];
+
+for log in tanninLogs{
+	mods.forestry.Fermenter.addRecipe(<liquid:tannin>, log, <liquid:freshwater>, 1000, 1);
+}
+
+mods.forestry.Fermenter.addRecipe(<liquid:limewater>, <terrafirmacraftplus:item.Lime>, <liquid:freshwater>, 500, 1);
+mods.forestry.Fermenter.addRecipe(<liquid:ammoniumchloride>, <terrafirmacraftplus:item.Powder:14>, <liquid:freshwater>, 500, 1);

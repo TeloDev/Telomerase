@@ -71,11 +71,6 @@ mods.forestry.Centrifuge.addRecipe([<teloaddon:Enriched_Uranium_Powder> % 100], 
 mods.immersiveengineering.ArcFurnace.addRecipe(<BigReactors:BRIngot>, <teloaddon:Enriched_Uranium_Powder>, <ImmersiveEngineering:material:13>, 40, 1024, [], "Smelting");
 
 //for big reactors
-mods.forestry.Fermenter.removeFuel(<Forestry:mulch>);
-mods.forestry.Fermenter.removeFuel(<Forestry:fertilizerCompound>);
-mods.forestry.Fermenter.removeFuel(<Forestry:fertilizerBio>);
-mods.forestry.Fermenter.addFuel(<terrafirmacraftplus:item.coal>, 5, 200);
-mods.forestry.Fermenter.addFuel(<terrafirmacraftplus:item.coal:1>, 5, 150);
 mods.Terrafirmacraft.Quern.addRecipe(<teloaddon:Fluorite_Powder>, <teloaddon:Fluorite>);
 mods.Terrafirmacraft.Quern.addRecipe(<teloaddon:Fluorite_Powder> * 2, <teloaddon:Fluorite:1>);
 mods.Terrafirmacraft.Quern.addRecipe(<teloaddon:Fluorite_Powder> * 4, <teloaddon:Fluorite:2>);
@@ -119,7 +114,7 @@ recipes.addShaped(<BigReactors:BRReactorPart:4>*2,[[<BigReactors:BRReactorPart>,
 
 recipes.removeShaped(<BigReactors:BRReactorPart:3>);
 recipes.removeShaped(<BigReactors:BRTurbinePart:2>);
-recipes.addShaped(<BigReactors:BRTurbinePart:2>,[[<BigReactors:BRTurbinePart>, <ImmersiveEngineering:coil:2>, <BigReactors:BRTurbinePart>], [<ImmersiveEngineering:coil:2>, <ImmersiveEngineering:metalDevice:6>, <ImmersiveEngineering:coil:2>], [<BigReactors:BRTurbinePart>, <ImmersiveEngineering:coil:2>, <BigReactors:BRTurbinePart>]]);
+recipes.addShaped(<BigReactors:BRTurbinePart:2>*2,[[<BigReactors:BRTurbinePart>, <ImmersiveEngineering:coil:2>, <BigReactors:BRTurbinePart>], [<ImmersiveEngineering:coil:2>, <ImmersiveEngineering:metalDevice:6>, <ImmersiveEngineering:coil:2>], [<BigReactors:BRTurbinePart>, <ImmersiveEngineering:coil:2>, <BigReactors:BRTurbinePart>]]);
 
 val sheetColoredSteel = <ore:sheetColoredSteel>;
 

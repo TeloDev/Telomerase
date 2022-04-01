@@ -772,12 +772,12 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraftplus:item.HC Blue
 mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraftplus:item.HC Black Steel Ingot>.withTag({temperature: 1480.0 as float}), <terrafirmacraftplus:item.Weak Steel Ingot>, null, 150, 2048, [<terrafirmacraftplus:item.Pig Iron Ingot>], "Alloying");
 
 //decarburization/carburization
-mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraftplus:item.HC Steel Ingot>.withTag({temperature: 1500.0 as float}), <terrafirmacraftplus:item.Pig Iron Ingot>, null, 150, 2048, [], "Decarburization");
-mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraftplus:item.Steel Ingot>.withTag({temperature: 1500.0 as float}), <terrafirmacraftplus:item.HC Steel Ingot>, null, 150, 2048, [], "Decarburization");
-mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraftplus:item.Wrought Iron Ingot>.withTag({temperature: 1500.0 as float}), <terrafirmacraftplus:item.Steel Ingot>, null, 150, 2048, [], "Decarburization");
-mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraftplus:item.Red Steel Ingot>.withTag({temperature: 1500.0 as float}), <terrafirmacraftplus:item.HC Red Steel Ingot>, null, 150, 2048, [], "Decarburization");
-mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraftplus:item.Blue Steel Ingot>.withTag({temperature: 1500.0 as float}), <terrafirmacraftplus:item.HC Blue Steel Ingot>, null, 150, 2048, [], "Decarburization");
-mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraftplus:item.Black Steel Ingot>.withTag({temperature: 1480.0 as float}), <terrafirmacraftplus:item.HC Black Steel Ingot>, null, 150, 2048, [], "Decarburization");
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraftplus:item.HC Steel Ingot>.withTag({temperature: 1500.0 as float}), <terrafirmacraftplus:item.Pig Iron Ingot>, null, 50, 2048, [], "Decarburization");
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraftplus:item.Steel Ingot>.withTag({temperature: 1500.0 as float}), <terrafirmacraftplus:item.HC Steel Ingot>, null, 50, 2048, [], "Decarburization");
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraftplus:item.Wrought Iron Ingot>.withTag({temperature: 1500.0 as float}), <terrafirmacraftplus:item.Steel Ingot>, null, 50, 2048, [], "Decarburization");
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraftplus:item.Red Steel Ingot>.withTag({temperature: 1500.0 as float}), <terrafirmacraftplus:item.HC Red Steel Ingot>, null, 50, 2048, [], "Decarburization");
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraftplus:item.Blue Steel Ingot>.withTag({temperature: 1500.0 as float}), <terrafirmacraftplus:item.HC Blue Steel Ingot>, null, 50, 2048, [], "Decarburization");
+mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraftplus:item.Black Steel Ingot>.withTag({temperature: 1480.0 as float}), <terrafirmacraftplus:item.HC Black Steel Ingot>, null, 50, 2048, [], "Decarburization");
 mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraftplus:item.Steel Ingot>.withTag({temperature: 1500.0 as float}), <terrafirmacraftplus:item.Wrought Iron Ingot>, null, 150, 2048, [<ImmersiveEngineering:material:6>], "Carburization");
 mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraftplus:item.HC Steel Ingot>.withTag({temperature: 1500.0 as float}), <terrafirmacraftplus:item.Steel Ingot>, null, 150, 2048, [<ImmersiveEngineering:material:6>], "Carburization");
 
@@ -1170,7 +1170,7 @@ mods.immersiveengineering.Squeezer.removeItemStack(<ImmersiveEngineering:metal:1
 mods.immersiveengineering.Squeezer.addRecipe(<ImmersiveEngineering:metal:20>, null, <terrafirmacraftplus:item.Powder:2>*4, 80);
 mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 3000, <teloaddon:Oily_Mash>, 400);
 mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 25, <ore:seedBag>, 100);
-mods.immersiveengineering.Squeezer.addRecipe(<terrafirmacraftplus:item.Sisal Fibre>, <liquid:agavejuice> * 15, <terrafirmacraftplus:item.Agave>, 80);
+mods.immersiveengineering.Squeezer.addRecipe(<terrafirmacraftplus:item.Sisal Fibre>, <liquid:agavejuice> * 40, <terrafirmacraftplus:item.Agave>, 80);
 mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:wax> * 400, <terrafirmacraftplus:item.EmptyHoneycomb>, 80);
 mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:pitch>*50,<terrafirmacraftplus:item.Resin>,80);
 //mods.immersiveengineering.CokeOven.addRecipe(null, 50, <terrafirmacraftplus:item.Resin>, 80);
@@ -1301,4 +1301,3 @@ mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Wrou
 mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Red Steel Double Sheet>);
 mods.immersiveengineering.MetalPress.removeRecipe(<terrafirmacraftplus:item.Rose Gold Double Sheet>);
 mods.immersiveengineering.MetalPress.removeRecipe(<teloaddon:Aluminum_Double_Sheet>);
-
