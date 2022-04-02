@@ -476,7 +476,7 @@ destination = mods/PistonEverything-mc1.7.X-1.0.4.jar
 
 [Pistronics 2]
 type = url
-url = https://github.com/Jerome226/TelomeraseFiles/releases/download/1.2/Pistronics2-1.7.10-0.6.4-patched.jar
+url = https://github.com/Jerome226/TelomeraseFiles/releases/download/1.3/Pistronics2-1.7.10-0.6.4-patched.jar
 destination = mods/Pistronics2-1.7.10-0.6.4-patched.jar
 
 [Redstone Paste]
@@ -576,7 +576,7 @@ destination = resourcepacks/Vanilla+Themed+TFC+v0.5.0.zip
 
 [MATmos Default Soundpack]
 type = url
-url = https://github.com/Jerome226/TelomeraseFiles/releases/download/1.2/matdefault2016.zip
+url = https://github.com/Jerome226/TelomeraseFiles/releases/download/1.3/matdefault2016.zip
 destination = resourcepacks/matdefault2016.zip
 
 [Telomerase Resources]
