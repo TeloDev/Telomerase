@@ -197,8 +197,8 @@ side = client
 
 [Better Placement]
 type = url
-url = https://github.com/GTNewHorizons/waila/releases/download/1.5.20/Waila-1.7.10-1.5.20.jar
-destination = mods/Waila-1.7.10-1.5.20.jar
+url = https://github.com/Jerome226/BetterPlacement/releases/download/1.0/BetterPlacement-MC1.7.10-1.0.0-custom.jar
+destination = mods/BetterPlacement-MC1.7.10-1.0.0-custom.jar
 side = client
 
 [Waila]
@@ -235,9 +235,9 @@ side = client
 [TerraFirmaCraft+]
 type = curseforge
 projectId = 287053
-fileId = 3204442
-sourceFileName = [1.7.10]TerraFirmaCraftPlus-0.87.0.jar
-destination = mods/[1.7.10]TerraFirmaCraftPlus-0.87.0.jar
+fileId = 3741106
+sourceFileName = [1.7.10]TerraFirmaCraftPlus-0.88.0.jar
+destination = mods/[1.7.10]TerraFirmaCraftPlus-0.88.0.jar
 
 [TFC+ Additions]
 type = curseforge
