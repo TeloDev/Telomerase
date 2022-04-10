@@ -235,9 +235,9 @@ side = client
 [TerraFirmaCraft+]
 type = curseforge
 projectId = 287053
-fileId = 3741106
-sourceFileName = [1.7.10]TerraFirmaCraftPlus-0.88.0.jar
-destination = mods/[1.7.10]TerraFirmaCraftPlus-0.88.0.jar
+fileId = 3741910
+sourceFileName = [1.7.10]TerraFirmaCraftPlus-0.88.2.jar
+destination = mods/[1.7.10]TerraFirmaCraftPlus-0.88.2.jar
 
 [TFC+ Additions]
 type = curseforge
