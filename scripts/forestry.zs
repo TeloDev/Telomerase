@@ -3,6 +3,7 @@ import minetweaker.liquid.ILiquidStack;
 
 <Forestry:factory:3>.displayName = "Reaction Chamber";
 <Forestry:factory2>.displayName = "Catalytic Converter";
+<Forestry:ash>.displayName = "Dirty Ash";
 
 game.setLocalization("coppergear", "Copper Gear");
 mods.Terrafirmacraft.Anvil.addPlanRecipe("coppergear", 9, 24, 1);

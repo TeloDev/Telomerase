@@ -184,6 +184,10 @@ recipes.addShapeless(<minecraft:glowstone_dust>*4,[<minecraft:glowstone>]);
 recipes.removeShaped(<minecraft:coal_block>);
 recipes.addShaped(<minecraft:coal_block>,[[<ore:gemCoal>,<ore:gemCoal>,<ore:gemCoal>],[<ore:gemCoal>,<ore:gemCoal>,<ore:gemCoal>],[<ore:gemCoal>,<ore:gemCoal>,<ore:gemCoal>]]);
 
+recipes.removeShapeless(<terrafirmacraftplus:item.coal>);
+recipes.addShapeless(<terrafirmacraftplus:item.coal>*9,[<minecraft:coal_block>]);
+mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.coal>*2, <terrafirmacraftplus:item.Ore:308>);
+
 //book
 recipes.removeShapeless(<minecraft:book>);
 recipes.addShapeless(<minecraft:book>,[<minecraft:paper>,<minecraft:paper>,<minecraft:paper>,<terrafirmacraftplus:item.TFC Leather>]);
@@ -246,6 +250,8 @@ recipes.remove(<minecraft:brick_block>);
 <ore:oreDiamond>.remove(<minecraft:diamond_ore>);
 <ore:oreRedstone>.remove(<minecraft:redstone_ore>);
 <ore:oreQuartz>.remove(<minecraft:quartz_ore>);
+<ore:craftingTableWood>.remove(<minecraft:crafting_table>);
+<ore:bottleGlass>.remove(<minecraft:glass_bottle>);
 recipes.remove(<minecraft:diamond_block>);
 recipes.remove(<minecraft:melon_block>);
 recipes.remove(<minecraft:nether_brick>);
@@ -291,6 +297,7 @@ recipes.remove(<minecraft:bread>);
 recipes.remove(<minecraft:hay_block>);
 recipes.remove(<minecraft:wheat>);
 recipes.remove(<minecraft:flower_pot>);
+recipes.remove(<minecraft:enchanted_book>);
 
 //vanilla dye fix
 recipes.addShapeless(<terrafirmacraftplus:item.dyePowder:2>,[<ore:dyeBlue>,<ore:dyeYellow>]);
@@ -326,17 +333,17 @@ recipes.addShapeless(<terrafirmacraftplus:item.dyePowder:8>*2,[<ore:dyeBlack>,<o
 recipes.removeShapeless(<minecraft:dye:9>);
 <ore:dyePink>.remove(<minecraft:dye:9>);
 recipes.addShapeless(<terrafirmacraftplus:item.dyePowder:9>*2,[<ore:dyeRed>,<ore:dyeWhite>]);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:9> * 2, <tfcaths:Voodoo_Lily:1>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:9>, <terrafirmacraftplus:Flowers2:7>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:9>, <tfcaths:Heather:4>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:9>, <tfcaths:Pale_Umbrella_Orchid:1>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:9>, <tfcaths:Wood_Bitter_Vetch:3>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:9> * 2, <tfcaths:Voodoo_Lily:1>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:9>, <terrafirmacraftplus:Flowers2:7>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:9>, <tfcaths:Heather:4>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:9>, <tfcaths:Pale_Umbrella_Orchid:1>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:9>, <tfcaths:Wood_Bitter_Vetch:3>);
 
 #lime
 recipes.removeShapeless(<minecraft:dye:10>);
 <ore:dyeLime>.remove(<minecraft:dye:10>);
 recipes.addShapeless(<terrafirmacraftplus:item.dyePowder:10>*2,[<ore:dyeGreen>,<ore:dyeWhite>]);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:10>, <tfcaths:Albanian_Spurge:1>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:10>, <tfcaths:Albanian_Spurge:1>);
 
 #light blue
 recipes.removeShapeless(<minecraft:dye:12>);
@@ -349,60 +356,60 @@ recipes.removeShapeless(<minecraft:dye:13>);
 recipes.addShapeless(<terrafirmacraftplus:item.dyePowder:13>*2,[<ore:dyePurple>,<ore:dyePink>]);
 recipes.addShapeless(<terrafirmacraftplus:item.dyePowder:13>*3,[<ore:dyeBlue>,<ore:dyeRed>,<ore:dyePink>]);
 recipes.addShapeless(<terrafirmacraftplus:item.dyePowder:13>*4,[<ore:dyeBlue>,<ore:dyeRed>,<ore:dyeRed>,<ore:dyeWhite>]);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:13>, <terrafirmacraftplus:Flowers2:2>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:13> * 2, <tfcaths:Lavender:3>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:13>, <tfcaths:Loose_Flowered_Orchid:3>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:13>, <tfcaths:Thistle:3>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:13>, <tfcaths:Arpophyllum_Giganteum>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:13> * 2, <tfcaths:Mallow:3>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:13>, <terrafirmacraftplus:Flowers2:2>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:13> * 2, <tfcaths:Lavender:3>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:13>, <tfcaths:Loose_Flowered_Orchid:3>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:13>, <tfcaths:Thistle:3>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:13>, <tfcaths:Arpophyllum_Giganteum>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:13> * 2, <tfcaths:Mallow:3>);
 
 #orange
 recipes.removeShapeless(<minecraft:dye:14>);
 <ore:dyeOrange>.remove(<minecraft:dye:14>);
 recipes.addShapeless(<terrafirmacraftplus:item.dyePowder:14>*2,[<ore:dyeRed>,<ore:dyeYellow>]);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:14>, <tfcaths:Marigold:1>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:14>, <terrafirmacraftplus:Flowers2:5>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:14>, <terrafirmacraftplus:Flowers:1>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:14>, <terrafirmacraftplus:Flowers:4>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:14> * 2, <tfcaths:Bird_of_Paradise:1>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:14>, <tfcaths:Aloe_Vera:1>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:14>, <tfcaths:Marigold:1>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:14>, <terrafirmacraftplus:Flowers2:5>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:14>, <terrafirmacraftplus:Flowers:1>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:14>, <terrafirmacraftplus:Flowers:4>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:14> * 2, <tfcaths:Bird_of_Paradise:1>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:14>, <tfcaths:Aloe_Vera:1>);
 
 #red
 <ore:dyeRed>.remove(<minecraft:dye:1>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1>, <tfcaths:Sundew>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1>, <tfcaths:Devils_Fingers>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1> * 2, <tfcaths:African_Milk_Tree:1>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1>, <tfcaths:Blood_Lily:1>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1>, <tfcaths:Caralluma:1>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1>, <terrafirmacraftplus:Flowers2:4>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1>, <terrafirmacraftplus:Flowers:3>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1>, <terrafirmacraftplus:Flowers2>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1>, <tfcaths:Desert_Rose:5>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1> * 2, <tfcaths:Desert_Rose:6>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1> * 3, <tfcaths:Desert_Rose:4>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1> * 5, <tfcaths:Desert_Rose:7>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1> * 2, <tfcaths:Titan_Arum:1>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1>, <tfcaths:Narbon_Vetch:3>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1>, <tfcaths:Quaqua:1>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1>, <tfcaths:Devils_Tongue:1>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1>, <tfcaths:Lobster_Claws:1>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1>, <tfcaths:Hibiscus:6>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1> * 2, <tfcaths:Ocotillo:1>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1>, <tfcaths:Rosebush:3>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1>, <tfcaths:Prickly_Pear:2>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1>, <tfcaths:Tillandsia_Bromeliad:1>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1>, <tfcaths:Lupine:14>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1>, <tfcaths:Sundew>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1>, <tfcaths:Devils_Fingers>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1> * 2, <tfcaths:African_Milk_Tree:1>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1>, <tfcaths:Blood_Lily:1>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1>, <tfcaths:Caralluma:1>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1>, <terrafirmacraftplus:Flowers2:4>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1>, <terrafirmacraftplus:Flowers:3>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1>, <terrafirmacraftplus:Flowers2>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1>, <tfcaths:Desert_Rose:5>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1> * 2, <tfcaths:Desert_Rose:6>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1> * 3, <tfcaths:Desert_Rose:4>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1> * 5, <tfcaths:Desert_Rose:7>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1> * 2, <tfcaths:Titan_Arum:1>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1>, <tfcaths:Narbon_Vetch:3>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1>, <tfcaths:Quaqua:1>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1>, <tfcaths:Devils_Tongue:1>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1>, <tfcaths:Lobster_Claws:1>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1>, <tfcaths:Hibiscus:6>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1> * 2, <tfcaths:Ocotillo:1>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1>, <tfcaths:Rosebush:3>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1>, <tfcaths:Prickly_Pear:2>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1>, <tfcaths:Tillandsia_Bromeliad:1>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1>, <tfcaths:Lupine:14>);
 mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:1>, <terrafirmacraftplus:item.Madder Root>);
 
 #yellow
 <ore:dyeYellow>.remove(<minecraft:dye:11>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:11>, <terrafirmacraftplus:Flowers>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:11>, <terrafirmacraftplus:Flowers:5>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:11> * 2, <tfcaths:Leopard_Orchid:1>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:11>, <tfcaths:Daffodil:3>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:11> * 2, <tfcaths:Cup_Plant:6>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:11> * 4, <tfcaths:Cup_Plant:7>);
-mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:11> * 3, <tfcaths:Sunflower:3>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:11>, <terrafirmacraftplus:Flowers>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:11>, <terrafirmacraftplus:Flowers:5>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:11> * 2, <tfcaths:Leopard_Orchid:1>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:11>, <tfcaths:Daffodil:3>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:11> * 2, <tfcaths:Cup_Plant:6>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:11> * 4, <tfcaths:Cup_Plant:7>);
+//mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:11> * 3, <tfcaths:Sunflower:3>);
 mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:11>, <terrafirmacraftplus:item.Weld Root>);
 
 #blue
@@ -415,9 +422,31 @@ mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.dyePowder:4>, <te
 <ore:dyeGreen>.remove(<minecraft:dye:2>);
 <ore:dyeBrown>.remove(<minecraft:dye:3>);
 
+var dyes = [
+<terrafirmacraftplus:item.dyePowder>,
+<terrafirmacraftplus:item.dyePowder:1>,
+<terrafirmacraftplus:item.dyePowder:2>,
+<terrafirmacraftplus:item.dyePowder:3>,
+<terrafirmacraftplus:item.dyePowder:4>,
+<terrafirmacraftplus:item.dyePowder:5>,
+<terrafirmacraftplus:item.dyePowder:6>,
+<terrafirmacraftplus:item.dyePowder:7>,
+<terrafirmacraftplus:item.dyePowder:8>,
+<terrafirmacraftplus:item.dyePowder:9>,
+<terrafirmacraftplus:item.dyePowder:10>,
+<terrafirmacraftplus:item.dyePowder:12>,
+<terrafirmacraftplus:item.dyePowder:13>,
+<terrafirmacraftplus:item.dyePowder:14>,
+<terrafirmacraftplus:item.dyePowder:15>] as IItemStack[];
+
+for item in dyes{
+  <ore:dyePowder>.add(item);
+}
+
 recipes.addShapedMirrored(<minecraft:brick_stairs>*4,[[null,null,<terrafirmacraftplus:Bricks>],[null,<terrafirmacraftplus:Bricks>,<terrafirmacraftplus:Bricks>],[<terrafirmacraftplus:Bricks>,<terrafirmacraftplus:Bricks>,<terrafirmacraftplus:Bricks>]]);
 recipes.addShapedMirrored(<minecraft:stone_slab:4>*6,[[<terrafirmacraftplus:Bricks>,<terrafirmacraftplus:Bricks>,<terrafirmacraftplus:Bricks>]]);
 recipes.addShapeless(<minecraft:stone_slab>*2,[<ore:stoneSmooth>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<minecraft:stone_slab:4>*2,[<terrafirmacraftplus:Bricks>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
 recipes.addShaped(<minecraft:lapis_block>,[[<terrafirmacraftplus:item.Powder:6>,<terrafirmacraftplus:item.Powder:6>,<terrafirmacraftplus:item.Powder:6>],[<terrafirmacraftplus:item.Powder:6>,<terrafirmacraftplus:item.Powder:6>,<terrafirmacraftplus:item.Powder:6>],[<terrafirmacraftplus:item.Powder:6>,<terrafirmacraftplus:item.Powder:6>,<terrafirmacraftplus:item.Powder:6>]]);
 recipes.addShaped(<terrafirmacraftplus:item.Powder:6>*9,[[<minecraft:lapis_block>]]);
 //carrot joke
@@ -746,4 +775,6 @@ recipes.addShaped(<minecraft:repeater>,[[<minecraft:redstone_torch>,<minecraft:r
 
 //minecart
 recipes.removeShaped(<minecraft:minecart>);
+recipes.removeShaped(<minecraft:furnace_minecart>);
+
 recipes.addShaped(<minecraft:minecart>,[[<terrafirmacraftplus:item.Wrought Iron Sheet>, null, <terrafirmacraftplus:item.Wrought Iron Sheet>],[<ImmersiveEngineering:material:11>,<terrafirmacraftplus:item.Wrought Iron Sheet>,<ImmersiveEngineering:material:11>]]);
