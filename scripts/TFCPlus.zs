@@ -444,7 +444,7 @@ for item in dyes{
 }
 
 recipes.addShapedMirrored(<minecraft:brick_stairs>*4,[[null,null,<terrafirmacraftplus:Bricks>],[null,<terrafirmacraftplus:Bricks>,<terrafirmacraftplus:Bricks>],[<terrafirmacraftplus:Bricks>,<terrafirmacraftplus:Bricks>,<terrafirmacraftplus:Bricks>]]);
-recipes.addShapedMirrored(<minecraft:stone_slab:4>*6,[[<terrafirmacraftplus:Bricks>,<terrafirmacraftplus:Bricks>,<terrafirmacraftplus:Bricks>]]);
+//recipes.addShapedMirrored(<minecraft:stone_slab:4>*6,[[<terrafirmacraftplus:Bricks>,<terrafirmacraftplus:Bricks>,<terrafirmacraftplus:Bricks>]]);
 recipes.addShapeless(<minecraft:stone_slab>*2,[<ore:stoneSmooth>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
 recipes.addShapeless(<minecraft:stone_slab:4>*2,[<terrafirmacraftplus:Bricks>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
 recipes.addShaped(<minecraft:lapis_block>,[[<terrafirmacraftplus:item.Powder:6>,<terrafirmacraftplus:item.Powder:6>,<terrafirmacraftplus:item.Powder:6>],[<terrafirmacraftplus:item.Powder:6>,<terrafirmacraftplus:item.Powder:6>,<terrafirmacraftplus:item.Powder:6>],[<terrafirmacraftplus:item.Powder:6>,<terrafirmacraftplus:item.Powder:6>,<terrafirmacraftplus:item.Powder:6>]]);
