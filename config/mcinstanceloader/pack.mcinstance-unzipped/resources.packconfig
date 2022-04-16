@@ -187,14 +187,6 @@ sourceFileName = SoundFilters-0.8_for_1.7.X.jar
 destination = mods/SoundFilters-0.8_for_1.7.X.jar
 side = client
 
-[TipTheScales]
-type = curseforge
-projectId = 282313
-fileId = 3069971
-sourceFileName = TipTheScales-1.7.10-3.0.0.2.jar
-destination = mods/TipTheScales-1.7.10-3.0.0.2.jar
-side = client
-
 [Better Placement]
 type = url
 url = https://github.com/Jerome226/BetterPlacement/releases/download/1.0/BetterPlacement-MC1.7.10-1.0.0-custom.jar
