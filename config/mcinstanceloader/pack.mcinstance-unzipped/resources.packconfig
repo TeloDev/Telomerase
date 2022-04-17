@@ -411,11 +411,9 @@ sourceFileName = dakimakuramod-1.7.10-1.5.jar
 destination = mods/dakimakuramod-1.7.10-1.5.jar
 
 [Forestry]
-type = curseforge
-projectId = 59751
-fileId = 2333823
-sourceFileName = forestry_1.7.10-4.2.16.64.jar
-destination = mods/forestry_1.7.10-4.2.16.64.jar
+type = url
+url = https://github.com/Jerome226/ForestryMC/releases/download/4.3/Forestry-1.7.10-4.3.jar
+destination = mods/Forestry-1.7.10-4.3.jar
 
 [GraveStone Mod]
 type = curseforge
