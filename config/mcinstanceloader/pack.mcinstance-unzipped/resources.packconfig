@@ -288,8 +288,8 @@ destination = mods/ModTweaker2-0.9.6-patched.jar
 
 [NotEnoughItems]
 type = url
-url = https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.10-GTNH/NotEnoughItems-1.7.10-2.2.10-GTNH.jar
-destination = mods/NotEnoughItems-1.7.10-2.2.10-GTNH.jar
+url = https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.11-GTNH/NotEnoughItems-1.7.10-2.2.11-GTNH.jar
+destination = mods/NotEnoughItems-1.7.10-2.2.11-GTNH.jar
 
 [NEI Addons]
 type = url
