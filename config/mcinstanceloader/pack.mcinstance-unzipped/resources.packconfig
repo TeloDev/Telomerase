@@ -569,5 +569,5 @@ destination = resourcepacks/matdefault2016.zip
 
 [Telomerase Resources]
 type = url
-url = https://github.com/TeloDev/TelomeraseResources/releases/download/1.1/TelomeraseResources.zip
+url = https://github.com/TeloDev/TelomeraseResources/releases/download/1.4/TelomeraseResources.zip
 destination = resourcepacks/TelomeraseResources.zip
