@@ -187,12 +187,6 @@ sourceFileName = SoundFilters-0.8_for_1.7.X.jar
 destination = mods/SoundFilters-0.8_for_1.7.X.jar
 side = client
 
-[Better Placement]
-type = url
-url = https://github.com/TeloDev/BetterPlacement/releases/download/1.0/BetterPlacement-MC1.7.10-1.0.0-custom.jar
-destination = mods/BetterPlacement-MC1.7.10-1.0.0-custom.jar
-side = client
-
 [Waila]
 type = url
 url = https://github.com/GTNewHorizons/waila/releases/download/1.5.20/Waila-1.7.10-1.5.20.jar
@@ -412,8 +406,8 @@ destination = mods/dakimakuramod-1.7.10-1.5.jar
 
 [Forestry]
 type = url
-url = https://github.com/TeloDev/ForestryMC/releases/download/4.3/Forestry-1.7.10-4.3.jar
-destination = mods/Forestry-1.7.10-4.3.jar
+url = https://github.com/TeloDev/ForestryMC/releases/download/4.3.1/Forestry-1.7.10-4.3.1.jar
+destination = mods/Forestry-1.7.10-4.3.1.jar
 
 [GraveStone Mod]
 type = curseforge
