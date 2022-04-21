@@ -519,6 +519,7 @@ destination = mods/mobspawningfix-1.0a.jar
 type = url
 url = https://github.com/makamys/CoreTweaks/releases/download/v0.2.2/CoreTweaks-1.7.10-0.2.2.jar
 destination = mods/CoreTweaks-1.7.10-0.2.2.jar
+side = client
 
 [FoamFix]
 type = curseforge
