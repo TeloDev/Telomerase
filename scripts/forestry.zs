@@ -3,6 +3,7 @@ import minetweaker.liquid.ILiquidStack;
 
 <Forestry:factory:3>.displayName = "Reaction Chamber";
 <Forestry:factory2>.displayName = "Catalytic Converter";
+<Forestry:ash>.displayName = "Dirty Ash";
 
 game.setLocalization("coppergear", "Copper Gear");
 mods.Terrafirmacraft.Anvil.addPlanRecipe("coppergear", 9, 24, 1);
@@ -100,12 +101,6 @@ recipes.addShapeless(<Forestry:peat> * 4, [<terrafirmacraftplus:Peat>, <ore:item
 <ore:dustAsh>.add(<Forestry:ash>);
 recipes.addShapeless(<Forestry:ash>,[<terrafirmacraftplus:item.Powder:13>]);
 recipes.addShapeless(<terrafirmacraftplus:item.Powder:13>,[<Forestry:ash>]);
-
-var crated = [<Forestry:cratedAcaciaSapling>,<Forestry:cratedAcaciaWood>,<Forestry:cratedApatite>,<Forestry:cratedApples>,<Forestry:cratedAsh>,<Forestry:cratedBeeswax>,<Forestry:cratedBirchSapling>,<Forestry:cratedBirchWood>,<Forestry:cratedBogearth>,<Forestry:cratedBrick>,<Forestry:cratedBronze>,<Forestry:cratedCacti>,<Forestry:cratedCarrots>,<Forestry:cratedCharcoal>,<Forestry:cratedClay>,<Forestry:cratedCoal>,<Forestry:cratedCobblestone>,<Forestry:cratedCocoaComb>,<Forestry:cratedCookies>,<Forestry:cratedCopper>,<Forestry:cratedCrystallinePollen>,<Forestry:cratedDarkOakSapling>,<Forestry:cratedDarkOakWood>,<Forestry:cratedDirt>,<Forestry:cratedDrippingCombs>,<Forestry:cratedFertilizer>,<Forestry:cratedFrozenCombs>,<Forestry:cratedGlowstone>,<Forestry:cratedGravel>,<Forestry:cratedHoneycombs>,<Forestry:cratedHoneydew>,<Forestry:cratedHumus>,<Forestry:cratedJungleSapling>,<Forestry:cratedJungleWood>,<Forestry:cratedLapis>,<Forestry:cratedMellowCombs>,<Forestry:cratedMossyCombs>,<Forestry:cratedMulch>,<Forestry:cratedMycelium>,<Forestry:cratedMysteriousCombs>,<Forestry:cratedNetherbrick>,<Forestry:cratedNetherrack>,<Forestry:cratedNetherwart>,<Forestry:cratedObsidian>,<Forestry:cratedParchedCombs>,<Forestry:cratedPeat>,<Forestry:cratedPhosphor>,<Forestry:cratedPodzol>,<Forestry:cratedPollen>,<Forestry:cratedPotatoes>,<Forestry:cratedPowderyCombs>,<Forestry:cratedPropolis>,<Forestry:cratedRedSand>,<Forestry:cratedRedstone>,<Forestry:cratedReeds>,<Forestry:cratedRefractoryWax>,<Forestry:cratedRoyalJelly>,<Forestry:cratedSand>,<Forestry:cratedSandstone>,<Forestry:cratedSaplings>,<Forestry:cratedSeeds>,<Forestry:cratedSilkyCombs>,<Forestry:cratedSimmeringCombs>,<Forestry:cratedSoulsand>,<Forestry:cratedSpruceSapling>,<Forestry:cratedSpruceWood>,<Forestry:cratedStone>,<Forestry:cratedStringyCombs>,<Forestry:cratedTin>,<Forestry:cratedWheat>,<Forestry:cratedWheatenCombs>,<Forestry:cratedWood>] as IItemStack[];
-
-for item in crated{
-	mods.forestry.Carpenter.removeRecipe(item);
-}
 
 var cratable = [<minecraft:cookie>,<minecraft:wheat>,<minecraft:redstone>,<minecraft:dye:4>,<minecraft:reeds>,<minecraft:clay_ball>,<minecraft:glowstone_dust>,<minecraft:apple>,<minecraft:nether_wart>,<minecraft:coal>,<minecraft:coal:1>,<minecraft:wheat_seeds>,<minecraft:potato>,<minecraft:carrot>,<minecraft:log>,<minecraft:log:1>,<minecraft:log:2>,<minecraft:log:3>,<minecraft:log2>,<minecraft:log2:1>,<minecraft:cobblestone>,<minecraft:stone>,<minecraft:brick_block>,<minecraft:cactus>,<minecraft:obsidian>,<minecraft:netherrack>,<minecraft:soul_sand>,<minecraft:sandstone>,<minecraft:nether_brick>,<minecraft:gravel>,<minecraft:sapling>,<minecraft:sapling:1>,<minecraft:sapling:2>,<minecraft:sapling:3>,<minecraft:sapling:4>,<minecraft:sapling:5>,<minecraft:sand>,<minecraft:sand:1>,<minecraft:dirt>,<minecraft:dirt:2>,<minecraft:mycelium>,<Forestry:apatite>,<Forestry:fertilizerCompound>,<Forestry:mulch>,<Forestry:phosphor>,<Forestry:ingotTin>,<Forestry:ingotCopper>,<Forestry:ingotBronze>,<Forestry:pollen:1>,<Forestry:beeCombs>,<Forestry:beeCombs:1>,<Forestry:beeCombs:2>,<Forestry:beeCombs:3>,<Forestry:beeCombs:4>,<Forestry:beeCombs:5>,<Forestry:beeCombs:6>,<Forestry:beeCombs:7>,<Forestry:beeCombs:8>,<Forestry:beeCombs:10>,<Forestry:beeCombs:14>,<Forestry:beeCombs:15>,<Forestry:beeCombs:16>,<Forestry:refractoryWax>,<Forestry:peat>,<Forestry:ash>,<Forestry:beeswax>,<Forestry:pollen>,<Forestry:propolis>,<Forestry:honeydew>,<Forestry:royalJelly>] as IItemStack[];
 

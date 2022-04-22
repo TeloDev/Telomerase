@@ -42,6 +42,9 @@ key_ingameinfoxml.key.toggle:0
 key_openblocks.keybind.vario_switch:0
 key_openblocks.keybind.vario_vol_up:0
 key_openblocks.keybind.vario_vol_down:0
+key_Pneumatic Helmet Options:0
+key_Pneumatic Helmet Hack:0
+key_Pneumatic Helmet Debugging Drone:0
 key_schematica.key.load:181
 key_schematica.key.save:55
 key_schematica.key.control:74
@@ -60,7 +63,7 @@ key_Toggle Scale RD With Size:0
 key_FpsReducer.key.guiOpen:0
 key_MAtmos:0
 key_key.PickBlockPlus:-98
-key_waila.keybind.wailaconfig:0
+key_waila.keybind.wailaconfig:82
 key_waila.keybind.wailadisplay:79
 key_waila.keybind.liquid:80
 key_waila.keybind.recipe:81

@@ -63,6 +63,8 @@ mods.forestry.ThermionicFabricator.addCast(<teloaddon:Uranyl_Nitrate>, [[<terraf
 
 <BigReactors:BRIngot>.displayName = "Enriched Uranium";
 <BigReactors:BRMetalBlock>.displayName = "Enriched Uranium Block";
+<BigReactors:YelloriumFuelRod>.displayName = "Uranium Fuel Rod";
+<BigReactors:BRMetalBlock:2>.displayName = "HOP Graphite Block";
 <BigReactors:BRMetalBlock>.addTooltip(format.green("can be used with thermoelectric generator"));
 <BigReactors:BRIngot:1>.displayName = "Depleted Uranium";
 <BigReactors:BRMetalBlock:1>.displayName = "Depleted Uranium Block";
@@ -89,21 +91,27 @@ recipes.addShapeless(<BigReactors:BRMetalBlock:2>,[<ImmersiveEngineering:metal:2
 //block to ingot recipe handled in immersiveengineering.zs
 
 //reactor parts
+#reactor casing
 recipes.removeShaped(<BigReactors:BRReactorPart>,[[<ore:ingotIron>, <BigReactors:BRIngot:2>, <ore:ingotIron>], [<BigReactors:BRIngot:2>, <BigReactors:BRIngot>, <BigReactors:BRIngot:2>], [<ore:ingotIron>, <BigReactors:BRIngot:2>, <ore:ingotIron>]]);
 recipes.addShaped(<BigReactors:BRReactorPart> * 8,[[<ImmersiveEngineering:storage:7>, <ImmersiveEngineering:metalDecoration2:1>, <ImmersiveEngineering:storage:7>], [<ImmersiveEngineering:metalDecoration2:1>, <terrafirmacraftplus:item.Lead Ingot>, <ImmersiveEngineering:metalDecoration2:1>], [<ImmersiveEngineering:storage:7>, <ImmersiveEngineering:metalDecoration2:1>, <ImmersiveEngineering:storage:7>]]);
 
+#turbine casing
 recipes.removeShaped(<BigReactors:BRTurbinePart>,[[<ore:ingotIron>, <BigReactors:BRIngot:2>, <ore:ingotIron>], [<minecraft:quartz>, <BigReactors:BRIngot:1>, <minecraft:quartz>], [<ore:ingotIron>, <BigReactors:BRIngot:2>, <ore:ingotIron>]]);
-recipes.addShaped(<BigReactors:BRTurbinePart> * 8,[[<ImmersiveEngineering:storage:7>, <ImmersiveEngineering:storage:7>, <ImmersiveEngineering:storage:7>], [<ImmersiveEngineering:storage:7>, null, <ImmersiveEngineering:storage:7>], [<ImmersiveEngineering:storage:7>, <ImmersiveEngineering:storage:7>, <ImmersiveEngineering:storage:7>]]);
+recipes.addShaped(<BigReactors:BRTurbinePart> * 8,[[<ImmersiveEngineering:storage:7>, <ImmersiveEngineering:metalDecoration:10>, <ImmersiveEngineering:storage:7>], [<ImmersiveEngineering:metalDecoration:10>, <terrafirmacraftplus:item.Sterling Silver Ingot>, <ImmersiveEngineering:metalDecoration:10>], [<ImmersiveEngineering:storage:7>, <ImmersiveEngineering:metalDecoration:10>, <ImmersiveEngineering:storage:7>]]);
 
+#reactor controller
 recipes.removeShaped(<BigReactors:BRReactorPart:1>);
 recipes.addShaped(<BigReactors:BRReactorPart:1>,[[<BigReactors:BRReactorPart>, <ImmersiveEngineering:metalDecoration2:1>, <BigReactors:BRReactorPart>], [<ImmersiveEngineering:metalDecoration2:1>, <ore:blockGlass>, <ImmersiveEngineering:metalDecoration2:1>], [<BigReactors:BRReactorPart>, <ImmersiveEngineering:metalDecoration:5>, <BigReactors:BRReactorPart>]]);
 
+#turbine controller
 recipes.removeShaped(<BigReactors:BRTurbinePart:1>);
 recipes.addShaped(<BigReactors:BRTurbinePart:1>,[[<BigReactors:BRTurbinePart>, <ImmersiveEngineering:metalDecoration2:2>, <BigReactors:BRTurbinePart>], [<ImmersiveEngineering:metalDecoration2:2>, <ore:blockGlass>, <ImmersiveEngineering:metalDecoration2:2>], [<BigReactors:BRTurbinePart>, <ImmersiveEngineering:metalDecoration:5>, <BigReactors:BRTurbinePart>]]);
 
+#reactor control rod
 recipes.removeShaped(<BigReactors:BRReactorPart:2>);
 recipes.addShaped(<BigReactors:BRReactorPart:2>,[[<ImmersiveEngineering:metalDecoration2:2>, <minecraft:piston>, <ImmersiveEngineering:metalDecoration2:2>], [<ImmersiveEngineering:metalDecoration2:2>, <terrafirmacraftplus:item.Steel Tuyere>, <ImmersiveEngineering:metalDecoration2:2>], [<ImmersiveEngineering:metal:20>, <ImmersiveEngineering:metal:20>, <ImmersiveEngineering:metal:20>]]);
 
+#fuel rod
 recipes.removeShaped(<BigReactors:YelloriumFuelRod>,[[<ore:ingotIron>, <BigReactors:BRIngot:2>, <ore:ingotIron>], [<ore:ingotIron>, <BigReactors:BRIngot:1>, <ore:ingotIron>], [<ore:ingotIron>, <BigReactors:BRIngot:2>, <ore:ingotIron>]]);
 recipes.addShaped(<BigReactors:YelloriumFuelRod>*2,[[null, <terrafirmacraftplus:item.Sterling Silver Sheet>, null], [<terrafirmacraftplus:item.Steel Sheet>, <BigReactors:BRMultiblockGlass>, <terrafirmacraftplus:item.Steel Sheet>], [null, <ImmersiveEngineering:metal:20>, null]]);
 

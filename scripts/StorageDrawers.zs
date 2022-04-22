@@ -1,4 +1,4 @@
-
+//drawers removal
 recipes.removeShaped(<StorageDrawers:fullDrawers1>, [[<minecraft:planks>, <minecraft:planks>, <minecraft:planks>], [null, <ore:chestWood>, null], [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]]);
 recipes.removeShaped(<StorageDrawers:fullDrawers1>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [null, <ore:chestWood>, null], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
 recipes.removeShaped(<StorageDrawers:fullDrawers2>, [[<minecraft:planks>, <ore:chestWood>, <minecraft:planks>], [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>], [<minecraft:planks>, <ore:chestWood>, <minecraft:planks>]]);
@@ -16,9 +16,11 @@ recipes.addShaped(<StorageDrawers:fullCustom1>, [[<ore:woodLumber>, <ore:woodLum
 recipes.addShaped(<StorageDrawers:fullCustom4>, [[<ore:woodLumber>, <ore:woodLumber>, <ore:woodLumber>], [<ore:woodLumber>, <StorageDrawers:fullDrawers4>, <ore:woodLumber>], [<ore:woodLumber>, <ore:woodLumber>, <ore:woodLumber>]]);
 recipes.addShaped(<StorageDrawers:trimCustom>, [[<ore:woodLumber>, <ore:woodLumber>, <ore:woodLumber>], [<ore:woodLumber>, <StorageDrawers:trim>, <ore:woodLumber>], [<ore:woodLumber>, <ore:woodLumber>, <ore:woodLumber>]]);
 
+//upgrade template
 recipes.removeShaped(<StorageDrawers:upgradeTemplate>);
 recipes.addShaped(<StorageDrawers:upgradeTemplate>,[[null, <ore:stickWood>, null], [<ore:stickWood>, <StorageDrawers:trim>, <ore:stickWood>], [null, <ore:stickWood>, null]]);
 
+//upgrades
 recipes.removeShaped(<StorageDrawers:upgrade:2>, [[<ore:ingotIron>, <ore:stickWood>, <ore:ingotIron>], [<ore:stickWood>, <StorageDrawers:upgradeTemplate>, <ore:stickWood>], [<ore:ingotIron>, <ore:stickWood>, <ore:ingotIron>]]);
 recipes.removeShaped(<StorageDrawers:upgrade:3>, [[<ore:ingotGold>, <ore:stickWood>, <ore:ingotGold>], [<ore:stickWood>, <StorageDrawers:upgradeTemplate>, <ore:stickWood>], [<ore:ingotGold>, <ore:stickWood>, <ore:ingotGold>]]);
 recipes.removeShaped(<StorageDrawers:upgrade:4>, [[<minecraft:obsidian:*>, <ore:stickWood>, <minecraft:obsidian:*>], [<ore:stickWood>, <StorageDrawers:upgradeTemplate>, <ore:stickWood>], [<minecraft:obsidian:*>, <ore:stickWood>, <minecraft:obsidian:*>]]);
@@ -36,29 +38,37 @@ recipes.addShapeless(<StorageDrawers:upgrade:4>, [<StorageDrawers:upgradeTemplat
 recipes.addShapeless(<StorageDrawers:upgrade:5>, [<StorageDrawers:upgradeTemplate>, <terrafirmacraftplus:item.Steel Ingot>, <ore:chestWood>]);
 recipes.addShapeless(<StorageDrawers:upgrade:6>, [<StorageDrawers:upgradeTemplate>, <terrafirmacraftplus:item.Black Steel Ingot>, <ore:chestWood>]);
 
+//drawers
 recipes.addShaped(<StorageDrawers:fullDrawers1>, [[<ore:woodLumber>, <terrafirmacraftplus:item.Copper Ingot>, <ore:woodLumber>], [<ore:woodLumber>, <ore:chestWood>, <ore:woodLumber>], [<ore:woodLumber>, <ore:woodLumber>, <ore:woodLumber>]]);
 recipes.addShaped(<StorageDrawers:fullDrawers2>, [[<ore:woodLumber>, <ore:chestWood>, <ore:woodLumber>], [<ore:woodLumber>, <terrafirmacraftplus:item.Copper Ingot>, <ore:woodLumber>], [<ore:woodLumber>, <ore:chestWood>, <ore:woodLumber>]]);
 recipes.addShaped(<StorageDrawers:fullDrawers4>, [[<ore:chestWood>, <ore:woodLumber>, <ore:chestWood>], [<ore:woodLumber>, <terrafirmacraftplus:item.Copper Ingot>, <ore:woodLumber>], [<ore:chestWood>, <ore:woodLumber>, <ore:chestWood>]]);
 
+//drawer key
 recipes.removeShaped(<StorageDrawers:upgradeLock>);
 game.setLocalization("gui.plans.drawerkey", "Drawer Key");
 mods.Terrafirmacraft.Anvil.addPlanRecipe("drawerkey", 21, 12, 31);
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<StorageDrawers:upgradeLock>, <terrafirmacraftplus:item.Gold Ingot>, "drawerkey", 1);
-
 
 game.setLocalization("gui.plans.drawerkey2", "Drawer Key");
 mods.Terrafirmacraft.Anvil.addPlanRecipe("drawerkey2", 21, 12, 31);
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<StorageDrawers:upgradeLock>, <terrafirmacraftplus:item.Brass Ingot>, "drawerkey2", 1);
 
 recipes.removeShapeless(<StorageDrawers:personalKey>, [<StorageDrawers:upgradeLock>, <minecraft:name_tag>]);
-recipes.addShapeless(<StorageDrawers:personalKey>, [<StorageDrawers:upgradeLock>, <terrafirmacraftplus:item.Nametag>]);
+recipes.addShapeless(<StorageDrawers:personalKey>, [<StorageDrawers:upgradeLock>, <minecraft:tripwire_hook>]);
 
 recipes.removeShapeless(<StorageDrawers:shroudKey>);
-recipes.addShapeless(<StorageDrawers:shroudKey>, [<StorageDrawers:upgradeLock>, <minecraft:ender_pearl>]);
+recipes.addShapeless(<StorageDrawers:shroudKey>, [<StorageDrawers:upgradeLock>, <terrafirmacraftplus:item.Nametag>]);
 
+<ore:drawerKey>.add(<StorageDrawers:upgradeLock>);
+<ore:drawerKey>.add(<StorageDrawers:shroudKey>);
+<ore:drawerKey>.add(<StorageDrawers:personalKey>);
+recipes.addShapeless(<StorageDrawers:upgradeLock>, [<ore:drawerKey>]);
+
+//compating drawe r
 recipes.removeShaped(<StorageDrawers:compDrawers>);
 recipes.addShaped(<StorageDrawers:compDrawers>, [[<ore:stone>,<ore:stone>,<ore:stone>],[<ore:stone>,<ore:drawerBasic>,<ore:stone>],[<ore:stone>,<minecraft:piston>,<ore:stone>]]);
 
+//controller
 recipes.removeShaped(<StorageDrawers:controller>);
 recipes.addShaped(<StorageDrawers:controller>, [[<ore:stone>,<ore:stone>,<ore:stone>],[<minecraft:comparator>,<ore:drawerBasic>,<minecraft:comparator>],[<ore:stone>,<terrafirmacraftplus:Hopper>,<ore:stone>]]);
 

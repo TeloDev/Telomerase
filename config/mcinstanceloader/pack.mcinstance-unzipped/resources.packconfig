@@ -1,6 +1,6 @@
 [Telomerase Core Mod]
 type = url
-url = https://github.com/Jerome226/TelomeraseCoreMod/releases/download/2.6/TeloCoreMod-1.7.10-2.6.jar
+url = https://github.com/TeloDev/TelomeraseCoreMod/releases/download/2.6/TeloCoreMod-1.7.10-2.6.jar
 destination = mods/TeloCoreMod-1.7.10-2.6.jar
 side = client
 
@@ -29,7 +29,7 @@ side = client
 
 [Telomerase Loading Screen]
 type = url
-url = https://github.com/Jerome226/TelomeraseLoadingScreen/releases/download/1.2/TeloLoadingScreen-1.7.10-1.2.jar
+url = https://github.com/TeloDev/TelomeraseLoadingScreen/releases/download/1.2/TeloLoadingScreen-1.7.10-1.2.jar
 destination = mods/TeloLoadingScreen-1.7.10-1.2.jar
 side = client
 
@@ -187,22 +187,6 @@ sourceFileName = SoundFilters-0.8_for_1.7.X.jar
 destination = mods/SoundFilters-0.8_for_1.7.X.jar
 side = client
 
-[TipTheScales]
-type = curseforge
-projectId = 282313
-fileId = 3069971
-sourceFileName = TipTheScales-1.7.10-3.0.0.2.jar
-destination = mods/TipTheScales-1.7.10-3.0.0.2.jar
-side = client
-
-[Better Placement]
-type = curseforge
-projectId = 278406
-fileId = 2481883
-sourceFileName = BetterPlacement-MC1.7.10-1.0.0-1.jar
-destination = mods/BetterPlacement-MC1.7.10-1.0.0-1.jar
-side = client
-
 [Waila]
 type = url
 url = https://github.com/GTNewHorizons/waila/releases/download/1.5.20/Waila-1.7.10-1.5.20.jar
@@ -237,9 +221,9 @@ side = client
 [TerraFirmaCraft+]
 type = curseforge
 projectId = 287053
-fileId = 3204442
-sourceFileName = [1.7.10]TerraFirmaCraftPlus-0.87.0.jar
-destination = mods/[1.7.10]TerraFirmaCraftPlus-0.87.0.jar
+fileId = 3755965
+sourceFileName = [1.7.10]TerraFirmaCraftPlus-0.88.3.jar
+destination = mods/[1.7.10]TerraFirmaCraftPlus-0.88.3.jar
 
 [TFC+ Additions]
 type = curseforge
@@ -298,8 +282,8 @@ destination = mods/ModTweaker2-0.9.6-patched.jar
 
 [NotEnoughItems]
 type = url
-url = https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.10-GTNH/NotEnoughItems-1.7.10-2.2.10-GTNH.jar
-destination = mods/NotEnoughItems-1.7.10-2.2.10-GTNH.jar
+url = https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.11-GTNH/NotEnoughItems-1.7.10-2.2.11-GTNH.jar
+destination = mods/NotEnoughItems-1.7.10-2.2.11-GTNH.jar
 
 [NEI Addons]
 type = url
@@ -327,6 +311,11 @@ destination = mods/defaultkeys-mc1.7.10-1.0.28.jar
 type = url
 url = https://github.com/GTNewHorizons/CodeChickenCore/releases/download/1.1.5/CodeChickenCore-1.7.10-1.1.5.jar
 destination = mods/CodeChickenCore-1.7.10-1.1.5.jar
+
+[CodeChickenLib]
+type = url
+url = https://github.com/GTNewHorizons/CodeChickenLib/releases/download/1.1.5.3/CodeChickenLib-1.7.10-1.1.5.3.jar
+destination = mods/1.7.10/CodeChickenLib-1.7.10-1.1.5.3.jar
 
 [EnderCore]
 type = url
@@ -416,11 +405,9 @@ sourceFileName = dakimakuramod-1.7.10-1.5.jar
 destination = mods/dakimakuramod-1.7.10-1.5.jar
 
 [Forestry]
-type = curseforge
-projectId = 59751
-fileId = 2333823
-sourceFileName = forestry_1.7.10-4.2.16.64.jar
-destination = mods/forestry_1.7.10-4.2.16.64.jar
+type = url
+url = https://github.com/TeloDev/ForestryMC/releases/download/4.3.1/Forestry-1.7.10-4.3.1.jar
+destination = mods/Forestry-1.7.10-4.3.1.jar
 
 [GraveStone Mod]
 type = curseforge
@@ -471,7 +458,7 @@ destination = mods/PistonEverything-mc1.7.X-1.0.4.jar
 
 [Pistronics 2]
 type = url
-url = https://github.com/Jerome226/TelomeraseFiles/releases/download/1.2/Pistronics2-1.7.10-0.6.4-patched.jar
+url = https://github.com/TeloDev/TelomeraseFiles/releases/download/1.3/Pistronics2-1.7.10-0.6.4-patched.jar
 destination = mods/Pistronics2-1.7.10-0.6.4-patched.jar
 
 [Redstone Paste]
@@ -532,6 +519,7 @@ destination = mods/mobspawningfix-1.0a.jar
 type = url
 url = https://github.com/makamys/CoreTweaks/releases/download/v0.2.2/CoreTweaks-1.7.10-0.2.2.jar
 destination = mods/CoreTweaks-1.7.10-0.2.2.jar
+side = client
 
 [FoamFix]
 type = curseforge
@@ -571,10 +559,10 @@ destination = resourcepacks/Vanilla+Themed+TFC+v0.5.0.zip
 
 [MATmos Default Soundpack]
 type = url
-url = https://github.com/Jerome226/TelomeraseFiles/releases/download/1.2/matdefault2016.zip
+url = https://github.com/TeloDev/TelomeraseFiles/releases/download/1.3/matdefault2016.zip
 destination = resourcepacks/matdefault2016.zip
 
 [Telomerase Resources]
 type = url
-url = https://github.com/Jerome226/TelomeraseResources/releases/download/1.1/TelomeraseResources.zip
+url = https://github.com/TeloDev/TelomeraseResources/releases/download/1.4/TelomeraseResources.zip
 destination = resourcepacks/TelomeraseResources.zip
