@@ -17,10 +17,16 @@ mods.Terrafirmacraft.Anvil.addAnvilRecipe(<teloaddon:Blue_Steel_Chainsaw_Chain_L
 
 
 recipes.addShapeless(<teloaddon:Chainsaw>,[<teloaddon:Chainsaw_Chain>,<teloaddon:Chainsaw_Blade>,<teloaddon:Chainsaw_Housing>]);
+
 //repair
-recipes.addShapeless(<teloaddon:Chainsaw>.withTag({display:{Lore: ["Repaired"]}}),[<teloaddon:Chainsaw:*>,<teloaddon:Chainsaw_Chain>]);
+recipes.addShapeless(<teloaddon:Chainsaw>, [<teloaddon:Chainsaw>.anyDamage().marked("chainsaw"), <teloaddon:Chainsaw_Chain>],
+  function(out, ins, cInfo) {
+    return out.withTag(ins.chainsaw.tag);
+});
+
+//recipes.addShapeless(<teloaddon:Chainsaw>.withTag({display:{Lore: ["Repaired"]}}),[<teloaddon:Chainsaw:*>,<teloaddon:Chainsaw_Chain>]);
 //craft unchained
-recipes.addShapeless(<teloaddon:Chainsaw:6000>,[<teloaddon:Chainsaw_Blade>,<teloaddon:Chainsaw_Housing>]);
+recipes.addShapeless(<teloaddon:Chainsaw:10000>,[<teloaddon:Chainsaw_Blade>,<teloaddon:Chainsaw_Housing>]);
 
 <ore:coloredSteelLink>.add(<teloaddon:Red_Steel_Chainsaw_Chain_Link>);
 <ore:coloredSteelLink>.add(<teloaddon:Blue_Steel_Chainsaw_Chain_Link>);
