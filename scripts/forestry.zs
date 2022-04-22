@@ -104,9 +104,9 @@ recipes.addShapeless(<terrafirmacraftplus:item.Powder:13>,[<Forestry:ash>]);
 
 var cratable = [<minecraft:cookie>,<minecraft:wheat>,<minecraft:redstone>,<minecraft:dye:4>,<minecraft:reeds>,<minecraft:clay_ball>,<minecraft:glowstone_dust>,<minecraft:apple>,<minecraft:nether_wart>,<minecraft:coal>,<minecraft:coal:1>,<minecraft:wheat_seeds>,<minecraft:potato>,<minecraft:carrot>,<minecraft:log>,<minecraft:log:1>,<minecraft:log:2>,<minecraft:log:3>,<minecraft:log2>,<minecraft:log2:1>,<minecraft:cobblestone>,<minecraft:stone>,<minecraft:brick_block>,<minecraft:cactus>,<minecraft:obsidian>,<minecraft:netherrack>,<minecraft:soul_sand>,<minecraft:sandstone>,<minecraft:nether_brick>,<minecraft:gravel>,<minecraft:sapling>,<minecraft:sapling:1>,<minecraft:sapling:2>,<minecraft:sapling:3>,<minecraft:sapling:4>,<minecraft:sapling:5>,<minecraft:sand>,<minecraft:sand:1>,<minecraft:dirt>,<minecraft:dirt:2>,<minecraft:mycelium>,<Forestry:apatite>,<Forestry:fertilizerCompound>,<Forestry:mulch>,<Forestry:phosphor>,<Forestry:ingotTin>,<Forestry:ingotCopper>,<Forestry:ingotBronze>,<Forestry:pollen:1>,<Forestry:beeCombs>,<Forestry:beeCombs:1>,<Forestry:beeCombs:2>,<Forestry:beeCombs:3>,<Forestry:beeCombs:4>,<Forestry:beeCombs:5>,<Forestry:beeCombs:6>,<Forestry:beeCombs:7>,<Forestry:beeCombs:8>,<Forestry:beeCombs:10>,<Forestry:beeCombs:14>,<Forestry:beeCombs:15>,<Forestry:beeCombs:16>,<Forestry:refractoryWax>,<Forestry:peat>,<Forestry:ash>,<Forestry:beeswax>,<Forestry:pollen>,<Forestry:propolis>,<Forestry:honeydew>,<Forestry:royalJelly>] as IItemStack[];
 
-for item in cratable{
-	mods.forestry.Carpenter.removeRecipe(item);
-}
+//for item in cratable{
+//	mods.forestry.Carpenter.removeRecipe(item);
+//}
 
 <Forestry:beePrincessGE>.addTooltip(format.green("crafting recipe comes with drones"));
 
@@ -354,6 +354,7 @@ mods.forestry.ThermionicFabricator.removeSmelting(<minecraft:sandstone:*>);
 mods.forestry.ThermionicFabricator.removeSmelting(<minecraft:glass_pane:*>);
 mods.forestry.ThermionicFabricator.removeSmelting(<minecraft:glass:*>);
 
+/*
 mods.forestry.Fermenter.removeRecipe(<minecraft:reeds>);
 mods.forestry.Fermenter.removeRecipe(<minecraft:cactus>);
 mods.forestry.Fermenter.removeRecipe(<minecraft:sapling:*>);
@@ -362,6 +363,7 @@ mods.forestry.Fermenter.removeRecipe(<minecraft:potato>);
 mods.forestry.Fermenter.removeRecipe(<minecraft:brown_mushroom>);
 mods.forestry.Fermenter.removeRecipe(<minecraft:red_mushroom>);
 mods.forestry.Fermenter.removeRecipe(<Forestry:honeydew>);
+*/
 
 mods.forestry.Fermenter.removeFuel(<Forestry:mulch>);
 mods.forestry.Fermenter.removeFuel(<Forestry:fertilizerCompound>);
