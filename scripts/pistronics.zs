@@ -1,3 +1,9 @@
+<Pistronics2:Glue>.displayName = "Glueball"; 
+<Pistronics2:Super Glue>.displayName = "Super Glueball"; 
+<Pistronics2:Slimeblock:2>.displayName = "Super Glueblock"; 
+
+<ore:slimeball>.add(<Pistronics2:Glue>);
+
 //mechanic piston
 recipes.remove(<Pistronics2:Mechanic Piston>);
 recipes.addShaped(<Pistronics2:Mechanic Piston>, [[<ore:woodLumber>, <ore:woodLumber>, <ore:woodLumber>], [<terrafirmacraftplus:item.WoodGear:18>, <minecraft:piston>, <terrafirmacraftplus:item.WoodGear:18>], [<ore:woodLumber>, <ore:dustRedstone>, <ore:woodLumber>]]);
@@ -36,11 +42,15 @@ recipes.addShapeless(<Pistronics2:Glue>, [<ore:slimeball>, <teloaddon:Ethanol_Bo
 
 //superglue
 recipes.remove(<Pistronics2:Super Glue>);
-recipes.addShapeless(<Pistronics2:Super Glue>, [<Pistronics2:Glue>, <terrafirmacraftplus:item.Resin>, <terrafirmacraftplus:item.dyePowder:1>]);
+recipes.addShapeless(<Pistronics2:Super Glue>, [<Pistronics2:Glue>, <terrafirmacraftplus:item.dyePowder:1>]);
 
 //camou paste
 recipes.remove(<Pistronics2:Camou Paste>);
-recipes.addShapeless(<Pistronics2:Camou Paste>, [<ore:dyePowder>, <ore:dyePowder>, <ore:dyePowder>, <ore:dyePowder>]);
+recipes.addShapeless(<Pistronics2:Camou Paste>*4, [<ore:dyePowder>, <ore:dyePowder>, <ore:dyePowder>, <ore:dyePowder>]);
+
+//camou block
+recipes.remove(<Pistronics2:Block of Camou>);
+recipes.addShaped(<Pistronics2:Block of Camou>, [[<Pistronics2:Camou Paste>, <Pistronics2:Camou Paste>], [<Pistronics2:Camou Paste>, <Pistronics2:Camou Paste>]]);
 
 //saw
 recipes.remove(<Pistronics2:Saw>);

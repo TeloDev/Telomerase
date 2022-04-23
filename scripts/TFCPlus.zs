@@ -118,6 +118,9 @@ recipes.addShaped(<minecraft:painting>,[[<ore:stickWood>,<ore:stickWood>,<ore:st
 // dunk is a dummy
 recipes.addShaped(<terrafirmacraftplus:brickChimney>,[[<terrafirmacraftplus:item.Brick:1>,null,<terrafirmacraftplus:item.Brick:1>],[<terrafirmacraftplus:item.Mortar>,null,<terrafirmacraftplus:item.Mortar>],[<terrafirmacraftplus:item.Brick:1>,null,<terrafirmacraftplus:item.Brick:1>]]);
 
+//hopper oredict
+<ore:blockHopper>.add(<terrafirmacraftplus:Hopper>);
+
 // add some tfc items to dicts for forestry bags
 <ore:gemFluorite>.add(<teloaddon:Fluorite:*>);
 
@@ -721,10 +724,10 @@ recipes.addShapeless(<terrafirmacraftplus:item.Fertilizer>, [<terrafirmacraftplu
 
 //piston
 recipes.removeShaped(<minecraft:piston>);
-recipes.addShaped(<minecraft:piston>,[[<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],[<ore:cobblestone>,<ore:stickIron>,<ore:cobblestone>],[<ore:cobblestone>,<minecraft:redstone>,<ore:cobblestone>]]);
-recipes.addShaped(<minecraft:piston>,[[<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],[<ore:cobblestone>,<ore:stickSteel>,<ore:cobblestone>],[<ore:cobblestone>,<minecraft:redstone>,<ore:cobblestone>]]);
+recipes.addShaped(<minecraft:piston>,[[null,<Pistronics2:Extension Block>.withTag({comp: 0, redio: 0 as byte, camouID: -1, camou: 0 as byte, camouMeta: 0, super_sticky: 0 as byte, sticky: 0 as byte, redstone: 0 as byte}),null],[<ore:cobblestone>,<Pistronics2:Rod Block>.withTag({redstone: 0 as byte}),<ore:cobblestone>],[<ore:cobblestone>,<minecraft:redstone>,<ore:cobblestone>]]);
+recipes.addShaped(<minecraft:sticky_piston>,[[null,<Pistronics2:Extension Block>.withTag({comp: 0, redio: 0 as byte, camouID: -1, camou: 0 as byte, camouMeta: 0, super_sticky: 0 as byte, sticky: 1 as byte, redstone: 0 as byte}),null],[<ore:cobblestone>,<Pistronics2:Rod Block>.withTag({redstone: 0 as byte}),<ore:cobblestone>],[<ore:cobblestone>,<minecraft:redstone>,<ore:cobblestone>]]);
 
-recipes.addShapeless(<minecraft:piston>,[<minecraft:sticky_piston>.giveBack(<minecraft:slime_ball>),<ore:itemKnife>.transformDamage()]);
+recipes.addShapeless(<minecraft:piston>,[<minecraft:sticky_piston>.giveBack(<minecraft:slime_ball>),<Pistronics2:Spade>.transformDamage()]);
 
 game.setLocalization("gui.plans.leadbottle", "Lead Bottle");
 mods.Terrafirmacraft.Anvil.addPlanRecipe("leadbottle", 21, 6, 7);

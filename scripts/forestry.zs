@@ -5,6 +5,7 @@ import minetweaker.liquid.ILiquidStack;
 <Forestry:factory2>.displayName = "Catalytic Converter";
 <Forestry:ash>.displayName = "Dirty Ash";
 
+//gears
 game.setLocalization("coppergear", "Copper Gear");
 mods.Terrafirmacraft.Anvil.addPlanRecipe("coppergear", 9, 24, 1);
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<Forestry:gearCopper>*2, <terrafirmacraftplus:item.Copper Sheet>, "coppergear", 1);
@@ -21,6 +22,7 @@ game.setLocalization("bronzegear3", "Bronze Gear");
 mods.Terrafirmacraft.Anvil.addPlanRecipe("bronzegear3", 9, 24, 1);
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<Forestry:gearBronze>*2, <terrafirmacraftplus:item.Black Bronze Sheet>, "bronzegear3", 2);
 
+//remove recipes
 mods.forestry.Carpenter.removeRecipe(<Forestry:crate>);
 mods.forestry.Carpenter.removeRecipe(<Forestry:minerBagT2>);
 mods.forestry.Carpenter.removeRecipe(<Forestry:diggerBagT2>);
@@ -89,24 +91,21 @@ recipes.remove(<Forestry:core>);
 recipes.remove(<minecraft:slime_ball>);
 recipes.addShaped(<minecraft:slime_ball>*4,[[<Forestry:propolis>,<Forestry:pollen>,<Forestry:propolis>],[<Forestry:propolis>,<Forestry:royalJelly>,<Forestry:propolis>],[<Forestry:propolis>,<Forestry:pollen>,<Forestry:propolis>]]);
 
+//glass bottle oredict
 <ore:bottleGlass>.add(<minecraft:glass_bottle>);
 <ore:bottleGlass>.add(<terrafirmacraftplus:item.Glass Bottle>);
 recipes.removeShaped(<Forestry:pipette>);
 recipes.addShaped(<Forestry:pipette>,[[<ore:materialCloth>,null,null],[<ore:bottleGlass>,null,null]]);
 
+//peat conversion
 recipes.addShapeless(<terrafirmacraftplus:Peat>, [<Forestry:peat>, <Forestry:peat>, <Forestry:peat>, <Forestry:peat>]);
 recipes.addShapeless(<Forestry:peat> * 4, [<terrafirmacraftplus:Peat>, <ore:itemKnife>.giveBack()]);
 
+//ash conversion
 <ore:dustAsh>.add(<terrafirmacraftplus:item.Powder:13>);
 <ore:dustAsh>.add(<Forestry:ash>);
 recipes.addShapeless(<Forestry:ash>,[<terrafirmacraftplus:item.Powder:13>]);
 recipes.addShapeless(<terrafirmacraftplus:item.Powder:13>,[<Forestry:ash>]);
-
-var cratable = [<minecraft:cookie>,<minecraft:wheat>,<minecraft:redstone>,<minecraft:dye:4>,<minecraft:reeds>,<minecraft:clay_ball>,<minecraft:glowstone_dust>,<minecraft:apple>,<minecraft:nether_wart>,<minecraft:coal>,<minecraft:coal:1>,<minecraft:wheat_seeds>,<minecraft:potato>,<minecraft:carrot>,<minecraft:log>,<minecraft:log:1>,<minecraft:log:2>,<minecraft:log:3>,<minecraft:log2>,<minecraft:log2:1>,<minecraft:cobblestone>,<minecraft:stone>,<minecraft:brick_block>,<minecraft:cactus>,<minecraft:obsidian>,<minecraft:netherrack>,<minecraft:soul_sand>,<minecraft:sandstone>,<minecraft:nether_brick>,<minecraft:gravel>,<minecraft:sapling>,<minecraft:sapling:1>,<minecraft:sapling:2>,<minecraft:sapling:3>,<minecraft:sapling:4>,<minecraft:sapling:5>,<minecraft:sand>,<minecraft:sand:1>,<minecraft:dirt>,<minecraft:dirt:2>,<minecraft:mycelium>,<Forestry:apatite>,<Forestry:fertilizerCompound>,<Forestry:mulch>,<Forestry:phosphor>,<Forestry:ingotTin>,<Forestry:ingotCopper>,<Forestry:ingotBronze>,<Forestry:pollen:1>,<Forestry:beeCombs>,<Forestry:beeCombs:1>,<Forestry:beeCombs:2>,<Forestry:beeCombs:3>,<Forestry:beeCombs:4>,<Forestry:beeCombs:5>,<Forestry:beeCombs:6>,<Forestry:beeCombs:7>,<Forestry:beeCombs:8>,<Forestry:beeCombs:10>,<Forestry:beeCombs:14>,<Forestry:beeCombs:15>,<Forestry:beeCombs:16>,<Forestry:refractoryWax>,<Forestry:peat>,<Forestry:ash>,<Forestry:beeswax>,<Forestry:pollen>,<Forestry:propolis>,<Forestry:honeydew>,<Forestry:royalJelly>] as IItemStack[];
-
-for item in cratable{
-	mods.forestry.Carpenter.removeRecipe(item);
-}
 
 <Forestry:beePrincessGE>.addTooltip(format.green("crafting recipe comes with drones"));
 
@@ -117,8 +116,9 @@ recipes.addShapeless(<Forestry:beePrincessGE>.withTag({MaxH: 20, Health: 20, IsA
 	"forestry.toleranceNone", Slot: 4 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 5 as byte}, {UID1: "forestry.toleranceNone", UID0: "forestry.toleranceNone", Slot: 7 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 8 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 9 as byte}, {UID1: "forestry.flowersVanilla", UID0: "forestry.flowersVanilla", Slot: 10 as byte}, {UID1: "forestry.floweringSlower", UID0:
 	"forestry.floweringSlower", Slot: 11 as byte}, {UID1: "forestry.territoryAverage", UID0: "forestry.territoryAverage", Slot: 12 as byte}, {UID1: "forestry.effectNone", UID0: "forestry.effectNone", Slot: 13 as byte}]}, Health: 20, IsAnalyzed: 0 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesForest", UID0: "forestry.speciesForest", Slot: 0 as byte}, {UID1: "forestry.speedSlowest", UID0: "forestry.speedSlowest", Slot: 1 as byte}, {UID1: "forestry.lifespanShorter", UID0:
 	"forestry.lifespanShorter", Slot: 2 as byte}, {UID1: "forestry.fertilityHigh", UID0: "forestry.fertilityHigh", Slot: 3 as byte}, {UID1: "forestry.toleranceNone", UID0: "forestry.toleranceNone", Slot: 4 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 5 as byte}, {UID1: "forestry.toleranceNone", UID0: "forestry.toleranceNone", Slot: 7 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 8 as byte}, {UID1: "forestry.boolFalse", UID0:
-	"forestry.boolFalse", Slot: 9 as byte}, {UID1: "forestry.flowersVanilla", UID0: "forestry.flowersVanilla", Slot: 10 as byte}, {UID1: "forestry.floweringSlower", UID0: "forestry.floweringSlower", Slot: 11 as byte}, {UID1: "forestry.territoryAverage", UID0: "forestry.territoryAverage", Slot: 12 as byte}, {UID1: "forestry.effectNone", UID0: "forestry.effectNone", Slot: 13 as byte}]}}) * 2)]);
+	"forestry.boolFalse", Slot: 9 as byte}, {UID1: "forestry.flowersVanilla", UID0: "forestry.flowersVanilla", Slot: 10 as byte}, {UID1: "forestry.floweringSlower", UID0: "forestry.floweringSlower", Slot: 11 as byte}, {UID1: "forestry.territoryAverage", UID0: "forestry.territoryAverage", Slot: 12 as byte}, {UID1: "forestry.effectNone", UID0: "forestry.effectNone", Slot: 13 as byte}]}}) * 2), <Forestry:scoop:*>.transformDamage()]);
 
+//alveary
 recipes.removeShaped(<Forestry:alveary:0>);
 recipes.removeShaped(<Forestry:alveary:1>);
 recipes.removeShaped(<Forestry:alveary:2>);
@@ -128,8 +128,12 @@ recipes.removeShaped(<Forestry:alveary:5>);
 recipes.removeShaped(<Forestry:alveary:6>);
 recipes.removeShaped(<Forestry:alveary:7>);
 
+//apiary
 recipes.removeShaped(<Forestry:apiculture>);
 recipes.addShaped(<Forestry:apiculture>,[[<ore:woodLumber>,<ore:woodLumber>,<ore:woodLumber>],[<ore:plankWood>,<Forestry:impregnatedCasing>,<ore:plankWood>],[<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]]);
+
+//scoop
+recipes.addShaped(<Forestry:apiculture>,[[null,<ore:materialString>],[<terrafirmacraftplus:item.stick>,null]]);
 
 <ore:combBee>.add(<Forestry:beeCombs:0>);
 <ore:combBee>.add(<Forestry:beeCombs:3>);
@@ -155,18 +159,21 @@ recipes.addShapeless(<terrafirmacraftplus:item.Wooden Bucket Honey>,[<ore:combBe
 //recipes.addShapeless(<Forestry:honeyDrop>,[<terrafirmacraftplus:item.HoneyBowl>.giveBack(<terrafirmacraftplus:item.ClayBowl:1>)]);
 //recipes.addShapeless(<Forestry:honeyDrop>,[<terrafirmacraftplus:item.HoneyBowl:1>.giveBack(<terrafirmacraftplus:item.ClayBowl:2>)]);
 
-
+//bee house
 recipes.removeShaped(<Forestry:apiculture:2>);
 recipes.addShaped(<Forestry:apiculture:2>,[[<ore:woodLumber>,<ore:woodLumber>,<ore:woodLumber>],[<ore:plankWood>,<ore:combBee>,<ore:plankWood>],[<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]]);
 
+//apiculture chest
 recipes.remove(<Forestry:apicultureChest>);
 recipes.addShaped(<Forestry:apicultureChest>,[[<ore:combBee>,<ore:combBee>,<ore:combBee>],[<ore:combBee>,<ore:chestWood>,<ore:combBee>],[<ore:combBee>,<ore:combBee>,<ore:combBee>]]);
 
+//untreated frame
 recipes.remove(<Forestry:frameUntreated>);
 recipes.remove(<Forestry:frameImpregnated>);
 recipes.addShaped(<Forestry:frameUntreated>,[[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],[<ore:stickWood>,<ore:materialString>,<ore:stickWood>],[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>]]);
 recipes.addShaped(<Forestry:frameImpregnated>,[[<Forestry:oakStick>,<Forestry:oakStick>,<Forestry:oakStick>],[<Forestry:oakStick>,<ore:materialString>,<Forestry:oakStick>],[<Forestry:oakStick>,<Forestry:oakStick>,<Forestry:oakStick>]]);
 
+//bag
 <Forestry:apiaristBag>.addTooltip(format.green("holds bees"));
 recipes.removeShaped(<Forestry:apiaristBag>);
 recipes.addShaped(<Forestry:apiaristBag>,[[null,<ore:materialCloth>,null],[<terrafirmacraftplus:item.Strap>,<Forestry:apicultureChest>,<terrafirmacraftplus:item.Strap>],[null,<ore:materialCloth>,null]]);
@@ -190,6 +197,7 @@ recipes.removeShaped(<Forestry:adventurerBag>);
 recipes.addShaped(<Forestry:adventurerBag>,[[null,<ore:materialBurlap>,null],[<terrafirmacraftplus:item.Strap>,<ore:chestWood>,<terrafirmacraftplus:item.Strap>],[null,<ore:materialBurlap>,null]]);
 recipes.addShaped(<Forestry:adventurerBag>,[[null,<ore:materialCloth>,null],[<terrafirmacraftplus:item.Strap>,<ore:chestWood>,<terrafirmacraftplus:item.Strap>],[null,<ore:materialCloth>,null]]);
 
+//apiarist armor
 recipes.remove(<Forestry:apiaristChest>);
 recipes.remove(<Forestry:apiaristHelmet>);
 recipes.remove(<Forestry:apiaristLegs>);
@@ -199,9 +207,11 @@ recipes.addShaped(<Forestry:apiaristHelmet>,[[<ore:materialCloth>,<ore:materialC
 recipes.addShaped(<Forestry:apiaristLegs>,[[<ore:materialCloth>,<ore:materialCloth>,<ore:materialCloth>],[<ore:materialCloth>,null,<ore:materialCloth>],[<ore:materialCloth>,null,<ore:materialCloth>]]);
 recipes.addShaped(<Forestry:apiaristBoots>,[[<ore:materialCloth>,null,<ore:materialCloth>],[<ore:materialCloth>,null,<ore:materialCloth>]]);
 
+//forestry dynamos
 recipes.addShaped(<Forestry:engine:4>*2,[[<ImmersiveEngineering:metalDevice:9>,<Forestry:gearCopper>,<ore:treatedStick>]]);
 recipes.addShaped(<Forestry:engine:1>*2,[[<Forestry:gearBronze>,<ImmersiveEngineering:metalDevice:9>,<Forestry:gearBronze>],[<ore:stoneSmooth>,<terrafirmacraftplus:item.coal:1>,<ore:stoneSmooth>],[<ore:stoneSmooth>,<ore:stoneSmooth>,<ore:stoneSmooth>]]);
 
+//machines
 recipes.addShaped(<Forestry:factory>,[[<ImmersiveEngineering:metalDevice2:5>,<ImmersiveEngineering:metalDevice2:6>,<ImmersiveEngineering:metalDevice2:5>],[<ore:plankTreatedWood>,<terrafirmacraftplus:Barrel:*>,<ore:plankTreatedWood>]]);
 //carpenter
 recipes.addShapedMirrored(<Forestry:factory:1>,[[<terrafirmacraftplus:Loom:*>,<ImmersiveEngineering:metalDecoration:7>,<terrafirmacraftplus:item.Spindle>],[<ore:itemKnife>,<minecraft:piston>,<ore:itemSaw>],[<ore:plankTreatedWood>,<ImmersiveEngineering:metalDevice2:7>,<ore:plankTreatedWood>]]);
@@ -209,8 +219,9 @@ recipes.addShaped(<Forestry:factory:2>,[[<ore:bottleGlass>,<Forestry:gearBronze>
 recipes.addShaped(<Forestry:factory:5>,[[null,<minecraft:piston>,null],[<ore:plankTreatedWood>,<ore:stoneSmooth>,<ore:plankTreatedWood>],[<terrafirmacraftplus:Barrel:*>,<terrafirmacraftplus:StoneHopper:*>,<terrafirmacraftplus:Barrel:*>]]);
 recipes.addShaped(<Forestry:factory:6>,[[<ImmersiveEngineering:metalDevice2:7>,<ImmersiveEngineering:metalDevice2:5>,<ImmersiveEngineering:metalDevice2:7>],[<ore:stoneSmooth>,<ImmersiveEngineering:metalDevice:12>,<ore:stoneSmooth>]]);
 recipes.addShaped(<Forestry:factory2>,[[<terrafirmacraftplus:item.Steel Sheet>,<ImmersiveEngineering:metalDecoration:7>,<terrafirmacraftplus:item.Steel Sheet>],[<terrafirmacraftplus:item.Steel Sheet>,<ore:bottleGlass>,<terrafirmacraftplus:item.Steel Sheet>],[<ImmersiveEngineering:stoneDecoration:4>,<ImmersiveEngineering:metalDevice:12>,<ImmersiveEngineering:stoneDecoration:4>]]);
+
 //fermenter
-recipes.addShaped(<Forestry:factory:3>,[[null,<terrafirmacraftplus:Hopper>,null],[<ore:blockGlass>,<ore:blockGlass>,<ore:blockGlass>],[<terrafirmacraftplus:item.Steel Sheet>,<ImmersiveEngineering:metalDecoration:7>,<terrafirmacraftplus:item.Steel Sheet>]]);
+recipes.addShaped(<Forestry:factory:3>,[[null,<ore:blockHopper>,null],[<ore:blockGlass>,<ore:blockGlass>,<ore:blockGlass>],[<terrafirmacraftplus:item.Steel Sheet>,<ImmersiveEngineering:metalDecoration:7>,<terrafirmacraftplus:item.Steel Sheet>]]);
 
 //squeezer recipes
 mods.forestry.Squeezer.removeRecipe(<liquid:water>);
@@ -269,6 +280,7 @@ mods.forestry.Still.removeRecipe(<liquid:mead>);
 mods.forestry.Still.addRecipe(<liquid:freshwater> * 10, <liquid:saltwater> * 10, 100);
 mods.forestry.Still.addRecipe(<liquid:telocreosote> * 5, <liquid:pitch> * 10, 100);
 
+//alcohol
 var distilledAlcohols = [<liquid:tequila>, <liquid:barleywhiskey>, <liquid:vodka>, <liquid:berrybrandy>, <liquid:rum>, <liquid:fruitbrandy>, <liquid:applejack>,
 												 <liquid:cornwhiskey>, <liquid:datebrandy>, <liquid:lemonbrandy>, <liquid:honeybrandy>, <liquid:orangebrandy>, <liquid:papayabrandy>,
 												 <liquid:peachbrandy>, <liquid:plumbrandy>, <liquid:ricewhiskey>, <liquid:ryewhiskey>, <liquid:shochu>, <liquid:whiskey>, <liquid:brandy>, <liquid:figbrandy>] as ILiquidStack[];
@@ -304,8 +316,7 @@ mods.forestry.Carpenter.addRecipe(<terrafirmacraftplus:CandleOff>, [[<terrafirma
 //impregnated
 mods.forestry.Carpenter.addRecipe(<Forestry:oakStick>*2, [[<ore:plankWood>],[<ore:plankWood>]], <liquid:plantoil> * 100, 20);
 mods.forestry.Carpenter.addRecipe(<Forestry:oakStick>*2, [[<ore:plankWood>],[<ore:plankWood>]], <liquid:oliveoil> * 100, 20);
-mods.forestry.Carpenter.addRecipe(<Forestry:impregnatedCasing>, [[<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],[<ore:plankWood>,null,<ore:plankWood>],[<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]], <liquid:plantoil> * 250, 20);
-mods.forestry.Carpenter.addRecipe(<Forestry:impregnatedCasing>, [[<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],[<ore:plankWood>,null,<ore:plankWood>],[<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]], <liquid:oliveoil> * 250, 20);
+mods.forestry.Carpenter.addRecipe(<Forestry:impregnatedCasing>, [[<Forestry:oakStick>,<Forestry:oakStick>,<Forestry:oakStick>],[<Forestry:oakStick>,null,<Forestry:oakStick>],[<Forestry:oakStick>,<Forestry:oakStick>,<Forestry:oakStick>]], <liquid:pitch> * 250, 20);
 
 // paper automation
 mods.forestry.Carpenter.addRecipe(<Forestry:woodPulp>*2, [[<ore:smallLog>]], <liquid:freshwater> * 250, 20);
@@ -353,15 +364,6 @@ mods.forestry.ThermionicFabricator.removeSmelting(<minecraft:sand:*>);
 mods.forestry.ThermionicFabricator.removeSmelting(<minecraft:sandstone:*>);
 mods.forestry.ThermionicFabricator.removeSmelting(<minecraft:glass_pane:*>);
 mods.forestry.ThermionicFabricator.removeSmelting(<minecraft:glass:*>);
-
-mods.forestry.Fermenter.removeRecipe(<minecraft:reeds>);
-mods.forestry.Fermenter.removeRecipe(<minecraft:cactus>);
-mods.forestry.Fermenter.removeRecipe(<minecraft:sapling:*>);
-mods.forestry.Fermenter.removeRecipe(<minecraft:wheat>);
-mods.forestry.Fermenter.removeRecipe(<minecraft:potato>);
-mods.forestry.Fermenter.removeRecipe(<minecraft:brown_mushroom>);
-mods.forestry.Fermenter.removeRecipe(<minecraft:red_mushroom>);
-mods.forestry.Fermenter.removeRecipe(<Forestry:honeydew>);
 
 mods.forestry.Fermenter.removeFuel(<Forestry:mulch>);
 mods.forestry.Fermenter.removeFuel(<Forestry:fertilizerCompound>);
