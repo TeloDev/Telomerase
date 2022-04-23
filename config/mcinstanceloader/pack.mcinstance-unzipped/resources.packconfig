@@ -282,8 +282,8 @@ destination = mods/ModTweaker2-0.9.6-patched.jar
 
 [NotEnoughItems]
 type = url
-url = https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.11-GTNH/NotEnoughItems-1.7.10-2.2.11-GTNH.jar
-destination = mods/NotEnoughItems-1.7.10-2.2.11-GTNH.jar
+url = https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.12-GTNH/NotEnoughItems-1.7.10-2.2.12-GTNH.jar
+destination = mods/NotEnoughItems-1.7.10-2.2.12-GTNH.jar
 
 [NEI Addons]
 type = url
@@ -424,11 +424,9 @@ sourceFileName = hopperductmod-1.7.10-1.3.2.jar
 destination = mods/hopperductmod-1.7.10-1.3.2.jar
 
 [Immersive Engineering]
-type = curseforge
-projectId = 231951
-fileId = 2299019
-sourceFileName = ImmersiveEngineering-0.7.7.jar
-destination = mods/ImmersiveEngineering-0.7.7.jar
+type = url
+url = https://github.com/TeloDev/ImmersiveEngineering/releases/download/0.7.9/ImmersiveEngineering-1.7.10-0.7.9.jar
+destination = mods/ImmersiveEngineering-1.7.10-0.7.9.jar
 
 [Immersive Integration]
 type = curseforge

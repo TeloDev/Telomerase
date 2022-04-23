@@ -289,6 +289,7 @@ recipes.remove(<minecraft:gold_ingot>);
 <ore:materialLeather>.remove(<minecraft:leather>);
 <ore:itemClay>.remove(<minecraft:clay_ball>);
 <ore:lumpClay>.remove(<minecraft:clay_ball>);
+<ore:plankWood>.remove(<minecraft:planks:*>);
 recipes.remove(<minecraft:stick>);
 recipes.remove(<minecraft:bowl>);
 recipes.remove(<minecraft:mushroom_stew>);

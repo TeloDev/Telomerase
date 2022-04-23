@@ -3,7 +3,6 @@ import minetweaker.liquid.ILiquidStack;
 //# game.setLocalization("fluid.ethanol", "Deprotonated Ethanol");
 //# <ImmersiveEngineering:fluidContainers:4>.displayName = "Bottle of Deprotonated Ethanol";
 //# <ImmersiveEngineering:fluidContainers:5>.displayName = "Bucket of Deprotonated Ethanol";
-<ImmersiveEngineering:fluidContainers:*>.addTooltip(format.red("Please do not use this. It can crash your game!"));
 
 <ImmersiveEngineering:storage:8>.displayName = "LV Wire Coil Block";
 <ImmersiveEngineering:storage:9>.displayName = "MV Wire Coil Block";
