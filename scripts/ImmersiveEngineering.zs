@@ -74,14 +74,14 @@ recipes.removeShaped(<ImmersiveEngineering:stoneDecoration:2>, [[<ore:ingotBrick
 recipes.removeShapeless(<ImmersiveEngineering:blueprint>, [<terrafirmacraftplus:item.Blueprint>, <ImmersiveEngineering:bullet>]);
 recipes.removeShapeless(<ImmersiveEngineering:blueprint>, [<terrafirmacraftplus:item.Blueprint>, <ImmersiveEngineering:bullet>]);
 
-recipes.removeShaped(<ImmersiveEngineering:toolupgrade:7>, [[null, <ore:ingotSteel>, <ore:ingotSteel>], [<ImmersiveEngineering:metalDevice2:5>, <ImmersiveEngineering:metalDevice2:5>, <minecraft:hopper:*>], [null, <ore:ingotSteel>, <ore:ingotSteel>]]);
-recipes.removeShaped(<ImmersiveEngineering:toolupgrade:6>, [[null, <ore:blockGlass>, null], [<ore:blockGlass>, <ImmersiveEngineering:storage:9>, <ore:blockGlass>], [<ore:blockGlass>, <ImmersiveEngineering:storage:9>, <ore:blockGlass>]]);
-recipes.removeShaped(<ImmersiveEngineering:toolupgrade:5>, [[null, <ore:ingotCopper>, <ore:ingotSteel>], [<ore:ingotCopper>, null, <ore:ingotCopper>], [<ImmersiveEngineering:material:11>, <ore:ingotCopper>, null]]);
-recipes.removeShaped(<ImmersiveEngineering:toolupgrade:3>, [[<ImmersiveEngineering:material:11>, <ore:ingotSteel>, null], [<ore:ingotSteel>, <minecraft:bucket>, <ore:dyeRed>], [null, <ore:dyeRed>, <minecraft:bucket>]]);
-recipes.removeShaped(<ImmersiveEngineering:toolupgrade:2>, [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [null, <ImmersiveEngineering:material:12>, null]]);
-recipes.removeShaped(<ImmersiveEngineering:toolupgrade:1>, [[<ImmersiveEngineering:fluidContainers:3>, <ore:ingotIron>, null], [<ore:ingotIron>, <ImmersiveEngineering:fluidContainers:3>, <ore:ingotIron>], [null, <ore:ingotIron>, <ImmersiveEngineering:material:11>]]);
-recipes.removeShaped(<ImmersiveEngineering:toolupgrade:1>, [[<ImmersiveEngineering:fluidContainers:2>, <ore:ingotIron>, null], [<ore:ingotIron>, <ImmersiveEngineering:fluidContainers:2>, <ore:ingotIron>], [null, <ore:ingotIron>, <ImmersiveEngineering:material:11>]]);
-recipes.removeShaped(<ImmersiveEngineering:toolupgrade>, [[<minecraft:bucket>, <ore:dyeBlue>, null], [<ore:dyeBlue>, <minecraft:bucket>, <ore:dyeBlue>], [null, <ore:dyeBlue>, <ImmersiveEngineering:material:11>]]);
+recipes.remove(<ImmersiveEngineering:toolupgrade:7>);
+recipes.remove(<ImmersiveEngineering:toolupgrade:6>);
+recipes.remove(<ImmersiveEngineering:toolupgrade:5>);
+recipes.remove(<ImmersiveEngineering:toolupgrade:3>);
+recipes.remove(<ImmersiveEngineering:toolupgrade:2>);
+recipes.remove(<ImmersiveEngineering:toolupgrade:1>);
+recipes.remove(<ImmersiveEngineering:toolupgrade:1>);
+recipes.remove(<ImmersiveEngineering:toolupgrade>);
 
 mods.immersiveengineering.ArcFurnace.removeRecipe(<ImmersiveEngineering:metal:20>);
 mods.immersiveengineering.ArcFurnace.removeRecipe(<ImmersiveEngineering:metal:0>);
