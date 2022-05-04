@@ -1,10 +1,10 @@
-[Telomerase Core Mod]
+[TelomeraseCoreMod]
 type = url
 url = https://github.com/TeloDev/TelomeraseCoreMod/releases/download/2.6/TeloCoreMod-1.7.10-2.6.jar
-destination = mods/TeloCoreMod.jar
+destination = mods/TelomeraseCoreMod.jar
 side = client
 
-[It's the little things]
+[Itlt]
 type = curseforge
 projectId = 232791
 fileId = 3335234
@@ -19,7 +19,7 @@ url = https://optifine.net/adloadx?f=OptiFine_1.7.10_HD_U_E7.jar
 follows = OptiFine 1.7.10 HD U E7
 side = client
 
-[Custom Main Menu]
+[CustomMainMenu]
 type = curseforge
 projectId = 226406
 fileId = 2264779
@@ -27,7 +27,7 @@ sourceFileName = CustomMainMenu-MC1.7.10-1.9.2.jar
 destination = mods/CustomMainMenu.jar
 side = client
 
-[Telomerase Loading Screen]
+[TelomeraseLoadingScreen]
 type = url
 url = https://github.com/TeloDev/TelomeraseLoadingScreen/releases/download/1.2/TeloLoadingScreen-1.7.10-1.2.jar
 destination = mods/TelomeraseLoadingScreen.jar
@@ -37,7 +37,7 @@ side = client
 #Client Mods
 #------------------------------------------------------------------------------------------------------------------------
 
-[Damage Indicators]
+[DamageIndicators]
 type = curseforge
 projectId = 59489
 fileId = 2692129
@@ -45,7 +45,7 @@ sourceFileName = [1.7.10]DamageIndicatorsMod-3.3.2.jar
 destination = mods/DamageIndicators.jar
 side = client
 
-[Damage Tilt]
+[DamageTilt]
 type = curseforge
 projectId = 411705
 fileId = 3097543
@@ -53,7 +53,7 @@ sourceFileName = DamageTilt-1.7.10-0.1.0.jar
 destination = mods/DamageTilt.jar
 side = client
 
-[Flying Cullers]
+[FlyingCullers]
 type = curseforge
 projectId = 433524
 fileId = 3364996
@@ -61,7 +61,7 @@ sourceFileName = FlyingCullers-1.7.10-1.3.jar
 destination = mods/FlyingCullers.jar
 side = client
 
-[LanHostSkinRefixed]
+[LanHostSkinReFixed]
 type = curseforge
 projectId = 364836
 fileId = 2890211
@@ -93,7 +93,7 @@ sourceFileName = CraftPresence-Forge-1.7.10-Release-1.8.8.jar
 destination = mods/CraftPresence.jar
 side = client
 
-[oAuth]
+[OAuth]
 type = curseforge
 projectId = 513857
 fileId = 3458612
@@ -101,7 +101,7 @@ sourceFileName = oauth-1.06.1-1.7.10.jar
 destination = mods/OAuth.jar
 side = client
 
-[FPS Reducer]
+[FPSReducer]
 type = curseforge
 projectId = 280294
 fileId = 2627303
@@ -109,7 +109,7 @@ sourceFileName = FpsReducer-mc1.7.10-1.10.3.jar
 destination = mods/FpsReducer.jar
 side = client
 
-[Fullscreen Windowed]
+[FullscreenWindowed]
 type = curseforge
 projectId = 227441
 fileId = 2317743
@@ -117,7 +117,7 @@ sourceFileName = FullscreenWindowed-1.7.10-1.3.0b.jar
 destination = mods/FullscreenWindowed.jar
 side = client
 
-[Dynamic Surroundings]
+[DynamicSurroundings]
 type = curseforge
 projectId = 238891
 fileId = 2642381
@@ -171,7 +171,7 @@ sourceFileName = Controlling-1.7.10-1.0.0.jar
 destination = mods/Controlling.jar
 side = client
 
-[Sound Filters]
+[SoundFilters]
 type = curseforge
 projectId = 222789
 fileId = 2224003
@@ -185,19 +185,19 @@ url = https://github.com/GTNewHorizons/waila/releases/download/1.5.20/Waila-1.7.
 destination = mods/Waila.jar
 side = client
 
-[Waila Harvestibility]
+[WailaHarvestibility]
 type = url
 url = https://github.com/GTNewHorizons/WailaHarvestability/releases/download/1.1.10-GTNH/WailaHarvestability-1.7.10-1.1.10-GTNH.jar
 destination = mods/WailaHarvestability.jar
 side = client
 
-[Waila Plugins]
+[WAILAPlugins]
 type = url
 url = https://github.com/GTNewHorizons/WAILAPlugins/releases/download/0.2.5/WAILAPlugins-1.7.10-0.2.5.jar
 destination = mods/WAILAPlugins.jar
 side = client
 
-[ItemPhysic Lite]
+[ItemPhysic]
 type = curseforge
 projectId = 270441
 fileId = 2462371
@@ -217,35 +217,35 @@ fileId = 3755965
 sourceFileName = [1.7.10]TerraFirmaCraftPlus-0.88.3.jar
 destination = mods/TerraFirmaCraft+.jar
 
-[TFC+ Additions]
+[TFC+Additions]
 type = curseforge
 projectId = 442203
 fileId = 3204681
 sourceFileName = [1.7.10]TFC-Additions-1.7.10-1.0.8.jar
 destination = mods/TFC+Additions.jar
 
-[TFC+ Tweaker]
+[TFC+Tweaker]
 type = curseforge
 projectId = 420101
 fileId = 3206470
 sourceFileName = 1.7.10-TFCPlusTweaker-1.2.0.3.jar
 destination = mods/TFC+Tweaker.jar
 
-[TFC+ NEI]
+[TFC+NEI]
 type = curseforge
 projectId = 345516
 fileId = 3377679
 sourceFileName = TerraFirmaCraftPlusNEIplugin-1.7.10-1.8.0.jar
 destination = mods/TFC+NEI.jar
 
-[TFC+ Aesthetics]
+[TFC+Aesthetics]
 type = curseforge
 projectId = 574993
 fileId = 3657886
 sourceFileName = TFCPlusAesthetics-1.3.2.jar
 destination = mods/TFC+Aesthetics.jar
 
-[Telomerase Addon]
+[TelomeraseAddon]
 type = curseforge
 projectId = 423154
 fileId = 3641909
@@ -260,7 +260,7 @@ fileId = 2838720
 sourceFileName = CraftTweaker-1.7.10-3.1.0-legacy.jar
 destination = mods/CraftTweaker.jar
 
-[Immersive Engineering Blueprint Tweaker]
+[IEBPT]
 type = curseforge
 projectId = 585637
 fileId = 3671400
@@ -270,19 +270,19 @@ destination = mods/IEBPT.jar
 [ModTweaker]
 type = url
 url = https://github.com/DrParadox7/ModTweaker/releases/download/0.9.6/ModTweaker2-0.9.6-patched.jar
-destination = mods/ModTweaker2.jar
+destination = mods/ModTweaker.jar
 
 [NotEnoughItems]
 type = url
 url = https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.12-GTNH/NotEnoughItems-1.7.10-2.2.12-GTNH.jar
 destination = mods/NotEnoughItems.jar
 
-[NEI Addons]
+[NEIAddons]
 type = url
 url = https://github.com/GTNewHorizons/neiaddons/releases/download/1.12.19/NEIAddons-1.7.10-1.12.19.jar
 destination = mods/NEIAddons.jar
 
-[Default Keys]
+[DefaultKeys]
 type = curseforge
 projectId = 232131
 fileId = 2277197
@@ -297,11 +297,6 @@ destination = mods/DefaultKeys.jar
 type = url
 url = https://github.com/GTNewHorizons/CodeChickenCore/releases/download/1.1.5/CodeChickenCore-1.7.10-1.1.5.jar
 destination = mods/CodeChickenCore.jar
-
-[CodeChickenLib]
-type = url
-url = https://github.com/GTNewHorizons/CodeChickenLib/releases/download/1.1.5.3/CodeChickenLib-1.7.10-1.1.5.3.jar
-destination = mods/1.7.10/CodeChickenLib.jar
 
 [EnderCore]
 type = url
@@ -349,19 +344,19 @@ side = client
 #Content Mods
 #------------------------------------------------------------------------------------------------------------------------
 
-[Armourer's Workshop]
+[ArmourersWorkshop]
 type = curseforge
 projectId = 229523
 fileId = 3005075
 sourceFileName = Armourers-Workshop-1.7.10-0.48.5.jar
 destination = mods/ArmourersWorkshop.jar
 
-[Better Questing]
+[BetterQuesting]
 type = url
 url = https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.0.355-GTNH/BetterQuesting-1.7.10-3.0.355-GTNH.jar
 destination = mods/BetterQuesting.jar
 
-[Better Storage]
+[BetterStorage]
 type = curseforge
 projectId = 232919
 fileId = 2248061
@@ -375,14 +370,14 @@ fileId = 2423369
 sourceFileName = BiblioCraft[v1.11.7][MC1.7.10].jar
 destination = mods/BiblioCraft.jar
 
-[Big Reactors]
+[BigReactors]
 type = curseforge
 projectId = 241994
 fileId = 2282591
 sourceFileName = BigReactors-0.4.3A.jar
 destination = mods/BigReactors.jar
 
-[Carpenter's Blocks]
+[CarpentersBlocks]
 type = curseforge
 projectId = 228932
 fileId = 2719376
@@ -394,33 +389,33 @@ type = curseforge
 projectId = 301478
 fileId = 2747016
 sourceFileName = dakimakuramod-1.7.10-1.5.jar
-destination = mods/dakimakura.jar
+destination = mods/Dakimakura.jar
 
 [Forestry]
 type = url
 url = https://github.com/TeloDev/ForestryMC/releases/download/4.3.1/Forestry-1.7.10-4.3.1.jar
 destination = mods/Forestry.jar
 
-[GraveStone Mod]
+[Gravestone]
 type = curseforge
 projectId = 238551
 fileId = 2374232
 sourceFileName = GraveStone Mod 0.7.10.3.jar
 destination = mods/Gravestone.jar
 
-[Hopper Ducts]
+[HopperDucts]
 type = curseforge
 projectId = 72210
 fileId = 2211247
 sourceFileName = hopperductmod-1.7.10-1.3.2.jar
 destination = mods/HopperDucts.jar
 
-[Immersive Engineering]
+[ImmersiveEngineering]
 type = url
 url = https://github.com/TeloDev/ImmersiveEngineering/releases/download/0.7.9/ImmersiveEngineering-1.7.10-0.7.9.jar
 destination = mods/ImmersiveEngineering.jar
 
-[Immersive Integration]
+[ImmersiveIntegration]
 type = curseforge
 projectId = 232159
 fileId = 2289306
@@ -434,41 +429,41 @@ fileId = 2280761
 sourceFileName = Morpheus-1.7.10-1.6.21.jar
 destination = mods/Morpheus.jar
 
-[Open Blocks]
+[OpenBlocks]
 type = url
 url = https://github.com/GTNewHorizons/OpenBlocks/releases/download/1.6.8-GTNH/OpenBlocks-1.7.10-1.6.8-GTNH.jar
 destination = mods/OpenBlocks.jar
 
-[Piston Everything]
+[PistonEverything]
 type = curseforge
 projectId = 79038
 fileId = 2209728
 sourceFileName = PistonEverything-mc1.7.X-1.0.4.jar
 destination = mods/PistonEverything.jar
 
-[Pistronics 2]
+[Pistronics]
 type = url
 url = https://github.com/TeloDev/TelomeraseFiles/releases/download/1.5/Pistronics2-1.7.10-0.6.4-patched.jar
-destination = mods/Pistronics2.jar
+destination = mods/Pistronics.jar
 
-[Redstone Paste]
+[RedstonePaste]
 type = curseforge
 projectId = 67508
 fileId = 2211249
 sourceFileName = RedstonePasteMod-1.7.10-1.6.2.jar
 destination = mods/RedstonePaste.jar
 
-[Better Questing Book]
+[BetterQuesting Book]
 type = url
 url = https://github.com/GTNewHorizons/QuestBook/releases/download/2.1.3-GTNH/questbook-1.7.10-2.1.3-GTNH.jar
 destination = mods/BetterQuesting Book.jar
 
-[Storage Drawers]
+[StorageDrawers]
 type = url
 url = https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.13-GTNH/StorageDrawers-1.7.10-1.11.13-GTNH.jar
 destination = mods/StorageDrawers.jar
 
-[Ships Mod]
+[ShipsMod]
 type = curseforge
 projectId = 226731
 fileId = 2254977
