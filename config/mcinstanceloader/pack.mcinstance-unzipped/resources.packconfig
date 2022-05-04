@@ -301,7 +301,7 @@ destination = mods/CodeChickenCore-1.7.10-1.1.5.jar
 [CodeChickenLib]
 type = url
 url = https://github.com/GTNewHorizons/CodeChickenLib/releases/download/1.1.5.3/CodeChickenLib-1.7.10-1.1.5.3.jar
-destination = mods/1.7.10/CodeChickenLib.jar
+destination = mods/1.7.10/CodeChickenLib-1.7.10-1.1.5.3.jar
 
 [EnderCore]
 type = url
