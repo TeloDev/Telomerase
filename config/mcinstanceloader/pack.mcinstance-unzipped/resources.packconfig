@@ -37,7 +37,7 @@ side = client
 #Client Mods
 #------------------------------------------------------------------------------------------------------------------------
 
-[DamageIndicators]
+[Damage Indicators]
 type = curseforge
 projectId = 59489
 fileId = 2692129
@@ -45,7 +45,7 @@ sourceFileName = [1.7.10]DamageIndicatorsMod-3.3.2.jar
 destination = mods/[1.7.10]DamageIndicatorsMod-3.3.2.jar
 side = client
 
-[DamageTilt]
+[Damage Tilt]
 type = curseforge
 projectId = 411705
 fileId = 3097543
@@ -53,7 +53,7 @@ sourceFileName = DamageTilt-1.7.10-0.1.0.jar
 destination = mods/DamageTilt-1.7.10-0.1.0.jar
 side = client
 
-[FlyingCullers]
+[Flying Cullers]
 type = curseforge
 projectId = 433524
 fileId = 3364996
@@ -101,7 +101,7 @@ sourceFileName = oauth-1.06.1-1.7.10.jar
 destination = mods/oauth-1.06.1-1.7.10.jar
 side = client
 
-[FPSReducer]
+[FPS Reducer]
 type = curseforge
 projectId = 280294
 fileId = 2627303
@@ -109,7 +109,7 @@ sourceFileName = FpsReducer-mc1.7.10-1.10.3.jar
 destination = mods/FpsReducer-mc1.7.10-1.10.3.jar
 side = client
 
-[FullscreenWindowed]
+[Fullscreen Windowed]
 type = curseforge
 projectId = 227441
 fileId = 2317743
@@ -117,7 +117,7 @@ sourceFileName = FullscreenWindowed-1.7.10-1.3.0b.jar
 destination = mods/FullscreenWindowed-1.7.10-1.3.0b.jar
 side = client
 
-[DynamicSurroundings]
+[Dynamic Surroundings]
 type = curseforge
 projectId = 238891
 fileId = 2642381
@@ -171,7 +171,7 @@ sourceFileName = Controlling-1.7.10-1.0.0.jar
 destination = mods/Controlling-1.7.10-1.0.0.jar
 side = client
 
-[SoundFilters]
+[Sound Filters]
 type = curseforge
 projectId = 222789
 fileId = 2224003
@@ -185,19 +185,19 @@ url = https://github.com/GTNewHorizons/waila/releases/download/1.5.20/Waila-1.7.
 destination = mods/Waila-1.7.10-1.5.20.jar
 side = client
 
-[WailaHarvestibility]
+[Waila Harvestibility]
 type = url
 url = https://github.com/GTNewHorizons/WailaHarvestability/releases/download/1.1.10-GTNH/WailaHarvestability-1.7.10-1.1.10-GTNH.jar
 destination = mods/WailaHarvestability-1.7.10-1.1.10-GTNH.jar
 side = client
 
-[WAILAPlugins]
+[WAILA Plugins]
 type = url
 url = https://github.com/GTNewHorizons/WAILAPlugins/releases/download/0.2.5/WAILAPlugins-1.7.10-0.2.5.jar
 destination = mods/WAILAPlugins-1.7.10-0.2.5.jar
 side = client
 
-[ItemPhysic]
+[Item Physic Lite]
 type = curseforge
 projectId = 270441
 fileId = 2462371
