@@ -7,6 +7,6 @@ terrafirmacraftplus:[
     {hide:[[item.Ore],[302,303,305,306,307,309,313,314,317]]};
     {keep:[[Clay,Grass,ClayGrass,DryGrass,tilledSoil],[0]]};
     {keep:[[item.Mud*],[0,32]]};
-    {show:[[item.Oak*],[]]};
+    {show:[[item.Oak*,Forge,Firepit],[]]};
 ]
 }

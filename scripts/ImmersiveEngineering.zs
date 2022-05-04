@@ -248,7 +248,7 @@ game.setLocalization("gui.plans.revolverdrum", "Revolver Drum");
 mods.Terrafirmacraft.Anvil.addPlanRecipe("revolverdrum", 21, 30, 19);
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ImmersiveEngineering:material:8>, <terrafirmacraftplus:item.Steel Ingot>, "revolverdrum", 4);
 
-recipes.removeShaped(<ImmersiveEngineering:material:7>, [[<ore:ingotSteel>], [<ore:ingotSteel>], [<ore:ingotSteel>]]);
+recipes.removeShaped(<ImmersiveEngineering:material:7>);
 game.setLocalization("gui.plans.revolverbarrel", "Revolver Barrel");
 mods.Terrafirmacraft.Anvil.addPlanRecipe("revolverbarrel", 3, 6, 1);
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ImmersiveEngineering:material:7>, <terrafirmacraftplus:item.Black Steel Sheet>, "revolverbarrel", 4);
@@ -262,8 +262,7 @@ recipes.removeShaped(<ImmersiveEngineering:bullet:1>, [[<minecraft:paper>, <ore:
 recipes.removeShaped(<ImmersiveEngineering:drillhead>, [[<ore:ingotSteel>, <ore:ingotSteel>, null], [<ore:blockSteel>, <ore:blockSteel>, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:ingotSteel>, null]]);
 recipes.removeShaped(<ImmersiveEngineering:drillhead:1>, [[<ore:ingotIron>, <ore:ingotIron>, null], [<ore:blockIron>, <ore:blockIron>, <ore:ingotIron>], [<ore:ingotIron>, <ore:ingotIron>, null]]);
 recipes.removeShaped(<ImmersiveEngineering:drill>, [[null, null, <ImmersiveEngineering:material:9>], [null, <ImmersiveEngineering:metalDecoration:5>, <ImmersiveEngineering:material:9>], [<ImmersiveEngineering:material:12>, null, null]]);
-
-recipes.addShapeless(<ImmersiveEngineering:bullet:2>, [<ImmersiveEngineering:metal:24>, <minecraft:gunpowder>,<ImmersiveEngineering:bullet>]);
+recipes.removeShaped(<ImmersiveEngineering:bullet>);
 
 //Bayonet (does vanilla damage)
 recipes.removeShaped(<ImmersiveEngineering:toolupgrade:4>, [[<minecraft:iron_sword>, <ore:ingotSteel>], [<ore:ingotSteel>, <ore:plankTreatedWood>]]);
@@ -322,19 +321,19 @@ mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ImmersiveEngineering:mold:2>, <terraf
 recipes.removeShaped(<ImmersiveEngineering:coil>);
 game.setLocalization("gui.plans.lvwirecoil", "LV Wire Coil");
 mods.Terrafirmacraft.Anvil.addPlanRecipe("lvwirecoil", 9, 1, 1);
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ImmersiveEngineering:coil>*8, <terrafirmacraftplus:item.Copper Ingot>, <terrafirmacraftplus:item.stick>,"lvwirecoil", 1);
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ImmersiveEngineering:coil>*4, <terrafirmacraftplus:item.Copper Ingot>, <terrafirmacraftplus:item.stick>,"lvwirecoil", 1);
 
 #MV wire
 recipes.removeShaped(<ImmersiveEngineering:coil:1>);
 game.setLocalization("gui.plans.mvwirecoil", "MV Wire Coil");
 mods.Terrafirmacraft.Anvil.addPlanRecipe("mvwirecoil", 9, 1, 1);
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ImmersiveEngineering:coil:1>*8, <terrafirmacraftplus:item.Rose Gold Ingot>, <terrafirmacraftplus:item.stick>,"mvwirecoil", 2);
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ImmersiveEngineering:coil:1>*4, <terrafirmacraftplus:item.Rose Gold Ingot>, <terrafirmacraftplus:item.stick>,"mvwirecoil", 2);
 
 #HV wire
 recipes.removeShaped(<ImmersiveEngineering:coil:2>);
 game.setLocalization("gui.plans.hvwirecoil", "HV Wire Coil");
 mods.Terrafirmacraft.Anvil.addPlanRecipe("hvwirecoil", 9, 1, 1);
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ImmersiveEngineering:coil:2>*8, <terrafirmacraftplus:item.Black Steel Ingot>,<terrafirmacraftplus:item.stick>,"hvwirecoil", 4);
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ImmersiveEngineering:coil:2>*4, <terrafirmacraftplus:item.Black Steel Ingot>,<terrafirmacraftplus:item.stick>,"hvwirecoil", 4);
 
 #Hemp wire
 recipes.removeShaped(<ImmersiveEngineering:coil:3>);
@@ -710,6 +709,36 @@ mods.immersiveengineering.CokeOven.addRecipe(<terrafirmacraftplus:item.Powder:2>
 //reinforced blast brick
 recipes.removeShapeless(<ImmersiveEngineering:stoneDecoration:6>, [<ImmersiveEngineering:stoneDecoration:2>, <ore:plateSteel>]);
 recipes.removeShaped(<ImmersiveEngineering:metalDevice2:11>, [[<ImmersiveEngineering:metalDecoration:10>, null], [<ImmersiveEngineering:metalDecoration:10>, null], [<ImmersiveEngineering:metalDevice:12>, <ImmersiveEngineering:metalDevice2:5>]]);
+
+//blast furnace
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Mold:1>, <terrafirmacraftplus:item.Mold>, 600);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Spindle Head:1>, <terrafirmacraftplus:item.Spindle Head>, 500);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Jug:1>, <terrafirmacraftplus:item.Jug>, 500);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Clay Tile:1>, <terrafirmacraftplus:item.Clay Tile>, 500);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Ceramic Bucket Empty:1>, <terrafirmacraftplus:item.Unfired Clay Bucket>, 500);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Small Vessel:1>, <terrafirmacraftplus:item.Small Vessel>, 500);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:Vessel:1>, <terrafirmacraftplus:Vessel>, 500);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Sheet Mold:1>, <terrafirmacraftplus:item.Sheet Mold>, 500);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Bullet Mold:1>, <terrafirmacraftplus:item.Bullet Mold>, 500);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Candle Holder Mold:1>, <terrafirmacraftplus:item.Candle Holder Mold>, 500);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.2x Candle Holder Mold:1>, <terrafirmacraftplus:item.2x Candle Holder Mold>, 500);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.3x Candle Holder Mold:1>, <terrafirmacraftplus:item.3x Candle Holder Mold>, 500);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Blowpipe:1>, <terrafirmacraftplus:item.Blowpipe>, 500);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Chisel Mold:1>, <terrafirmacraftplus:item.Chisel Mold>, 500);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Hammer Mold:1>, <terrafirmacraftplus:item.Hammer Mold>, 500);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Hoe Mold:1>, <terrafirmacraftplus:item.Hoe Mold>, 500);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Knife Mold:1>, <terrafirmacraftplus:item.Knife Mold>, 500);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Mace Mold:1>, <terrafirmacraftplus:item.Mace Mold>, 500);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Pick Mold:1>, <terrafirmacraftplus:item.Pick Mold>, 500);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.ProPick Mold:1>, <terrafirmacraftplus:item.ProPick Mold>, 500);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Trowel Mold:1>, <terrafirmacraftplus:item.Trowel Mold>, 500);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Saw Mold:1>, <terrafirmacraftplus:item.Saw Mold>, 500);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Scythe Mold:1>, <terrafirmacraftplus:item.Scythe Mold>, 500);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Shovel Mold:1>, <terrafirmacraftplus:item.Shovel Mold>, 500);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Sword Mold:1>, <terrafirmacraftplus:item.Sword Mold>, 500);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Javelin Mold:1>, <terrafirmacraftplus:item.Javelin Mold>, 500);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Fire Brick:1>, <terrafirmacraftplus:item.Fire Brick>, 500);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Brick:1>, <terrafirmacraftplus:item.Brick>, 500);
 
 //floodlight
 recipes.removeShaped(<ImmersiveEngineering:metalDevice2:4>);
