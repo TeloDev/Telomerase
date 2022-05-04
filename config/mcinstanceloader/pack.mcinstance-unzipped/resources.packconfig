@@ -349,7 +349,7 @@ type = curseforge
 projectId = 229523
 fileId = 3005075
 sourceFileName = Armourers-Workshop-1.7.10-0.48.5.jar
-destination = mods/ArmourersWorkshop.jar
+destination = mods/Armourers-Workshop-1.7.10-0.48.5.jar
 
 [BetterQuesting]
 type = url
@@ -389,7 +389,7 @@ type = curseforge
 projectId = 301478
 fileId = 2747016
 sourceFileName = dakimakuramod-1.7.10-1.5.jar
-destination = mods/Dakimakura.jar
+destination = mods/dakimakuramod-1.7.10-1.5.jar
 
 [Forestry]
 type = url
