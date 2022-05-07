@@ -66,3 +66,12 @@ recipes.addShapedMirrored(<Pistronics2:Spade>,[[<Pistronics2:Rod Block>, <terraf
 //the tool
 recipes.remove(<Pistronics2:The Tool>);
 recipes.addShaped(<Pistronics2:The Tool>, [[<Pistronics2:Rod Block>, <ore:ingotIron>, <Pistronics2:Rod Block>], [<ore:treatedStick>, <terrafirmacraftplus:item.WoodGear:18>, <ore:treatedStick>]]);
+
+/*
+var tags = [{comp: 0, redio: 0 as byte, camouID: -1, camou: 0 as byte, camouMeta: 0, super_sticky: 0 as byte, sticky: 0 as byte, redstone: 1 as byte}] as IData;
+
+recipes.addShapeless(<Pistronics2:Extension Block>, [<Pistronics2:Extension Block>.marked("mark"), <minecraft:redstone>],
+function(out, ins, cInfo) {
+  return out.withTag(ins.mark.tag).updateTag({redstone: 1 as byte});
+});
+*/
