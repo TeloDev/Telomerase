@@ -1,4 +1,4 @@
 #Tips for the loading screen
 #Maximal characters for a tip: 77 (more can go out of the screen)
 #The line below, including the "#" are 77 chars
-WIP Tips
+IMPORTANT: Before updating the pack don't forget to delete the "mods" folder.

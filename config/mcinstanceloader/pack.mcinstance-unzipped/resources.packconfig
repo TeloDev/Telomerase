@@ -1,4 +1,4 @@
-[Telomerase Core Mod]
+[Telo Core Mod]
 type = url
 url = https://github.com/TeloDev/TelomeraseCoreMod/releases/download/2.6/TeloCoreMod-1.7.10-2.6.jar
 destination = mods/TeloCoreMod-1.7.10-2.6.jar
@@ -14,9 +14,9 @@ side = client
 
 [OptiFine]
 type = url
-destination = mods/OptiFine_1.7.10_HD_U_E7.jar
 url = https://optifine.net/adloadx?f=OptiFine_1.7.10_HD_U_E7.jar
 follows = OptiFine 1.7.10 HD U E7
+destination = mods/OptiFine_1.7.10_HD_U_E7.jar
 side = client
 
 [Custom Main Menu]
@@ -27,7 +27,7 @@ sourceFileName = CustomMainMenu-MC1.7.10-1.9.2.jar
 destination = mods/CustomMainMenu-MC1.7.10-1.9.2.jar
 side = client
 
-[Telomerase Loading Screen]
+[Telo Loading Screen]
 type = url
 url = https://github.com/TeloDev/TelomeraseLoadingScreen/releases/download/1.2/TeloLoadingScreen-1.7.10-1.2.jar
 destination = mods/TeloLoadingScreen-1.7.10-1.2.jar
@@ -61,15 +61,7 @@ sourceFileName = FlyingCullers-1.7.10-1.3.jar
 destination = mods/FlyingCullers-1.7.10-1.3.jar
 side = client
 
-[Pick Block Plus]
-type = curseforge
-projectId = 242943
-fileId = 2295202
-sourceFileName = PickBlockPlus-1.7.10-1.1.1.jar
-destination = mods/PickBlockPlus-1.7.10-1.1.1.jar
-side = client
-
-[LanHostSkinRefixed]
+[LanHostSkinReFixed]
 type = curseforge
 projectId = 364836
 fileId = 2890211
@@ -101,7 +93,7 @@ sourceFileName = CraftPresence-Forge-1.7.10-Release-1.8.8.jar
 destination = mods/CraftPresence-Forge-1.7.10-Release-1.8.8.jar
 side = client
 
-[oAuth]
+[OAuth]
 type = curseforge
 projectId = 513857
 fileId = 3458612
@@ -199,13 +191,13 @@ url = https://github.com/GTNewHorizons/WailaHarvestability/releases/download/1.1
 destination = mods/WailaHarvestability-1.7.10-1.1.10-GTNH.jar
 side = client
 
-[Waila Plugins]
+[WAILA Plugins]
 type = url
 url = https://github.com/GTNewHorizons/WAILAPlugins/releases/download/0.2.5/WAILAPlugins-1.7.10-0.2.5.jar
 destination = mods/WAILAPlugins-1.7.10-0.2.5.jar
 side = client
 
-[ItemPhysic Lite]
+[Item Physic Lite]
 type = curseforge
 projectId = 270441
 fileId = 2462371
@@ -221,37 +213,37 @@ side = client
 [TerraFirmaCraft+]
 type = curseforge
 projectId = 287053
-fileId = 3755965
-sourceFileName = [1.7.10]TerraFirmaCraftPlus-0.88.3.jar
-destination = mods/[1.7.10]TerraFirmaCraftPlus-0.88.3.jar
+fileId = 3779225
+sourceFileName = [1.7.10]TerraFirmaCraftPlus-0.89.1.jar
+destination = mods/[1.7.10]TerraFirmaCraftPlus-0.89.1.jar
 
-[TFC+ Additions]
+[TFC+Additions]
 type = curseforge
 projectId = 442203
 fileId = 3204681
 sourceFileName = [1.7.10]TFC-Additions-1.7.10-1.0.8.jar
 destination = mods/[1.7.10]TFC-Additions-1.7.10-1.0.8.jar
 
-[TFC+ Tweaker]
+[TFC+Tweaker]
 type = curseforge
 projectId = 420101
 fileId = 3206470
 sourceFileName = 1.7.10-TFCPlusTweaker-1.2.0.3.jar
 destination = mods/1.7.10-TFCPlusTweaker-1.2.0.3.jar
 
-[TFC+ NEI]
+[TFC+NEI]
 type = curseforge
 projectId = 345516
 fileId = 3377679
 sourceFileName = TerraFirmaCraftPlusNEIplugin-1.7.10-1.8.0.jar
 destination = mods/TerraFirmaCraftPlusNEIplugin-1.7.10-1.8.0.jar
 
-[TFC+ Aesthetics]
+[TFC+Aesthetics]
 type = curseforge
 projectId = 574993
-fileId = 3657886
-sourceFileName = TFCPlusAesthetics-1.3.2.jar
-destination = mods/TFCPlusAesthetics-1.3.2.jar
+fileId = 3781335
+sourceFileName = TFCPlusAesthetics-1.3.3.jar
+destination = mods/TFCPlusAesthetics-1.3.3.jar
 
 [Telomerase Addon]
 type = curseforge
@@ -268,7 +260,7 @@ fileId = 2838720
 sourceFileName = CraftTweaker-1.7.10-3.1.0-legacy.jar
 destination = mods/CraftTweaker-1.7.10-3.1.0-legacy.jar
 
-[Immersive Engineering Blueprint Tweaker]
+[IEBPT]
 type = curseforge
 projectId = 585637
 fileId = 3671400
@@ -282,21 +274,15 @@ destination = mods/ModTweaker2-0.9.6-patched.jar
 
 [NotEnoughItems]
 type = url
-url = https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.11-GTNH/NotEnoughItems-1.7.10-2.2.11-GTNH.jar
-destination = mods/NotEnoughItems-1.7.10-2.2.11-GTNH.jar
+url = https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.12-GTNH/NotEnoughItems-1.7.10-2.2.12-GTNH.jar
+destination = mods/NotEnoughItems-1.7.10-2.2.12-GTNH.jar
 
 [NEI Addons]
 type = url
 url = https://github.com/GTNewHorizons/neiaddons/releases/download/1.12.19/NEIAddons-1.7.10-1.12.19.jar
 destination = mods/NEIAddons-1.7.10-1.12.19.jar
 
-[LunatriusCore]
-type = url
-url = https://github.com/GTNewHorizons/LunatriusCore/releases/download/1.1.6-GTNH/LunatriusCore-1.7.10-1.1.6-GTNH.jar
-destination = mods/LunatriusCore-1.7.10-1.1.6-GTNH.jar
-side = client
-
-[Default Keys]
+[Default Options]
 type = curseforge
 projectId = 232131
 fileId = 2277197
@@ -329,7 +315,7 @@ fileId = 2278984
 sourceFileName = Bookshelf-1.7.10-1.0.4.187.jar
 destination = mods/Bookshelf-1.7.10-1.0.4.187.jar
 
-[CoFHCore]
+[CoFH Core]
 type = curseforge
 projectId = 69162
 fileId = 2388750
@@ -348,10 +334,16 @@ type = url
 url = https://github.com/GTNewHorizons/OpenModsLib/releases/download/0.10.6/OpenModsLibs-1.7.10-0.10.6.jar
 destination = mods/OpenModsLibs-1.7.10-0.10.6.jar
 
-[SpongeMixins]
+[Mixin]
 type = url
 url = https://github.com/DrParadox7/SpongeMixins/releases/download/1.5.0/SpongeMixins-1.5.0.jar
 destination = mods/SpongeMixins-1.5.0.jar
+
+[LunatriusCore]
+type = url
+url = https://github.com/GTNewHorizons/LunatriusCore/releases/download/1.1.6-GTNH/LunatriusCore-1.7.10-1.1.6-GTNH.jar
+destination = mods/LunatriusCore-1.7.10-1.1.6-GTNH.jar
+side = client
 
 #------------------------------------------------------------------------------------------------------------------------
 #Content Mods
@@ -424,11 +416,9 @@ sourceFileName = hopperductmod-1.7.10-1.3.2.jar
 destination = mods/hopperductmod-1.7.10-1.3.2.jar
 
 [Immersive Engineering]
-type = curseforge
-projectId = 231951
-fileId = 2299019
-sourceFileName = ImmersiveEngineering-0.7.7.jar
-destination = mods/ImmersiveEngineering-0.7.7.jar
+type = url
+url = https://github.com/TeloDev/ImmersiveEngineering/releases/download/0.7.9/ImmersiveEngineering-1.7.10-0.7.9.jar
+destination = mods/ImmersiveEngineering-1.7.10-0.7.9.jar
 
 [Immersive Integration]
 type = curseforge
@@ -444,7 +434,7 @@ fileId = 2280761
 sourceFileName = Morpheus-1.7.10-1.6.21.jar
 destination = mods/Morpheus-1.7.10-1.6.21.jar
 
-[Open Blocks]
+[OpenBlocks]
 type = url
 url = https://github.com/GTNewHorizons/OpenBlocks/releases/download/1.6.8-GTNH/OpenBlocks-1.7.10-1.6.8-GTNH.jar
 destination = mods/OpenBlocks-1.7.10-1.6.8-GTNH.jar
@@ -458,7 +448,7 @@ destination = mods/PistonEverything-mc1.7.X-1.0.4.jar
 
 [Pistronics 2]
 type = url
-url = https://github.com/TeloDev/TelomeraseFiles/releases/download/1.3/Pistronics2-1.7.10-0.6.4-patched.jar
+url = https://github.com/TeloDev/TelomeraseFiles/releases/download/1.5/Pistronics2-1.7.10-0.6.4-patched.jar
 destination = mods/Pistronics2-1.7.10-0.6.4-patched.jar
 
 [Redstone Paste]
@@ -468,7 +458,7 @@ fileId = 2211249
 sourceFileName = RedstonePasteMod-1.7.10-1.6.2.jar
 destination = mods/RedstonePasteMod-1.7.10-1.6.2.jar
 
-[Better Questing Book]
+[Better Questing - Quest Book]
 type = url
 url = https://github.com/GTNewHorizons/QuestBook/releases/download/2.1.3-GTNH/questbook-1.7.10-2.1.3-GTNH.jar
 destination = mods/questbook-1.7.10-2.1.3-GTNH.jar
@@ -485,12 +475,12 @@ fileId = 2254977
 sourceFileName = shipsMod-v1.7.10-1.0.4.jar
 destination = mods/shipsMod-v1.7.10-1.0.4.jar
 
-[Better Questing SE]
+[Better Questing - Standard Expansion]
 type = url
 url = https://github.com/GTNewHorizons/StandardQuestingPack/releases/download/3.0.190-GTNH/StandardExpansion-1.7.10-3.0.190-GTNH.jar
 destination = mods/StandardExpansion-1.7.10-3.0.190-GTNH.jar
 
-[Dummy Damage]
+[MmmMmmMmmMmm]
 type = curseforge
 projectId = 225738
 fileId = 2265493
@@ -508,7 +498,7 @@ fileId = 2252676
 sourceFileName = AIImprovements-1.7.10-0.0.1b19-dev.jar
 destination = mods/AIImprovements-1.7.10-0.0.1b19-dev.jar
 
-[MobSpawningFix]
+[Mob Spawning Fix]
 type = curseforge
 projectId = 523867
 fileId = 3450199
@@ -555,14 +545,14 @@ destination = mods/BetterBoat-1.7.10-1.1.0.jar
 type = curseforge
 projectId = 401494
 fileId = 3613004
-destination = resourcepacks/Vanilla+Themed+TFC+v0.5.0.zip
+destination = resourcepacks/VanillaThemedTFC.zip
 
 [MATmos Default Soundpack]
 type = url
-url = https://github.com/TeloDev/TelomeraseFiles/releases/download/1.3/matdefault2016.zip
+url = https://github.com/TeloDev/TelomeraseResources/raw/main/matdefault2016.zip
 destination = resourcepacks/matdefault2016.zip
 
 [Telomerase Resources]
 type = url
-url = https://github.com/TeloDev/TelomeraseResources/releases/download/1.4/TelomeraseResources.zip
+url = https://github.com/TeloDev/TelomeraseResources/raw/main/TelomeraseResources.zip
 destination = resourcepacks/TelomeraseResources.zip
