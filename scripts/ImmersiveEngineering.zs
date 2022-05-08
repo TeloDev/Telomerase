@@ -499,9 +499,14 @@ val sheetColoredSteel = <ore:sheetColoredSteel>;
 sheetColoredSteel.add(<terrafirmacraftplus:item.Blue Steel Sheet>);
 sheetColoredSteel.add(<terrafirmacraftplus:item.Red Steel Sheet>);
 
+val ingotColoredSteel = <ore:ingotColoredSteel>;
+
+ingotColoredSteel.add(<terrafirmacraftplus:item.Blue Steel Ingot>);
+ingotColoredSteel.add(<terrafirmacraftplus:item.Red Steel Ingot>);
+
 //thermoelectric
 recipes.removeShaped(<ImmersiveEngineering:metalDevice:10>, [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>], [<ore:plateConstantan>, <ImmersiveEngineering:storage:8>, <ore:plateConstantan>], [<ore:plateConstantan>, <ore:plateConstantan>, <ore:plateConstantan>]]);
-recipes.addShaped(<ImmersiveEngineering:metalDevice:10>, [[null, <terrafirmacraftplus:item.Steel Sheet>, null], [<terrafirmacraftplus:item.Bismuth Sheet>, <ImmersiveEngineering:storage:8>, <terrafirmacraftplus:item.Copper Sheet>],[null,<ore:sheetColoredSteel>,null]]);
+recipes.addShaped(<ImmersiveEngineering:metalDevice:10>, [[null, <terrafirmacraftplus:item.Steel Sheet>, null], [<terrafirmacraftplus:item.Bismuth Sheet>, <ImmersiveEngineering:storage:8>, <terrafirmacraftplus:item.Copper Sheet>],[null,<terrafirmacraftplus:item.Blue Steel Sheet>,null]]);
 
 //coke brick
 recipes.removeShaped(<ImmersiveEngineering:stoneDecoration:1>, [[<minecraft:clay_ball>, <ore:ingotBrick>, <minecraft:clay_ball>], [<ore:ingotBrick>, <ore:sandstone>, <ore:ingotBrick>], [<minecraft:clay_ball>, <ore:ingotBrick>, <minecraft:clay_ball>]]);
@@ -509,7 +514,7 @@ recipes.addShaped(<ImmersiveEngineering:stoneDecoration:1>*4, [[<terrafirmacraft
 
 //kinetic dynamo
 recipes.removeShaped(<ImmersiveEngineering:metalDevice:9>, [[<ore:dustRedstone>, <ImmersiveEngineering:storage:8>, <ore:dustRedstone>], [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
-recipes.addShaped(<ImmersiveEngineering:metalDevice:9>, [[<ore:sheetColoredSteel>],[<ImmersiveEngineering:storage:8>], [<ImmersiveEngineering:material:11>]]);
+recipes.addShaped(<ImmersiveEngineering:metalDevice:9>, [[ingotColoredSteel],[<ImmersiveEngineering:storage:8>], [<ImmersiveEngineering:material:11>]]);
 
 // conveyor belt
 recipes.removeShaped(<ImmersiveEngineering:metalDevice:11>, [[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>], [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
