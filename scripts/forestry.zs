@@ -232,7 +232,6 @@ recipes.addShapeless(<teloaddon:Oily_Mash>,[<ore:itemHammer>.transformDamage(),<
 recipes.addShapeless(<teloaddon:Oily_Mash>,[<ore:itemHammer>.transformDamage(),<terrafirmacraftplus:item.CoconutMeat>.onlyWithTag({foodWeight: 160.0 as float})]);
 recipes.addShapeless(<teloaddon:Oily_Mash>,[<ore:itemHammer>.transformDamage(),<terrafirmacraftplus:item.Soybeans>.onlyWithTag({foodWeight: 160.0 as float})]);
 mods.forestry.Squeezer.addRecipe(<liquid:plantoil> * 3000, 200, [<teloaddon:Oily_Mash>]);
-mods.forestry.Squeezer.addRecipe(<liquid:agavejuice> * 40, <terrafirmacraftplus:item.Sisal Fibre>, [<terrafirmacraftplus:item.Agave>], 20);
 mods.forestry.Squeezer.addRecipe(<liquid:wax> * 300, <Forestry:propolis> % 5, [<terrafirmacraftplus:item.EmptyHoneycomb>], 20);
 mods.forestry.Squeezer.removeRecipe(<liquid:for.honey>);
 mods.forestry.Squeezer.addRecipe(<liquid:honey> * 125, <Forestry:propolis> % 20, [<Forestry:honeyDrop>], 20);
@@ -251,6 +250,65 @@ for seed in seeds.items{
 //mods.forestry.Squeezer.addRecipe(<liquid:ammoniumchloride> * 500, <terrafirmacraftplus:item.Glass Bottle> * 2 % 100, [<terrafirmacraftplus:item.Powder:14>, <terrafirmacraftplus:item.Water Bottle>, <terrafirmacraftplus:item.Water Bottle>], 20);
 
 mods.forestry.Squeezer.addRecipe(<liquid:pitch>*50,<Forestry:propolis> % 1,[<terrafirmacraftplus:item.Resin>],20);
+
+// squeezer juice (enabled by forestry fork!)
+mods.forestry.Squeezer.addRecipe(<liquid:agavejuice> * 40, <terrafirmacraftplus:item.Sisal Fibre>, [<terrafirmacraftplus:item.Agave>], 20);
+
+val juiceFoods =
+[<terrafirmacraftplus:item.Red Apple>,
+<terrafirmacraftplus:item.Orange>,
+<terrafirmacraftplus:item.Green Apple>,
+<terrafirmacraftplus:item.Lemon>,
+<terrafirmacraftplus:item.Olive>,
+<terrafirmacraftplus:item.Cherry>,
+<terrafirmacraftplus:item.Peach>,
+<terrafirmacraftplus:item.Plum>,
+<terrafirmacraftplus:item.Papaya>,
+<terrafirmacraftplus:item.Date>,
+<terrafirmacraftplus:item.Fig>,
+<terrafirmacraftplus:item.Grapes>,
+<terrafirmacraftplus:item.Bunchberry>,
+<terrafirmacraftplus:item.Cranberry>,
+<terrafirmacraftplus:item.Snowberry>,
+<terrafirmacraftplus:item.Elderberry>,
+<terrafirmacraftplus:item.Gooseberry>,
+//<terrafirmacraftplus:item.Cloudberry>,
+//<terrafirmacraftplus:item.Wintergreen Berry>,
+<terrafirmacraftplus:item.Blueberry>,
+<terrafirmacraftplus:item.Raspberry>,
+<terrafirmacraftplus:item.Strawberry>,
+<terrafirmacraftplus:item.Blackberry>,
+<terrafirmacraftplus:item.Sugarcane>] as IItemStack[];
+
+var juiceAmounts = [15, 20, 15, 16, 16, 15, 19, 16, 17, 13, 20, 20, 15, 15, 16, 18, 17, 17, 17, 16, 17, 13] as int[];
+
+var juices = [
+<liquid:applejuice>,
+<liquid:orangejuice>,
+<liquid:applejuice>,
+<liquid:lemonjuice>,
+<liquid:oliveoil>,
+<liquid:cherryjuice>,
+<liquid:peachjuice>,
+<liquid:plumjuice>,
+<liquid:papayajuice>,
+<liquid:datejuice>,
+<liquid:figjuice>,
+<liquid:grapejuice>,
+<liquid:berryjuice>,
+<liquid:berryjuice>,
+<liquid:berryjuice>,
+<liquid:berryjuice>,
+<liquid:berryjuice>,
+<liquid:berryjuice>,
+<liquid:berryjuice>,
+<liquid:berryjuice>,
+<liquid:berryjuice>,
+<liquid:canejuice>] as ILiquidStack[];
+
+for i, food in juiceFoods{
+	mods.forestry.Squeezer.addRecipe(juices[i]*juiceAmounts[i], 40, [food]);
+}
 
 mods.forestry.Centrifuge.removeRecipe(<Forestry:beeCombs:*>);
 mods.forestry.Centrifuge.removeRecipe(<Forestry:propolis:3>);
@@ -373,7 +431,7 @@ mods.forestry.Fermenter.removeFuel(<Forestry:fertilizerBio>);
 mods.forestry.Fermenter.addFuel(<terrafirmacraftplus:item.coal>, 20, 1000);
 mods.forestry.Fermenter.addFuel(<terrafirmacraftplus:item.coal:1>, 20, 1000);
 
-var juices = [<liquid:agavejuice>, <liquid:barleywater>, <liquid:berryjuice>, <liquid:canejuice>, <liquid:cherryjuice>, <liquid:applejuice>,
+var alcoholJuices = [<liquid:agavejuice>, <liquid:barleywater>, <liquid:berryjuice>, <liquid:canejuice>, <liquid:cherryjuice>, <liquid:applejuice>,
 								<liquid:cornwater>, <liquid:datejuice>, <liquid:lemonjuice>, <liquid:honeywater>, <liquid:orangejuice>, <liquid:papayajuice>, <liquid:peachjuice>, <liquid:plumjuice>,
 								<liquid:potatowater>, <liquid:ryewater>, <liquid:sake>, <liquid:wheatwater>, <liquid:grapejuice>, <liquid:figjuice>] as ILiquidStack[];
 
@@ -381,7 +439,7 @@ var alcoholsIndex = [<liquid:agavewine>, <liquid:barleywine>, <liquid:berrywine>
 											<liquid:cornwine>, <liquid:datewine>, <liquid:lemonwine>, <liquid:mead>, <liquid:orangewine>, <liquid:papayawine>, <liquid:peachwine>, <liquid:plumwine>,
 											<liquid:potatowine>, <liquid:ryewine>, <liquid:sake>, <liquid:wheatwine>, <liquid:wine>, <liquid:figwine>] as ILiquidStack[];
 
-for i, juice in juices{
+for i, juice in alcoholJuices{
 	mods.forestry.Fermenter.addRecipe(alcoholsIndex[i], <teloaddon:Yeast>, juice, 10000, 1);
 	mods.Terrafirmacraft.Barrel.addItemFluidConversion(alcoholsIndex[i] * 10000, <teloaddon:Yeast>, juice * 10000, 0, true, 72, true, true);
 }

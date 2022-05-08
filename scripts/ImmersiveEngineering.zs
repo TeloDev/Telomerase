@@ -750,7 +750,7 @@ recipes.addShaped(<terrafirmacraftplus:item.Ceramic Bucket Empty>,[[<terrafirmac
 
 // fermenter
 mods.immersiveengineering.Fermenter.removeFluidRecipe(<liquid:ethanol>);
-mods.immersiveengineering.Fermenter.addRecipe(<teloaddon:Yeast>*5, <liquid:honey> * 250, <teloaddon:Yeast>, 80);
+// TODO create a use for this or just remove it
 
 //process iron
 mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraftplus:item.Pig Iron Ingot>.withTag({temperature: 1500.0 as float}), <terrafirmacraftplus:item.Raw Iron Bloom:100>, <ImmersiveEngineering:material:13>, 150, 2048, [<ImmersiveEngineering:material:6>], "Smelting");
@@ -1223,6 +1223,7 @@ mods.Terrafirmacraft.Barrel.addItemConversion(<ImmersiveEngineering:woodenDecora
 recipes.removeShaped(<ImmersiveEngineering:treatedWood>);
 mods.Terrafirmacraft.Barrel.addItemConversion(<ImmersiveEngineering:treatedWood>, <terrafirmacraftplus:planks:*>, <liquid:telocreosote> * 125, 0, true, 4, true);
 mods.Terrafirmacraft.Barrel.addItemConversion(<ImmersiveEngineering:treatedWood>, <terrafirmacraftplus:planks2:*>, <liquid:telocreosote> * 125, 0, true, 4, true);
+mods.Terrafirmacraft.Barrel.addItemConversion(<ImmersiveEngineering:treatedWood>, <terrafirmacraftplus:planks3:*>, <liquid:telocreosote> * 125, 0, true, 4, true);
 
 //treated wood stick
 recipes.removeShaped(<ImmersiveEngineering:material>);

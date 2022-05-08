@@ -48,8 +48,31 @@ mods.Terrafirmacraft.Anvil.addAnvilRecipe(<teloaddon:Compound_Bow_Riser>, <teloa
 mods.Terrafirmacraft.Anvil.addPlanRecipe("compoundbowlimbs", 13, 24, 3);
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<teloaddon:Compound_Bow_Limbs>, <terrafirmacraftplus:item.Black Steel Ingot>, "compoundbowlimbs", 5);
 
-val fruits = [<terrafirmacraftplus:item.Banana>, <terrafirmacraftplus:item.Cherry>, <terrafirmacraftplus:item.Date>, <terrafirmacraftplus:item.Fig>, <terrafirmacraftplus:item.Green Apple>, <terrafirmacraftplus:item.Lemon>,
-  <terrafirmacraftplus:item.Olive>, <terrafirmacraftplus:item.Orange>, <terrafirmacraftplus:item.Papaya>, <terrafirmacraftplus:item.Peach>, <terrafirmacraftplus:item.Plum>, <terrafirmacraftplus:item.Red Apple>] as IItemStack[];
+val fruits =
+[<terrafirmacraftplus:item.Bunchberry>,
+<terrafirmacraftplus:item.Cranberry>,
+<terrafirmacraftplus:item.Snowberry>,
+<terrafirmacraftplus:item.Elderberry>,
+<terrafirmacraftplus:item.Gooseberry>,
+<terrafirmacraftplus:item.Cloudberry>,
+<terrafirmacraftplus:item.Red Apple>,
+<terrafirmacraftplus:item.Banana>,
+<terrafirmacraftplus:item.Orange>,
+<terrafirmacraftplus:item.Green Apple>,
+<terrafirmacraftplus:item.Lemon>,
+<terrafirmacraftplus:item.Olive>,
+<terrafirmacraftplus:item.Cherry>,
+<terrafirmacraftplus:item.Peach>,
+<terrafirmacraftplus:item.Plum>,
+<terrafirmacraftplus:item.Papaya>,
+<terrafirmacraftplus:item.Date>,
+<terrafirmacraftplus:item.Fig>,
+<terrafirmacraftplus:item.Grapes>,
+<terrafirmacraftplus:item.Wintergreen Berry>,
+<terrafirmacraftplus:item.Blueberry>,
+<terrafirmacraftplus:item.Raspberry>,
+<terrafirmacraftplus:item.Strawberry>,
+<terrafirmacraftplus:item.Blackberry>] as IItemStack[];
 
 val malts = [<terrafirmacraftplus:item.Barley Germ>, <terrafirmacraftplus:item.Corn Germ>, <terrafirmacraftplus:item.Rice Germ>, <terrafirmacraftplus:item.Rye Germ>, <terrafirmacraftplus:item.Wheat Germ>] as IItemStack[];
 
@@ -59,5 +82,8 @@ for fruit in fruits{
 for malt in malts{
   recipes.addShapeless(<teloaddon:Yeast>, [malt.withTag({foodYeast: 1 as byte, foodWeight: 1.0 as float}).onlyWithTag({foodYeast: 1 as byte}), <ore:materialCloth>.reuse()]);
 }
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<teloaddon:Yeast> * 5, <teloaddon:Yeast>, <liquid:honey> * 250, 0, true, 8, true);
+mods.forestry.Carpenter.addRecipe(<teloaddon:Yeast>*5, [[<teloaddon:Yeast>]], <liquid:honey> * 250, 80);
 
 recipes.addShaped(<teloaddon:windmillBearing>,[[null,<ImmersiveEngineering:woodenDecoration:2>,null],[<ImmersiveEngineering:treatedWood>,null,<ImmersiveEngineering:treatedWood>],[null,<ImmersiveEngineering:woodenDecoration:2>,null]]);
