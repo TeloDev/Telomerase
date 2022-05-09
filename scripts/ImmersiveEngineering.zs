@@ -1039,6 +1039,7 @@ mods.immersiveengineering.ArcFurnace.addRecipe(<terrafirmacraftplus:item.Copper 
 //Glassworking
 <ore:blockSandSilica>.add(<terrafirmacraftplus:Sand:0>);
 <ore:blockSandSilica>.add(<terrafirmacraftplus:Sand2:1>);
+<ore:blockSandSilica>.add(<terrafirmacraftplus:Sand:7>);
 <ore:blockSandSilica>.add(<terrafirmacraftplus:Sand:9>);
 <ore:blockSandSilica>.add(<terrafirmacraftplus:Sand:11>);
 <ore:blockSandSilica>.add(<terrafirmacraftplus:Sand:15>);
