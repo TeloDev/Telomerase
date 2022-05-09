@@ -65,8 +65,6 @@ recipes.removeShaped(<ImmersiveEngineering:woodenDevice:4>);
 #toolbox
 recipes.removeShaped(<ImmersiveEngineering:toolbox>, [[<ore:plateAluminum>, <ore:plateAluminum>, <ore:plateAluminum>], [<ore:dyeRed>, <ImmersiveEngineering:woodenDevice:4>, <ore:dyeRed>]]);
 
-recipes.removeShaped(<ImmersiveEngineering:concreteTileStairs>, [[<ImmersiveEngineering:concreteStairs>, <ImmersiveEngineering:concreteStairs>], [<ImmersiveEngineering:concreteStairs>, <ImmersiveEngineering:concreteStairs>]]);
-
 recipes.removeShaped(<ImmersiveEngineering:stoneDecoration:0>);
 
 recipes.removeShaped(<ImmersiveEngineering:stoneDecoration:2>, [[<ore:ingotBrickNether>, <ore:ingotBrick>, <ore:ingotBrickNether>], [<ore:ingotBrick>, <minecraft:blaze_powder>, <ore:ingotBrick>], [<ore:ingotBrickNether>, <ore:ingotBrick>, <ore:ingotBrickNether>]]);
@@ -483,8 +481,58 @@ recipes.removeShapeless(<ImmersiveEngineering:metal:*>);
 recipes.addShapeless(<ImmersiveEngineering:metal:20>*9,[<BigReactors:BRMetalBlock:2>]);
 
 recipes.addShaped(<ImmersiveEngineering:storage:7>,[[<ore:stickSteel>,<ImmersiveEngineering:stoneDecoration:4>,<ore:stickSteel>]]);
-recipes.addShaped(<ImmersiveEngineering:storageSlab:7>,[[<ImmersiveEngineering:stoneSlab:1>],[<ore:stickSteel>]]);
-recipes.addShaped(<ImmersiveEngineering:storageSlab:7>,[[<ore:blockSteel>, <ore:blockSteel>, <ore:blockSteel>]]);
+
+// treated wood items
+recipes.removeShaped(<ImmersiveEngineering:woodenDecoration:1>);
+mods.Terrafirmacraft.Barrel.addItemConversion(<ImmersiveEngineering:woodenDecoration:1>, <terrafirmacraftplus:Fence:*>, <liquid:telocreosote> * 100, 0, true, 4, true);
+mods.Terrafirmacraft.Barrel.addItemConversion(<ImmersiveEngineering:woodenDecoration:1>, <terrafirmacraftplus:Fence2:*>, <liquid:telocreosote> * 100, 0, true, 4, true);
+
+//treated wood
+recipes.removeShaped(<ImmersiveEngineering:treatedWood>);
+mods.Terrafirmacraft.Barrel.addItemConversion(<ImmersiveEngineering:treatedWood>, <terrafirmacraftplus:planks:*>, <liquid:telocreosote> * 125, 0, true, 4, true);
+mods.Terrafirmacraft.Barrel.addItemConversion(<ImmersiveEngineering:treatedWood>, <terrafirmacraftplus:planks2:*>, <liquid:telocreosote> * 125, 0, true, 4, true);
+mods.Terrafirmacraft.Barrel.addItemConversion(<ImmersiveEngineering:treatedWood>, <terrafirmacraftplus:planks3:*>, <liquid:telocreosote> * 125, 0, true, 4, true);
+
+//treated wood stick
+recipes.removeShaped(<ImmersiveEngineering:material>);
+mods.Terrafirmacraft.Barrel.addItemConversion(<ImmersiveEngineering:material>, <terrafirmacraftplus:item.stick>, <liquid:telocreosote> * 25, 0, true, 4, true);
+
+//carpenter treated wood recipes
+mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:treatedWood>, [[<ore:plankWood>]], <liquid:telocreosote> * 125, 40);
+<ore:fenceWood>.add(<terrafirmacraftplus:Fence:*>);
+<ore:fenceWood>.add(<terrafirmacraftplus:Fence2:*>);
+mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:woodenDecoration:1>, [[<ore:fenceWood>]], <liquid:telocreosote> * 100, 20);
+mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:material>, [[<ore:stickWood>]], <liquid:telocreosote> * 25, 10);
+
+#slab
+recipes.removeShaped(<ImmersiveEngineering:storageSlab:7>);
+recipes.addShapeless(<ImmersiveEngineering:storageSlab:7>*2,[<ImmersiveEngineering:storage:7>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.removeShaped(<ImmersiveEngineering:stoneSlab:1>);
+recipes.addShapeless(<ImmersiveEngineering:stoneSlab:1>*2,[<ImmersiveEngineering:stoneDecoration:4>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.removeShaped(<ImmersiveEngineering:stoneSlab:2>);
+recipes.addShapeless(<ImmersiveEngineering:stoneSlab:2>*2,[<ImmersiveEngineering:stoneDecoration:5>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.removeShaped(<ImmersiveEngineering:woodenDecoration:2>);
+recipes.addShapeless(<ImmersiveEngineering:woodenDecoration:2>*2,[<ImmersiveEngineering:treatedWood>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShaped(<ImmersiveEngineering:treatedWood>, [[<ImmersiveEngineering:woodenDecoration:2>],[<ImmersiveEngineering:woodenDecoration:2>]]);
+recipes.addShaped(<ImmersiveEngineering:stoneDecoration:4>, [[<ImmersiveEngineering:stoneSlab:1>],[<ImmersiveEngineering:stoneSlab:1>]]);
+recipes.addShaped(<ImmersiveEngineering:storage:7>, [[<ImmersiveEngineering:storageSlab:7>],[<ImmersiveEngineering:storageSlab:7>]]);
+
+#stair
+recipes.removeShaped(<ImmersiveEngineering:concreteStairs>);
+recipes.addShapeless(<ImmersiveEngineering:concreteStairs>*2,[<ImmersiveEngineering:stoneSlab:1>,<ImmersiveEngineering:stoneSlab:1>,<ImmersiveEngineering:stoneSlab:1>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<ImmersiveEngineering:concreteStairs>*2,[<ImmersiveEngineering:stoneDecoration:4>,<ImmersiveEngineering:stoneSlab:1>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<ImmersiveEngineering:concreteStairs>*4,[<ImmersiveEngineering:stoneDecoration:4>,<ImmersiveEngineering:stoneDecoration:4>,<ImmersiveEngineering:stoneDecoration:4>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.removeShaped(<ImmersiveEngineering:concreteTileStairs>);
+recipes.addShapeless(<ImmersiveEngineering:concreteTileStairs>*2,[<ImmersiveEngineering:stoneSlab:2>,<ImmersiveEngineering:stoneSlab:2>,<ImmersiveEngineering:stoneSlab:2>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<ImmersiveEngineering:concreteTileStairs>*2,[<ImmersiveEngineering:stoneDecoration:5>,<ImmersiveEngineering:stoneSlab:2>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<ImmersiveEngineering:concreteTileStairs>*4,[<ImmersiveEngineering:stoneDecoration:5>,<ImmersiveEngineering:stoneDecoration:5>,<ImmersiveEngineering:stoneDecoration:5>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.remove(<ImmersiveEngineering:woodenStairs>);
+recipes.remove(<ImmersiveEngineering:woodenStairs1>);
+recipes.remove(<ImmersiveEngineering:woodenStairs2>);
+recipes.addShapeless(<ImmersiveEngineering:woodenStairs>*2,[<ImmersiveEngineering:woodenDecoration:2>,<ImmersiveEngineering:woodenDecoration:2>,<ImmersiveEngineering:woodenDecoration:2>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<ImmersiveEngineering:woodenStairs>*2,[<ImmersiveEngineering:treatedWood>,<ImmersiveEngineering:woodenDecoration:2>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<ImmersiveEngineering:woodenStairs>*4,[<ImmersiveEngineering:
+>,<ImmersiveEngineering:treatedWood>,<ImmersiveEngineering:treatedWood>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
 
 //multiblocks
 recipes.removeShaped(<ImmersiveEngineering:metalMultiblock:2>, [[<ore:ingotIron>, <minecraft:piston:*>, <ore:ingotIron>], [<ImmersiveEngineering:material:11>, <ore:dyeGreen>, <ImmersiveEngineering:material:11>], [<ore:ingotIron>, <minecraft:piston:*>, <ore:ingotIron>]]);
@@ -716,7 +764,7 @@ recipes.removeShapeless(<ImmersiveEngineering:stoneDecoration:6>, [<ImmersiveEng
 recipes.removeShaped(<ImmersiveEngineering:metalDevice2:11>, [[<ImmersiveEngineering:metalDecoration:10>, null], [<ImmersiveEngineering:metalDecoration:10>, null], [<ImmersiveEngineering:metalDevice:12>, <ImmersiveEngineering:metalDevice2:5>]]);
 
 //blast furnace
-mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Mold:1>, <terrafirmacraftplus:item.Mold>, 600);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Mold:1>, <terrafirmacraftplus:item.Mold>, 500);
 mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Spindle Head:1>, <terrafirmacraftplus:item.Spindle Head>, 500);
 mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Jug:1>, <terrafirmacraftplus:item.Jug>, 500);
 mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Clay Tile:1>, <terrafirmacraftplus:item.Clay Tile>, 500);
@@ -1219,28 +1267,6 @@ recipes.addShaped(<ImmersiveEngineering:toolupgrade>,[[<ImmersiveEngineering:too
 recipes.addShapedMirrored(<ImmersiveEngineering:chemthrower>,[[<ImmersiveEngineering:toolupgrade>,null,null],[<terrafirmacraftplus:item.Black Steel Sheet>,<ImmersiveEngineering:metalDecoration:5>,<ImmersiveEngineering:metalDevice2:5>],[<ImmersiveEngineering:material:9>,<ImmersiveEngineering:metalDevice2:7>,<ImmersiveEngineering:material:9>]]);
 mods.Terrafirmacraft.Barrel.addItemConversion(<ImmersiveEngineering:toolupgrade:7>, <terrafirmacraftplus:item.Wrought Iron Tuyere>, <liquid:pitch> * 100, 0, true, 1, true);
 recipes.addShaped(<ImmersiveEngineering:toolupgrade:3>,[[<ImmersiveEngineering:toolupgrade:7>,null,null],[<ImmersiveEngineering:metalDevice2:7>,null,null],[<ImmersiveEngineering:metalDevice2:7>,null,null]]);
-
-// treated wood items
-recipes.removeShaped(<ImmersiveEngineering:woodenDecoration:1>);
-mods.Terrafirmacraft.Barrel.addItemConversion(<ImmersiveEngineering:woodenDecoration:1>, <terrafirmacraftplus:Fence:*>, <liquid:telocreosote> * 100, 0, true, 4, true);
-mods.Terrafirmacraft.Barrel.addItemConversion(<ImmersiveEngineering:woodenDecoration:1>, <terrafirmacraftplus:Fence2:*>, <liquid:telocreosote> * 100, 0, true, 4, true);
-
-//treated wood
-recipes.removeShaped(<ImmersiveEngineering:treatedWood>);
-mods.Terrafirmacraft.Barrel.addItemConversion(<ImmersiveEngineering:treatedWood>, <terrafirmacraftplus:planks:*>, <liquid:telocreosote> * 125, 0, true, 4, true);
-mods.Terrafirmacraft.Barrel.addItemConversion(<ImmersiveEngineering:treatedWood>, <terrafirmacraftplus:planks2:*>, <liquid:telocreosote> * 125, 0, true, 4, true);
-mods.Terrafirmacraft.Barrel.addItemConversion(<ImmersiveEngineering:treatedWood>, <terrafirmacraftplus:planks3:*>, <liquid:telocreosote> * 125, 0, true, 4, true);
-
-//treated wood stick
-recipes.removeShaped(<ImmersiveEngineering:material>);
-mods.Terrafirmacraft.Barrel.addItemConversion(<ImmersiveEngineering:material>, <terrafirmacraftplus:item.stick>, <liquid:telocreosote> * 25, 0, true, 4, true);
-
-//carpenter treated wood recipes
-mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:treatedWood>, [[<ore:plankWood>]], <liquid:telocreosote> * 125, 40);
-<ore:fenceWood>.add(<terrafirmacraftplus:Fence:*>);
-<ore:fenceWood>.add(<terrafirmacraftplus:Fence2:*>);
-mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:woodenDecoration:1>, [[<ore:fenceWood>]], <liquid:telocreosote> * 100, 20);
-mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:material>, [[<ore:stickWood>]], <liquid:telocreosote> * 25, 10);
 
 //forestry gears
 mods.immersiveengineering.MetalPress.removeRecipe(<Forestry:gearCopper>);

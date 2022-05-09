@@ -133,7 +133,7 @@ recipes.removeShaped(<Forestry:apiculture>);
 recipes.addShaped(<Forestry:apiculture>,[[<ore:woodLumber>,<ore:woodLumber>,<ore:woodLumber>],[<ore:plankWood>,<Forestry:impregnatedCasing>,<ore:plankWood>],[<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]]);
 
 //scoop
-recipes.addShaped(<Forestry:apiculture>,[[null,<ore:materialString>],[<terrafirmacraftplus:item.stick>,null]]);
+recipes.addShaped(<Forestry:scoop>,[[null,<ore:materialString>],[<terrafirmacraftplus:item.stick>,null]]);
 
 <ore:combBee>.add(<Forestry:beeCombs:0>);
 <ore:combBee>.add(<Forestry:beeCombs:3>);
@@ -380,6 +380,10 @@ mods.forestry.Carpenter.addRecipe(<Forestry:impregnatedCasing>, [[<Forestry:oakS
 mods.forestry.Carpenter.addRecipe(<Forestry:woodPulp>*2, [[<ore:smallLog>]], <liquid:freshwater> * 250, 20);
 mods.forestry.Carpenter.addRecipe(<Forestry:woodPulp>*8, [[<ore:largeLog>]], <liquid:freshwater> * 1000, 20);
 mods.forestry.Carpenter.addRecipe(<minecraft:paper>, [[<Forestry:woodPulp>,<Forestry:woodPulp>]], <liquid:freshwater> * 250, 20);
+
+//concrete automation
+mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:stoneDecoration:4>, [[<ore:blockGravel>]], <liquid:limewater> * 500, 20);
+mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:stoneDecoration:4>, [[<ImmersiveEngineering:material:13>], [<ImmersiveEngineering:material:13>], [<ImmersiveEngineering:material:13>], [<ImmersiveEngineering:material:13>]], <liquid:limewater> * 125, 20);
 
 //# LEATHER AUTOMATION
 

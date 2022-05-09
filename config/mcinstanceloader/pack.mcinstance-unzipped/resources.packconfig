@@ -556,3 +556,9 @@ destination = resourcepacks/matdefault2016.zip
 type = url
 url = https://github.com/TeloDev/TelomeraseResources/raw/main/TelomeraseResources.zip
 destination = resourcepacks/TelomeraseResources.zip
+
+[BSL Shaders]
+type = curseforge
+projectId = 322506
+fileId = 3752138
+destination = shaderpacks/BSL_Shaders.zip
