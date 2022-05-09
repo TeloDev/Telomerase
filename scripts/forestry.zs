@@ -383,7 +383,7 @@ mods.forestry.Carpenter.addRecipe(<minecraft:paper>, [[<Forestry:woodPulp>,<Fore
 
 //concrete automation
 mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:stoneDecoration:4>, [[<ore:blockGravel>]], <liquid:limewater> * 500, 20);
-mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:stoneDecoration:4>, [[<ImmersiveEngineering:material:13>], [<ImmersiveEngineering:material:13>], [<ImmersiveEngineering:material:13>], [<ImmersiveEngineering:material:13>]], <liquid:limewater> * 125, 20);
+mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:stoneDecoration:4>, [[<ImmersiveEngineering:material:13>,<ImmersiveEngineering:material:13>,<ImmersiveEngineering:material:13>,<ImmersiveEngineering:material:13>]], <liquid:limewater> * 125, 20);
 
 //# LEATHER AUTOMATION
 
