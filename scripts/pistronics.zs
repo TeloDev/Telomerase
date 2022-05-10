@@ -28,13 +28,17 @@ recipes.addShaped(<Pistronics2:Mechanic Sensor>, [[<ore:ingotIron>, <ore:woodLum
 recipes.remove(<Pistronics2:Rod Block>);
 recipes.addShaped(<Pistronics2:Rod Block>.withTag({redstone: 0 as byte}) * 8, [[<ore:woodLumber>], [<ImmersiveEngineering:material:14>], [<ore:woodLumber>]]);
 
+//rod block
+recipes.remove(<Pistronics2:Rod Block>);
+recipes.addShaped(<Pistronics2:Rod Block>.withTag({redstone: 0 as byte}) * 8, [[<ore:woodLumber>], [<ImmersiveEngineering:material:14>], [<ore:woodLumber>]]);
+
 //extension block
 recipes.remove(<Pistronics2:Extension Block>);
-recipes.addShaped(<Pistronics2:Extension Block>.withTag({comp: 0, redio: 0 as byte, camouID: -1 as int, camou: 0 as byte, camouMeta: 0, super_sticky: 0 as byte, sticky: 0 as byte, redstone: 0 as byte}), [[<ore:woodLumber>], [<Pistronics2:Rod Block>.withTag({redstone: 0 as byte})]]);
+recipes.addShaped(<Pistronics2:Extension Block>.withTag({comp: 0, redio: 0 as byte, camouID: -1 as int, camou: 0 as byte, camouMeta: 0, super_sticky: 0 as byte, sticky: 0 as byte, redstone: 0 as byte}), [[<ore:plankWood>], [<Pistronics2:Rod Block>.withTag({redstone: 0 as byte})]]);
 
 //extension part block
 recipes.remove(<Pistronics2:Extension Part Block>);
-recipes.addShaped(<Pistronics2:Extension Part Block>.withTag({comp: 0, redio: 0 as byte, camouID: -1 as int, camou: 0 as byte, camouMeta: 0, super_sticky: 0 as byte, sticky: 0 as byte, redstone: 0 as byte}), [[<ore:woodLumber>], [<Pistronics2:Rod Part Block>.withTag({redstone: 0 as byte})]]);
+recipes.addShaped(<Pistronics2:Extension Part Block>.withTag({comp: 0, redio: 0 as byte, camouID: -1 as int, camou: 0 as byte, camouMeta: 0, super_sticky: 0 as byte, sticky: 0 as byte, redstone: 0 as byte}), [[<ore:plankWood>], [<Pistronics2:Rod Part Block>.withTag({redstone: 0 as byte})]]);
 
 //glue
 recipes.remove(<Pistronics2:Glue>);
