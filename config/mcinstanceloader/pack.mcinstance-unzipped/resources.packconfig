@@ -546,25 +546,23 @@ type = curseforge
 projectId = 401494
 fileId = 3784765
 destination = resourcepacks/VanillaThemedTFC.zip
+side = client
 
 [MATmos Default Soundpack]
 type = url
 url = https://github.com/TeloDev/TelomeraseResources/raw/main/matdefault2016.zip
 destination = resourcepacks/matdefault2016.zip
+side = client
 
 [Telomerase Resources]
 type = url
 url = https://github.com/TeloDev/TelomeraseResources/raw/main/TelomeraseResources.zip
 destination = resourcepacks/TelomeraseResources.zip
+side = client
 
 [TFC+ Alternate Default]
 type = curseforge
 projectId = 613152
 fileId = 3780879
 destination = resourcepacks/TFCAlternateDefault.zip
-
-[BSL Shaders]
-type = curseforge
-projectId = 322506
-fileId = 3752138
-destination = shaderpacks/BSL_Shaders.zip
+side = client
