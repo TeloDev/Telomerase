@@ -26,11 +26,8 @@ recipes.addShaped(<Pistronics2:Mechanic Sensor>, [[<ore:ingotIron>, <ore:woodLum
 
 //rod block
 recipes.remove(<Pistronics2:Rod Block>);
-recipes.addShaped(<Pistronics2:Rod Block>.withTag({redstone: 0 as byte}) * 8, [[<ore:woodLumber>], [<ImmersiveEngineering:material:14>], [<ore:woodLumber>]]);
-
-//rod block
-recipes.remove(<Pistronics2:Rod Block>);
-recipes.addShaped(<Pistronics2:Rod Block>.withTag({redstone: 0 as byte}) * 8, [[<ore:woodLumber>], [<ImmersiveEngineering:material:14>], [<ore:woodLumber>]]);
+recipes.addShaped(<Pistronics2:Rod Block>.withTag({redstone: 0 as byte}) * 4, [[<ore:woodLumber>], [<ImmersiveEngineering:material:14>], [<ore:woodLumber>]]);
+recipes.addShaped(<Pistronics2:Rod Block>.withTag({redstone: 0 as byte}) * 4, [[<ore:woodLumber>], [<ImmersiveEngineering:material:15>], [<ore:woodLumber>]]);
 
 //extension block
 recipes.remove(<Pistronics2:Extension Block>);
