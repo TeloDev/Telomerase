@@ -137,7 +137,7 @@ recipes.addShaped(<terrafirmacraftplus:brickChimney>,[[<terrafirmacraftplus:item
 <ore:medical>.add(<terrafirmacraftplus:item.Sterile Bandage>);
 <ore:medical>.add(<terrafirmacraftplus:item.Splint>);
 <ore:medical>.add(<terrafirmacraftplus:item.Cast>);
-<ore:logStacked>.add(<terrafirmacraftplus:item.Stacked Log:*>);
+//<ore:logStacked>.add(<terrafirmacraftplus:item.Stacked Log:*>);
 
 recipes.removeShapeless(<minecraft:trapped_chest>);
 recipes.addShapeless(<minecraft:trapped_chest>,[<ore:chestWood>,<minecraft:tripwire_hook>]);

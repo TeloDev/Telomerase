@@ -185,7 +185,7 @@ recipes.removeShaped(<Forestry:diggerBag>);
 recipes.addShaped(<Forestry:diggerBag>,[[null,<ore:stone>,null],[<terrafirmacraftplus:item.Strap>,<ore:chestWood>,<terrafirmacraftplus:item.Strap>],[null,<ore:plateWroughtIron>,null]]);
 <Forestry:foresterBag>.addTooltip(format.green("holds seeds, wood and saplings"));
 recipes.removeShaped(<Forestry:foresterBag>);
-recipes.addShaped(<Forestry:foresterBag>,[[null,<ore:smallLog>,null],[<terrafirmacraftplus:item.Strap>,<ore:chestWood>,<terrafirmacraftplus:item.Strap>],[null,<ore:plateWroughtIron>,null]]);
+recipes.addShaped(<Forestry:foresterBag>,[[null,<ore:logSmall>,null],[<terrafirmacraftplus:item.Strap>,<ore:chestWood>,<terrafirmacraftplus:item.Strap>],[null,<ore:plateWroughtIron>,null]]);
 <Forestry:hunterBag>.addTooltip(format.green("holds mob drops"));
 recipes.removeShaped(<Forestry:hunterBag>);
 recipes.addShaped(<Forestry:hunterBag>,[[null,<ore:feather>,null],[<terrafirmacraftplus:item.Strap>,<ore:chestWood>,<terrafirmacraftplus:item.Strap>],[null,<ore:plateWroughtIron>,null]]);
@@ -376,9 +376,13 @@ mods.forestry.Carpenter.addRecipe(<Forestry:oakStick>*2, [[<ore:plankWood>],[<or
 mods.forestry.Carpenter.addRecipe(<Forestry:oakStick>*2, [[<ore:plankWood>],[<ore:plankWood>]], <liquid:oliveoil> * 100, 20);
 mods.forestry.Carpenter.addRecipe(<Forestry:impregnatedCasing>, [[<Forestry:oakStick>,<Forestry:oakStick>,<Forestry:oakStick>],[<Forestry:oakStick>,null,<Forestry:oakStick>],[<Forestry:oakStick>,<Forestry:oakStick>,<Forestry:oakStick>]], <liquid:pitch> * 250, 20);
 
+<ore:logSmall>.add(<terrafirmacraftplus:item.Log:*>);
+<ore:logLarge>.add(<terrafirmacraftplus:item.Thick Log:*>);
+<ore:logLarge>.add(<terrafirmacraftplus:item.Stacked Log:*>);
+
 // paper automation
-mods.forestry.Carpenter.addRecipe(<Forestry:woodPulp>*2, [[<ore:smallLog>]], <liquid:freshwater> * 250, 20);
-mods.forestry.Carpenter.addRecipe(<Forestry:woodPulp>*8, [[<ore:largeLog>]], <liquid:freshwater> * 1000, 20);
+mods.forestry.Carpenter.addRecipe(<Forestry:woodPulp>*2, [[<ore:logSmall>]], <liquid:freshwater> * 250, 20);
+mods.forestry.Carpenter.addRecipe(<Forestry:woodPulp>*8, [[<ore:logLarge>]], <liquid:freshwater> * 1000, 20);
 mods.forestry.Carpenter.addRecipe(<minecraft:paper>, [[<Forestry:woodPulp>,<Forestry:woodPulp>]], <liquid:freshwater> * 250, 20);
 
 //# LEATHER AUTOMATION

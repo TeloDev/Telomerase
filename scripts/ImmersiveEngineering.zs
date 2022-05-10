@@ -97,10 +97,6 @@ mods.immersiveengineering.ArcFurnace.removeRecipe(<minecraft:iron_ingot>);
 recipes.removeShaped(<ImmersiveEngineering:metal:*>);
 
 mods.immersiveengineering.ArcFurnace.removeRecipe(<terrafirmacraftplus:item.Brass Ingot>);
-mods.immersiveengineering.BlastFurnace.removeRecipe(<ImmersiveEngineering:metal:7>);
-mods.immersiveengineering.BlastFurnace.removeRecipe(<ImmersiveEngineering:storage:7>);
-mods.immersiveengineering.BlastFurnace.removeFuel(<ImmersiveEngineering:stoneDecoration:3>);
-mods.immersiveengineering.BlastFurnace.removeFuel(<minecraft:coal:1>);
 
 //# var distilledAlcohols = [<liquid:tequila>, <liquid:barleywhiskey>, <liquid:vodka>, <liquid:berrybrandy>, <liquid:rum>, <liquid:fruitbrandy>, <liquid:applejack>, <liquid:cornwhiskey>, <liquid:vodka>, <liquid:datebrandy>, <liquid:lemonbrandy>, <liquid:honeybrandy>, <liquid:orangebrandy>, <liquid:papayabrandy>, <liquid:peachbrandy>, <liquid:plumbrandy>, <liquid:ricewhiskey>, <liquid:ryewhiskey>, <liquid:shochu>, <liquid:whiskey>, <liquid:brandy>] as ILiquidStack[];
 
@@ -616,97 +612,17 @@ mods.immersiveengineering.MetalPress.addRecipe(<teloaddon:Aluminum_Sheet> * 1, <
 
 mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:graphiteElectrode>, <ore:ingotHOPGraphite>, <ImmersiveEngineering:mold:2>,500,4);
 
-val smallLog = <ore:smallLog>;
-smallLog.add(<terrafirmacraftplus:item.Log>);
-smallLog.add(<terrafirmacraftplus:item.Log:1>);
-smallLog.add(<terrafirmacraftplus:item.Log:2>);
-smallLog.add(<terrafirmacraftplus:item.Log:3>);
-smallLog.add(<terrafirmacraftplus:item.Log:4>);
-smallLog.add(<terrafirmacraftplus:item.Log:5>);
-smallLog.add(<terrafirmacraftplus:item.Log:6>);
-smallLog.add(<terrafirmacraftplus:item.Log:7>);
-smallLog.add(<terrafirmacraftplus:item.Log:8>);
-smallLog.add(<terrafirmacraftplus:item.Log:9>);
-smallLog.add(<terrafirmacraftplus:item.Log:10>);
-smallLog.add(<terrafirmacraftplus:item.Log:12>);
-smallLog.add(<terrafirmacraftplus:item.Log:13>);
-smallLog.add(<terrafirmacraftplus:item.Log:14>);
-smallLog.add(<terrafirmacraftplus:item.Log:15>);
-smallLog.add(<terrafirmacraftplus:item.Log:16>);
-smallLog.add(<terrafirmacraftplus:item.Log:17>);
-smallLog.add(<terrafirmacraftplus:item.Log:18>);
-smallLog.add(<terrafirmacraftplus:item.Log:19>);
-smallLog.add(<terrafirmacraftplus:item.Log:20>);
-smallLog.add(<terrafirmacraftplus:item.Log:21>);
-smallLog.add(<terrafirmacraftplus:item.Log:22>);
-smallLog.add(<terrafirmacraftplus:item.Log:23>);
-smallLog.add(<terrafirmacraftplus:item.Log:24>);
-smallLog.add(<terrafirmacraftplus:item.Log:25>);
-smallLog.add(<terrafirmacraftplus:item.Log:26>);
-smallLog.add(<terrafirmacraftplus:item.Log:27>);
-smallLog.add(<terrafirmacraftplus:item.Log:28>);
-smallLog.add(<terrafirmacraftplus:item.Log:29>);
-smallLog.add(<terrafirmacraftplus:item.Log:30>);
-smallLog.add(<terrafirmacraftplus:item.Log:31>);
-smallLog.add(<terrafirmacraftplus:item.Log:32>);
-smallLog.add(<terrafirmacraftplus:item.Log:33>);
-smallLog.add(<terrafirmacraftplus:item.Log:34>);
-smallLog.add(<terrafirmacraftplus:item.Log:35>);
-smallLog.add(<terrafirmacraftplus:item.Log:36>);
-smallLog.add(<terrafirmacraftplus:item.Log:37>);
-smallLog.add(<terrafirmacraftplus:item.Log:38>);
-smallLog.add(<terrafirmacraftplus:item.Log:39>);
-smallLog.add(<terrafirmacraftplus:item.Log:40>);
-smallLog.add(<terrafirmacraftplus:item.Log:41>);
-smallLog.add(<terrafirmacraftplus:item.Log:42>);
-smallLog.add(<terrafirmacraftplus:item.Log:43>);
-smallLog.add(<terrafirmacraftplus:item.Log:44>);
-smallLog.add(<terrafirmacraftplus:item.Log:45>);
-smallLog.add(<terrafirmacraftplus:item.Log:46>);
-smallLog.add(<terrafirmacraftplus:item.Log:47>);
-smallLog.add(<terrafirmacraftplus:item.Log:48>);
-smallLog.add(<terrafirmacraftplus:item.Log:49>);
-smallLog.add(<terrafirmacraftplus:item.Log:50>);
-smallLog.add(<terrafirmacraftplus:item.Log:51>);
-smallLog.add(<terrafirmacraftplus:item.Log:52>);
-smallLog.add(<terrafirmacraftplus:item.Log:53>);
-
-val largeLog = <ore:largeLog>;
-largeLog.add(<terrafirmacraftplus:item.Thick Log>);
-largeLog.add(<terrafirmacraftplus:item.Thick Log:1>);
-largeLog.add(<terrafirmacraftplus:item.Thick Log:2>);
-largeLog.add(<terrafirmacraftplus:item.Thick Log:3>);
-largeLog.add(<terrafirmacraftplus:item.Thick Log:4>);
-largeLog.add(<terrafirmacraftplus:item.Thick Log:5>);
-largeLog.add(<terrafirmacraftplus:item.Thick Log:6>);
-largeLog.add(<terrafirmacraftplus:item.Thick Log:7>);
-largeLog.add(<terrafirmacraftplus:item.Thick Log:8>);
-largeLog.add(<terrafirmacraftplus:item.Thick Log:9>);
-largeLog.add(<terrafirmacraftplus:item.Thick Log:10>);
-largeLog.add(<terrafirmacraftplus:item.Thick Log:11>);
-largeLog.add(<terrafirmacraftplus:item.Thick Log:12>);
-largeLog.add(<terrafirmacraftplus:item.Thick Log:13>);
-largeLog.add(<terrafirmacraftplus:item.Thick Log:14>);
-largeLog.add(<terrafirmacraftplus:item.Thick Log:15>);
-largeLog.add(<terrafirmacraftplus:item.Thick Log:16>);
-largeLog.add(<terrafirmacraftplus:item.Thick Log:17>);
-largeLog.add(<terrafirmacraftplus:item.Thick Log:18>);
-largeLog.add(<terrafirmacraftplus:item.Thick Log:19>);
-largeLog.add(<terrafirmacraftplus:item.Thick Log:20>);
-largeLog.add(<terrafirmacraftplus:item.Thick Log:21>);
-largeLog.add(<terrafirmacraftplus:item.Thick Log:22>);
-largeLog.add(<terrafirmacraftplus:item.Thick Log:23>);
-largeLog.add(<terrafirmacraftplus:item.Thick Log:24>);
-largeLog.add(<terrafirmacraftplus:item.Thick Log:25>);
-largeLog.add(<terrafirmacraftplus:item.Thick Log:26>);
+<ore:logSmall>.add(<terrafirmacraftplus:item.Log:*>);
+<ore:logLarge>.add(<terrafirmacraftplus:item.Thick Log:*>);
+<ore:logLarge>.add(<terrafirmacraftplus:item.Stacked Log:*>);
 
 //coke oven
 mods.immersiveengineering.CokeOven.removeRecipe(<minecraft:coal:1>);
 mods.immersiveengineering.CokeOven.removeRecipe(<ImmersiveEngineering:stoneDecoration:3>);
 mods.immersiveengineering.CokeOven.removeRecipe(<ImmersiveEngineering:material:6>);
-mods.immersiveengineering.CokeOven.addRecipe(<terrafirmacraftplus:item.Powder:13>, 25, <ore:smallLog>, 600);
+mods.immersiveengineering.CokeOven.addRecipe(<terrafirmacraftplus:item.Powder:13>, 25, <ore:logSmall>, 600);
 mods.immersiveengineering.CokeOven.addRecipe(<terrafirmacraftplus:item.Powder:13>, 25, <terrafirmacraftplus:item.StickBundle>, 600);
-mods.immersiveengineering.CokeOven.addRecipe(<terrafirmacraftplus:item.Powder:13>*4, 100, <ore:largeLog>, 2400);
+mods.immersiveengineering.CokeOven.addRecipe(<terrafirmacraftplus:item.Powder:13>*4, 100, <ore:logLarge>, 2400);
 
 mods.immersiveengineering.CokeOven.addRecipe(<ImmersiveEngineering:material:6>, 250, <terrafirmacraftplus:item.coal>, 600);
 mods.immersiveengineering.CokeOven.addRecipe(<terrafirmacraftplus:item.Powder:2>, 0, <ImmersiveEngineering:material:6>, 600);
@@ -716,18 +632,33 @@ recipes.removeShapeless(<ImmersiveEngineering:stoneDecoration:6>, [<ImmersiveEng
 recipes.removeShaped(<ImmersiveEngineering:metalDevice2:11>, [[<ImmersiveEngineering:metalDecoration:10>, null], [<ImmersiveEngineering:metalDecoration:10>, null], [<ImmersiveEngineering:metalDevice:12>, <ImmersiveEngineering:metalDevice2:5>]]);
 
 //blast furnace
-mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Mold:1>, <terrafirmacraftplus:item.Mold>, 600);
+mods.immersiveengineering.BlastFurnace.removeRecipe(<ImmersiveEngineering:metal:7>);
+mods.immersiveengineering.BlastFurnace.removeRecipe(<ImmersiveEngineering:storage:7>);
+mods.immersiveengineering.BlastFurnace.removeFuel(<ImmersiveEngineering:stoneDecoration:3>);
+mods.immersiveengineering.BlastFurnace.removeFuel(<minecraft:coal:1>);
+mods.immersiveengineering.BlastFurnace.addFuel(<terrafirmacraftplus:item.coal>, 1000);
+mods.immersiveengineering.BlastFurnace.addFuel(<terrafirmacraftplus:item.coal:1>, 1000);
+mods.immersiveengineering.BlastFurnace.removeFuel(<ImmersiveEngineering:material:6>);
+mods.immersiveengineering.BlastFurnace.addFuel(<ImmersiveEngineering:material:6>, 1500);
+
+// for some reason NEI doesn't show all of these. They work though
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.coal:1>, <terrafirmacraftplus:item.Log:*>, 500);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.coal:1>*4, <terrafirmacraftplus:item.Thick Log:*>, 2000);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.coal:1>*4, <terrafirmacraftplus:item.Stacked Log:*>, 2000);
+
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Mold:1>, <terrafirmacraftplus:item.Mold>, 500);
 mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Spindle Head:1>, <terrafirmacraftplus:item.Spindle Head>, 500);
 mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Jug:1>, <terrafirmacraftplus:item.Jug>, 500);
 mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Clay Tile:1>, <terrafirmacraftplus:item.Clay Tile>, 500);
 mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Ceramic Bucket Empty:1>, <terrafirmacraftplus:item.Unfired Clay Bucket>, 500);
 mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Small Vessel:1>, <terrafirmacraftplus:item.Small Vessel>, 500);
-mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:Vessel:1>, <terrafirmacraftplus:Vessel>, 500);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:Vessel:1>, <terrafirmacraftplus:Vessel>, 2000);
 mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Sheet Mold:1>, <terrafirmacraftplus:item.Sheet Mold>, 500);
 mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Bullet Mold:1>, <terrafirmacraftplus:item.Bullet Mold>, 500);
 mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Candle Holder Mold:1>, <terrafirmacraftplus:item.Candle Holder Mold>, 500);
 mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.2x Candle Holder Mold:1>, <terrafirmacraftplus:item.2x Candle Holder Mold>, 500);
 mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.3x Candle Holder Mold:1>, <terrafirmacraftplus:item.3x Candle Holder Mold>, 500);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Axe Mold:1>, <terrafirmacraftplus:item.Axe Mold>, 500);
 mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Blowpipe:1>, <terrafirmacraftplus:item.Blowpipe>, 500);
 mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Chisel Mold:1>, <terrafirmacraftplus:item.Chisel Mold>, 500);
 mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Hammer Mold:1>, <terrafirmacraftplus:item.Hammer Mold>, 500);
@@ -744,6 +675,43 @@ mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Sword
 mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Javelin Mold:1>, <terrafirmacraftplus:item.Javelin Mold>, 500);
 mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Fire Brick:1>, <terrafirmacraftplus:item.Fire Brick>, 500);
 mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Brick:1>, <terrafirmacraftplus:item.Brick>, 500);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.ClayBowl:1>, <terrafirmacraftplus:item.ClayBowl:1>, 500);
+
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Lime>, <terrafirmacraftplus:item.LooseRock:6>, 50);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Lime>, <terrafirmacraftplus:item.LooseRock:8>, 50);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Lime>, <terrafirmacraftplus:item.LooseRock:10>, 50);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Lime>, <terrafirmacraftplus:item.LooseRock:20>, 50);
+
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Lime>, <terrafirmacraftplus:item.seashell>, 50);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Lime>, <terrafirmacraftplus:item.seashell:1>, 50);
+
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Lime>*5, <terrafirmacraftplus:Sand:6>, 200);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Lime>*5, <terrafirmacraftplus:Sand:8>, 200);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Lime>*5, <terrafirmacraftplus:Sand:10>, 200);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Lime>*5, <terrafirmacraftplus:Sand2:4>, 200);
+
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Lime>*5, <terrafirmacraftplus:Gravel:6>, 200);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Lime>*5, <terrafirmacraftplus:Gravel:8>, 200);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Lime>*5, <terrafirmacraftplus:Gravel:10>, 200);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Lime>*5, <terrafirmacraftplus:Gravel2:4>, 200);
+
+mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:hardened_clay>, <minecraft:clay>, 2000);
+
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Powder:12>, <terrafirmacraftplus:item. Powder:11>, 50);
+
+//heat up ingot
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Bismuth Ingot>.withTag({temperature: 250.0 as float}), <terrafirmacraftplus:item.Bismuth Ingot>, 250);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Bismuth Bronze Ingot>.withTag({temperature: 980.0 as float}), <terrafirmacraftplus:item.Bismuth Bronze Ingot>, 1000);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Brass Ingot>.withTag({temperature: 900.0 as float}), <terrafirmacraftplus:item.Brass Ingot>, 1000);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Bronze Ingot>.withTag({temperature: 900.0 as float}), <terrafirmacraftplus:item.Bronze Ingot>, 1000);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Copper Ingot>.withTag({temperature: 1000.0 as float}), <terrafirmacraftplus:item.Copper Ingot>, 1000);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Gold Ingot>.withTag({temperature: 1000.0 as float}), <terrafirmacraftplus:item.Gold Ingot>, 1000);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Lead Ingot>.withTag({temperature: 300.0 as float}), <terrafirmacraftplus:item.Lead Ingot>, 250);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Rose Gold Ingot>.withTag({temperature: 950.0 as float}), <terrafirmacraftplus:item.Rose Gold Ingot>, 1000);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Silver Ingot>.withTag({temperature: 950.0 as float}), <terrafirmacraftplus:item.Silver Ingot>, 1000);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Sterling Silver Ingot>.withTag({temperature: 890.0 as float}), <terrafirmacraftplus:item.Sterling Silver Ingot>, 100);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Tin Ingot>.withTag({temperature: 220.0 as float}), <terrafirmacraftplus:item.Tin Ingot>, 200);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Zinc Ingot>.withTag({temperature: 400.0 as float}), <terrafirmacraftplus:item.Zinc Ingot>, 500);
 
 //floodlight
 recipes.removeShaped(<ImmersiveEngineering:metalDevice2:4>);
