@@ -9,7 +9,7 @@ recipes.removeShaped(<CarpentersBlocks:itemCarpentersHammer>);
 val block = <CarpentersBlocks:blockCarpentersBlock>;
 
 //add recipes
-recipes.addShaped(<CarpentersBlocks:blockCarpentersDaylightSensor>, [[<ore:blockGlassColorless>,<ore:blockGlassColorless>,<ore:blockGlassColorless>],[<ore:gemQuartz>,<ore:gemQuartz>,<ore:gemQuartz>],[<ore:woodLumber>,<ore:woodLumber>,<ore:woodLumber>]]);
+recipes.addShaped(<CarpentersBlocks:blockCarpentersDaylightSensor>, [[<ore:blockGlassColorless>,<ore:blockGlassColorless>,<ore:blockGlassColorless>],[<ore:gemQuartz>,<ore:gemQuartz>,<ore:gemQuartz>],[<CarpentersBlocks:blockCarpentersBlock>,<CarpentersBlocks:blockCarpentersBlock>,<CarpentersBlocks:blockCarpentersBlock>]]);
 recipes.addShaped(<CarpentersBlocks:blockCarpentersBarrier>*6, [[block,<ore:stickWood>,block],[block,<ore:stickWood>,block]]);
 recipes.addShaped(<CarpentersBlocks:blockCarpentersSafe>, [[block,<ore:plateSteel>,block],[<ore:plateSteel>,<ImmersiveEngineering:material:12>,<ore:plateSteel>],[block,<ore:plateSteel>,block]]);
 recipes.addShaped(<CarpentersBlocks:itemCarpentersBed>, [[<ore:materialCloth>,<ore:materialCloth>,<ore:materialCloth>],[block,block,block]]);

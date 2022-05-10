@@ -3,6 +3,7 @@ recipes.removeShapeless(<BiblioCraft:item.FramingBoard>);
 recipes.removeShapeless(<BiblioCraft:item.FramingSheet>);
 recipes.removeShaped(<BiblioCraft:BiblioPaneler:*>);
 
+//seat
 recipes.remove(<BiblioCraft:BiblioSeats:*>);
 recipes.addShaped(<BiblioCraft:BiblioSeats>,[[null,<ore:materialCloth>,null],[null,<ore:plankWood>,null],[<ore:stickWood>,<minecraft:wooden_pressure_plate>,<ore:stickWood>]]);
 recipes.addShaped(<BiblioCraft:BiblioSeats:6>,[[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],[<ore:stickWood>,<BiblioCraft:BiblioSeats>,<ore:stickWood>],[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>]]);
@@ -27,46 +28,57 @@ recipes.remove(<BiblioCraft:item.seatBack4:*>);
 recipes.addShaped(<BiblioCraft:item.seatBack4>,[[<ore:materialCloth>,null,null],[<ore:woodLumber>,null,null]]);
 recipes.addShaped(<BiblioCraft:item.seatBack4:6>,[[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],[<ore:stickWood>,<BiblioCraft:item.seatBack4>,<ore:stickWood>],[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>]]);
 
+//label
 recipes.remove(<BiblioCraft:BiblioLabel:*>);
 recipes.addShaped(<BiblioCraft:BiblioLabel>,[[<ore:stickWood>,<ore:woodLumber>,<ore:stickWood>]]);
 recipes.addShaped(<BiblioCraft:BiblioLabel:6>,[[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],[<ore:stickWood>,<BiblioCraft:BiblioLabel>,<ore:stickWood>],[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>]]);
 
+//fancy painting
 recipes.remove(<BiblioCraft:BiblioFancyPainting:*>);
 recipes.addShaped(<BiblioCraft:BiblioFancyPainting>,[[<ore:woodLumber>,<ore:woodLumber>,<ore:woodLumber>],[<ore:woodLumber>,<minecraft:paper>,<ore:woodLumber>],[<ore:woodLumber>,<ore:woodLumber>,<ore:woodLumber>]]);
 recipes.addShaped(<BiblioCraft:BiblioFancyPainting:6>,[[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],[<ore:stickWood>,<BiblioCraft:BiblioFancyPainting>,<ore:stickWood>],[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>]]);
 
+//middle painting
 recipes.remove(<BiblioCraft:BiblioMiddlePainting:*>);
 recipes.addShaped(<BiblioCraft:BiblioMiddlePainting>,[[<ore:woodLumber>,<ore:stickWood>,<ore:woodLumber>],[<ore:woodLumber>,<minecraft:paper>,<ore:woodLumber>],[<ore:woodLumber>,<ore:stickWood>,<ore:woodLumber>]]);
 recipes.addShaped(<BiblioCraft:BiblioMiddlePainting:6>,[[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],[<ore:stickWood>,<BiblioCraft:BiblioMiddlePainting>,<ore:stickWood>],[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>]]);
 
+//simple painting
 recipes.remove(<BiblioCraft:BiblioSimplePainting:*>);
 recipes.addShaped(<BiblioCraft:BiblioSimplePainting>,[[<ore:woodLumber>,<ore:stickWood>,<ore:woodLumber>],[<ore:stickWood>,<minecraft:paper>,<ore:stickWood>],[<ore:woodLumber>,<ore:stickWood>,<ore:woodLumber>]]);
 recipes.addShaped(<BiblioCraft:BiblioSimplePainting:6>,[[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],[<ore:stickWood>,<BiblioCraft:BiblioSimplePainting>,<ore:stickWood>],[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>]]);
 
+//flat painting
 recipes.remove(<BiblioCraft:BiblioFlatPainting:*>);
 recipes.addShaped(<BiblioCraft:BiblioFlatPainting>,[[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],[<ore:woodLumber>,<minecraft:paper>,<ore:woodLumber>],[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>]]);
 recipes.addShaped(<BiblioCraft:BiblioFlatPainting:6>,[[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],[<ore:stickWood>,<BiblioCraft:BiblioFlatPainting>,<ore:stickWood>],[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>]]);
 
+//borderless painting
 recipes.remove(<BiblioCraft:BiblioBorderlessPainting:*>);
 recipes.addShaped(<BiblioCraft:BiblioBorderlessPainting>,[[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],[<ore:stickWood>,<minecraft:paper>,<ore:stickWood>],[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>]]);
 recipes.addShaped(<BiblioCraft:BiblioBorderlessPainting:6>,[[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],[<ore:stickWood>,<BiblioCraft:BiblioBorderlessPainting>,<ore:stickWood>],[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>]]);
 
+//case
 recipes.remove(<BiblioCraft:BiblioCase:*>);
 recipes.addShaped(<BiblioCraft:BiblioCase>,[[<ore:woodLumber>,<ore:paneGlass>,<ore:woodLumber>],[<ore:woodLumber>,<ore:materialCloth>,<ore:woodLumber>],[<ore:woodLumber>,<ore:woodLumber>,<ore:woodLumber>]]);
 recipes.addShaped(<BiblioCraft:BiblioCase:6>,[[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],[<ore:stickWood>,<BiblioCraft:BiblioCase>,<ore:stickWood>],[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>]]);
 
+//desk
 recipes.remove(<BiblioCraft:BiblioDesk:*>);
 recipes.addShaped(<BiblioCraft:BiblioDesk>,[[<terrafirmacraftplus:CandleOff>,null,<minecraft:feather>],[<ore:woodLumber>,<ore:woodLumber>,<ore:woodLumber>],[<ore:plankWood>,null,<ore:plankWood>]]);
 recipes.addShaped(<BiblioCraft:BiblioDesk:6>,[[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],[<ore:stickWood>,<BiblioCraft:BiblioDesk>,<ore:stickWood>],[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>]]);
 
+//table
 recipes.remove(<BiblioCraft:BiblioTable:*>);
 recipes.addShaped(<BiblioCraft:BiblioTable>,[[<ore:woodLumber>,<ore:woodLumber>,<ore:woodLumber>],[null,<ore:woodLumber>,null],[<ore:woodLumber>,null,<ore:woodLumber>]]);
 recipes.addShaped(<BiblioCraft:BiblioTable:6>,[[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],[<ore:stickWood>,<BiblioCraft:BiblioTable>,<ore:stickWood>],[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>]]);
 
+//bibliotheca
 recipes.remove(<BiblioCraft:Bibliotheca:*>);
 recipes.addShaped(<BiblioCraft:Bibliotheca>,[[<ore:plankWood>,<ore:woodLumber>,<ore:plankWood>],[<ore:plankWood>,<ore:woodLumber>,<ore:plankWood>],[<ore:plankWood>,<ore:woodLumber>,<ore:plankWood>]]);
 recipes.addShaped(<BiblioCraft:Bibliotheca:6>,[[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],[<ore:stickWood>,<BiblioCraft:Bibliotheca>,<ore:stickWood>],[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>]]);
 
+//shelf
 recipes.remove(<BiblioCraft:BiblioShelf:*>);
 recipes.addShaped(<BiblioCraft:BiblioShelf>,[[<ore:woodLumber>,<ore:woodLumber>,<ore:woodLumber>],[null,<ore:plankWood>,null],[<ore:woodLumber>,<ore:woodLumber>,<ore:woodLumber>]]);
 recipes.addShaped(<BiblioCraft:BiblioShelf:6>,[[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],[<ore:stickWood>,<BiblioCraft:BiblioShelf>,<ore:stickWood>],[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>]]);
@@ -75,34 +87,42 @@ recipes.remove(<BiblioCraft:BiblioPotionShelf:*>);
 recipes.addShaped(<BiblioCraft:BiblioPotionShelf>,[[<ore:plankWood>,null,<ore:plankWood>],[<ore:plankWood>,<ore:woodLumber>,<ore:plankWood>],[<ore:plankWood>,<ore:woodLumber>,<ore:plankWood>]]);
 recipes.addShaped(<BiblioCraft:BiblioPotionShelf:6>,[[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],[<ore:stickWood>,<BiblioCraft:BiblioPotionShelf>,<ore:stickWood>],[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>]]);
 
+//clock
 <ore:clock>.add(<minecraft:clock>);
 <ore:clock>.add(<terrafirmacraftplus:item.Brass Clock:*>);
 recipes.remove(<BiblioCraft:BiblioClock:*>);
 recipes.addShaped(<BiblioCraft:BiblioClock>,[[<ore:plankWood>,<ore:clock>,<ore:plankWood>],[<ore:plankWood>,<ore:stickWood>,<ore:plankWood>],[<ore:plankWood>,<ore:ingotGold>,<ore:plankWood>]]);
 recipes.addShaped(<BiblioCraft:BiblioClock:6>,[[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],[<ore:stickWood>,<BiblioCraft:BiblioClock>,<ore:stickWood>],[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>]]);
 
+//rock
 recipes.remove(<BiblioCraft:BiblioRack:*>);
 recipes.addShaped(<BiblioCraft:BiblioRack>,[[<ore:woodLumber>,<ore:woodLumber>,<ore:woodLumber>],[<ore:woodLumber>,<ore:ingotIron>,<ore:woodLumber>],[<ore:woodLumber>,<ore:woodLumber>,<ore:woodLumber>]]);
 recipes.addShaped(<BiblioCraft:BiblioRack:6>,[[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],[<ore:stickWood>,<BiblioCraft:BiblioRack>,<ore:stickWood>],[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>]]);
 
+//map frames
 recipes.remove(<BiblioCraft:BiblioMapFrames:*>);
 recipes.addShaped(<BiblioCraft:BiblioMapFrames>,[[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],[<ore:stickWood>,<ore:woodLumber>,<ore:stickWood>],[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>]]);
 recipes.addShaped(<BiblioCraft:BiblioMapFrames:6>,[[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],[<ore:stickWood>,<BiblioCraft:BiblioMapFrames>,<ore:stickWood>],[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>]]);
 
+//workbench
 recipes.remove(<BiblioCraft:BiblioWorkbench:*>);
 recipes.addShaped(<BiblioCraft:BiblioWorkbench>,[[<ore:craftingTableWood>,null,null],[<BiblioCraft:Bibliotheca>,null,null]]);
 recipes.addShaped(<BiblioCraft:BiblioWorkbench:6>,[[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],[<ore:stickWood>,<BiblioCraft:BiblioWorkbench>,<ore:stickWood>],[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>]]);
 
+//paneler
 recipes.remove(<BiblioCraft:BiblioPaneler:*>);
 recipes.addShaped(<BiblioCraft:BiblioPaneler>,[[<ore:woodLumber>,<ore:itemSaw>,<ore:woodLumber>],[<ore:woodLumber>,<ore:woodLumber>,<ore:woodLumber>],[<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]]);
 recipes.addShaped(<BiblioCraft:BiblioPaneler:6>,[[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],[<ore:stickWood>,<BiblioCraft:BiblioPaneler>,<ore:stickWood>],[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>]]);
 
+//paint press
 recipes.remove(<BiblioCraft:BiblioPaintPress>);
 recipes.addShaped(<BiblioCraft:BiblioPaintPress>,[[<ore:woodLumber>,<ore:plateCopper>,<ore:woodLumber>],[<ore:woodLumber>,null,<ore:woodLumber>],[<ore:woodLumber>,<ore:plateCopper>,<ore:woodLumber>]]);
 
+//plumb line
 recipes.remove(<BiblioCraft:item.PlumbLine>);
 recipes.addShaped(<BiblioCraft:item.PlumbLine>,[[<ore:materialString>,<ore:materialString>,<ore:materialString>],[<ore:materialString>,null,<ore:materialString>],[<ore:ingotGold>,null,<ore:materialString>]]);
 
+//pedestals
 recipes.removeShaped(<BiblioCraft:BiblioSwordPedestal>);
 recipes.removeShaped(<BiblioCraft:BiblioSwordPedestal:1>);
 recipes.removeShaped(<BiblioCraft:BiblioSwordPedestal:2>);
@@ -137,20 +157,31 @@ recipes.addShaped(<BiblioCraft:BiblioSwordPedestal:13>,[[null,<ore:stone>,null],
 recipes.addShaped(<BiblioCraft:BiblioSwordPedestal:14>,[[null,<ore:stone>,null],[<ore:stone>,<ore:dyeRed>,<ore:stone>]]);
 recipes.addShaped(<BiblioCraft:BiblioSwordPedestal:15>,[[null,<ore:stone>,null],[<ore:stone>,<ore:dyeBlack>,<ore:stone>]]);
 
+//tape
 recipes.removeShaped(<BiblioCraft:item.tape>);
 recipes.addShaped(<BiblioCraft:item.tape>,[[<ore:materialString>,<ore:materialString>,<ore:materialString>],[<ore:materialString>,<ore:dyeYellow>,<ore:materialString>],[<ore:materialString>,<ore:materialString>,<ore:materialString>]]);
 
+//clipboard
 recipes.removeShaped(<BiblioCraft:item.BiblioClipboard>);
 recipes.addShaped(<BiblioCraft:item.BiblioClipboard>,[[<ore:dyeBlack>,null,<minecraft:feather>],[<minecraft:paper>,<minecraft:paper>,<minecraft:paper>],[null,<minecraft:wooden_pressure_plate>,null]]);
 
+//tape measure
 recipes.removeShaped(<BiblioCraft:item.tapeMeasure>);
 recipes.addShapeless(<BiblioCraft:item.tapeMeasure>,[<ore:itemRock>,<BiblioCraft:item.tape>]);
 
+recipes.removeShaped(<BiblioCraft:item.FramingSaw>);
+
+//armor stand
+recipes.removeShaped(<BiblioCraft:Armor Stand>);
+recipes.addShaped(<BiblioCraft:Armor Stand>,[[null,<ImmersiveEngineering:material:14>,null],[null,<ImmersiveEngineering:material:14>,null],[<minecraft:stone_slab>,<minecraft:stone_slab>,<minecraft:stone_slab>]]);
+
+//bell
 recipes.removeShaped(<BiblioCraft:BiblioBell>);
 game.setLocalization("gui.plans.deskbell", "Desk Bell");
 mods.Terrafirmacraft.Anvil.addPlanRecipe("deskbell", 3, 6, 7);
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<BiblioCraft:BiblioBell>, <terrafirmacraftplus:item.Wrought Iron Ingot>, "deskbell", 3);
 
+//glasses
 recipes.removeShaped(<BiblioCraft:item.BiblioGlasses>);
 game.setLocalization("gui.plans.readingglasses", "Reading Glasses");
 mods.Terrafirmacraft.Anvil.addPlanRecipe("readingglasses", 3, 6, 7);
@@ -161,15 +192,18 @@ game.setLocalization("gui.plans.monocle", "Monocle");
 mods.Terrafirmacraft.Anvil.addPlanRecipe("monocle", 3, 6, 7);
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<BiblioCraft:item.BiblioGlasses:2>, <terrafirmacraftplus:item.Gold Ingot>, <minecraft:glass_pane>,"monocle", 1);
 
+//hand drill
 recipes.removeShaped(<BiblioCraft:item.HandDrill>);
 game.setLocalization("gui.plans.handdrill", "Hand Drill");
 mods.Terrafirmacraft.Anvil.addPlanRecipe("handdrill", 3, 6, 7);
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<BiblioCraft:item.HandDrill>, <terrafirmacraftplus:item.Wrought Iron Ingot>, "handdrill", 3);
 
+//drafting compass
 recipes.removeShaped(<BiblioCraft:item.BiblioMapTool>);
 game.setLocalization("gui.plans.draftingcompass", "Drafting Compass");
 mods.Terrafirmacraft.Anvil.addPlanRecipe("draftingcompass", 3, 6, 7);
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<BiblioCraft:item.BiblioMapTool>, <terrafirmacraftplus:item.Wrought Iron Ingot>, "draftingcompass", 3);
 
+//painting compass
 recipes.removeShaped(<BiblioCraft:item.PaintingCanvas>);
 recipes.addShapeless(<BiblioCraft:item.PaintingCanvas>,[<ore:materialCloth>,<ore:dyeWhite>]);

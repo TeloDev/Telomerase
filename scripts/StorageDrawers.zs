@@ -11,10 +11,10 @@ recipes.removeShaped(<StorageDrawers:fullCustom1>, [[<ore:stickWood>, <ore:stick
 recipes.removeShaped(<StorageDrawers:fullCustom4>, [[<ore:chestWood>, <ore:stickWood>, <ore:chestWood>], [<ore:stickWood>, <ore:plankWood>, <ore:stickWood>], [<ore:chestWood>, <ore:stickWood>, <ore:chestWood>]]);
 recipes.removeShaped(<StorageDrawers:trimCustom>, [[<ore:plankWood>, <ore:stickWood>, <ore:plankWood>], [<ore:stickWood>, <ore:plankWood>, <ore:stickWood>], [<ore:plankWood>, <ore:stickWood>, <ore:plankWood>]]);
 
-recipes.addShaped(<StorageDrawers:fullCustom2>, [[<ore:woodLumber>, <ore:woodLumber>, <ore:woodLumber>], [<ore:woodLumber>, <StorageDrawers:fullDrawers2>, <ore:woodLumber>], [<ore:woodLumber>, <ore:woodLumber>, <ore:woodLumber>]]);
-recipes.addShaped(<StorageDrawers:fullCustom1>, [[<ore:woodLumber>, <ore:woodLumber>, <ore:woodLumber>], [<ore:woodLumber>, <StorageDrawers:fullDrawers1>, <ore:woodLumber>], [<ore:woodLumber>, <ore:woodLumber>, <ore:woodLumber>]]);
-recipes.addShaped(<StorageDrawers:fullCustom4>, [[<ore:woodLumber>, <ore:woodLumber>, <ore:woodLumber>], [<ore:woodLumber>, <StorageDrawers:fullDrawers4>, <ore:woodLumber>], [<ore:woodLumber>, <ore:woodLumber>, <ore:woodLumber>]]);
-recipes.addShaped(<StorageDrawers:trimCustom>, [[<ore:woodLumber>, <ore:woodLumber>, <ore:woodLumber>], [<ore:woodLumber>, <StorageDrawers:trim>, <ore:woodLumber>], [<ore:woodLumber>, <ore:woodLumber>, <ore:woodLumber>]]);
+recipes.addShaped(<StorageDrawers:fullCustom2>, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], [<ore:stickWood>, <StorageDrawers:fullDrawers2>, <ore:stickWood>], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
+recipes.addShaped(<StorageDrawers:fullCustom1>, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], [<ore:stickWood>, <StorageDrawers:fullDrawers1>, <ore:stickWood>], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
+recipes.addShaped(<StorageDrawers:fullCustom4>, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], [<ore:stickWood>, <StorageDrawers:fullDrawers4>, <ore:stickWood>], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
+recipes.addShaped(<StorageDrawers:trimCustom>, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], [<ore:stickWood>, <StorageDrawers:trim>, <ore:stickWood>], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 
 //upgrade template
 recipes.removeShaped(<StorageDrawers:upgradeTemplate>);
@@ -64,7 +64,7 @@ recipes.addShapeless(<StorageDrawers:shroudKey>, [<StorageDrawers:upgradeLock>, 
 <ore:drawerKey>.add(<StorageDrawers:personalKey>);
 recipes.addShapeless(<StorageDrawers:upgradeLock>, [<ore:drawerKey>]);
 
-//compating drawe r
+//compacting drawer
 recipes.removeShaped(<StorageDrawers:compDrawers>);
 recipes.addShaped(<StorageDrawers:compDrawers>, [[<ore:stone>,<ore:stone>,<ore:stone>],[<ore:stone>,<ore:drawerBasic>,<ore:stone>],[<ore:stone>,<minecraft:piston>,<ore:stone>]]);
 

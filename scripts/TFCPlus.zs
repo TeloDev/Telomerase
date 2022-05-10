@@ -139,8 +139,6 @@ recipes.addShaped(<terrafirmacraftplus:brickChimney>,[[<terrafirmacraftplus:item
 <ore:medical>.add(<terrafirmacraftplus:item.Cast>);
 //<ore:logStacked>.add(<terrafirmacraftplus:item.Stacked Log:*>);
 
-recipes.removeShapeless(<minecraft:trapped_chest>);
-recipes.addShapeless(<minecraft:trapped_chest>,[<ore:chestWood>,<minecraft:tripwire_hook>]);
 <minecraft:boat>.addTooltip(format.green("requires barrel full of pitch to craft"));
 recipes.removeShaped(<minecraft:boat>);
 recipes.addShaped(<minecraft:boat>,[[<terrafirmacraftplus:item.Paddle>,null,<terrafirmacraftplus:item.Paddle>],[<ore:plankWood>,<terrafirmacraftplus:Barrel:*>.onlyWithTag({fluidNBT: {FluidName: "pitch", Amount: 10000}}),<ore:plankWood>],[<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]]);
@@ -187,8 +185,9 @@ recipes.addShapeless(<minecraft:glowstone_dust>*4,[<minecraft:glowstone>]);
 recipes.removeShaped(<minecraft:coal_block>);
 recipes.addShaped(<minecraft:coal_block>,[[<ore:gemCoal>,<ore:gemCoal>,<ore:gemCoal>],[<ore:gemCoal>,<ore:gemCoal>,<ore:gemCoal>],[<ore:gemCoal>,<ore:gemCoal>,<ore:gemCoal>]]);
 
-//recipes.removeShapeless(<terrafirmacraftplus:item.coal>);
+recipes.removeShapeless(<terrafirmacraftplus:item.coal>);
 recipes.addShapeless(<terrafirmacraftplus:item.coal>*9,[<minecraft:coal_block>]);
+recipes.addShapeless(<terrafirmacraftplus:item.coal>*2,[<terrafirmacraftplus:item.Ore:308>,<ore:itemHammer>.transformDamage()]);
 //mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.coal>*2, <terrafirmacraftplus:item.Ore:308>);
 
 //book
@@ -296,12 +295,17 @@ recipes.remove(<minecraft:mushroom_stew>);
 recipes.remove(<minecraft:pumpkin_pie>);
 recipes.remove(<minecraft:cake>);
 recipes.remove(<minecraft:golden_carrot>);
+recipes.remove(<minecraft:golden_apple:*>);
 recipes.remove(<minecraft:cookie>);
 recipes.remove(<minecraft:bread>);
 recipes.remove(<minecraft:hay_block>);
 recipes.remove(<minecraft:wheat>);
 recipes.remove(<minecraft:flower_pot>);
 recipes.remove(<minecraft:enchanted_book>);
+recipes.remove(<minecraft:trapped_chest>);
+recipes.remove(<minecraft:pumpkin_seeds>);
+recipes.remove(<minecraft:melon_seeds>);
+recipes.remove(<minecraft:fire_charge>);
 
 //vanilla dye fix
 recipes.addShapeless(<terrafirmacraftplus:item.dyePowder:2>,[<ore:dyeBlue>,<ore:dyeYellow>]);
@@ -447,12 +451,15 @@ for item in dyes{
   <ore:dyePowder>.add(item);
 }
 
-recipes.addShapedMirrored(<minecraft:brick_stairs>*4,[[null,null,<terrafirmacraftplus:Bricks>],[null,<terrafirmacraftplus:Bricks>,<terrafirmacraftplus:Bricks>],[<terrafirmacraftplus:Bricks>,<terrafirmacraftplus:Bricks>,<terrafirmacraftplus:Bricks>]]);
 //recipes.addShapedMirrored(<minecraft:stone_slab:4>*6,[[<terrafirmacraftplus:Bricks>,<terrafirmacraftplus:Bricks>,<terrafirmacraftplus:Bricks>]]);
 recipes.addShapeless(<minecraft:stone_slab>*2,[<ore:stoneSmooth>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
 recipes.addShapeless(<minecraft:stone_slab:4>*2,[<terrafirmacraftplus:Bricks>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<minecraft:brick_stairs>*2,[<minecraft:stone_slab:4>,<minecraft:stone_slab:4>,<minecraft:stone_slab:4>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<minecraft:brick_stairs>*2,[<terrafirmacraftplus:Bricks>,<minecraft:stone_slab:4>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
 recipes.addShaped(<minecraft:lapis_block>,[[<terrafirmacraftplus:item.Powder:6>,<terrafirmacraftplus:item.Powder:6>,<terrafirmacraftplus:item.Powder:6>],[<terrafirmacraftplus:item.Powder:6>,<terrafirmacraftplus:item.Powder:6>,<terrafirmacraftplus:item.Powder:6>],[<terrafirmacraftplus:item.Powder:6>,<terrafirmacraftplus:item.Powder:6>,<terrafirmacraftplus:item.Powder:6>]]);
 recipes.addShaped(<terrafirmacraftplus:item.Powder:6>*9,[[<minecraft:lapis_block>]]);
+recipes.addShaped(<terrafirmacraftplus:Bricks>, [[<minecraft:stone_slab:4>],[<minecraft:stone_slab:4>]]);
+
 //carrot joke
 //mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraftplus:item.Unknown Ingot>,<terrafirmacraftplus:item.Carrot>,400);
 
@@ -725,7 +732,7 @@ recipes.addShapeless(<terrafirmacraftplus:item.Fertilizer>, [<terrafirmacraftplu
 
 //piston
 recipes.removeShaped(<minecraft:piston>);
-recipes.addShaped(<minecraft:piston>,[[null,<Pistronics2:Extension Part Block>.withTag({comp: 0, redio: 0 as byte, camouID: -1 as int, camou: 0 as byte, camouMeta: 0, super_sticky: 0 as byte, sticky: 0 as byte, redstone: 0 as byte}),null],[<ore:cobblestone>,<Pistronics2:Rod Block>.withTag({redstone: 0 as byte}),<ore:cobblestone>],[<ore:cobblestone>,<minecraft:redstone>,<ore:cobblestone>]]);
+recipes.addShaped(<minecraft:piston>,[[<ore:cobblestone>,<Pistronics2:Extension Block>.withTag({comp: 0, redio: 0 as byte, camouID: -1 as int, camou: 0 as byte, camouMeta: 0, super_sticky: 0 as byte, sticky: 0 as byte, redstone: 0 as byte}),<ore:cobblestone>],[<ore:cobblestone>,<minecraft:redstone>,<ore:cobblestone>]]);
 
 game.setLocalization("gui.plans.leadbottle", "Lead Bottle");
 mods.Terrafirmacraft.Anvil.addPlanRecipe("leadbottle", 21, 6, 7);

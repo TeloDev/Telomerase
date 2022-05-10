@@ -544,7 +544,7 @@ destination = mods/BetterBoat-1.7.10-1.1.0.jar
 [Vanilla Themed TFC+]
 type = curseforge
 projectId = 401494
-fileId = 3613004
+fileId = 3784765
 destination = resourcepacks/VanillaThemedTFC.zip
 
 [MATmos Default Soundpack]
@@ -556,3 +556,15 @@ destination = resourcepacks/matdefault2016.zip
 type = url
 url = https://github.com/TeloDev/TelomeraseResources/raw/main/TelomeraseResources.zip
 destination = resourcepacks/TelomeraseResources.zip
+
+[TFC+ Alternate Default]
+type = curseforge
+projectId = 613152
+fileId = 3780879
+destination = resourcepacks/TFCAlternateDefault.zip
+
+[BSL Shaders]
+type = curseforge
+projectId = 322506
+fileId = 3752138
+destination = shaderpacks/BSL_Shaders.zip
