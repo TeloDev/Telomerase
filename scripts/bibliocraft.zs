@@ -181,7 +181,7 @@ game.setLocalization("gui.plans.deskbell", "Desk Bell");
 mods.Terrafirmacraft.Anvil.addPlanRecipe("deskbell", 3, 6, 7);
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<BiblioCraft:BiblioBell>, <terrafirmacraftplus:item.Wrought Iron Ingot>, "deskbell", 3);
 
-/glasses
+//glasses
 recipes.removeShaped(<BiblioCraft:item.BiblioGlasses>);
 game.setLocalization("gui.plans.readingglasses", "Reading Glasses");
 mods.Terrafirmacraft.Anvil.addPlanRecipe("readingglasses", 3, 6, 7);
