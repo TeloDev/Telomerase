@@ -1217,7 +1217,7 @@ mods.Terrafirmacraft.Quern.addRecipe(<terrafirmacraftplus:item.StoneFlake> * 3, 
 mods.immersiveengineering.Squeezer.removeFluidRecipe(<liquid:plantoil>);
 mods.immersiveengineering.Squeezer.removeItemStack(<ImmersiveEngineering:metal:19>);
 mods.immersiveengineering.Squeezer.addRecipe(<ImmersiveEngineering:metal:20>, null, <terrafirmacraftplus:item.Powder:2>*4, 80);
-mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 3000, <teloaddon:Oily_Mash>, 400);
+mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 2500, <teloaddon:Oily_Mash>, 400);
 mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:plantoil> * 25, <ore:seedBag>, 100);
 mods.immersiveengineering.Squeezer.addRecipe(<terrafirmacraftplus:item.Sisal Fibre>, <liquid:agavejuice> * 40, <terrafirmacraftplus:item.Agave>, 80);
 mods.immersiveengineering.Squeezer.addRecipe(null, <liquid:wax> * 400, <terrafirmacraftplus:item.EmptyHoneycomb>, 80);

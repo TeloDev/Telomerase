@@ -231,7 +231,7 @@ mods.forestry.Squeezer.removeRecipe(<liquid:lava>);
 recipes.addShapeless(<teloaddon:Oily_Mash>,[<ore:itemHammer>.transformDamage(),<terrafirmacraftplus:item.Olive>.onlyWithTag({foodWeight: 160.0 as float})]);
 recipes.addShapeless(<teloaddon:Oily_Mash>,[<ore:itemHammer>.transformDamage(),<terrafirmacraftplus:item.CoconutMeat>.onlyWithTag({foodWeight: 160.0 as float})]);
 recipes.addShapeless(<teloaddon:Oily_Mash>,[<ore:itemHammer>.transformDamage(),<terrafirmacraftplus:item.Soybeans>.onlyWithTag({foodWeight: 160.0 as float})]);
-mods.forestry.Squeezer.addRecipe(<liquid:plantoil> * 3000, 200, [<teloaddon:Oily_Mash>]);
+mods.forestry.Squeezer.addRecipe(<liquid:plantoil> * 2500, 200, [<teloaddon:Oily_Mash>]);
 mods.forestry.Squeezer.addRecipe(<liquid:wax> * 300, <Forestry:propolis> % 5, [<terrafirmacraftplus:item.EmptyHoneycomb>], 20);
 mods.forestry.Squeezer.removeRecipe(<liquid:for.honey>);
 mods.forestry.Squeezer.addRecipe(<liquid:honey> * 125, <Forestry:propolis> % 20, [<Forestry:honeyDrop>], 20);
@@ -309,6 +309,9 @@ var juices = [
 for i, food in juiceFoods{
 	mods.forestry.Squeezer.addRecipe(juices[i]*juiceAmounts[i], 40, [food]);
 }
+
+mods.forestry.Squeezer.addRecipe(<liquid:plantoil>*16, 40, [<terrafirmacraftplus:item.CoconutMeat>]);
+mods.forestry.Squeezer.addRecipe(<liquid:plantoil>*16, 40, [<terrafirmacraftplus:item.Soybeans>]);
 
 mods.forestry.Centrifuge.removeRecipe(<Forestry:beeCombs:*>);
 mods.forestry.Centrifuge.removeRecipe(<Forestry:propolis:3>);
