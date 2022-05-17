@@ -390,7 +390,7 @@ mods.forestry.Carpenter.addRecipe(<minecraft:paper>, [[<Forestry:woodPulp>,<Fore
 
 //concrete automation
 mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:stoneDecoration:4>, [[<ore:blockGravel>]], <liquid:limewater> * 500, 20);
-mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:stoneDecoration:4>, [[<ImmersiveEngineering:material:13>,<ImmersiveEngineering:material:13>,<ImmersiveEngineering:material:13>,<ImmersiveEngineering:material:13>]], <liquid:limewater> * 125, 20);
+mods.forestry.Carpenter.addRecipe(<ImmersiveEngineering:stoneDecoration:4>, [[<ImmersiveEngineering:material:13>,<ImmersiveEngineering:material:13>],[<ImmersiveEngineering:material:13>,<ImmersiveEngineering:material:13>]], <liquid:limewater> * 500, 20);
 
 //# LEATHER AUTOMATION
 
@@ -471,5 +471,5 @@ for log in tanninLogs{
 	mods.forestry.Fermenter.addRecipe(<liquid:tannin>, log, <liquid:freshwater>, 1000, 1);
 }
 
-mods.forestry.Fermenter.addRecipe(<liquid:limewater>, <terrafirmacraftplus:item.Lime>, <liquid:freshwater>, 500, 1);
-mods.forestry.Fermenter.addRecipe(<liquid:ammoniumchloride>, <terrafirmacraftplus:item.Powder:14>, <liquid:freshwater>, 500, 1);
+mods.forestry.Fermenter.addRecipe(<liquid:limewater>, <terrafirmacraftplus:item.Lime>, <liquid:freshwater>, 10, 50);
+mods.forestry.Fermenter.addRecipe(<liquid:ammoniumchloride>, <terrafirmacraftplus:item.Powder:14>, <liquid:freshwater>, 10, 50);

@@ -1,6 +1,6 @@
 {
 ImmersiveEngineering:[
-    {hide:[[*Shader*,ore,blueprint,metalDecoration2,multiblock,clothDevice,hemp,seed,stoneDevice,toolbox],[]]};
+    {hide:[[*Shader*,ore,metalDecoration2,multiblock,clothDevice,hemp,seed,stoneDevice,toolbox],[]]};
     {hide:[[storage,storageSlab],[0,1,2,3,4,5,6]]};
     {hide:[[woodenDecoration],[4]]};
     {show:[[metalDecoration2],[0,1,2]]};
