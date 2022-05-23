@@ -663,70 +663,70 @@ mods.Terrafirmacraft.Anvil.addAnvilRecipe(<teloaddon:Aluminum_Sheet>, <teloaddon
 recipes.addShapeless(<teloaddon:Aluminum_Ingot>,[<teloaddon:Aluminum_Unshaped>]);
 recipes.addShapeless(<teloaddon:Aluminum_Unshaped>,[<teloaddon:Aluminum_Ingot>, <terrafirmacraftplus:item.Mold:1>]);
 
-recipes.addShapeless(<terrafirmacraftplus:item.Ruby:3>*2,[<terrafirmacraftplus:item.Ruby:4>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Ruby:2>*2,[<terrafirmacraftplus:item.Ruby:3>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Ruby:1>*2,[<terrafirmacraftplus:item.Ruby:2>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Ruby:0>*2,[<terrafirmacraftplus:item.Ruby:1>,<ore:itemHammer>.transformDamage()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Ruby:3>*2,[<terrafirmacraftplus:item.Ruby:4>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Ruby:2>*2,[<terrafirmacraftplus:item.Ruby:3>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Ruby:1>*2,[<terrafirmacraftplus:item.Ruby:2>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Ruby:0>*2,[<terrafirmacraftplus:item.Ruby:1>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
 
-recipes.addShapeless(<terrafirmacraftplus:item.Sapphire:3>*2,[<terrafirmacraftplus:item.Sapphire:4>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Sapphire:2>*2,[<terrafirmacraftplus:item.Sapphire:3>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Sapphire:1>*2,[<terrafirmacraftplus:item.Sapphire:2>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Sapphire:0>*2,[<terrafirmacraftplus:item.Sapphire:1>,<ore:itemHammer>.transformDamage()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Sapphire:3>*2,[<terrafirmacraftplus:item.Sapphire:4>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Sapphire:2>*2,[<terrafirmacraftplus:item.Sapphire:3>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Sapphire:1>*2,[<terrafirmacraftplus:item.Sapphire:2>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Sapphire:0>*2,[<terrafirmacraftplus:item.Sapphire:1>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
 
-recipes.addShapeless(<terrafirmacraftplus:item.Emerald:3>*2,[<terrafirmacraftplus:item.Emerald:4>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Emerald:2>*2,[<terrafirmacraftplus:item.Emerald:3>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Emerald:1>*2,[<terrafirmacraftplus:item.Emerald:2>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Emerald:0>*2,[<terrafirmacraftplus:item.Emerald:1>,<ore:itemHammer>.transformDamage()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Emerald:3>*2,[<terrafirmacraftplus:item.Emerald:4>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Emerald:2>*2,[<terrafirmacraftplus:item.Emerald:3>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Emerald:1>*2,[<terrafirmacraftplus:item.Emerald:2>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Emerald:0>*2,[<terrafirmacraftplus:item.Emerald:1>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
 
-recipes.addShapeless(<terrafirmacraftplus:item.Topaz:3>*2,[<terrafirmacraftplus:item.Topaz:4>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Topaz:2>*2,[<terrafirmacraftplus:item.Topaz:3>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Topaz:1>*2,[<terrafirmacraftplus:item.Topaz:2>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Topaz:0>*2,[<terrafirmacraftplus:item.Topaz:1>,<ore:itemHammer>.transformDamage()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Topaz:3>*2,[<terrafirmacraftplus:item.Topaz:4>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Topaz:2>*2,[<terrafirmacraftplus:item.Topaz:3>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Topaz:1>*2,[<terrafirmacraftplus:item.Topaz:2>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Topaz:0>*2,[<terrafirmacraftplus:item.Topaz:1>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
 
-recipes.addShapeless(<terrafirmacraftplus:item.Tourmaline:3>*2,[<terrafirmacraftplus:item.Tourmaline:4>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Tourmaline:2>*2,[<terrafirmacraftplus:item.Tourmaline:3>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Tourmaline:1>*2,[<terrafirmacraftplus:item.Tourmaline:2>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Tourmaline:0>*2,[<terrafirmacraftplus:item.Tourmaline:1>,<ore:itemHammer>.transformDamage()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Tourmaline:3>*2,[<terrafirmacraftplus:item.Tourmaline:4>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Tourmaline:2>*2,[<terrafirmacraftplus:item.Tourmaline:3>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Tourmaline:1>*2,[<terrafirmacraftplus:item.Tourmaline:2>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Tourmaline:0>*2,[<terrafirmacraftplus:item.Tourmaline:1>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
 
-recipes.addShapeless(<terrafirmacraftplus:item.Jade:3>*2,[<terrafirmacraftplus:item.Jade:4>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Jade:2>*2,[<terrafirmacraftplus:item.Jade:3>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Jade:1>*2,[<terrafirmacraftplus:item.Jade:2>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Jade:0>*2,[<terrafirmacraftplus:item.Jade:1>,<ore:itemHammer>.transformDamage()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Jade:3>*2,[<terrafirmacraftplus:item.Jade:4>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Jade:2>*2,[<terrafirmacraftplus:item.Jade:3>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Jade:1>*2,[<terrafirmacraftplus:item.Jade:2>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Jade:0>*2,[<terrafirmacraftplus:item.Jade:1>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
 
-recipes.addShapeless(<terrafirmacraftplus:item.Beryl:3>*2,[<terrafirmacraftplus:item.Beryl:4>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Beryl:2>*2,[<terrafirmacraftplus:item.Beryl:3>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Beryl:1>*2,[<terrafirmacraftplus:item.Beryl:2>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Beryl:0>*2,[<terrafirmacraftplus:item.Beryl:1>,<ore:itemHammer>.transformDamage()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Beryl:3>*2,[<terrafirmacraftplus:item.Beryl:4>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Beryl:2>*2,[<terrafirmacraftplus:item.Beryl:3>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Beryl:1>*2,[<terrafirmacraftplus:item.Beryl:2>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Beryl:0>*2,[<terrafirmacraftplus:item.Beryl:1>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
 
-recipes.addShapeless(<terrafirmacraftplus:item.Agate:3>*2,[<terrafirmacraftplus:item.Agate:4>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Agate:2>*2,[<terrafirmacraftplus:item.Agate:3>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Agate:1>*2,[<terrafirmacraftplus:item.Agate:2>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Agate:0>*2,[<terrafirmacraftplus:item.Agate:1>,<ore:itemHammer>.transformDamage()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Agate:3>*2,[<terrafirmacraftplus:item.Agate:4>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Agate:2>*2,[<terrafirmacraftplus:item.Agate:3>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Agate:1>*2,[<terrafirmacraftplus:item.Agate:2>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Agate:0>*2,[<terrafirmacraftplus:item.Agate:1>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
 
-recipes.addShapeless(<terrafirmacraftplus:item.Opal:3>*2,[<terrafirmacraftplus:item.Opal:4>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Opal:2>*2,[<terrafirmacraftplus:item.Opal:3>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Opal:1>*2,[<terrafirmacraftplus:item.Opal:2>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Opal:0>*2,[<terrafirmacraftplus:item.Opal:1>,<ore:itemHammer>.transformDamage()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Opal:3>*2,[<terrafirmacraftplus:item.Opal:4>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Opal:2>*2,[<terrafirmacraftplus:item.Opal:3>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Opal:1>*2,[<terrafirmacraftplus:item.Opal:2>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Opal:0>*2,[<terrafirmacraftplus:item.Opal:1>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
 
-recipes.addShapeless(<terrafirmacraftplus:item.Garnet:3>*2,[<terrafirmacraftplus:item.Garnet:4>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Garnet:2>*2,[<terrafirmacraftplus:item.Garnet:3>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Garnet:1>*2,[<terrafirmacraftplus:item.Garnet:2>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Garnet:0>*2,[<terrafirmacraftplus:item.Garnet:1>,<ore:itemHammer>.transformDamage()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Garnet:3>*2,[<terrafirmacraftplus:item.Garnet:4>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Garnet:2>*2,[<terrafirmacraftplus:item.Garnet:3>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Garnet:1>*2,[<terrafirmacraftplus:item.Garnet:2>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Garnet:0>*2,[<terrafirmacraftplus:item.Garnet:1>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
 
-recipes.addShapeless(<terrafirmacraftplus:item.Jasper:3>*2,[<terrafirmacraftplus:item.Jasper:4>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Jasper:2>*2,[<terrafirmacraftplus:item.Jasper:3>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Jasper:1>*2,[<terrafirmacraftplus:item.Jasper:2>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Jasper:0>*2,[<terrafirmacraftplus:item.Jasper:1>,<ore:itemHammer>.transformDamage()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Jasper:3>*2,[<terrafirmacraftplus:item.Jasper:4>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Jasper:2>*2,[<terrafirmacraftplus:item.Jasper:3>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Jasper:1>*2,[<terrafirmacraftplus:item.Jasper:2>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Jasper:0>*2,[<terrafirmacraftplus:item.Jasper:1>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
 
-recipes.addShapeless(<terrafirmacraftplus:item.Amethyst:3>*2,[<terrafirmacraftplus:item.Amethyst:4>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Amethyst:2>*2,[<terrafirmacraftplus:item.Amethyst:3>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Amethyst:1>*2,[<terrafirmacraftplus:item.Amethyst:2>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Amethyst:0>*2,[<terrafirmacraftplus:item.Amethyst:1>,<ore:itemHammer>.transformDamage()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Amethyst:3>*2,[<terrafirmacraftplus:item.Amethyst:4>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Amethyst:2>*2,[<terrafirmacraftplus:item.Amethyst:3>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Amethyst:1>*2,[<terrafirmacraftplus:item.Amethyst:2>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Amethyst:0>*2,[<terrafirmacraftplus:item.Amethyst:1>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
 
-recipes.addShapeless(<terrafirmacraftplus:item.Diamond:3>*2,[<terrafirmacraftplus:item.Diamond:4>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Diamond:2>*2,[<terrafirmacraftplus:item.Diamond:3>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Diamond:1>*2,[<terrafirmacraftplus:item.Diamond:2>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<terrafirmacraftplus:item.Diamond:0>*2,[<terrafirmacraftplus:item.Diamond:1>,<ore:itemHammer>.transformDamage()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Diamond:3>*2,[<terrafirmacraftplus:item.Diamond:4>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Diamond:2>*2,[<terrafirmacraftplus:item.Diamond:3>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Diamond:1>*2,[<terrafirmacraftplus:item.Diamond:2>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<terrafirmacraftplus:item.Diamond:0>*2,[<terrafirmacraftplus:item.Diamond:1>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
 
 recipes.addShapeless(<terrafirmacraftplus:item.Fertilizer>, [<terrafirmacraftplus:item.dyePowder:15>,<teloaddon:Potash>,<ore:dustSaltpeter>]);
 
@@ -738,10 +738,10 @@ game.setLocalization("gui.plans.leadbottle", "Lead Bottle");
 mods.Terrafirmacraft.Anvil.addPlanRecipe("leadbottle", 21, 6, 7);
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<teloaddon:Lead_Bottle>*4, <terrafirmacraftplus:item.Lead Sheet>,"leadbottle", 1);
 
-recipes.addShapeless(<teloaddon:Fluorite:3>*2,[<teloaddon:Fluorite:4>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<teloaddon:Fluorite:2>*2,[<teloaddon:Fluorite:3>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<teloaddon:Fluorite:1>*2,[<teloaddon:Fluorite:2>,<ore:itemHammer>.transformDamage()]);
-recipes.addShapeless(<teloaddon:Fluorite:0>*2,[<teloaddon:Fluorite:1>,<ore:itemHammer>.transformDamage()]);
+recipes.addShapeless(<teloaddon:Fluorite:3>*2,[<teloaddon:Fluorite:4>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<teloaddon:Fluorite:2>*2,[<teloaddon:Fluorite:3>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<teloaddon:Fluorite:1>*2,[<teloaddon:Fluorite:2>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<teloaddon:Fluorite:0>*2,[<teloaddon:Fluorite:1>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
 
 //Nitroglycerin (a way to get vanilla TNT)
 recipes.removeShaped(<minecraft:tnt>);
