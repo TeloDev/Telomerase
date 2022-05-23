@@ -786,3 +786,6 @@ recipes.removeShaped(<minecraft:minecart>);
 recipes.removeShaped(<minecraft:furnace_minecart>);
 
 recipes.addShaped(<minecraft:minecart>,[[<terrafirmacraftplus:item.Wrought Iron Sheet>, null, <terrafirmacraftplus:item.Wrought Iron Sheet>],[<ImmersiveEngineering:material:11>,<terrafirmacraftplus:item.Wrought Iron Sheet>,<ImmersiveEngineering:material:11>]]);
+
+// slime ball from sinew
+mods.Terrafirmacraft.Barrel.addFireRecipe(<minecraft:slime_ball>, null, <terrafirmacraftplus:item.Sinew>*4, <liquid:freshwater>*800, 4000);

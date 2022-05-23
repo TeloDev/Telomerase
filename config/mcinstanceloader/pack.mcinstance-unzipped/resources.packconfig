@@ -225,9 +225,9 @@ destination = mods/[1.7.10]TFC-Additions-1.7.10-1.0.8.jar
 [TFC+Tweaker]
 type = curseforge
 projectId = 420101
-fileId = 3206470
-sourceFileName = 1.7.10-TFCPlusTweaker-1.2.0.3.jar
-destination = mods/1.7.10-TFCPlusTweaker-1.2.0.3.jar
+fileId = 3802073
+sourceFileName = 1.7.10-TFCPlusTweaker-1.2.1.1.jar
+destination = mods/1.7.10-TFCPlusTweaker-1.2.1.1.jar
 
 [TFC+NEI]
 type = curseforge
@@ -542,8 +542,8 @@ destination = mods/BetterBoat-1.7.10-1.1.0.jar
 [Vanilla Themed TFC+]
 type = curseforge
 projectId = 401494
-fileId = 3784765
-destination = resourcepacks/VanillaThemedTFC.zip
+fileId = 3787219
+destination = resourcepacks/Vanilla+Themed+TFC+v0.5.5.zip
 side = client
 
 [MATmos Default Soundpack]
@@ -561,6 +561,6 @@ side = client
 [TFC+ Alternate Default]
 type = curseforge
 projectId = 613152
-fileId = 3780879
-destination = resourcepacks/TFCAlternateDefault.zip
+fileId = 3796017
+destination = resourcepacks/TFC+ Alternate Default.zip
 side = client

@@ -1,6 +1,6 @@
-<Pistronics2:Glue>.displayName = "Glueball"; 
-<Pistronics2:Super Glue>.displayName = "Super Glueball"; 
-<Pistronics2:Slimeblock:2>.displayName = "Super Glueblock"; 
+<Pistronics2:Glue>.displayName = "Glueball";
+<Pistronics2:Super Glue>.displayName = "Super Glueball";
+<Pistronics2:Slimeblock:2>.displayName = "Super Glueblock";
 
 <ore:slimeball>.add(<Pistronics2:Glue>);
 
@@ -39,11 +39,12 @@ recipes.addShaped(<Pistronics2:Extension Part Block>.withTag({comp: 0, redio: 0 
 
 //glue
 recipes.remove(<Pistronics2:Glue>);
-recipes.addShapeless(<Pistronics2:Glue>, [<ore:slimeball>, <teloaddon:Ethanol_Bottle>, <terrafirmacraftplus:item.Sugar>]);
+mods.Terrafirmacraft.Barrel.addFireRecipe(<Pistronics2:Glue>, null, <terrafirmacraftplus:item.coal:1>, <liquid:pitch>*500, 250, true);
 
 //superglue
 recipes.remove(<Pistronics2:Super Glue>);
-recipes.addShapeless(<Pistronics2:Super Glue>, [<Pistronics2:Glue>, <terrafirmacraftplus:item.dyePowder:1>]);
+mods.Terrafirmacraft.Barrel.addFireRecipe(<Pistronics2:Super Glue>, null, <terrafirmacraftplus:item.EmptyHoneycomb>, <liquid:pitch>*500, 750, true);
+mods.Terrafirmacraft.Barrel.addFireRecipe(<Pistronics2:Super Glue>, null, <terrafirmacraftplus:item.Resin>*10, <liquid:wax>*300, 500, true);
 
 //camou paste
 recipes.remove(<Pistronics2:Camou Paste>);
