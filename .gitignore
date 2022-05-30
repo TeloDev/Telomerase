@@ -7,7 +7,7 @@
 !/resources/**
 !/scripts/**
 !/LICENSE
-!/mods/mcinstanceloader*
+!/mods/mcinstance*
 
 # only include edited config files
 !/config/armourersWorkshop/**
@@ -66,3 +66,8 @@
 !/config/DIAdvancedCompatibility.cfg
 !/config/shipBlockProperties.cfg
 !background.png
+
+# packwiz
+!index.toml
+!pack.toml
+!.packwizignore

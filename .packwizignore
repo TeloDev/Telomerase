@@ -1,0 +1,6 @@
+/.git/
+.gitignore
+mods/*.jar
+*.bat
+config/mcinstanceloader/pack.mcinstance-unzipped
+*.zip

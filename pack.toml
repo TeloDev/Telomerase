@@ -1,0 +1,13 @@
+name = "Telomerase"
+author = "FaceTorched, Yeahminecraft16, Jerome226"
+version = "1.20"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "ef64cc3067f28f0b375d93d84501b22acf2c7c2c79cc90b0b82184f6b1a6b556"
+
+[versions]
+forge = "10.13.4.1614"
+minecraft = "1.7.10"
