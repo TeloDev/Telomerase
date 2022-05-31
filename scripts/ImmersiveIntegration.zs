@@ -16,3 +16,30 @@ recipes.addShapeless(<immersiveintegration:iiWireCoil>, [<ImmersiveEngineering:c
 //redstone wire connector
 recipes.removeShaped(<immersiveintegration:redstoneWireConnector>);
 recipes.addShaped(<immersiveintegration:redstoneWireConnector>*8, [[null, <ore:ingotAnyBronze>, null],[<terrafirmacraftplus:item.Mortar>, <terrafirmacraftplus:item.Brick:1>, <terrafirmacraftplus:item.Mortar>],[<terrafirmacraftplus:item.Brick:1>, <terrafirmacraftplus:item.Mortar>, <terrafirmacraftplus:item.Brick:1>]]);
+
+// capacitor in a box
+recipes.removeShapeless(<immersiveintegration:capacitorBox:*>);
+
+recipes.addShapeless(<immersiveintegration:capacitorBox:0>, [<ImmersiveEngineering:metalDevice:1>.marked("capacitor"), <betterstorage:crate>],
+  function(out, ins, cInfo) {
+    if(ins.capacitor.tag has "energyStorage") {
+      return out.withTag({Energy: ins.capacitor.tag.energyStorage});
+    }
+    return out;
+});
+
+recipes.addShapeless(<immersiveintegration:capacitorBox:1>, [<ImmersiveEngineering:metalDevice:3>.marked("capacitor"), <betterstorage:crate>],
+  function(out, ins, cInfo) {
+    if(ins.capacitor.tag has "energyStorage") {
+      return out.withTag({Energy: ins.capacitor.tag.energyStorage});
+    }
+    return out;
+});
+
+recipes.addShapeless(<immersiveintegration:capacitorBox:2>, [<ImmersiveEngineering:metalDevice:7>.marked("capacitor"), <betterstorage:crate>],
+  function(out, ins, cInfo) {
+    if(ins.capacitor.tag has "energyStorage") {
+      return out.withTag({Energy: ins.capacitor.tag.energyStorage});
+    }
+    return out;
+});
