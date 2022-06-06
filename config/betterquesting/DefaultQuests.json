@@ -2,6 +2,387 @@
   "format:8": "2.0.0",
   "questDatabase:9": {
     "0:10": {
+      "questID:3": 0,
+      "preRequisites:11": [
+        90
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "ImmersiveEngineering:stoneDecoration",
+            "Count:3": 1,
+            "Damage:2": 6,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "It\u0027s Kiln Me",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Make the Improved Kiln (you will need a vanilla hopper to place on the top to complete the multiblock). You may noticed that this is just the Immersive Engineering blast furnace but for Telomerase it has been re-purposed for automating stone age and bronze age kiln related tasks. The kiln will output ash as a byproduct of combustion.\n\nOnce you get electricity (RF) make sure to make a couple of Kiln Preheaters to improve the speed of this bad boy!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "ImmersiveEngineering:stoneDecoration",
+              "Count:3": 27,
+              "Damage:2": 6,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:hopper",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ImmersiveEngineering:shaderBag",
+              "Count:3": 1,
+              "tag:10": {
+                "rarity:8": "common"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "1:10": {
+      "questID:3": 1,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "immersiveintegration:steelDecoration",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "High on Coke",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "No idea why you would ever need this (plus I find it kind of uh-gu-ly) but hey, it\u0027s available. It\u0027s a beefed up coke oven that is quite fast and also gives a little bonus to the outputs. It\u0027s also mega expensive."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "immersiveintegration:steelDecoration",
+              "Count:3": 70,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "immersiveintegration:steelDecoration",
+              "Count:3": 60,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "immersiveintegration:steelDecoration",
+              "Count:3": 10,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ImmersiveEngineering:shaderBag",
+              "Count:3": 1,
+              "tag:10": {
+                "rarity:8": "epic"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "2:10": {
+      "questID:3": 2,
+      "preRequisites:11": [
+        137
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "immersiveintegration:capacitorBox",
+            "Count:3": 1,
+            "tag:10": {
+              "Energy:3": 100000
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Power Move",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "These capacitors in boxes will help make sure your electrical tools stay charged when on the go!\n\nThe induction chargers will charge any items in your inventory that need it."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "immersiveintegration:capacitorBox",
+              "Count:3": 1,
+              "tag:10": {
+                "Energy:3": 100000
+              },
+              "Damage:2": 0,
+              "OreDict:8": "capacitorBox"
+            },
+            "1:10": {
+              "id:8": "immersiveintegration:inductionCharger",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": "chargerInduction"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "ImmersiveEngineering:shaderBag",
+              "Count:3": 1,
+              "tag:10": {
+                "rarity:8": "uncommon"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "3:10": {
+      "questID:3": 3,
+      "preRequisites:11": [
+        98
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "RedstonePasteMod:stickyComparator",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "Redstoner Hacks",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Some neat redstone enhancing mods have been included so go wild.\n\n- Piston Everything allows you to push (most) tile entities with a regular piston\n- Hopper Ducts will help you move and sort items with ease\n- Pistronics allows you to build crazy contraptions\n- Restone Paste will defy the rules of classical redstone\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:piston",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "HopperDuctMod:hopperDuct",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "HopperDuctMod:gratedHopper",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "2:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 2,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "Pistronics2:Book of Gears",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "Pistronics2:Mechanic Piston",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "Pistronics2:Rod Block",
+              "Count:3": 1,
+              "tag:10": {
+                "redstone:1": 0
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "Pistronics2:Extension Block",
+              "Count:3": 1,
+              "tag:10": {
+                "comp:3": 0,
+                "redio:1": 0,
+                "camouID:3": -1,
+                "camou:1": 0,
+                "camouMeta:3": 0,
+                "super_sticky:1": 0,
+                "sticky:1": 0,
+                "redstone:1": 0
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        },
+        "3:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 3,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "RedstonePasteMod:redstonePaste",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:experience_bottle",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "4:10": {
       "questID:3": 22,
       "preRequisites:11": [
         132,
@@ -78,7 +459,7 @@
         }
       }
     },
-    "1:10": {
+    "5:10": {
       "questID:3": 25,
       "preRequisites:11": [
         69
@@ -155,7 +536,7 @@
         }
       }
     },
-    "2:10": {
+    "6:10": {
       "questID:3": 41,
       "preRequisites:11": [
         114
@@ -327,7 +708,7 @@
         }
       }
     },
-    "3:10": {
+    "7:10": {
       "questID:3": 46,
       "preRequisites:11": [
         90
@@ -527,7 +908,7 @@
         }
       }
     },
-    "4:10": {
+    "8:10": {
       "questID:3": 47,
       "preRequisites:11": [
         46
@@ -710,7 +1091,7 @@
         }
       }
     },
-    "5:10": {
+    "9:10": {
       "questID:3": 48,
       "preRequisites:11": [
         47
@@ -842,7 +1223,7 @@
         }
       }
     },
-    "6:10": {
+    "10:10": {
       "questID:3": 49,
       "preRequisites:11": [
         47
@@ -990,7 +1371,7 @@
         }
       }
     },
-    "7:10": {
+    "11:10": {
       "questID:3": 50,
       "preRequisites:11": [
         48,
@@ -1061,7 +1442,7 @@
         }
       }
     },
-    "8:10": {
+    "12:10": {
       "questID:3": 66,
       "preRequisites:11": [],
       "properties:10": {
@@ -1205,7 +1586,7 @@
         }
       }
     },
-    "9:10": {
+    "13:10": {
       "questID:3": 67,
       "preRequisites:11": [
         66
@@ -1339,7 +1720,7 @@
         }
       }
     },
-    "10:10": {
+    "14:10": {
       "questID:3": 68,
       "preRequisites:11": [
         67
@@ -1415,7 +1796,7 @@
         }
       }
     },
-    "11:10": {
+    "15:10": {
       "questID:3": 69,
       "preRequisites:11": [
         70
@@ -1544,7 +1925,7 @@
         }
       }
     },
-    "12:10": {
+    "16:10": {
       "questID:3": 70,
       "preRequisites:11": [
         67
@@ -1626,7 +2007,7 @@
         }
       }
     },
-    "13:10": {
+    "17:10": {
       "questID:3": 71,
       "preRequisites:11": [
         67
@@ -1713,7 +2094,7 @@
         }
       }
     },
-    "14:10": {
+    "18:10": {
       "questID:3": 72,
       "preRequisites:11": [
         67
@@ -1783,7 +2164,7 @@
         }
       }
     },
-    "15:10": {
+    "19:10": {
       "questID:3": 73,
       "preRequisites:11": [
         69
@@ -1899,7 +2280,7 @@
         }
       }
     },
-    "16:10": {
+    "20:10": {
       "questID:3": 74,
       "preRequisites:11": [
         73
@@ -2277,7 +2658,7 @@
         }
       }
     },
-    "17:10": {
+    "21:10": {
       "questID:3": 75,
       "preRequisites:11": [
         73
@@ -2394,7 +2775,7 @@
         }
       }
     },
-    "18:10": {
+    "22:10": {
       "questID:3": 76,
       "preRequisites:11": [
         70
@@ -2471,7 +2852,7 @@
         }
       }
     },
-    "19:10": {
+    "23:10": {
       "questID:3": 77,
       "preRequisites:11": [
         75
@@ -2563,7 +2944,7 @@
         }
       }
     },
-    "20:10": {
+    "24:10": {
       "questID:3": 78,
       "preRequisites:11": [
         69
@@ -2662,7 +3043,7 @@
         }
       }
     },
-    "21:10": {
+    "25:10": {
       "questID:3": 79,
       "preRequisites:11": [
         78
@@ -2764,7 +3145,7 @@
         }
       }
     },
-    "22:10": {
+    "26:10": {
       "questID:3": 80,
       "preRequisites:11": [
         66
@@ -2857,7 +3238,7 @@
         }
       }
     },
-    "23:10": {
+    "27:10": {
       "questID:3": 87,
       "preRequisites:11": [],
       "properties:10": {
@@ -2959,7 +3340,7 @@
         }
       }
     },
-    "24:10": {
+    "28:10": {
       "questID:3": 88,
       "preRequisites:11": [
         87
@@ -3085,7 +3466,7 @@
         }
       }
     },
-    "25:10": {
+    "29:10": {
       "questID:3": 89,
       "preRequisites:11": [
         87
@@ -3112,7 +3493,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "TFC+ offers a comprehensive and powerful mechanical power system. Find a high up spring or dig down near water and set up a waterwheel under falling water. The farther the waterfall the more power. Transfer the power through axles and gears to power a millstone or bellows. See https://plus.terrafirmacraft.com/Mechanisms\n\nYou can change the speed of your axles using gears. Big gears connected to small gears will speed up and vice versa. Keep in mind, high spin rates can induce a lot of load and will require you to build more waterwheels! you can reduce load during transmission by decreasing the spin rate before and increasing it back up at the location you use the power.\n\nIn Telomerase, the Immersive Engineering windmills also work with mechanisms. You will need to place a Windmill Bearing behind the windmill in order to get power from it. There may be some bugs with the windmill bearing and windmills aren\u0027t as powerful as waterwheels but they do look amazing!"
+          "desc:8": "TFC+ offers a comprehensive and powerful mechanical power system. Find a high up spring or dig down near water and set up a waterwheel under falling water. The farther the waterfall the more power. Transfer the power through axles and gears to power a millstone or bellows. See https://plus.terrafirmacraft.com/Mechanisms\n\nYou can change the speed of your axles using gears. Big gears connected to small gears will speed up and vice versa. Keep in mind, high spin rates can induce a lot of load and will require you to build more waterwheels! you can reduce load during transmission by decreasing the spin rate before and increasing it back up at the location you use the power.\n\nIn Telomerase, the Immersive Engineering windmills also work with mechanisms. You will need to place an Engineer\u0027s Bearing behind the windmill in order to get mechanical power from it. Windmills aren\u0027t as powerful as waterwheels but they do look amazing!"
         }
       },
       "tasks:9": {
@@ -3161,7 +3542,7 @@
               "OreDict:8": ""
             },
             "6:10": {
-              "id:8": "teloaddon:windmillBearing",
+              "id:8": "teloaddon:engineersBearing",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -3356,7 +3737,7 @@
         }
       }
     },
-    "26:10": {
+    "30:10": {
       "questID:3": 90,
       "preRequisites:11": [
         88
@@ -3844,7 +4225,7 @@
         }
       }
     },
-    "27:10": {
+    "31:10": {
       "questID:3": 91,
       "preRequisites:11": [
         99
@@ -3908,7 +4289,7 @@
         }
       }
     },
-    "28:10": {
+    "32:10": {
       "questID:3": 92,
       "preRequisites:11": [],
       "properties:10": {
@@ -3976,7 +4357,7 @@
         }
       }
     },
-    "29:10": {
+    "33:10": {
       "questID:3": 95,
       "preRequisites:11": [
         92
@@ -4063,7 +4444,7 @@
         }
       }
     },
-    "30:10": {
+    "34:10": {
       "questID:3": 96,
       "preRequisites:11": [
         91
@@ -4156,7 +4537,7 @@
         }
       }
     },
-    "31:10": {
+    "35:10": {
       "questID:3": 97,
       "preRequisites:11": [
         91
@@ -4359,7 +4740,7 @@
         }
       }
     },
-    "32:10": {
+    "36:10": {
       "questID:3": 98,
       "preRequisites:11": [],
       "properties:10": {
@@ -4384,28 +4765,11 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Diamonds will come in use later on. You can obtain them from kimberlite. They look pretty. Redstone is obtained by Cinnabar and has vanilla functionality. Many redstone components are availabe for crafting!\n\nthe mod \"Piston Everything\" is in Telomerase so this means you can use pistons to push a lot of tile entities you wouldn\u0027t normally be able to push. Have fun inventing new contraptions!"
+          "desc:8": "Redstone is obtained by Cinnabar and has vanilla functionality. Many redstone components are availabe for crafting!\n\nRedstone will prove vital for automation as well as a few crafting recipes. Make sure to get some!"
         }
       },
       "tasks:9": {
         "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
-          "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "id:8": "terrafirmacraftplus:item.Diamond",
-              "Count:3": 1,
-              "Damage:2": 1,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
@@ -4704,11 +5068,11 @@
         }
       }
     },
-    "33:10": {
+    "37:10": {
       "questID:3": 99,
       "preRequisites:11": [
-        101,
-        100
+        100,
+        101
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -4799,7 +5163,7 @@
         }
       }
     },
-    "34:10": {
+    "38:10": {
       "questID:3": 100,
       "preRequisites:11": [
         92
@@ -4891,7 +5255,7 @@
         }
       }
     },
-    "35:10": {
+    "39:10": {
       "questID:3": 101,
       "preRequisites:11": [
         92
@@ -5000,7 +5364,7 @@
         }
       }
     },
-    "36:10": {
+    "40:10": {
       "questID:3": 103,
       "preRequisites:11": [
         142
@@ -5013,7 +5377,7 @@
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "minecraft:cauldron",
+            "id:8": "ImmersiveEngineering:graphiteElectrode",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -5162,7 +5526,7 @@
         }
       }
     },
-    "37:10": {
+    "41:10": {
       "questID:3": 104,
       "preRequisites:11": [],
       "properties:10": {
@@ -5247,7 +5611,7 @@
         }
       }
     },
-    "38:10": {
+    "42:10": {
       "questID:3": 105,
       "preRequisites:11": [
         99
@@ -5459,7 +5823,7 @@
         }
       }
     },
-    "39:10": {
+    "43:10": {
       "questID:3": 106,
       "preRequisites:11": [
         137
@@ -5541,7 +5905,7 @@
         }
       }
     },
-    "40:10": {
+    "44:10": {
       "questID:3": 107,
       "preRequisites:11": [
         142
@@ -5554,9 +5918,9 @@
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "terrafirmacraftplus:item.Red Steel Pick",
+            "id:8": "ImmersiveEngineering:metalDevice",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 14,
             "OreDict:8": ""
           },
           "snd_update:8": "minecraft:entity.player.levelup",
@@ -5691,7 +6055,7 @@
         }
       }
     },
-    "41:10": {
+    "45:10": {
       "questID:3": 108,
       "preRequisites:11": [
         95
@@ -5761,7 +6125,7 @@
         }
       }
     },
-    "42:10": {
+    "46:10": {
       "questID:3": 109,
       "preRequisites:11": [],
       "properties:10": {
@@ -5809,50 +6173,16 @@
               },
               "Damage:2": 0,
               "OreDict:8": "stoneAnvil"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "1:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
-          "index:3": 1,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
+            },
+            "1:10": {
               "id:8": "terrafirmacraftplus:WoodSupportV",
               "Count:3": 7,
-              "tag:10": {
-                "RepairCost:3": 2,
-                "display:10": {
-                  "Name:8": "Support Beam"
-                }
-              },
               "Damage:2": 0,
               "OreDict:8": "supportBeamWooden"
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        },
-        "2:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 1,
-          "index:3": 2,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
+            },
+            "2:10": {
               "id:8": "terrafirmacraftplus:item.Ore",
               "Count:3": 20,
-              "tag:10": {
-                "RepairCost:3": 2,
-                "display:10": {
-                  "Name:8": "Copper Ore"
-                }
-              },
               "Damage:2": 0,
               "OreDict:8": "tfcOreCopper"
             }
@@ -5875,7 +6205,7 @@
         }
       }
     },
-    "43:10": {
+    "47:10": {
       "questID:3": 111,
       "preRequisites:11": [],
       "properties:10": {
@@ -5914,7 +6244,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "terrafirmacraftplus:item.Lime",
-              "Count:3": 16,
+              "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
             },
@@ -5943,7 +6273,7 @@
         }
       }
     },
-    "44:10": {
+    "48:10": {
       "questID:3": 112,
       "preRequisites:11": [],
       "properties:10": {
@@ -5982,7 +6312,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "terrafirmacraftplus:item.coal",
-              "Count:3": 16,
+              "Count:3": 1,
               "Damage:2": 1,
               "OreDict:8": ""
             },
@@ -6011,12 +6341,12 @@
         }
       }
     },
-    "45:10": {
+    "49:10": {
       "questID:3": 113,
       "preRequisites:11": [
-        112,
         109,
-        111
+        111,
+        112
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -6077,7 +6407,7 @@
         }
       }
     },
-    "46:10": {
+    "50:10": {
       "questID:3": 114,
       "preRequisites:11": [
         113
@@ -6152,7 +6482,7 @@
         }
       }
     },
-    "47:10": {
+    "51:10": {
       "questID:3": 115,
       "preRequisites:11": [
         114
@@ -6244,7 +6574,7 @@
         }
       }
     },
-    "48:10": {
+    "52:10": {
       "questID:3": 116,
       "preRequisites:11": [
         115
@@ -6689,7 +7019,7 @@
         }
       }
     },
-    "49:10": {
+    "53:10": {
       "questID:3": 117,
       "preRequisites:11": [
         111
@@ -6770,7 +7100,7 @@
         }
       }
     },
-    "50:10": {
+    "54:10": {
       "questID:3": 119,
       "preRequisites:11": [],
       "properties:10": {
@@ -6964,7 +7294,7 @@
         }
       }
     },
-    "51:10": {
+    "55:10": {
       "questID:3": 120,
       "preRequisites:11": [],
       "properties:10": {
@@ -7096,7 +7426,7 @@
         }
       }
     },
-    "52:10": {
+    "56:10": {
       "questID:3": 121,
       "preRequisites:11": [],
       "properties:10": {
@@ -7261,7 +7591,7 @@
         }
       }
     },
-    "53:10": {
+    "57:10": {
       "questID:3": 122,
       "preRequisites:11": [],
       "properties:10": {
@@ -7323,7 +7653,7 @@
         }
       }
     },
-    "54:10": {
+    "58:10": {
       "questID:3": 123,
       "preRequisites:11": [],
       "properties:10": {
@@ -7385,7 +7715,7 @@
         }
       }
     },
-    "55:10": {
+    "59:10": {
       "questID:3": 124,
       "preRequisites:11": [],
       "properties:10": {
@@ -7447,7 +7777,7 @@
         }
       }
     },
-    "56:10": {
+    "60:10": {
       "questID:3": 125,
       "preRequisites:11": [],
       "properties:10": {
@@ -7509,7 +7839,7 @@
         }
       }
     },
-    "57:10": {
+    "61:10": {
       "questID:3": 126,
       "preRequisites:11": [],
       "properties:10": {
@@ -7571,7 +7901,7 @@
         }
       }
     },
-    "58:10": {
+    "62:10": {
       "questID:3": 128,
       "preRequisites:11": [],
       "properties:10": {
@@ -7633,7 +7963,7 @@
         }
       }
     },
-    "59:10": {
+    "63:10": {
       "questID:3": 129,
       "preRequisites:11": [],
       "properties:10": {
@@ -7713,7 +8043,7 @@
         }
       }
     },
-    "60:10": {
+    "64:10": {
       "questID:3": 130,
       "preRequisites:11": [],
       "properties:10": {
@@ -7793,17 +8123,17 @@
         }
       }
     },
-    "61:10": {
+    "65:10": {
       "questID:3": 131,
       "preRequisites:11": [
-        129,
-        124,
-        130,
-        126,
+        122,
         123,
+        124,
         125,
+        126,
         128,
-        122
+        129,
+        130
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -7863,7 +8193,7 @@
         }
       }
     },
-    "62:10": {
+    "66:10": {
       "questID:3": 132,
       "preRequisites:11": [
         78
@@ -7945,7 +8275,7 @@
         }
       }
     },
-    "63:10": {
+    "67:10": {
       "questID:3": 133,
       "preRequisites:11": [
         111
@@ -8015,11 +8345,11 @@
         }
       }
     },
-    "64:10": {
+    "68:10": {
       "questID:3": 134,
       "preRequisites:11": [
-        75,
-        25
+        25,
+        75
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -8109,11 +8439,11 @@
         }
       }
     },
-    "65:10": {
+    "69:10": {
       "questID:3": 135,
       "preRequisites:11": [
-        99,
-        95
+        95,
+        99
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -8186,7 +8516,7 @@
         }
       }
     },
-    "66:10": {
+    "70:10": {
       "questID:3": 136,
       "preRequisites:11": [
         104
@@ -8256,7 +8586,7 @@
         }
       }
     },
-    "67:10": {
+    "71:10": {
       "questID:3": 137,
       "preRequisites:11": [
         99
@@ -8326,7 +8656,7 @@
         }
       }
     },
-    "68:10": {
+    "72:10": {
       "questID:3": 138,
       "preRequisites:11": [
         100
@@ -8408,7 +8738,7 @@
         }
       }
     },
-    "69:10": {
+    "73:10": {
       "questID:3": 139,
       "preRequisites:11": [
         100
@@ -8478,7 +8808,7 @@
         }
       }
     },
-    "70:10": {
+    "74:10": {
       "questID:3": 140,
       "preRequisites:11": [
         104
@@ -8505,7 +8835,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "Forestry machines are slower than Immersive engineering machines but the squeezer and still are quite essential to have around. Move fluids with buckets, bottles or a pipette."
+          "desc:8": "The Squeezer and the Still are very useful since they automate some of the labor intensive tasks in TFC+. For example, the Squeezer can squeeze fruit into juice and the Still can distill alcohol.\n\nMove fluids manually with buckets, bottles or a pipette or automatically with the Immersive Engineering pump."
         }
       },
       "tasks:9": {
@@ -8548,7 +8878,7 @@
         }
       }
     },
-    "71:10": {
+    "75:10": {
       "questID:3": 141,
       "preRequisites:11": [
         104
@@ -8630,11 +8960,11 @@
         }
       }
     },
-    "72:10": {
+    "76:10": {
       "questID:3": 142,
       "preRequisites:11": [
-        137,
-        104
+        104,
+        137
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -8707,7 +9037,7 @@
         }
       }
     },
-    "73:10": {
+    "77:10": {
       "questID:3": 143,
       "preRequisites:11": [
         104
@@ -8783,7 +9113,7 @@
         }
       }
     },
-    "74:10": {
+    "78:10": {
       "questID:3": 144,
       "preRequisites:11": [
         67
@@ -9019,7 +9349,7 @@
         }
       }
     },
-    "75:10": {
+    "79:10": {
       "questID:3": 145,
       "preRequisites:11": [
         117
@@ -9061,6 +9391,14 @@
             "0:10": {
               "id:8": "Forestry:minerBag",
               "Count:3": 1,
+              "tag:10": {
+                "UID:3": -160962796,
+                "Slots:10": {},
+                "RepairCost:3": 2,
+                "display:10": {
+                  "Name:8": "Backpack"
+                }
+              },
               "Damage:2": 0,
               "OreDict:8": "ForestryBag"
             }
@@ -9250,61 +9588,68 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
+          "x:3": 72,
+          "y:3": 36,
+          "id:3": 0,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
           "x:3": 108,
           "y:3": 0,
           "id:3": 46,
           "sizeY:3": 24
         },
-        "1:10": {
+        "2:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": 0,
           "id:3": 47,
           "sizeY:3": 24
         },
-        "2:10": {
+        "3:10": {
           "sizeX:3": 24,
           "x:3": 156,
           "y:3": 36,
           "id:3": 48,
           "sizeY:3": 24
         },
-        "3:10": {
+        "4:10": {
           "sizeX:3": 24,
           "x:3": 132,
           "y:3": 36,
           "id:3": 49,
           "sizeY:3": 24
         },
-        "4:10": {
+        "5:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": 72,
           "id:3": 50,
           "sizeY:3": 24
         },
-        "5:10": {
+        "6:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": 0,
           "id:3": 87,
           "sizeY:3": 24
         },
-        "6:10": {
+        "7:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": 0,
           "id:3": 88,
           "sizeY:3": 24
         },
-        "7:10": {
+        "8:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": 36,
           "id:3": 89,
           "sizeY:3": 24
         },
-        "8:10": {
+        "9:10": {
           "sizeX:3": 24,
           "x:3": 72,
           "y:3": 0,
@@ -9334,166 +9679,180 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
+          "x:3": 120,
+          "y:3": 108,
+          "id:3": 2,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": 252,
+          "y:3": 108,
+          "id:3": 3,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
           "x:3": 108,
           "y:3": 0,
           "id:3": 91,
           "sizeY:3": 24
         },
-        "1:10": {
+        "3:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": 0,
           "id:3": 92,
           "sizeY:3": 24
         },
-        "2:10": {
+        "4:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": 72,
           "id:3": 95,
           "sizeY:3": 24
         },
-        "3:10": {
+        "5:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": -12,
           "id:3": 96,
           "sizeY:3": 24
         },
-        "4:10": {
+        "6:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": 12,
           "id:3": 97,
           "sizeY:3": 24
         },
-        "5:10": {
+        "7:10": {
           "sizeX:3": 24,
-          "x:3": 48,
+          "x:3": 216,
           "y:3": 108,
           "id:3": 98,
           "sizeY:3": 24
         },
-        "6:10": {
+        "8:10": {
           "sizeX:3": 24,
           "x:3": 72,
           "y:3": 0,
           "id:3": 99,
           "sizeY:3": 24
         },
-        "7:10": {
+        "9:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": 12,
           "id:3": 100,
           "sizeY:3": 24
         },
-        "8:10": {
+        "10:10": {
           "sizeX:3": 24,
           "x:3": 36,
           "y:3": -12,
           "id:3": 101,
           "sizeY:3": 24
         },
-        "9:10": {
+        "11:10": {
           "sizeX:3": 24,
-          "x:3": 144,
+          "x:3": 156,
           "y:3": 108,
           "id:3": 103,
           "sizeY:3": 24
         },
-        "10:10": {
+        "12:10": {
           "sizeX:3": 24,
           "x:3": 204,
           "y:3": 0,
           "id:3": 104,
           "sizeY:3": 24
         },
-        "11:10": {
+        "13:10": {
           "sizeX:3": 24,
           "x:3": 96,
           "y:3": 72,
           "id:3": 105,
           "sizeY:3": 24
         },
-        "12:10": {
+        "14:10": {
           "sizeX:3": 24,
-          "x:3": 108,
+          "x:3": 96,
           "y:3": 108,
           "id:3": 106,
           "sizeY:3": 24
         },
-        "13:10": {
+        "15:10": {
           "sizeX:3": 24,
-          "x:3": 168,
+          "x:3": 180,
           "y:3": 108,
           "id:3": 107,
           "sizeY:3": 24
         },
-        "14:10": {
+        "16:10": {
           "sizeX:3": 24,
           "x:3": 0,
           "y:3": 108,
           "id:3": 108,
           "sizeY:3": 24
         },
-        "15:10": {
+        "17:10": {
           "sizeX:3": 24,
           "x:3": 72,
           "y:3": 72,
           "id:3": 135,
           "sizeY:3": 24
         },
-        "16:10": {
+        "18:10": {
           "sizeX:3": 24,
           "x:3": 228,
           "y:3": 72,
           "id:3": 136,
           "sizeY:3": 24
         },
-        "17:10": {
+        "19:10": {
           "sizeX:3": 24,
           "x:3": 120,
           "y:3": 72,
           "id:3": 137,
           "sizeY:3": 24
         },
-        "18:10": {
+        "20:10": {
           "sizeX:3": 24,
           "x:3": 24,
           "y:3": 48,
           "id:3": 138,
           "sizeY:3": 24
         },
-        "19:10": {
+        "21:10": {
           "sizeX:3": 24,
           "x:3": 48,
           "y:3": 48,
           "id:3": 139,
           "sizeY:3": 24
         },
-        "20:10": {
+        "22:10": {
           "sizeX:3": 24,
           "x:3": 204,
           "y:3": 72,
           "id:3": 140,
           "sizeY:3": 24
         },
-        "21:10": {
+        "23:10": {
           "sizeX:3": 24,
           "x:3": 180,
           "y:3": 72,
           "id:3": 141,
           "sizeY:3": 24
         },
-        "22:10": {
+        "24:10": {
           "sizeX:3": 24,
           "x:3": 156,
           "y:3": 72,
           "id:3": 142,
           "sizeY:3": 24
         },
-        "23:10": {
+        "25:10": {
           "sizeX:3": 24,
           "x:3": 252,
           "y:3": 72,
@@ -9621,22 +9980,29 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": 195,
-          "y:3": 96,
-          "id:3": 119,
+          "x:3": 192,
+          "y:3": 36,
+          "id:3": 1,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": 122,
-          "y:3": 95,
-          "id:3": 120,
+          "x:3": 192,
+          "y:3": 96,
+          "id:3": 119,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": 158,
-          "y:3": 29,
+          "x:3": 120,
+          "y:3": 96,
+          "id:3": 120,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": 120,
+          "y:3": 36,
           "id:3": 121,
           "sizeY:3": 24
         }
@@ -9654,7 +10020,7 @@
           },
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "All of the following are extremely lategame and only if you want an absurd amount of power. They are resource intensive and within this modpack the hardest to get up and running. There are two multiblocks and multiple connecting pipes and generators. The power only reactor has been removed as it is not very realistic. You will make a steam generator and a turbine."
+          "desc:8": "These late-game quests are designed to satisfy your completionist grindset"
         }
       },
       "order:3": 4
@@ -9755,7 +10121,7 @@
       "home_image:8": "telomerase:textures/gui/telomerase_title.png",
       "party_enable:1": 1,
       "pack_version:3": 0,
-      "editMode:1": 0,
+      "editMode:1": 1,
       "home_offset_x:3": -128,
       "home_offset_y:3": 0
     }
