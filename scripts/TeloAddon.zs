@@ -3,14 +3,18 @@ import minetweaker.item.IItemStack;
 <teloaddon:Fiberglass>.addTooltip(format.red("not obtainable (yet)"));
 <teloaddon:Glass_Fiber>.addTooltip(format.red("not obtainable (yet)"));
 
+game.setLocalization("ie.manual.entry.chainsaw0", "The Chainsaw is a powerful tool for chopping trees, cutting wood and fending off foes! The Chainsaw runs off of RF and can be re-charged in the Charging Station. When the Chainsaw Runs out of durability, craft it with a new chain to repair it.");
+
 //chainsaw
 recipes.addShapedMirrored(<teloaddon:Chainsaw_Housing>,[[null, <ImmersiveEngineering:material:9>, <ImmersiveEngineering:material:9>],
                                                         [<ImmersiveEngineering:material:12>, <ImmersiveEngineering:metalDecoration:5>, <ImmersiveEngineering:metalDecoration:5>],
                                                         [<teloaddon:Aluminum_Double_Sheet>, <ImmersiveEngineering:metalDevice:7>, <ImmersiveEngineering:metalDevice:7>]]);
 
+game.setLocalization("gui.plans.chainsawblade", "Chainsaw Blade");
 mods.Terrafirmacraft.Anvil.addPlanRecipe("chainsawblade", 13, 18, 15);
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<teloaddon:Chainsaw_Blade>, <terrafirmacraftplus:item.Black Steel Double Ingot>, "chainsawblade", 6);
 
+game.setLocalization("gui.plans.chainsawsegment", "Chainsaw Segment");
 mods.Terrafirmacraft.Anvil.addPlanRecipe("chainsawsegment", 31, 24, 15);
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<teloaddon:Red_Steel_Chainsaw_Chain_Link>*4, <terrafirmacraftplus:item.Red Steel Ingot>, "chainsawsegment", 6);
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<teloaddon:Blue_Steel_Chainsaw_Chain_Link>*4, <terrafirmacraftplus:item.Blue Steel Ingot>, "chainsawsegment", 6);
@@ -86,4 +90,16 @@ for malt in malts{
 mods.Terrafirmacraft.Barrel.addItemConversion(<teloaddon:Yeast> * 5, <teloaddon:Yeast>, <liquid:honey> * 250, 0, true, 8, true);
 mods.forestry.Carpenter.addRecipe(<teloaddon:Yeast>*5, [[<teloaddon:Yeast>]], <liquid:honey> * 250, 80);
 
-recipes.addShaped(<teloaddon:windmillBearing>,[[null,<ImmersiveEngineering:woodenDecoration:2>,null],[<ImmersiveEngineering:treatedWood>,null,<ImmersiveEngineering:treatedWood>],[null,<ImmersiveEngineering:woodenDecoration:2>,null]]);
+recipes.addShaped(<teloaddon:engineersBearing>*2,[[null,<ImmersiveEngineering:woodenDecoration:2>,null],[<ImmersiveEngineering:treatedWood>,null,<ImmersiveEngineering:treatedWood>],[null,<ImmersiveEngineering:woodenDecoration:2>,null]]);
+
+//Nitroglycerin (a way to get vanilla TNT)
+recipes.removeShaped(<minecraft:tnt>);
+<minecraft:tnt>.displayName = "Dynamite";
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(<liquid:glycerol> * 250, <teloaddon:Lye>, <liquid:plantoil> * 250, 0, true, 8, true, true);
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(<liquid:glycerol> * 250, <teloaddon:Lye>, <liquid:oliveoil> * 250, 0, true, 8, true, true);
+mods.forestry.Fermenter.addRecipe(<liquid:glycerol>, <teloaddon:Lye>, <liquid:plantoil>, 250, 1);
+mods.forestry.Fermenter.addRecipe(<liquid:glycerol>, <teloaddon:Lye>, <liquid:oliveoil>, 250, 1);
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(<liquid:nitricacid> * 250, <teloaddon:Lye>, <liquid:ammoniumchloride> * 250, 0, true, 8, true, true);
+mods.forestry.Fermenter.addRecipe(<liquid:nitricacid>, <teloaddon:Lye>, <liquid:ammoniumchloride>, 250, 1);
+mods.immersiveengineering.Refinery.addRecipe(<liquid:nitroglycerin>, <liquid:nitricacid>,<liquid:glycerol>);
+mods.forestry.Carpenter.addRecipe(<minecraft:tnt>, [[<ore:lumpClay>]], <liquid:nitroglycerin> * 125, 20);

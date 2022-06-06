@@ -17,6 +17,10 @@ recipes.addShapeless(<immersiveintegration:iiWireCoil>, [<ImmersiveEngineering:c
 recipes.removeShaped(<immersiveintegration:redstoneWireConnector>);
 recipes.addShaped(<immersiveintegration:redstoneWireConnector>*8, [[null, <ore:ingotAnyBronze>, null],[<terrafirmacraftplus:item.Mortar>, <terrafirmacraftplus:item.Brick:1>, <terrafirmacraftplus:item.Mortar>],[<terrafirmacraftplus:item.Brick:1>, <terrafirmacraftplus:item.Mortar>, <terrafirmacraftplus:item.Brick:1>]]);
 
+// item robin
+recipes.removeShaped(<immersiveintegration:itemRobin>);
+recipes.addShaped(<immersiveintegration:itemRobin>, [[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>], [<ImmersiveEngineering:metalDevice:11>, <ore:blockHopper>, <ImmersiveEngineering:metalDevice:11>], [<ore:plankTreatedWood>, <ImmersiveEngineering:material:11>, <ore:plankTreatedWood>]]);
+
 // capacitor in a box
 recipes.removeShapeless(<immersiveintegration:capacitorBox:*>);
 

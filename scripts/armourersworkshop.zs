@@ -13,7 +13,9 @@ recipes.removeShaped(<armourersWorkshop:block.mannequin>);
 recipes.addShaped(<armourersWorkshop:block.mannequin>,[[null,<ore:blockPumpkin>,null],[<ore:plankWood>,<armourersWorkshop:block.colourable>,<ore:plankWood>],[null,<ore:plankWood>,null]]);
 
 recipes.removeShapeless(<armourersWorkshop:soap>);
-mods.Terrafirmacraft.Barrel.addItemConversion(<armourersWorkshop:soap>, <terrafirmacraftplus:item.Powder:13>, <liquid:freshwater> * 1000, 0, true, 4, true);
+//mods.Terrafirmacraft.Barrel.addItemConversion(<armourersWorkshop:soap>, <terrafirmacraftplus:item.Powder:13>, <liquid:freshwater> * 1000, 0, true, 4, true);
+recipes.addShapeless(<armourersWorkshop:soap>, [<teloaddon:Olive_Oil_Bottle>, <teloaddon:Lye>]);
+recipes.addShapeless(<armourersWorkshop:soap>, [<teloaddon:Plant_Oil_Bottle>, <teloaddon:Lye>]);
 
 recipes.removeShaped(<armourersWorkshop:block.hologramProjector>);
 recipes.addShaped(<armourersWorkshop:block.hologramProjector>,[[<ore:stone>,<ore:blockGlass>,<ore:stone>],[<ore:stone>,<armourersWorkshop:block.colourable>,<ore:stone>],[<ore:stone>,<ore:stone>,<ore:stone>]]);

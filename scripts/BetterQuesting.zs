@@ -68,3 +68,11 @@ for ore in <ore:orePoorCopper>.items{
 <ore:ForestryBag>.add(<Forestry:hunterBag>);
 <ore:ForestryBag>.add(<Forestry:builderBag>);
 <ore:ForestryBag>.add(<Forestry:adventurerBag>);
+
+<ore:chargerInduction>.add(<immersiveintegration:inductionCharger:0>);
+<ore:chargerInduction>.add(<immersiveintegration:inductionCharger:1>);
+<ore:chargerInduction>.add(<immersiveintegration:inductionCharger:2>);
+
+<ore:capacitorBox>.add(<immersiveintegration:capacitorBox:0>);
+<ore:capacitorBox>.add(<immersiveintegration:capacitorBox:1>);
+<ore:capacitorBox>.add(<immersiveintegration:capacitorBox:2>);

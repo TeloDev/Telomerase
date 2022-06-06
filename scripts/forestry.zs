@@ -6,19 +6,19 @@ import minetweaker.liquid.ILiquidStack;
 <Forestry:ash>.displayName = "Dirty Ash";
 
 //gears
-game.setLocalization("coppergear", "Copper Gear");
+game.setLocalization("gui.plans.coppergear", "Copper Gear");
 mods.Terrafirmacraft.Anvil.addPlanRecipe("coppergear", 9, 24, 1);
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<Forestry:gearCopper>*2, <terrafirmacraftplus:item.Copper Sheet>, "coppergear", 1);
 
-game.setLocalization("bronzegear", "Bronze Gear");
+game.setLocalization("gui.plans.bronzegear", "Bronze Gear");
 mods.Terrafirmacraft.Anvil.addPlanRecipe("bronzegear", 9, 24, 1);
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<Forestry:gearBronze>*2, <terrafirmacraftplus:item.Bronze Sheet>, "bronzegear", 2);
 
-game.setLocalization("bronzegear2", "Bronze Gear");
+game.setLocalization("gui.plans.bronzegear2", "Bronze Gear");
 mods.Terrafirmacraft.Anvil.addPlanRecipe("bronzegear2", 9, 24, 1);
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<Forestry:gearBronze>*2, <terrafirmacraftplus:item.Bismuth Bronze Sheet>, "bronzegear2", 2);
 
-game.setLocalization("bronzegear3", "Bronze Gear");
+game.setLocalization("gui.plans.bronzegear3", "Bronze Gear");
 mods.Terrafirmacraft.Anvil.addPlanRecipe("bronzegear3", 9, 24, 1);
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<Forestry:gearBronze>*2, <terrafirmacraftplus:item.Black Bronze Sheet>, "bronzegear3", 2);
 
@@ -104,7 +104,7 @@ recipes.addShapeless(<Forestry:peat> * 4, [<terrafirmacraftplus:Peat>, <ore:item
 //ash conversion
 <ore:dustAsh>.add(<terrafirmacraftplus:item.Powder:13>);
 <ore:dustAsh>.add(<Forestry:ash>);
-recipes.addShapeless(<Forestry:ash>,[<terrafirmacraftplus:item.Powder:13>]);
+//recipes.addShapeless(<Forestry:ash>,[<terrafirmacraftplus:item.Powder:13>]);
 recipes.addShapeless(<terrafirmacraftplus:item.Powder:13>,[<Forestry:ash>]);
 
 <Forestry:beePrincessGE>.addTooltip(format.green("crafting recipe comes with drones"));
@@ -212,16 +212,17 @@ recipes.addShaped(<Forestry:engine:4>*2,[[<ImmersiveEngineering:metalDevice:9>,<
 recipes.addShaped(<Forestry:engine:1>*2,[[<Forestry:gearBronze>,<ImmersiveEngineering:metalDevice:9>,<Forestry:gearBronze>],[<ore:stoneSmooth>,<terrafirmacraftplus:item.coal:1>,<ore:stoneSmooth>],[<ore:stoneSmooth>,<ore:stoneSmooth>,<ore:stoneSmooth>]]);
 
 //machines
-recipes.addShaped(<Forestry:factory>,[[<ImmersiveEngineering:metalDevice2:5>,<ImmersiveEngineering:metalDevice2:6>,<ImmersiveEngineering:metalDevice2:5>],[<ore:plankTreatedWood>,<terrafirmacraftplus:Barrel:*>,<ore:plankTreatedWood>]]);
+recipes.addShaped(<Forestry:factory>,[[<ore:slabTreatedWood>,<ore:slabTreatedWood>,<ore:slabTreatedWood>], [<ImmersiveEngineering:metalDevice2:5>,<ImmersiveEngineering:metalDevice2:6>,<ImmersiveEngineering:metalDevice2:5>],[<ore:plankTreatedWood>,<terrafirmacraftplus:Barrel:*>,<ore:plankTreatedWood>]]);
 //carpenter
-recipes.addShapedMirrored(<Forestry:factory:1>,[[<terrafirmacraftplus:Loom:*>,<ImmersiveEngineering:metalDecoration:7>,<terrafirmacraftplus:item.Spindle>],[<ore:itemKnife>,<minecraft:piston>,<ore:itemSaw>],[<ore:plankTreatedWood>,<ImmersiveEngineering:metalDevice2:7>,<ore:plankTreatedWood>]]);
-recipes.addShaped(<Forestry:factory:2>,[[<ore:bottleGlass>,<Forestry:gearBronze>,<ore:bottleGlass>],[<ore:plankTreatedWood>,<ImmersiveEngineering:metalDevice:9>,<ore:plankTreatedWood>]]);
-recipes.addShaped(<Forestry:factory:5>,[[null,<minecraft:piston>,null],[<ore:plankTreatedWood>,<ore:stoneSmooth>,<ore:plankTreatedWood>],[<terrafirmacraftplus:Barrel:*>,<terrafirmacraftplus:StoneHopper:*>,<terrafirmacraftplus:Barrel:*>]]);
-recipes.addShaped(<Forestry:factory:6>,[[<ImmersiveEngineering:metalDevice2:7>,<ImmersiveEngineering:metalDevice2:5>,<ImmersiveEngineering:metalDevice2:7>],[<ore:stoneSmooth>,<ImmersiveEngineering:metalDevice:12>,<ore:stoneSmooth>]]);
+recipes.addShapedMirrored(<Forestry:factory:1>,[[<ore:slabTreatedWood>,<ore:slabTreatedWood>,<ore:slabTreatedWood>],[<ImmersiveEngineering:metalDecoration:7>,<Forestry:gearBronze>,<ImmersiveEngineering:metalDecoration:7>],[<ore:plankTreatedWood>,<ImmersiveEngineering:metalDevice2:7>,<ore:plankTreatedWood>]]);
+recipes.addShaped(<Forestry:factory:2>,[[<ore:slabTreatedWood>,<ore:slabTreatedWood>,<ore:slabTreatedWood>],[<ore:bottleGlass>,<Forestry:gearBronze>,<ore:bottleGlass>],[<ore:plankTreatedWood>,<ImmersiveEngineering:metalDevice:9>,<ore:plankTreatedWood>]]);
+recipes.addShaped(<Forestry:factory:5>,[[<ore:plankTreatedWood>,<minecraft:piston>,<ore:plankTreatedWood>],[<ore:plankTreatedWood>,<ore:stoneSmooth>,<ore:plankTreatedWood>],[<terrafirmacraftplus:Barrel:*>,<terrafirmacraftplus:StoneHopper:*>,<terrafirmacraftplus:Barrel:*>]]);
+recipes.addShaped(<Forestry:factory:6>,[[<ore:slabTreatedWood>,<ore:slabTreatedWood>,<ore:slabTreatedWood>],[<ImmersiveEngineering:metalDevice2:7>,<ImmersiveEngineering:metalDevice2:5>,<ImmersiveEngineering:metalDevice2:7>],[<ore:stoneSmooth>,<ImmersiveEngineering:metalDevice:12>,<ore:stoneSmooth>]]);
 recipes.addShaped(<Forestry:factory2>,[[<terrafirmacraftplus:item.Steel Sheet>,<ImmersiveEngineering:metalDecoration:7>,<terrafirmacraftplus:item.Steel Sheet>],[<terrafirmacraftplus:item.Steel Sheet>,<ore:bottleGlass>,<terrafirmacraftplus:item.Steel Sheet>],[<ImmersiveEngineering:stoneDecoration:4>,<ImmersiveEngineering:metalDevice:12>,<ImmersiveEngineering:stoneDecoration:4>]]);
+recipes.addShaped(<Forestry:factory2:1>*2,[[<ImmersiveEngineering:metalDecoration2:1>, null, <ImmersiveEngineering:metalDecoration2:1>],[<ore:paneGlass>, null, <ore:paneGlass>],[<ImmersiveEngineering:metalDecoration2:1>, <ImmersiveEngineering:metalDecoration2:1>, <ImmersiveEngineering:metalDecoration2:1>]]);
 
 //fermenter
-recipes.addShaped(<Forestry:factory:3>,[[null,<ore:blockHopper>,null],[<ore:blockGlass>,<ore:blockGlass>,<ore:blockGlass>],[<terrafirmacraftplus:item.Steel Sheet>,<ImmersiveEngineering:metalDecoration:7>,<terrafirmacraftplus:item.Steel Sheet>]]);
+recipes.addShaped(<Forestry:factory:3>, [[<ore:slabTreatedWood>,<ore:slabTreatedWood>,<ore:slabTreatedWood>],[<ore:paneGlass>,null,<ore:paneGlass>],[<ore:plankTreatedWood>,<minecraft:cauldron>,<ore:plankTreatedWood>]]);
 
 //squeezer recipes
 mods.forestry.Squeezer.removeRecipe(<liquid:water>);

@@ -543,7 +543,7 @@ destination = mods/BetterBoat-1.7.10-1.1.0.jar
 type = curseforge
 projectId = 401494
 fileId = 3787219
-destination = resourcepacks/Vanilla+Themed+TFC+v0.5.5.zip
+destination = resourcepacks/VanillaThemedTFC.zip
 side = client
 
 [MATmos Default Soundpack]

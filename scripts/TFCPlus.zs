@@ -203,7 +203,7 @@ recipes.removeShaped(<minecraft:wooden_pressure_plate>);
 recipes.addShaped(<minecraft:wooden_pressure_plate>,[[<ore:woodLumber>,<ore:woodLumber>]]);
 
 //charcoal from ash
-recipes.addShapeless(<terrafirmacraftplus:item.coal:1>,[<terrafirmacraftplus:item.Powder:13>,<terrafirmacraftplus:item.Powder:13>,<terrafirmacraftplus:item.Powder:13>,<terrafirmacraftplus:item.Powder:13>,<terrafirmacraftplus:item.Powder:13>,<terrafirmacraftplus:item.Powder:13>,<terrafirmacraftplus:item.Powder:13>,<terrafirmacraftplus:item.Powder:13>,<terrafirmacraftplus:item.Powder:13>]);
+recipes.addShaped(<terrafirmacraftplus:item.coal:1>,[[<Forestry:ash>,<Forestry:ash>,<Forestry:ash>],[<Forestry:ash>,<Forestry:ash>,<Forestry:ash>],[<Forestry:ash>,<Forestry:ash>,<Forestry:ash>]]);
 
 // vanilla blocks
 recipes.removeShaped(<minecraft:brick_stairs>);
@@ -468,6 +468,7 @@ recipes.addShaped(<terrafirmacraftplus:Bricks>, [[<minecraft:stone_slab:4>],[<mi
 mods.Terrafirmacraft.Quern.removeRecipe(<minecraft:redstone>, <terrafirmacraftplus:item.Ore:312>);
 
 //tuyeres
+
 mods.Terrafirmacraft.Anvil.removeAnvilRecipe(<terrafirmacraftplus:item.Copper Tuyere>, <terrafirmacraftplus:item.Copper Double Sheet>, "tuyere", 1);
 mods.Terrafirmacraft.Anvil.removeAnvilRecipe(<terrafirmacraftplus:item.Bronze Tuyere>, <terrafirmacraftplus:item.Bronze Double Sheet>, "tuyere", 2);
 mods.Terrafirmacraft.Anvil.removeAnvilRecipe(<terrafirmacraftplus:item.Bismuth Bronze Tuyere>, <terrafirmacraftplus:item.Bismuth Bronze Double Sheet>, "tuyere", 2);
@@ -742,18 +743,6 @@ recipes.addShapeless(<teloaddon:Fluorite:3>*2,[<teloaddon:Fluorite:4>,<ore:itemC
 recipes.addShapeless(<teloaddon:Fluorite:2>*2,[<teloaddon:Fluorite:3>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
 recipes.addShapeless(<teloaddon:Fluorite:1>*2,[<teloaddon:Fluorite:2>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
 recipes.addShapeless(<teloaddon:Fluorite:0>*2,[<teloaddon:Fluorite:1>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
-
-//Nitroglycerin (a way to get vanilla TNT)
-recipes.removeShaped(<minecraft:tnt>);
-<minecraft:tnt>.displayName = "Dynamite";
-mods.Terrafirmacraft.Barrel.addItemFluidConversion(<liquid:glycerol> * 250, <teloaddon:Lye>, <liquid:plantoil> * 250, 0, true, 8, true, true);
-mods.Terrafirmacraft.Barrel.addItemFluidConversion(<liquid:glycerol> * 250, <teloaddon:Lye>, <liquid:oliveoil> * 250, 0, true, 8, true, true);
-mods.forestry.Fermenter.addRecipe(<liquid:glycerol>, <teloaddon:Lye>, <liquid:plantoil>, 250, 1);
-mods.forestry.Fermenter.addRecipe(<liquid:glycerol>, <teloaddon:Lye>, <liquid:oliveoil>, 250, 1);
-mods.Terrafirmacraft.Barrel.addItemFluidConversion(<liquid:nitricacid> * 250, <teloaddon:Lye>, <liquid:ammoniumchloride> * 500, 0, true, 8, true, true);
-mods.forestry.Fermenter.addRecipe(<liquid:nitricacid>, <teloaddon:Lye>, <liquid:ammoniumchloride>, 250, 1);
-mods.immersiveengineering.Refinery.addRecipe(<liquid:nitroglycerin>, <liquid:nitricacid>,<liquid:glycerol>);
-mods.forestry.Carpenter.addRecipe(<minecraft:tnt>, [[<ore:lumpClay>]], <liquid:nitroglycerin> * 125, 20);
 
 //iron ink
 mods.Terrafirmacraft.Barrel.addItemConversion(<terrafirmacraftplus:item.Ink> * 16, <terrafirmacraftplus:item.Powder:7>, <liquid:tannin> * 250, 0, true, 8, true);
