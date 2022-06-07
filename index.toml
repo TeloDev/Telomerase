@@ -1,0 +1,450 @@
+hash-format = "sha256"
+
+[[files]]
+file = "LICENSE"
+hash = "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809"
+
+[[files]]
+file = "background.png"
+hash = "5fd0282c20bb8f9499c9f5a85d0ceaa6c9bf0ca27b7722399d5f5c3e7496f829"
+
+[[files]]
+file = "config/Betterloadingscreen/betterloadingscreen.cfg"
+hash = "f37ef0c9e64971fb9154177548370d9f3c7fc493d6911db519486c83e1580978"
+
+[[files]]
+file = "config/Betterloadingscreen/tips/tips.txt"
+hash = "f2a571d2e127faedf2cdb04c2b6620468f48941e2a3de3695875787031749b04"
+
+[[files]]
+file = "config/BiblioCraft.cfg"
+hash = "d9881cb2f7dbc5e703000662fd555c08d0bcf40f0193f45c9978c987236bf962"
+
+[[files]]
+file = "config/BigReactors/BigReactors.cfg"
+hash = "a4658784d6ab96c8767a086d7ea55aeb4a3a60b5ce57a7157e0ddf560e852db4"
+
+[[files]]
+file = "config/CarpentersBlocks.cfg"
+hash = "8dc3674e17b14e617982ff9cb09261abce5d74d263ed01e17904c7308d819bae"
+
+[[files]]
+file = "config/CodeChickenCore.cfg"
+hash = "db537a2e10fe87be0b4e0baa282fb65936ce5d4e5e149ae60d3d412de3c0088b"
+
+[[files]]
+file = "config/CustomMainMenu/mainmenu.json"
+hash = "ccfb4da3defdd1e7d8b8869276f4a96c34c32e740a21c921183aa78f6b96011b"
+
+[[files]]
+file = "config/DIAdvancedCompatibility.cfg"
+hash = "94781e31cf546eef609655f49a14c627097bdeb857dd1d09b8f7c5246709773b"
+
+[[files]]
+file = "config/DamageIndicatorsMod.cfg"
+hash = "6d3f10184f2be4bc193aac497ea8f98d1427deeaf6d014b18e3ccaf567814b56"
+
+[[files]]
+file = "config/FpsReducer/FpsReducer.cfg"
+hash = "f97b1c0668e235207d25966cfecf4fd781244cef34311583dd8d95460749e1ff"
+
+[[files]]
+file = "config/ImmersiveEngineering.cfg"
+hash = "2446c85f8b51aea0f23af57a44e5272c908022e8450d0342e7ac5976432a5d3d"
+
+[[files]]
+file = "config/InGameInfoXML.cfg"
+hash = "bff94503638c42aa7104b129d99c52d313fac976f8b5fc9191a2641573d15d88"
+
+[[files]]
+file = "config/LegibleNei/LegibleNei.cfg"
+hash = "75b9abce9009331ba447fcbb12975943e81900ddcfcb3ed57c56efce332d3280"
+
+[[files]]
+file = "config/LegibleNei/filters/Armourers Workshop.json"
+hash = "0459ba711f4533b32018e67f2eab0bb39a9b6c44dffe9da04c5e25b65b1e2cd1"
+
+[[files]]
+file = "config/LegibleNei/filters/Bibliocraft.json"
+hash = "a60737f819b78368f714d11c5abc2d8b51131c9928329ecd412153eceeab320e"
+
+[[files]]
+file = "config/LegibleNei/filters/Big reactors.json"
+hash = "b3e7be8c9a7d249234403a15c6038c85dd3b828559df9a9b05d472220f12e45f"
+
+[[files]]
+file = "config/LegibleNei/filters/CarpentersBlocks.json"
+hash = "346446cc02ffa924eb8c98361daa9272664fdd54a7de84c2ecde84189eace734"
+
+[[files]]
+file = "config/LegibleNei/filters/Forestry.json"
+hash = "1b9464c83d6c325368a32b021cfe5fab173833edbad14ac09177151d1b40ab79"
+
+[[files]]
+file = "config/LegibleNei/filters/Gravestones.json"
+hash = "e8d5f820de906e13043950c2028fe232b265b3d3e37e78c168b7d4fa72e4fee3"
+
+[[files]]
+file = "config/LegibleNei/filters/Immersive Engineering.json"
+hash = "42b50bfe23f2e69a0127a8e21920a320260d4ddba1f3929062448a832a8d02ce"
+
+[[files]]
+file = "config/LegibleNei/filters/OpenBlocks.json"
+hash = "8625951ed6130d29ffdca133eb6860047baa227ac3e2fa8fecc3aa4519a93747"
+
+[[files]]
+file = "config/LegibleNei/filters/Pistronics2.json"
+hash = "79190dd9c5cd88bd7a6a55b713168a20ecddb33841393d8a2f5a1ff6391c6b31"
+
+[[files]]
+file = "config/LegibleNei/filters/SmallBoats.json"
+hash = "d53d8d9e3ae64c4b3882af708cb5e3d423cc688ee7bf89a986bcd32790394a3b"
+
+[[files]]
+file = "config/LegibleNei/filters/StorageDrawers.json"
+hash = "4f872323fb519e1862ed0e739089ee502297b11b08a17cbd26f3d7b0045d8788"
+
+[[files]]
+file = "config/LegibleNei/filters/Terrafirmacraft Plus.json"
+hash = "2c1a679badeb1c3d1ddd55109a2be525d8e95f8f0199fdf73a11cb88bf407b11"
+
+[[files]]
+file = "config/LegibleNei/filters/minecraft.json"
+hash = "fac7061d03646f4572b13f6b93cec9c24aa974554e1e131f7549750316c49186"
+
+[[files]]
+file = "config/LegibleNei/filters/ships.json"
+hash = "c55f094f4bb4763601c3a3b84bb984916a480b80056f1166eb6a9aca99324736"
+
+[[files]]
+file = "config/LegibleNei/filters/shipsinteractive.json"
+hash = "e5074fd31a4d5b819bb00fa1a775a293db5aa1f1dbaaf9d0a49048905da96e1f"
+
+[[files]]
+file = "config/LegibleNei/filters/teloaddon.json"
+hash = "c3255fcb0d353caa2196a0a857ac0a9d47f67c900660ecf3f44f797ec1d0feed"
+
+[[files]]
+file = "config/LunatriusCore.cfg"
+hash = "c6ff405dd927c5a3031bb248be3cdbe767492611b9d55c35089174817a631e8b"
+
+[[files]]
+file = "config/NEI/client.cfg"
+hash = "2c9e10d163f38749b6b8a88e7e564504eb0f7968298d9c6a1bf443ea61f54c13"
+
+[[files]]
+file = "config/NEI/handlerordering.csv"
+hash = "435dd952576dfda9095d4bcf584256504185805c7614a0bd3947591d03581611"
+
+[[files]]
+file = "config/NEI/handlers.csv"
+hash = "e36e821d62e016cb6682502b839b55698f10f59d80d1985f47e466e0a93e4e02"
+
+[[files]]
+file = "config/NEI/heighthackhandlers.cfg"
+hash = "50a5e0f61bbeba826c16e91f51f689cdcd8a7496d66a672802cfe6b71614edab"
+
+[[files]]
+file = "config/NEI/serialhandlers.cfg"
+hash = "a140948d212f95655a9dc28497fdfa00b0dee538fded8baf6b7f0cb46ee83bbb"
+
+[[files]]
+file = "config/NEIAddons.cfg"
+hash = "d64289864499a49d167021633ee4ddd27b430d7d866211a9314b57b0cdc17685"
+
+[[files]]
+file = "config/OpenBlocks.cfg"
+hash = "098b3f709cfe148e5c47cb22d1c895a2ad94a772f1c4ad3915cc871544e16578"
+
+[[files]]
+file = "config/PistonEverything.cfg"
+hash = "613d8b648dd6edd9318818e63d78806688a00ec19983985b69d87808908f011e"
+
+[[files]]
+file = "config/Pistronics2.cfg"
+hash = "7fc46d8c1c85d95b1ec7a510051635caa0ebb5187bb80d5eb81e8a8c5de2be1f"
+
+[[files]]
+file = "config/StorageDrawers.cfg"
+hash = "c9736f6d738ca1390eb585500e156467318a6f6007224f2f008f706f891b76d5"
+
+[[files]]
+file = "config/TFCOre.cfg"
+hash = "08ad286c737cebfe4e301aaaf60a745a3559b789d85d2ce16c743644508fa602"
+
+[[files]]
+file = "config/TeloAddon.cfg"
+hash = "cdbde31c5c540777f134dd46d8a33e27ae6bd26dd0391b23a5b7de4c72b60cce"
+
+[[files]]
+file = "config/UpdateCheckLib.cfg"
+hash = "25976176cc4d53567ec8579bba58a3c413ea18678964b3d0b6616a7e032e04ad"
+
+[[files]]
+file = "config/Waila.cfg"
+hash = "f0711a7b3394591acc4ab61127a8938573b1e1e0d4ead9c91a4ee3e4b3495358"
+
+[[files]]
+file = "config/YABM.cfg"
+hash = "4e50cad792623793a2a31149dd8021d696ec9962aa12b3c878c6faa50fbb881b"
+
+[[files]]
+file = "config/armourersWorkshop/client.cfg"
+hash = "f046867a0de7b997469e3b3dade8c9afece9c173235d33a99d919fb941b74f16"
+
+[[files]]
+file = "config/armourersWorkshop/common.cfg"
+hash = "a92bb8be78693478ad68401d1345f1a08fb753eaf9321ce2749da2c954501508"
+
+[[files]]
+file = "config/armourersWorkshop/overrides.cfg"
+hash = "72c2453abffaf424441a51d6120d5578a06c84fd558a146aff48e1326b5d3827"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests.json"
+hash = "54d781fb7d9f63bf31f1cbbc3332cb227fcb61b88250066ea4530be0c7a8f995"
+
+[[files]]
+file = "config/betterquesting/questbook.cfg"
+hash = "f71400e812596130ce9368b879c8b8ebe86246bc9f0237ccaacafa81cc04e6cc"
+
+[[files]]
+file = "config/betterquesting/resources/telomerase/textures/gui/telomerase_title.png"
+hash = "92da552e21ac456f31422ef5c08b486374388fc1655d3294d4f6ea1b8cb3b09f"
+
+[[files]]
+file = "config/betterquesting/resources/telomerase/textures/gui/telomerase_title.psd"
+hash = "6302dd53425b656524bbf1f2cab0f8f22b58e954c3cbac575042198229f7462e"
+
+[[files]]
+file = "config/betterstorage.cfg"
+hash = "f279ff13e9b7cdd48240b3439460a945cbc4b3cd5366c98c9ac88152d37a474e"
+
+[[files]]
+file = "config/bq_standard.cfg"
+hash = "952d538be376a696ca36066d70e02069521c66999740c1589f64cf8ee2465df2"
+
+[[files]]
+file = "config/cofh/core/client.cfg"
+hash = "a07b96a28a174b0199992110be8938e5d23c7b949b3a1e1bd664c24eb11caf0a"
+
+[[files]]
+file = "config/cofh/core/common.cfg"
+hash = "90035fa577ddd98522e863b277ed855ccd161a6895c4d017592f2ed3511972cd"
+
+[[files]]
+file = "config/cofh/core/friends.cfg"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/cofh/core/loot.cfg"
+hash = "7848c691eec49d0d9abbadee09e10bb33c7ef87e68252e35e3515e0717d53988"
+
+[[files]]
+file = "config/cofh/world/Vanilla.json"
+hash = "60b89b49e3eb3381c1765a4ce3c64aa2b5ea1258697af7c413bc2a3df7c454a6"
+
+[[files]]
+file = "config/coretweaks.cfg"
+hash = "63ec6ba568933f64e25f764e3d9b6bc5e260a653cec7ac73efc1a768ba6509d8"
+
+[[files]]
+file = "config/dakimakuramod.cfg"
+hash = "640cd2bda1b165874743603e3c33ef9d6bcfd05325f718300094828d20a34299"
+
+[[files]]
+file = "config/defaultkeys.txt"
+hash = "cac2b5fe309b2a93fad6ed94f3e88412d4c0c7bbe7c82456ef5f18a512fb73b0"
+
+[[files]]
+file = "config/defaultoptions.txt"
+hash = "82025190983c7322733cdfc6688ddb1f1041bf84bb74437b452f4aa2d92cda15"
+
+[[files]]
+file = "config/defaultoptionsof.txt"
+hash = "9186763e05c4709749b41f8fc77c6b16ee2615f4e9d70e42ee5c591260b6e533"
+
+[[files]]
+file = "config/dsurround/dsurround.cfg"
+hash = "015e8e0f763ac0ab055aea636128acda5b72259a97fca042465dd4b198c0c9dd"
+
+[[files]]
+file = "config/endercore/endercore.cfg"
+hash = "2170e3c229f32a5d0abeac20ef4b9d03a036034e95f6c7591f06329c906c374a"
+
+[[files]]
+file = "config/foamfix.cfg"
+hash = "4d0134b2f2a1e7c6f0b32ca3caf21a502477235735185c775219c2b2473bf96e"
+
+[[files]]
+file = "config/forestry/apiculture.cfg"
+hash = "a2028701db5d6931d9a54606f337ed2142dc33ec5708130b9bf64a6b2da3df65"
+
+[[files]]
+file = "config/forestry/backpacks.cfg"
+hash = "24dc729f6ab189c1bd5f5bb57c357cc0d84cadc6abbac56878aeda1a77a4ae17"
+
+[[files]]
+file = "config/forestry/common.cfg"
+hash = "8b0235f9f78806339a63a49f84fd3295a1f34e6a5fcb7f4a3cbebbdfdd28bf60"
+
+[[files]]
+file = "config/forestry/fluids.cfg"
+hash = "4c336e56ca854b3da8f48f6f750dc32fb339daff66cbd6f6f05e78a699e895ba"
+
+[[files]]
+file = "config/forestry/modules.cfg"
+hash = "527b1e1ecc1cb818e0db3dc52669fafc84b2629ccc21f2bb869a24def3a0dd55"
+
+[[files]]
+file = "config/forge.cfg"
+hash = "517b7936cae33f3b4295767d097d59796b7e6060da66389009da7a18ae3c7db9"
+
+[[files]]
+file = "config/gravestone.cfg"
+hash = "ddb5e2a0e138cde7ae02a1f8a5c6842b759d095fe9f7c735890948e80920d62f"
+
+[[files]]
+file = "config/immersiverailroading.cfg"
+hash = "570bb93b135183d9b08f04ca5fba370cec19a42f533e0ff77dcdfdd43ac3e57f"
+
+[[files]]
+file = "config/itlt.cfg"
+hash = "3d72afe73626a681cc0337af4cb2bd68c7fc13884b8765dd221b3218d4b4c2fe"
+
+[[files]]
+file = "config/itlt/icon.png"
+hash = "264adb627ae5917e3aff9dedc67052b41a16d5ebaf3c86f1810aef290dab546f"
+
+[[files]]
+file = "config/matmos/alias.map"
+hash = "eeaff3e2d1514342f81ff5a59d2eb4b4fc18d836e1847fe015eb6155ce5d9af2"
+
+[[files]]
+file = "config/matmos/expansions_userconfig/eu.ha3.default.earthlies.cfg"
+hash = "3db2077142dffeeaec0e0c3f2179901b0efa86c7fec12beeedb901e636c31b93"
+
+[[files]]
+file = "config/matmos/expansions_userconfig/makamys.zen.atmospheres.cfg"
+hash = "1b8d130bb181dc6b19f7570339f5f8a1240e8f0b87a759b30da93bbd63b35169"
+
+[[files]]
+file = "config/mcinstanceloader/config.cfg"
+hash = "f0255c17b8f4e337d3fed67af405560e2f13efc1e5f40fc48cd525f2a1a4ed4f"
+
+[[files]]
+file = "config/mcinstanceloader/pack.mcinstance"
+hash = "217158d61eb9daf8464cd8f5c157022424fb711aa53560ef2cdf130b1fd48c02"
+
+[[files]]
+file = "config/mixingasm/transformer_exclusion_list.txt"
+hash = "3dcc859696ac82ea8975e962574c186ddf4228dee13cb81850b1fdbd18a808ce"
+
+[[files]]
+file = "config/mixingasm/transformer_inclusion_list.txt"
+hash = "08abf5c19dd2b36b87abd1b3b352ce69812463903e7a71348d1b1973882fab16"
+
+[[files]]
+file = "config/mixingasm/transformer_inclusion_list_default.txt"
+hash = "5270f6b5a356fc8fd2a378489c2d46aef7d7672184c932886f03a6d54b0f7677"
+
+[[files]]
+file = "config/shipBlockProperties.cfg"
+hash = "9b7e4e636630afaf33d7695a51af750330f5681c1476824813185e59239964eb"
+
+[[files]]
+file = "config/splash.properties"
+hash = "b4b84a077c591cd3b97004cd25d8c7793ea868ac83be9634be60871ba200c20a"
+
+[[files]]
+file = "mods/mcinstance-loader.pw.toml"
+hash = "d85dd849d6c5e44a019c17465d4c0535f632f43093d2966288197a3ba61f2153"
+metafile = true
+
+[[files]]
+file = "resources/assets/fml/textures/gui/downloading.gif"
+hash = "7272d52e126288b4aa6c48d964a91d0e833f6cd8b9b2644c1506d085c60330b3"
+
+[[files]]
+file = "resources/assets/fml/textures/gui/logo.png"
+hash = "3ab54612ebf866c44cc4d09f527eef1035762d5dada0bf85385ec1c3d8408d05"
+
+[[files]]
+file = "scripts/BetterQuesting.zs"
+hash = "ffd53863a7d1b263853982e8a7214a7786e49ffe27dfc73c905a0743be29bc6c"
+
+[[files]]
+file = "scripts/BetterStorage.zs"
+hash = "fb13a73aed5cabf2a31f32a3edc1f92c3760ee92d8960642364860818c74ff04"
+
+[[files]]
+file = "scripts/Big_Reactors.zs"
+hash = "bc091cb25356f8994ca597193677c17624b9cb1365c95380ebb6536cc5d8802a"
+
+[[files]]
+file = "scripts/CarpentersBlocks.zs"
+hash = "439e3a2fc970b0372d28d871e00c78479eabdd2654f043c95955fcf56ea8f3ea"
+
+[[files]]
+file = "scripts/HopperDucts.zs"
+hash = "b8fb572b9f170e370c050db99069ccde8ae1a9282abf3f3265a46537a2ee0182"
+
+[[files]]
+file = "scripts/ImmersiveEngineering.zs"
+hash = "05eb7aa712e139a4d3534c64653389926355f4f5f3fea47188142bf0a530b166"
+
+[[files]]
+file = "scripts/ImmersiveIntegration.zs"
+hash = "f475f0539d5bccd2ecc886888912f11c3df6687ae0859e772234f3df33985a6d"
+
+[[files]]
+file = "scripts/MineralVeins.zs"
+hash = "48c75afd7bf844c77ef38f27a1cbfa071600ab9269a805e9a936b938049475f3"
+
+[[files]]
+file = "scripts/OpenBlocks.zs"
+hash = "41b20b4177a8abfcba7157ac8014a784140d002c21bec8b343e497926ef9cc89"
+
+[[files]]
+file = "scripts/Ships.zs"
+hash = "f7533bd54afba9d11e343da3163723eeba9e76a63d6f4cec6ee6ab13959f9e1d"
+
+[[files]]
+file = "scripts/StorageDrawers.zs"
+hash = "4e5c33aa9657d942ec3307979fcb19abcea6d9d1cbd441dcd8db304a0e78899d"
+
+[[files]]
+file = "scripts/TFCPlus.zs"
+hash = "469262dfb2816fa26137bd99bfa6fa9004ef59ba7c1fccb38389271149837130"
+
+[[files]]
+file = "scripts/TeloAddon.zs"
+hash = "94f7b5424e3ba402880f92d4c13781d3309afb504499d6f4a5f5d5dd75ef82c1"
+
+[[files]]
+file = "scripts/armourersworkshop.zs"
+hash = "4ce278f34535c240a39ad62338d6e88a515f401c0c4dd5ac52f9aefdd8031585"
+
+[[files]]
+file = "scripts/bibliocraft.zs"
+hash = "9926db643dc0897d50310c786e609968389b57ddebf3957babc430d23b3df8f7"
+
+[[files]]
+file = "scripts/dakimakura.zs"
+hash = "2bca31526e6d5957c25223cfeacc84caa3f3c70bc04ccfeeca2dba65b28b9409"
+
+[[files]]
+file = "scripts/forestry.zs"
+hash = "29db4df7b5c5127c67fb0244c49a3866afe856ec9658093ecb046ad0f27ce3ea"
+
+[[files]]
+file = "scripts/immersiveRailroading.zs.disabled"
+hash = "91a056d2c33ddcc3eb56102be5c5dfa3b3ba82bc48ab243c08fcd58a75e00db1"
+
+[[files]]
+file = "scripts/pistronics.zs"
+hash = "1deffad75c52f2e7189e58307b2d689488e30bbd7f87431c4c76aa1738d57c8c"
+
+[[files]]
+file = "scripts/testdummy.zs"
+hash = "5ee0a8821a355f6aa8f1c0db658bd459342e8d1d4a3970c59f6f81fe03f85179"
