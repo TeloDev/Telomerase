@@ -8,6 +8,7 @@
 !/scripts/**
 !/LICENSE
 !/mods/mcinstanceloader*
+!/schematics/**
 
 # only include edited config files
 !/config/armourersWorkshop/**
