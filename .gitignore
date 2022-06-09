@@ -14,6 +14,7 @@
 !/config/armourersWorkshop/**
 !/config/Betterloadingscreen/**
 !/config/betterquesting/**
+!config/betterquesting.cfg
 !/config/BigReactors/**
 !/config/cofh/**
 !/config/CustomMainMenu/**
@@ -26,7 +27,7 @@
 !/config/matmos/alias.map
 !/config/matmos/expansions_userconfig/*earthlies.cfg
 !/config/matmos/expansions_userconfig/*atmospheres.cfg
-!/config/mcinstanceloader/pack.mcinstance-unzipped/**
+!/config/mcinstanceloader/pack/**
 !/config/mcinstanceloader/config.cfg
 !/config/mcinstanceloader/pack.mcinstance
 !/config/mcinstanceloader/pack.bat

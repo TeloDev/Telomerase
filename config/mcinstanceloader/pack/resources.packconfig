@@ -51,14 +51,6 @@ sourceFileName = DamageTilt-1.7.10-0.1.0.jar
 destination = mods/DamageTilt-1.7.10-0.1.0.jar
 side = client
 
-[Flying Cullers]
-type = curseforge
-projectId = 433524
-fileId = 3364996
-sourceFileName = FlyingCullers-1.7.10-1.3.jar
-destination = mods/FlyingCullers-1.7.10-1.3.jar
-side = client
-
 [LanHostSkinReFixed]
 type = curseforge
 projectId = 364836
@@ -68,19 +60,17 @@ destination = mods/LanHostSkinReFixed-1.7.10-rv0.jar
 side = client
 
 [Triangulators]
-type = curseforge
-projectId = 583352
-fileId = 3718208
-sourceFileName = triangulator-mc1.7.10-1.3.2.jar
-destination = mods/triangulator-mc1.7.10-1.3.2.jar
+type = modrinth
+versionId = 28vSG0Ey
+sourceFileName = triangulator-mc1.7.10-1.4.2.jar
+destination = mods/triangulator-mc1.7.10-1.4.2.jar
 side = client
 
 [AnimFix]
-type = curseforge
-projectId = 585734
-fileId = 3721998
-sourceFileName = animfix-mc1.7.10-1.3.3.jar
-destination = mods/animfix-mc1.7.10-1.3.3.jar
+type = modrinth
+versionId = cxBLzKBI
+sourceFileName = animfix-mc1.7.10-1.4.0.jar
+destination = mods/animfix-mc1.7.10-1.4.0.jar
 side = client
 
 [CraftPresence]
@@ -132,9 +122,8 @@ destination = mods/legiblenei_1.7.10-1.6.7.6.jar
 side = client
 
 [MAtmos]
-type = curseforge
-projectId = 366256
-fileId = 3561138
+type = modrinth
+versionId = Ei7Ztjb2
 sourceFileName = matmos-1.7.10-35.4.2.4.jar
 destination = mods/matmos-1.7.10-35.4.2.4.jar
 side = client
@@ -221,13 +210,13 @@ projectId = 442203
 fileId = 3204681
 sourceFileName = [1.7.10]TFC-Additions-1.7.10-1.0.8.jar
 destination = mods/[1.7.10]TFC-Additions-1.7.10-1.0.8.jar
+SHA-1 = 442A27A98CD018CC23093C3B1FA66086CE015751
 
 [TFC+Tweaker]
-type = curseforge
-projectId = 420101
-fileId = 3802073
-sourceFileName = 1.7.10-TFCPlusTweaker-1.2.1.1.jar
-destination = mods/1.7.10-TFCPlusTweaker-1.2.1.1.jar
+type = modrinth
+versionId = xSAsRC63
+sourceFileName = 1.7.10-TFCPlusTweaker-1.2.1.2.jar
+destination = mods/1.7.10-TFCPlusTweaker-1.2.1.2.jar
 
 [TFC+NEI]
 type = curseforge
@@ -237,18 +226,16 @@ sourceFileName = TerraFirmaCraftPlusNEIplugin-1.7.10-1.8.0.jar
 destination = mods/TerraFirmaCraftPlusNEIplugin-1.7.10-1.8.0.jar
 
 [TFC+Aesthetics]
-type = curseforge
-projectId = 574993
-fileId = 3781335
-sourceFileName = TFCPlusAesthetics-1.3.3.jar
-destination = mods/TFCPlusAesthetics-1.3.3.jar
+type = modrinth
+versionId = vLLJAXE8
+sourceFileName = TFCPlusAesthetics-1.4.1.jar
+destination = mods/TFCPlusAesthetics-1.4.1.jar
 
 [Telomerase Addon]
-type = curseforge
-projectId = 423154
-fileId = 3641909
-sourceFileName = TelomeraseAddon-1.0.6.jar
-destination = mods/TelomeraseAddon-1.0.6.jar
+type = modrinth
+versionId = LNw5Jmm4
+sourceFileName = TelomeraseAddon-1.1.1.jar
+destination = mods/TelomeraseAddon-1.1.1.jar
 
 #Pack Making
 [CraftTweaker]
@@ -259,11 +246,10 @@ sourceFileName = CraftTweaker-1.7.10-3.1.0-legacy.jar
 destination = mods/CraftTweaker-1.7.10-3.1.0-legacy.jar
 
 [IEBPT]
-type = curseforge
-projectId = 585637
-fileId = 3671400
-sourceFileName = IEBPT-1.0.jar
-destination = mods/IEBPT-1.0.jar
+type = modrinth
+versionId = DhYBrA9z
+sourceFileName = IEBPT-1.1.2.jar
+destination = mods/IEBPT-1.1.2.jar
 
 [ModTweaker]
 type = url
@@ -271,9 +257,10 @@ url = https://github.com/DrParadox7/ModTweaker/releases/download/0.9.6/ModTweake
 destination = mods/ModTweaker2-0.9.6-patched.jar
 
 [NotEnoughItems]
-type = url
-url = https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.12-GTNH/NotEnoughItems-1.7.10-2.2.12-GTNH.jar
-destination = mods/NotEnoughItems-1.7.10-2.2.12-GTNH.jar
+type = modrinth
+versionId = bdLObler
+sourceFileName = NotEnoughItems-1.7.10-2.2.14-GTNH.jar
+destination = mods/NotEnoughItems-1.7.10-2.2.14-GTNH.jar
 
 [NEI Addons]
 type = url
@@ -510,9 +497,8 @@ destination = mods/CoreTweaks-1.7.10-0.2.2.jar
 side = client
 
 [FoamFix]
-type = curseforge
-projectId = 278494
-fileId = 3557116
+type = modrinth
+versionId = rWLeBADk
 sourceFileName = FoamFix-1.7.10-universal-1.0.0.jar
 destination = mods/FoamFix-1.7.10-universal-1.0.0.jar
 

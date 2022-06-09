@@ -1,1 +1,1 @@
-jar -cfM pack.mcinstance -C .\pack.mcinstance-unzipped\ .
+jar -cfM pack.mcinstance -C .\pack\ .
