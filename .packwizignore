@@ -2,5 +2,4 @@
 .gitignore
 mods/*.jar
 *.bat
-config/mcinstanceloader/pack.mcinstance-unzipped
-*.zip
+config/mcinstanceloader/pack/
