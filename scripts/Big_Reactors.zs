@@ -99,17 +99,19 @@ recipes.addShaped(<BigReactors:BRReactorPart> * 8,[[<ImmersiveEngineering:storag
 recipes.removeShaped(<BigReactors:BRTurbinePart>,[[<ore:ingotIron>, <BigReactors:BRIngot:2>, <ore:ingotIron>], [<minecraft:quartz>, <BigReactors:BRIngot:1>, <minecraft:quartz>], [<ore:ingotIron>, <BigReactors:BRIngot:2>, <ore:ingotIron>]]);
 recipes.addShaped(<BigReactors:BRTurbinePart> * 8,[[<ImmersiveEngineering:storage:7>, <ImmersiveEngineering:metalDecoration:10>, <ImmersiveEngineering:storage:7>], [<ImmersiveEngineering:metalDecoration:10>, <terrafirmacraftplus:item.Sterling Silver Ingot>, <ImmersiveEngineering:metalDecoration:10>], [<ImmersiveEngineering:storage:7>, <ImmersiveEngineering:metalDecoration:10>, <ImmersiveEngineering:storage:7>]]);
 
+val dial = <terrafirmacraftplus:item.Brass Dial>;
+
 #reactor controller
 recipes.removeShaped(<BigReactors:BRReactorPart:1>);
-recipes.addShaped(<BigReactors:BRReactorPart:1>,[[<BigReactors:BRReactorPart>, <ImmersiveEngineering:metalDecoration2:1>, <BigReactors:BRReactorPart>], [<ImmersiveEngineering:metalDecoration2:1>, <ore:blockGlass>, <ImmersiveEngineering:metalDecoration2:1>], [<BigReactors:BRReactorPart>, <ImmersiveEngineering:metalDecoration:5>, <BigReactors:BRReactorPart>]]);
+recipes.addShaped(<BigReactors:BRReactorPart:1>,[[<BigReactors:BRReactorPart>, <ImmersiveEngineering:metalDevice2>, <BigReactors:BRReactorPart>], [dial, dial, dial], [<BigReactors:BRReactorPart>, <ImmersiveEngineering:metalDecoration:5>, <BigReactors:BRReactorPart>]]);
 
 #turbine controller
 recipes.removeShaped(<BigReactors:BRTurbinePart:1>);
-recipes.addShaped(<BigReactors:BRTurbinePart:1>,[[<BigReactors:BRTurbinePart>, <ImmersiveEngineering:metalDecoration2:2>, <BigReactors:BRTurbinePart>], [<ImmersiveEngineering:metalDecoration2:2>, <ore:blockGlass>, <ImmersiveEngineering:metalDecoration2:2>], [<BigReactors:BRTurbinePart>, <ImmersiveEngineering:metalDecoration:5>, <BigReactors:BRTurbinePart>]]);
+recipes.addShaped(<BigReactors:BRTurbinePart:1>,[[<BigReactors:BRTurbinePart>, <ImmersiveEngineering:metalDevice2>, <BigReactors:BRTurbinePart>], [dial, dial, dial], [<BigReactors:BRTurbinePart>, <ImmersiveEngineering:metalDecoration:5>, <BigReactors:BRTurbinePart>]]);
 
 #reactor control rod
 recipes.removeShaped(<BigReactors:BRReactorPart:2>);
-recipes.addShaped(<BigReactors:BRReactorPart:2>,[[<ImmersiveEngineering:metalDecoration2:2>, <minecraft:piston>, <ImmersiveEngineering:metalDecoration2:2>], [<ImmersiveEngineering:metalDecoration2:2>, <terrafirmacraftplus:item.Steel Tuyere>, <ImmersiveEngineering:metalDecoration2:2>], [<ImmersiveEngineering:metal:20>, <ImmersiveEngineering:metal:20>, <ImmersiveEngineering:metal:20>]]);
+recipes.addShaped(<BigReactors:BRReactorPart:2>,[[<BigReactors:BRReactorPart>, <minecraft:piston>, <BigReactors:BRReactorPart>], [<BigReactors:BRReactorPart>, <ImmersiveEngineering:graphiteElectrode>, <BigReactors:BRReactorPart>]]);
 
 #fuel rod
 recipes.removeShaped(<BigReactors:YelloriumFuelRod>,[[<ore:ingotIron>, <BigReactors:BRIngot:2>, <ore:ingotIron>], [<ore:ingotIron>, <BigReactors:BRIngot:1>, <ore:ingotIron>], [<ore:ingotIron>, <BigReactors:BRIngot:2>, <ore:ingotIron>]]);

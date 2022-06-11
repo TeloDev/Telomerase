@@ -370,19 +370,19 @@ mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ImmersiveEngineering:mold:2>, <terraf
 recipes.removeShaped(<ImmersiveEngineering:coil>);
 game.setLocalization("gui.plans.lvwirecoil", "LV Wire Coil");
 mods.Terrafirmacraft.Anvil.addPlanRecipe("lvwirecoil", 9, 1, 1);
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ImmersiveEngineering:coil>*4, <terrafirmacraftplus:item.Copper Ingot>, <terrafirmacraftplus:item.stick>,"lvwirecoil", 1);
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ImmersiveEngineering:coil>*4, <terrafirmacraftplus:item.Copper Ingot>,"lvwirecoil", 1);
 
 #MV wire
 recipes.removeShaped(<ImmersiveEngineering:coil:1>);
 game.setLocalization("gui.plans.mvwirecoil", "MV Wire Coil");
 mods.Terrafirmacraft.Anvil.addPlanRecipe("mvwirecoil", 9, 1, 1);
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ImmersiveEngineering:coil:1>*4, <terrafirmacraftplus:item.Rose Gold Ingot>, <terrafirmacraftplus:item.stick>,"mvwirecoil", 2);
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ImmersiveEngineering:coil:1>*4, <terrafirmacraftplus:item.Rose Gold Ingot>,"mvwirecoil", 2);
 
 #HV wire
 recipes.removeShaped(<ImmersiveEngineering:coil:2>);
 game.setLocalization("gui.plans.hvwirecoil", "HV Wire Coil");
 mods.Terrafirmacraft.Anvil.addPlanRecipe("hvwirecoil", 9, 1, 1);
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ImmersiveEngineering:coil:2>*4, <terrafirmacraftplus:item.Black Steel Ingot>,<terrafirmacraftplus:item.stick>,"hvwirecoil", 4);
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ImmersiveEngineering:coil:2>*4, <terrafirmacraftplus:item.Black Steel Ingot>,"hvwirecoil", 4);
 
 #Hemp wire
 recipes.removeShaped(<ImmersiveEngineering:coil:3>);
@@ -392,7 +392,7 @@ recipes.addShaped(<ImmersiveEngineering:coil:3>*8,[[null,<terrafirmacraftplus:it
 recipes.removeShaped(<ImmersiveEngineering:coil:4>);
 game.setLocalization("gui.plans.steelcablecoil", "Steel Cable Coil");
 mods.Terrafirmacraft.Anvil.addPlanRecipe("steelcablecoil", 9, 1, 1);
-mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ImmersiveEngineering:coil:4>*8, <terrafirmacraftplus:item.Steel Ingot>,<terrafirmacraftplus:item.stick>,"steelcablecoil", 4);
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<ImmersiveEngineering:coil:4>*8, <terrafirmacraftplus:item.Steel Ingot>,"steelcablecoil", 4);
 
 //coils block
 #lv coil
