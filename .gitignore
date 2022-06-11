@@ -67,7 +67,9 @@
 !/config/YABM.cfg
 !/config/DIAdvancedCompatibility.cfg
 !/config/shipBlockProperties.cfg
+!/config/craftpresence.properties
 !background.png
+!/resourcepacks/**
 
 # packwiz
 !index.toml

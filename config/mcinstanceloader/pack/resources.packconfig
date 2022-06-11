@@ -321,7 +321,7 @@ destination = mods/OpenModsLibs-1.7.10-0.10.6.jar
 
 [Mixin]
 type = url
-url = https://github.com/DrParadox7/SpongeMixins/releases/download/1.5.0/SpongeMixins-1.5.0.jar
+url = https://github.com/GTNewHorizons/SpongeMixins/releases/download/1.5.0/SpongeMixins-1.5.0.jar
 destination = mods/SpongeMixins-1.5.0.jar
 
 [LunatriusCore]
@@ -329,6 +329,12 @@ type = url
 url = https://github.com/GTNewHorizons/LunatriusCore/releases/download/1.1.6-GTNH/LunatriusCore-1.7.10-1.1.6-GTNH.jar
 destination = mods/LunatriusCore-1.7.10-1.1.6-GTNH.jar
 side = client
+
+[FalsePatternLib]
+type = modrinth
+versionId = D8WMiobE
+sourceFileName = falsepatternlib-mc1.7.10-0.6.2.jar
+destination = mods/falsepatternlib-mc1.7.10-0.6.2.jar
 
 #------------------------------------------------------------------------------------------------------------------------
 #Content Mods
@@ -520,33 +526,3 @@ projectId = 230898
 fileId = 2274165
 sourceFileName = BetterBoat-1.7.10-1.1.0.jar
 destination = mods/BetterBoat-1.7.10-1.1.0.jar
-
-#------------------------------------------------------------------------------------------------------------------------
-#Resources Packs
-#------------------------------------------------------------------------------------------------------------------------
-
-[Vanilla Themed TFC+]
-type = curseforge
-projectId = 401494
-fileId = 3787219
-destination = resourcepacks/VanillaThemedTFC.zip
-side = client
-
-[MATmos Default Soundpack]
-type = url
-url = https://github.com/TeloDev/TelomeraseResources/raw/main/matdefault2016.zip
-destination = resourcepacks/matdefault2016.zip
-side = client
-
-[Telomerase Resources]
-type = url
-url = https://github.com/TeloDev/TelomeraseResources/raw/main/TelomeraseResources.zip
-destination = resourcepacks/TelomeraseResources.zip
-side = client
-
-[TFC+ Alternate Default]
-type = curseforge
-projectId = 613152
-fileId = 3796017
-destination = resourcepacks/TFC+ Alternate Default.zip
-side = client
