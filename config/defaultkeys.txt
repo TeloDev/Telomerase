@@ -10,11 +10,11 @@ key_key.drop:16
 key_key.inventory:18
 key_key.chat:20
 key_key.playerlist:15
-key_key.pickItem:0
+key_key.pickItem:-98
 key_key.command:53
 key_key.screenshot:60
 key_key.togglePerspective:63
-key_key.smoothCamera:64
+key_key.smoothCamera:0
 key_key.sprint:29
 key_key.streamStartStop:0
 key_key.streamPauseUnpause:0
@@ -42,27 +42,17 @@ key_ingameinfoxml.key.toggle:0
 key_openblocks.keybind.vario_switch:0
 key_openblocks.keybind.vario_vol_up:0
 key_openblocks.keybind.vario_vol_down:0
-key_Pneumatic Helmet Options:0
-key_Pneumatic Helmet Hack:0
-key_Pneumatic Helmet Debugging Drone:0
 key_schematica.key.load:181
 key_schematica.key.save:55
 key_schematica.key.control:74
-key_schematica.key.layerInc:0
-key_schematica.key.layerDec:0
-key_keys.armourersworkshop.equipmentWardrobe:0
-key_keys.armourersworkshop.undo:0
+key_schematica.key.layerInc:52
+key_schematica.key.layerDec:51
+key_keys.armourersworkshop.equipmentWardrobe:25
+key_keys.armourersworkshop.undo:44
 key_key.betterstorage.backpackOpen:0
 key_key.betterstorage.drinkingHelmet:0
-key_Hold to use other FC keys:0
-key_Toggle Cull Entities:0
-key_Toggle Cull Tile Entities:0
-key_RV/FR Decrease:0
-key_RV/FR Increase:0
-key_Toggle Scale RD With Size:0
-key_FpsReducer.key.guiOpen:0
+key_FpsReducer.key.guiOpen:207
 key_MAtmos:0
-key_key.PickBlockPlus:-98
 key_waila.keybind.wailaconfig:82
 key_waila.keybind.wailadisplay:79
 key_waila.keybind.liquid:80
@@ -71,11 +61,9 @@ key_waila.keybind.usage:75
 key_key.cofh.empower:0
 key_key.cofh.multimode:0
 key_key.journeymap.map_toggle:36
-key_key.journeymap.zoom_in:200
-key_key.journeymap.zoom_out:208
+key_key.journeymap.zoom_in:13
+key_key.journeymap.zoom_out:12
 key_key.journeymap.minimap_type:0
 key_key.journeymap.minimap_type:0
 key_key.journeymap.minimap_preset:43
-key_key.control:0
 key_key.journeymap.create_waypoint:45
-key_key.portaitreposition:0

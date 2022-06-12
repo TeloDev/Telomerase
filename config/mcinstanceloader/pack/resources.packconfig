@@ -1,7 +1,7 @@
 [Telo Core Mod]
 type = url
-url = https://github.com/TeloDev/TelomeraseCoreMod/releases/download/2.6/TeloCoreMod-1.7.10-2.6.jar
-destination = mods/TeloCoreMod-1.7.10-2.6.jar
+url = https://github.com/TeloDev/TelomeraseCoreMod/releases/download/2.7/TeloCoreMod-1.7.10-2.7.jar
+destination = mods/TeloCoreMod-1.7.10-2.7.jar
 side = client
 
 [It's the little things]
@@ -29,8 +29,8 @@ side = client
 
 [Telo Loading Screen]
 type = url
-url = https://github.com/TeloDev/TelomeraseLoadingScreen/releases/download/1.2/TeloLoadingScreen-1.7.10-1.2.jar
-destination = mods/TeloLoadingScreen-1.7.10-1.2.jar
+url = https://github.com/TeloDev/TelomeraseLoadingScreen/releases/download/1.2.1/TeloLoadingScreen-1.7.10-1.2.1.jar
+destination = mods/TeloLoadingScreen-1.7.10-1.2.1.jar
 side = client
 
 #------------------------------------------------------------------------------------------------------------------------

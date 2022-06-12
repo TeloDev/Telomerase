@@ -2,7 +2,7 @@
     "images":
     {
         "bar": {
-	     "image": "custommainmenu:textures/menuBar.png",
+	     "image": "custommainmenu:textures/gui/menu_bar.png",
 	     "posX": -60,
 	     "posY": 0,
              "width": 120,
@@ -11,7 +11,7 @@
 		},
         "title":
         {
-            "image" : "telomerase:title.png",
+            "image" : "custommainmenu:textures/gui/telomerase.png",
             "posX" : -147,
             "posY" : 10,
             "width" : 282,
