@@ -24,7 +24,6 @@
 !/config/FpsReducer/*
 !/config/itlt/**
 !/config/LegibleNei/filters/**
-!/config/matmos/alias.map
 !/config/matmos/expansions_userconfig/*earthlies.cfg
 !/config/matmos/expansions_userconfig/*atmospheres.cfg
 !/config/mcinstanceloader/pack/**
