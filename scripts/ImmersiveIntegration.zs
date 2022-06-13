@@ -15,7 +15,7 @@ recipes.addShapeless(<immersiveintegration:iiWireCoil>, [<ImmersiveEngineering:c
 
 //redstone wire connector
 recipes.removeShaped(<immersiveintegration:redstoneWireConnector>);
-recipes.addShaped(<immersiveintegration:redstoneWireConnector>*8, [[null, <ore:ingotAnyBronze>, null],[<terrafirmacraftplus:item.Mortar>, <terrafirmacraftplus:item.Brick:1>, <terrafirmacraftplus:item.Mortar>],[<terrafirmacraftplus:item.Brick:1>, <terrafirmacraftplus:item.Mortar>, <terrafirmacraftplus:item.Brick:1>]]);
+recipes.addShaped(<immersiveintegration:redstoneWireConnector>*8, [[null, <ore:ingotAnyBronze>, null],[<terrafirmacraftplus:item.Mortar>, <minecraft:redstone>, <terrafirmacraftplus:item.Mortar>],[<terrafirmacraftplus:item.Brick:1>, <terrafirmacraftplus:item.Mortar>, <terrafirmacraftplus:item.Brick:1>]]);
 
 // item robin
 recipes.removeShaped(<immersiveintegration:itemRobin>);

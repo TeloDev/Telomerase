@@ -478,7 +478,7 @@ recipes.addShaped(<ImmersiveEngineering:metalDevice:2>*8, [[<terrafirmacraftplus
 
 #hv wire relay
 recipes.removeShaped(<ImmersiveEngineering:metalDevice:5>);
-recipes.addShaped(<ImmersiveEngineering:metalDevice:5>*8, [[<minecraft:glass_pane>, <ore:ingotSteel>, <minecraft:glass_pane>],[<minecraft:glass_pane>, <ore:ingotSteel>, <minecraft:glass_pane>]]);
+recipes.addShaped(<ImmersiveEngineering:metalDevice:5>*8, [[<ore:paneGlass>, <ore:ingotSteel>, <ore:paneGlass>],[<ore:paneGlass>, <ore:ingotSteel>, <ore:paneGlass>]]);
 
 #hv wire connector
 recipes.removeShaped(<ImmersiveEngineering:metalDevice:6>*4, [[<minecraft:hardened_clay:*>, <ore:ingotAluminum>, <minecraft:hardened_clay:*>], [<minecraft:hardened_clay:*>, <ore:ingotAluminum>, <minecraft:hardened_clay:*>], [<minecraft:hardened_clay:*>, <ore:ingotAluminum>, <minecraft:hardened_clay:*>]]);
@@ -817,7 +817,6 @@ mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:hardened_clay>, <min
 mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Powder:12>, <terrafirmacraftplus:item.Powder:11>, 20); // from wikipedia 120 - 180 degrees C
 // lime from ash
 mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Lime>, ash, 100);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraftplus:item.Lime>, ash, 1000); // orange **
 
 //heat up ingot
 mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Bismuth Ingot>.withTag({temperature: 250.0 as float}), <terrafirmacraftplus:item.Bismuth Ingot>, 500, ash);
