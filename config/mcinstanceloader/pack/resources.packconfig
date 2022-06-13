@@ -207,10 +207,9 @@ destination = mods/[1.7.10]TerraFirmaCraftPlus-0.89.1.jar
 [TFC+Additions]
 type = curseforge
 projectId = 442203
-fileId = 3204681
-sourceFileName = [1.7.10]TFC-Additions-1.7.10-1.0.8.jar
-destination = mods/[1.7.10]TFC-Additions-1.7.10-1.0.8.jar
-SHA-1 = 442A27A98CD018CC23093C3B1FA66086CE015751
+fileId = 3828651
+sourceFileName = [1.7.10]TFC-Additions-1.7.10-1.0.9.jar
+destination = mods/[1.7.10]TFC-Additions-1.7.10-1.0.9.jar
 
 [TFC+Tweaker]
 type = modrinth
@@ -323,6 +322,7 @@ destination = mods/OpenModsLibs-1.7.10-0.10.6.jar
 type = url
 url = https://github.com/GTNewHorizons/SpongeMixins/releases/download/1.5.0/SpongeMixins-1.5.0.jar
 destination = mods/SpongeMixins-1.5.0.jar
+side = client
 
 [LunatriusCore]
 type = url
@@ -335,6 +335,7 @@ type = modrinth
 versionId = D8WMiobE
 sourceFileName = falsepatternlib-mc1.7.10-0.6.2.jar
 destination = mods/falsepatternlib-mc1.7.10-0.6.2.jar
+side = client
 
 #------------------------------------------------------------------------------------------------------------------------
 #Content Mods
@@ -519,6 +520,7 @@ destination = mods/fastcraft-1.25.jar
 type = url
 url = https://github.com/makamys/Mixingasm/releases/download/v0.2.1/mixingasm-1.7.10-0.2.1.jar
 destination = mods/mixingasm-1.7.10-0.2.1.jar
+side = client
 
 [Better Boat]
 type = curseforge
