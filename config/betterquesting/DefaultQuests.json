@@ -7266,14 +7266,8 @@
               },
               "Damage:2": 0,
               "OreDict:8": ""
-            }
-          }
-        },
-        "1:10": {
-          "rewardID:8": "bq_standard:choice",
-          "index:3": 1,
-          "choices:9": {
-            "0:10": {
+            },
+            "4:10": {
               "id:8": "armourersWorkshop:equipmentSkin",
               "Count:3": 1,
               "tag:10": {
@@ -7319,7 +7313,7 @@
           "lockedProgress:1": 0,
           "autoClaim:1": 0,
           "isSilent:1": 0,
-          "desc:8": "The other multiblock for nuclear power is the Steam Turbine. How big you build this is is up to you, but near to minimum size (5x5x5) will still generate a large amount of energy. (expect a little less than 1k RF/t for the most simple setup)\n\nThe Turbine multiblock is a box whose edges must be made out of Turbine Casing, the faces can be Turbine Casing or Turbine Glass. You will need a Turbine Controller, a Rotor Bearing a Power Port and a Fluid Port. You will need several Rotor Shafts and Rotor Blades (the more you have, the higher steam input you can process). Lastly, you will need Coil Blocks to surround the Rotor Shafts at the opposite end to the bearing.\n\nThe completed multiblock accepts steam through any red colored Fluid Port (right click with Engineer\u0027s Hammer to change) and distilled water can be pumped out of any blue colored Fluid Port (Use an Immersive Engineering Pump for high pump rate).\n\nIf you are having trouble, please use the provided schematic named BigReactors-Starter (default hotkey \"/\") to get you started!"
+          "desc:8": "The other multiblock for nuclear power is the Steam Turbine. How big you build this is is up to you, but near to minimum size (5x5x5) will still generate a large amount of energy. (expect a little less than 1.5k RF/t for the most simple reactor-turbine setup)\n\nThe Turbine multiblock is a box whose edges must be made out of Turbine Casing, the faces can be Turbine Casing or Turbine Glass. You will need a Turbine Controller, a Rotor Bearing a Power Port and a Fluid Port. You will need several Rotor Shafts and Rotor Blades (the more you have, the higher steam input you can process). Lastly, you will need Coil Blocks to surround the Rotor Shafts at the opposite end to the bearing.\n\nThe completed multiblock accepts steam through any red colored Fluid Port (right click with Engineer\u0027s Hammer to change) and distilled water can be pumped out of any blue colored Fluid Port (Use an Immersive Engineering Pump for high pump rate).\n\nIf you are having trouble, please use the provided schematic named BigReactors-Starter (default hotkey \"/\") to get you started!"
         }
       },
       "tasks:9": {
