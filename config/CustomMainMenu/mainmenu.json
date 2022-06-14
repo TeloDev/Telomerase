@@ -156,7 +156,8 @@
                     "custommainmenu:textures/backgrounds/01.png",
                     "custommainmenu:textures/backgrounds/02.png",
                     "custommainmenu:textures/backgrounds/03.png",
-                    "custommainmenu:textures/backgrounds/04.png"
+                    "custommainmenu:textures/backgrounds/04.png",
+                    "custommainmenu:textures/backgrounds/05.png"
                 ],
                 "displayDuration" : 200,
                 "fadeDuration" : 50,
