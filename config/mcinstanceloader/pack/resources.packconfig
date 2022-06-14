@@ -226,9 +226,9 @@ destination = mods/TerraFirmaCraftPlusNEIplugin-1.7.10-1.8.0.jar
 
 [TFC+Aesthetics]
 type = modrinth
-versionId = vLLJAXE8
-sourceFileName = TFCPlusAesthetics-1.4.1.jar
-destination = mods/TFCPlusAesthetics-1.4.1.jar
+versionId = CnTVtjwr
+sourceFileName = TFCPlusAesthetics-1.5.0.jar
+destination = mods/TFCPlusAesthetics-1.5.0.jar
 
 [Telomerase Addon]
 type = modrinth
