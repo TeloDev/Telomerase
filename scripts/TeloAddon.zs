@@ -99,7 +99,7 @@ mods.Terrafirmacraft.Barrel.addItemFluidConversion(<liquid:glycerol> * 250, <tel
 mods.Terrafirmacraft.Barrel.addItemFluidConversion(<liquid:glycerol> * 250, <teloaddon:Lye>, <liquid:oliveoil> * 250, 0, true, 8, true, true);
 mods.forestry.Fermenter.addRecipe(<liquid:glycerol>, <teloaddon:Lye>, <liquid:plantoil>, 250, 1);
 mods.forestry.Fermenter.addRecipe(<liquid:glycerol>, <teloaddon:Lye>, <liquid:oliveoil>, 250, 1);
-mods.Terrafirmacraft.Barrel.addItemFluidConversion(<liquid:nitricacid> * 250, <teloaddon:Lye>, <liquid:ammoniumchloride> * 250, 0, true, 8, true, true);
-mods.forestry.Fermenter.addRecipe(<liquid:nitricacid>, <teloaddon:Lye>, <liquid:ammoniumchloride>, 250, 1);
+mods.Terrafirmacraft.Barrel.addItemFluidConversion(<liquid:nitricacid> * 250, <terrafirmacraftplus:item.Powder:4>, <liquid:freshwater> * 250, 0, true, 8, true, true);
+mods.forestry.Fermenter.addRecipe(<liquid:nitricacid>, <terrafirmacraftplus:item.Powder:4>, <liquid:freshwater>, 250, 1);
 mods.immersiveengineering.Refinery.addRecipe(<liquid:nitroglycerin>, <liquid:nitricacid>,<liquid:glycerol>);
 mods.forestry.Carpenter.addRecipe(<minecraft:tnt>, [[<ore:lumpClay>]], <liquid:nitroglycerin> * 125, 20);
