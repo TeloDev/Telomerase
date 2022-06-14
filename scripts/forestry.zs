@@ -364,6 +364,12 @@ for i, alcohol in alcohols{
 	mods.forestry.Still.addRecipe(distilledAlcoholsIndex[i] * 5, alcohol * 10, 100);
 }
 
+//vinegar
+for i, alcohol in alcohols{
+    mods.forestry.Fermenter.addRecipe(<liquid:vinegar>, <teloaddon:Yeast>, alcohol, 10000, 1);
+
+}
+
 //evaporation
 mods.forestry.Carpenter.addRecipe(<terrafirmacraftplus:item.Powder:9>*2, [[<terrafirmacraftplus:item.Powder:9>]],<liquid:saltwater>*500,20);
 

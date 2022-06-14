@@ -56,10 +56,8 @@ mods.forestry.Carpenter.addRecipe(<teloaddon:Uranium_Hexafluoride>, [[<teloaddon
 mods.Terrafirmacraft.Barrel.addItemConversion(<teloaddon:Ammonium_Diuranate>, <teloaddon:Uranyl_Nitrate>, <liquid:ammoniumchloride> * 250, 0, true, 4, true);
 mods.forestry.Carpenter.addRecipe(<teloaddon:Ammonium_Diuranate>, [[<teloaddon:Uranyl_Nitrate>]], <liquid:ammoniumchloride> * 250, 20);
 
-game.setLocalization("fluid.glass", "Heated Platinum Catalyst");
-mods.forestry.ThermionicFabricator.addSmelting(100, <terrafirmacraftplus:item.Platinum Ingot>, 100);
-mods.forestry.ThermionicFabricator.addCast(<teloaddon:Uranyl_Nitrate>, [[<teloaddon:Yellowcake>, <terrafirmacraftplus:item.Powder:14>, null]], 1);
-mods.forestry.ThermionicFabricator.addCast(<teloaddon:Uranyl_Nitrate>, [[<terrafirmacraftplus:item.Powder:14>, <teloaddon:Yellowcake>, null]], 1);
+mods.Terrafirmacraft.Barrel.addItemConversion(<teloaddon:Uranyl_Nitrate>, <teloaddon:Yellowcake>, <liquid:nitricacid> * 250, 0, true, 4, true);
+mods.forestry.Carpenter.addRecipe(<teloaddon:Uranyl_Nitrate>, [[<teloaddon:Yellowcake>]], <liquid:nitricacid> * 250, 20);
 
 <BigReactors:BRIngot>.displayName = "Enriched Uranium";
 <BigReactors:BRMetalBlock>.displayName = "Enriched Uranium Block";
@@ -97,7 +95,7 @@ recipes.addShaped(<BigReactors:BRReactorPart> * 8,[[<ImmersiveEngineering:storag
 
 #turbine casing
 recipes.removeShaped(<BigReactors:BRTurbinePart>,[[<ore:ingotIron>, <BigReactors:BRIngot:2>, <ore:ingotIron>], [<minecraft:quartz>, <BigReactors:BRIngot:1>, <minecraft:quartz>], [<ore:ingotIron>, <BigReactors:BRIngot:2>, <ore:ingotIron>]]);
-recipes.addShaped(<BigReactors:BRTurbinePart> * 8,[[<ImmersiveEngineering:storage:7>, <ImmersiveEngineering:metalDecoration:10>, <ImmersiveEngineering:storage:7>], [<ImmersiveEngineering:metalDecoration:10>, <terrafirmacraftplus:item.Sterling Silver Ingot>, <ImmersiveEngineering:metalDecoration:10>], [<ImmersiveEngineering:storage:7>, <ImmersiveEngineering:metalDecoration:10>, <ImmersiveEngineering:storage:7>]]);
+recipes.addShaped(<BigReactors:BRTurbinePart> * 8,[[<ImmersiveEngineering:storage:7>, <ImmersiveEngineering:metalDecoration:10>, <ImmersiveEngineering:storage:7>], [<ImmersiveEngineering:metalDecoration:10>, <ImmersiveEngineering:metalDecoration2>, <ImmersiveEngineering:metalDecoration:10>], [<ImmersiveEngineering:storage:7>, <ImmersiveEngineering:metalDecoration:10>, <ImmersiveEngineering:storage:7>]]);
 
 val dial = <terrafirmacraftplus:item.Brass Dial>;
 
@@ -107,15 +105,15 @@ recipes.addShaped(<BigReactors:BRReactorPart:1>,[[<BigReactors:BRReactorPart>, <
 
 #turbine controller
 recipes.removeShaped(<BigReactors:BRTurbinePart:1>);
-recipes.addShaped(<BigReactors:BRTurbinePart:1>,[[<BigReactors:BRTurbinePart>, <ImmersiveEngineering:metalDevice2>, <BigReactors:BRTurbinePart>], [dial, dial, dial], [<BigReactors:BRTurbinePart>, <ImmersiveEngineering:metalDecoration:5>, <BigReactors:BRTurbinePart>]]);
+recipes.addShaped(<BigReactors:BRTurbinePart:1>,[[<BigReactors:BRTurbinePart>, <ImmersiveEngineering:metalDevice2>, <BigReactors:BRTurbinePart>], [dial, <ImmersiveEngineering:tool:2>, dial], [<BigReactors:BRTurbinePart>, <ImmersiveEngineering:metalDecoration:5>, <BigReactors:BRTurbinePart>]]);
 
 #reactor control rod
 recipes.removeShaped(<BigReactors:BRReactorPart:2>);
-recipes.addShaped(<BigReactors:BRReactorPart:2>,[[<BigReactors:BRReactorPart>, <minecraft:piston>, <BigReactors:BRReactorPart>], [<BigReactors:BRReactorPart>, <ImmersiveEngineering:graphiteElectrode>, <BigReactors:BRReactorPart>]]);
+recipes.addShaped(<BigReactors:BRReactorPart:2>,[[<BigReactors:BRReactorPart>, <minecraft:piston>, <BigReactors:BRReactorPart>], [<BigReactors:BRReactorPart>, <terrafirmacraftplus:item.Sterling Silver Ingot>, <BigReactors:BRReactorPart>]]);
 
 #fuel rod
 recipes.removeShaped(<BigReactors:YelloriumFuelRod>,[[<ore:ingotIron>, <BigReactors:BRIngot:2>, <ore:ingotIron>], [<ore:ingotIron>, <BigReactors:BRIngot:1>, <ore:ingotIron>], [<ore:ingotIron>, <BigReactors:BRIngot:2>, <ore:ingotIron>]]);
-recipes.addShaped(<BigReactors:YelloriumFuelRod>*2,[[null, <terrafirmacraftplus:item.Sterling Silver Sheet>, null], [<terrafirmacraftplus:item.Steel Sheet>, <BigReactors:BRMultiblockGlass>, <terrafirmacraftplus:item.Steel Sheet>], [null, <ImmersiveEngineering:metal:20>, null]]);
+recipes.addShaped(<BigReactors:YelloriumFuelRod>*2,[[<ImmersiveEngineering:metal:20>, <BigReactors:BRMultiblockGlass>, <ImmersiveEngineering:metal:20>], [<terrafirmacraftplus:item.Steel Tuyere>, <BigReactors:BRMultiblockGlass>, <terrafirmacraftplus:item.Steel Tuyere>],[null, null, null]]);
 
 recipes.removeShaped(<BigReactors:BRDevice>);
 
@@ -159,9 +157,15 @@ recipes.removeShaped(<BigReactors:BRTurbineRotorPart:1>,[[<BigReactors:BRIngot:1
 recipes.removeShaped(<BigReactors:BRMultiblockGlass>,[[<ore:blockGlass>, <BigReactors:BRReactorPart>, <ore:blockGlass>]]);
 mods.immersiveengineering.ArcFurnace.addRecipe(<BigReactors:BRMultiblockGlass>, <ore:ingotLead>, null, 40, 1024, [<ore:blockGlass>], "Glassworking");
 recipes.removeShaped(<BigReactors:BRMultiblockGlass:1>,[[<ore:blockGlass>, <BigReactors:BRTurbinePart>, <ore:blockGlass>]]);
-recipes.addShapeless(<BigReactors:BRMultiblockGlass:1>, [<ore:blockGlass>,<ImmersiveEngineering:material:15>]);
+for sand in <ore:blockSandSilica>.items{ // for some reason we can't add oredict with amount multiplier
+  mods.immersiveengineering.ArcFurnace.addRecipe(<BigReactors:BRMultiblockGlass:1>*5, sand*7, null, 100, 2048,[<terrafirmacraftplus:item.Soda>*3,<terrafirmacraftplus:item.Ore:316>*2,<teloaddon:Alumina>], "Glassworking");
+}
+
 
 //Plastic Stuff
+
+game.setLocalization("fluid.glass", "Heated Platinum Catalyst");
+mods.forestry.ThermionicFabricator.addSmelting(100, <terrafirmacraftplus:item.Platinum Ingot>, 100);
 
 /*
 
