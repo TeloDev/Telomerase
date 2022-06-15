@@ -691,6 +691,7 @@
         "Plains"
       ],
       "restrict": [
+        "Is Raining",
         "Is Underwater",
         "Time (12000 - 22000)"
       ],
@@ -1110,7 +1111,7 @@
       "event": [
         {
           "event": "Rain hitting windows",
-          "vol_mod": 0.0,
+          "vol_mod": 0.8,
           "pitch_mod": 1.0,
           "delay_min": 6.0,
           "delay_max": 6.0,
@@ -1180,7 +1181,7 @@
       "event": [
         {
           "event": "Thunderstorm",
-          "vol_mod": 0.0,
+          "vol_mod": 0.3,
           "pitch_mod": 1.0,
           "delay_min": 7.0,
           "delay_max": 32.0,
@@ -1203,7 +1204,7 @@
       "event": [
         {
           "event": "Thunderstorm",
-          "vol_mod": 0.0,
+          "vol_mod": 0.7,
           "pitch_mod": 1.0,
           "delay_min": 7.0,
           "delay_max": 32.0,
@@ -1295,7 +1296,7 @@
       "event": [
         {
           "event": "Wind, very strong",
-          "vol_mod": 0.0,
+          "vol_mod": 0.3,
           "pitch_mod": 1.0,
           "delay_min": 1.0,
           "delay_max": 2.5,
@@ -1360,8 +1361,8 @@
       ]
     },
     "Bad wind": {
-      "vol_min": 0,
-      "vol_max": 0,
+      "vol_min": 1.0,
+      "vol_max": 1.0,
       "pitch_min": 0.1,
       "pitch_max": 0.7,
       "distance": 0,
@@ -1526,8 +1527,8 @@
       ]
     },
     "Rain hitting windows": {
-      "vol_min": 0,
-      "vol_max": 0,
+      "vol_min": 1.0,
+      "vol_max": 1.0,
       "pitch_min": 0.95,
       "pitch_max": 1.0,
       "distance": 0,
@@ -1541,8 +1542,8 @@
       ]
     },
     "Scary cave": {
-      "vol_min": 0,
-      "vol_max": 0,
+      "vol_min": 1.0,
+      "vol_max": 0.7,
       "pitch_min": 0.7,
       "pitch_max": 1.1,
       "distance": 32,
@@ -1556,8 +1557,8 @@
       ]
     },
     "Scary cave, bass sounds": {
-      "vol_min": 0,
-      "vol_max": 0,
+      "vol_min": 1.0,
+      "vol_max": 0.7,
       "pitch_min": 0.4,
       "pitch_max": 0.9,
       "distance": 32,
@@ -1585,8 +1586,8 @@
       ]
     },
     "Thunderstorm": {
-      "vol_min": 0,
-      "vol_max": 0,
+      "vol_min": 0.4,
+      "vol_max": 0.7,
       "pitch_min": 0.7,
       "pitch_max": 1.5,
       "distance": 128,
@@ -1598,8 +1599,8 @@
       ]
     },
     "Wind, town": {
-      "vol_min": 0,
-      "vol_max": 0,
+      "vol_min": 0.2,
+      "vol_max": 0.6,
       "pitch_min": 0.9,
       "pitch_max": 1.1,
       "distance": 0,
@@ -1608,8 +1609,8 @@
       ]
     },
     "Wind, trees": {
-      "vol_min": 0,
-      "vol_max": 0,
+      "vol_min": 1.0,
+      "vol_max": 1.0,
       "pitch_min": 0.9,
       "pitch_max": 1.1,
       "distance": 0,
@@ -1621,8 +1622,8 @@
       ]
     },
     "Wind, very strong": {
-      "vol_min": 0,
-      "vol_max": 0,
+      "vol_min": 1.0,
+      "vol_max": 1.0,
       "pitch_min": 0.8,
       "pitch_max": 1.1,
       "distance": 0,
@@ -1633,8 +1634,8 @@
       ]
     },
     "Wind, very variable": {
-      "vol_min": 0,
-      "vol_max": 0,
+      "vol_min": 0.8,
+      "vol_max": 1.0,
       "pitch_min": 0.8,
       "pitch_max": 1.7,
       "distance": 0,
