@@ -38,9 +38,11 @@ side = client
 #------------------------------------------------------------------------------------------------------------------------
 
 [Damage Indicators]
-type = url
-url = https://github.com/TeloDev/PatchedMods/releases/download/1.6/DamageIndicatorsMod-3.3.2-patched.jar
-destination = mods/DamageIndicatorsMod-3.3.2-patched.jar
+type = curseforge
+projectId = 59489
+fileId = 2692129
+sourceFileName = [1.7.10]DamageIndicatorsMod-3.3.2.jar
+destination = mods/[1.7.10]DamageIndicatorsMod-3.3.2.jar
 side = client
 
 [Damage Tilt]
