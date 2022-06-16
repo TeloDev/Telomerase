@@ -52,7 +52,7 @@ key_keys.armourersworkshop.undo:44
 key_key.betterstorage.backpackOpen:0
 key_key.betterstorage.drinkingHelmet:0
 key_FpsReducer.key.guiOpen:207
-key_MAtmos:0
+key_MAtmos:35
 key_waila.keybind.wailaconfig:82
 key_waila.keybind.wailadisplay:79
 key_waila.keybind.liquid:80
@@ -67,3 +67,5 @@ key_key.journeymap.minimap_type:0
 key_key.journeymap.minimap_type:0
 key_key.journeymap.minimap_preset:43
 key_key.journeymap.create_waypoint:45
+key_key.portaitreposition:0
+
