@@ -178,30 +178,30 @@ recipes.addShaped(<BiblioCraft:Armor Stand>,[[null,<ImmersiveEngineering:materia
 //bell
 recipes.removeShaped(<BiblioCraft:BiblioBell>);
 game.setLocalization("gui.plans.deskbell", "Desk Bell");
-mods.Terrafirmacraft.Anvil.addPlanRecipe("deskbell", 3, 6, 7);
+mods.Terrafirmacraft.Anvil.addPlanRecipe("deskbell", 3, 6, 19);
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<BiblioCraft:BiblioBell>, <terrafirmacraftplus:item.Wrought Iron Ingot>, "deskbell", 3);
 
 //glasses
 recipes.removeShaped(<BiblioCraft:item.BiblioGlasses>);
 game.setLocalization("gui.plans.readingglasses", "Reading Glasses");
-mods.Terrafirmacraft.Anvil.addPlanRecipe("readingglasses", 3, 6, 7);
+mods.Terrafirmacraft.Anvil.addPlanRecipe("readingglasses", 3, 6, 13);
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<BiblioCraft:item.BiblioGlasses>, <terrafirmacraftplus:item.Wrought Iron Ingot>, <minecraft:glass_pane>,"readingglasses", 3);
 
 recipes.removeShaped(<BiblioCraft:item.BiblioGlasses:2>);
 game.setLocalization("gui.plans.monocle", "Monocle");
-mods.Terrafirmacraft.Anvil.addPlanRecipe("monocle", 3, 6, 7);
+mods.Terrafirmacraft.Anvil.addPlanRecipe("monocle", 3, 6, 13);
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<BiblioCraft:item.BiblioGlasses:2>, <terrafirmacraftplus:item.Gold Ingot>, <minecraft:glass_pane>,"monocle", 1);
 
 //hand drill
 recipes.removeShaped(<BiblioCraft:item.HandDrill>);
 game.setLocalization("gui.plans.handdrill", "Hand Drill");
-mods.Terrafirmacraft.Anvil.addPlanRecipe("handdrill", 3, 6, 7);
+mods.Terrafirmacraft.Anvil.addPlanRecipe("handdrill", 33, 6, 19);
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<BiblioCraft:item.HandDrill>, <terrafirmacraftplus:item.Wrought Iron Ingot>, "handdrill", 3);
 
 //drafting compass
 recipes.removeShaped(<BiblioCraft:item.BiblioMapTool>);
 game.setLocalization("gui.plans.draftingcompass", "Drafting Compass");
-mods.Terrafirmacraft.Anvil.addPlanRecipe("draftingcompass", 3, 6, 7);
+mods.Terrafirmacraft.Anvil.addPlanRecipe("draftingcompass", 21, 6, 19);
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<BiblioCraft:item.BiblioMapTool>, <terrafirmacraftplus:item.Wrought Iron Ingot>, "draftingcompass", 3);
 
 //painting compass

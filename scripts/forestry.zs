@@ -22,6 +22,12 @@ game.setLocalization("gui.plans.bronzegear3", "Bronze Gear");
 mods.Terrafirmacraft.Anvil.addPlanRecipe("bronzegear3", 9, 24, 1);
 mods.Terrafirmacraft.Anvil.addAnvilRecipe(<Forestry:gearBronze>*2, <terrafirmacraftplus:item.Black Bronze Sheet>, "bronzegear3", 2);
 
+//spectacles
+recipes.removeShaped(<Forestry:naturalistHelmet>);
+game.setLocalization("gui.plans.spectacles", "Spectacles");
+mods.Terrafirmacraft.Anvil.addPlanRecipe("spectacles", 3, 6, 13);
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<Forestry:naturalistHelmet>, <terrafirmacraftplus:item.Wrought Iron Ingot>, <minecraft:glass_pane>,"spectacles", 3);
+
 //remove recipes
 mods.forestry.Carpenter.removeRecipe(<Forestry:crate>);
 mods.forestry.Carpenter.removeRecipe(<Forestry:minerBagT2>);
