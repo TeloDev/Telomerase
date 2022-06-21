@@ -823,6 +823,7 @@ mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:hardened_clay>, <min
 mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Powder:12>, <terrafirmacraftplus:item.Powder:11>, 20); // from wikipedia 120 - 180 degrees C
 // lime from ash
 mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Lime>, ash, 100);
+mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Lime>, <Forestry:ash>, 100);
 
 //heat up ingot
 mods.immersiveengineering.BlastFurnace.addRecipe(<terrafirmacraftplus:item.Bismuth Ingot>.withTag({temperature: 250.0 as float}), <terrafirmacraftplus:item.Bismuth Ingot>, 500, ash);

@@ -333,6 +333,8 @@ mods.forestry.Centrifuge.addRecipe([<Forestry:honeyDrop> % 100, <Forestry:honeyD
 mods.forestry.Centrifuge.addRecipe([<Forestry:honeyDrop> % 100, <terrafirmacraftplus:item.ClayBowl:1>], <terrafirmacraftplus:item.HoneyBowl>, 20);
 mods.forestry.Centrifuge.addRecipe([<Forestry:honeyDrop> % 100, <terrafirmacraftplus:item.ClayBowl:2>], <terrafirmacraftplus:item.HoneyBowl:1>, 20);
 
+mods.forestry.Centrifuge.addRecipe([<terrafirmacraftplus:item.Powder:13>, <terrafirmacraftplus:item.coal:1> % 12], <Forestry:ash>, 20);
+
 // instant honeywater from pure honey drop
 mods.Terrafirmacraft.Barrel.addItemFluidConversion(<liquid:honeywater> * 3000, <Forestry:honeyDrop>, <liquid:freshwater> * 3000, 0, false, 0, true, true);
 
