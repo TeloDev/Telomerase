@@ -718,6 +718,12 @@ mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraftplus:item.Silver 
 mods.immersiveengineering.MetalPress.addRecipe(<terrafirmacraftplus:item.Platinum Sheet> * 1, <terrafirmacraftplus:item.Platinum Double Ingot>, <ImmersiveEngineering:mold>, 500);
 mods.immersiveengineering.MetalPress.addRecipe(<teloaddon:Aluminum_Sheet> * 1, <teloaddon:Aluminum_Double_Ingot>, <ImmersiveEngineering:mold>, 500);
 
+// sheet metal
+mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:metalDecoration:10> * 2, <terrafirmacraftplus:item.Wrought Iron Sheet>, <ImmersiveEngineering:mold>, 500);
+mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:metalDecoration2:0> * 2, <teloaddon:Aluminum_Sheet>, <ImmersiveEngineering:mold>, 500);
+mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:metalDecoration2:1> * 2, <terrafirmacraftplus:item.Lead Sheet>, <ImmersiveEngineering:mold>, 500);
+mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:metalDecoration2:2> * 2, <terrafirmacraftplus:item.Steel Sheet>, <ImmersiveEngineering:mold>, 500);
+
 mods.immersiveengineering.MetalPress.addRecipe(<ImmersiveEngineering:graphiteElectrode>, <ore:ingotHOPGraphite>, <ImmersiveEngineering:mold:2>,500,4);
 
 <ore:logSmall>.add(<terrafirmacraftplus:item.Log:*>);
