@@ -83,12 +83,12 @@ sourceFileName = CraftPresence-Forge-1.7.10-Release-1.8.8.jar
 destination = mods/CraftPresence-Forge-1.7.10-Release-1.8.8.jar
 side = client
 
-[OAuth]
+[ReAuth]
 type = curseforge
-projectId = 513857
-fileId = 3458612
-sourceFileName = oauth-1.06.1-1.7.10.jar
-destination = mods/oauth-1.06.1-1.7.10.jar
+projectId = 237701
+fileId = 3826275
+sourceFileName = ReAuth-1.7.10-Forge-4.0.3.jar
+destination = mods/ReAuth-1.7.10-Forge-4.0.3.jar
 side = client
 
 [FPS Reducer]
@@ -125,9 +125,9 @@ side = client
 
 [MAtmos]
 type = modrinth
-versionId = Ei7Ztjb2
-sourceFileName = matmos-1.7.10-35.4.2.4.jar
-destination = mods/matmos-1.7.10-35.4.2.4.jar
+versionId = CKQrNJKq
+sourceFileName = matmos-1.7.10-35.4.3.jar
+destination = mods/matmos-1.7.10-35.4.3.jar
 side = client
 
 [JourneyMap]
@@ -258,10 +258,9 @@ url = https://github.com/DrParadox7/ModTweaker/releases/download/0.9.6/ModTweake
 destination = mods/ModTweaker2-0.9.6-patched.jar
 
 [NotEnoughItems]
-type = modrinth
-versionId = bdLObler
-sourceFileName = NotEnoughItems-1.7.10-2.2.14-GTNH.jar
-destination = mods/NotEnoughItems-1.7.10-2.2.14-GTNH.jar
+type = url
+url = https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.16-dev-GTNH/NotEnoughItems-1.7.10-2.2.16-dev-GTNH.jar
+destination = mods/NotEnoughItems-1.7.10-2.2.16-dev-GTNH.jar
 
 [NEI Addons]
 type = url
@@ -275,6 +274,13 @@ fileId = 2277197
 sourceFileName = defaultkeys-mc1.7.10-1.0.28.jar
 destination = mods/defaultkeys-mc1.7.10-1.0.28.jar
 
+[SkinPort]
+type = curseforge
+projectId = 234948
+fileId = 3212017
+sourceFileName = SkinPort-1.7.10-v10d.jar
+destination = mods/SkinPort-1.7.10-v10d.jar
+
 #------------------------------------------------------------------------------------------------------------------------
 #Cores
 #------------------------------------------------------------------------------------------------------------------------
@@ -286,20 +292,13 @@ destination = mods/CodeChickenCore-1.7.10-1.1.5.jar
 
 [CodeChickenLib]
 type = url
-url = https://github.com/GTNewHorizons/CodeChickenLib/releases/download/1.1.5.3/CodeChickenLib-1.7.10-1.1.5.3.jar
-destination = mods/1.7.10/CodeChickenLib-1.7.10-1.1.5.3.jar
+url = https://github.com/GTNewHorizons/CodeChickenLib/releases/download/1.1.5.4/CodeChickenLib-1.7.10-1.1.5.4.jar
+destination = mods/1.7.10/CodeChickenLib-1.7.10-1.1.5.4.jar
 
 [EnderCore]
 type = url
 url = https://github.com/GTNewHorizons/EnderCore/releases/download/0.2.6/endercore-1.7.10-0.2.6.jar
 destination = mods/endercore-1.7.10-0.2.6.jar
-
-[Bookshelf]
-type = curseforge
-projectId = 228525
-fileId = 2278984
-sourceFileName = Bookshelf-1.7.10-1.0.4.187.jar
-destination = mods/Bookshelf-1.7.10-1.0.4.187.jar
 
 [CoFH Core]
 type = curseforge
@@ -409,6 +408,11 @@ fileId = 2211247
 sourceFileName = hopperductmod-1.7.10-1.3.2.jar
 destination = mods/hopperductmod-1.7.10-1.3.2.jar
 
+[Et Futurum]
+type = url
+url = https://github.com/Jerome226/Et-Futurum-Requiem/releases/download/2.4.0-beta/Et_Futurum_Requiem-2.4.0-beta-1-dev.jar
+destination = mods/Et_Futurum_Requiem-2.4.0-beta-1-dev.jar
+
 [Immersive Engineering]
 type = url
 url = https://github.com/TeloDev/ImmersiveEngineering/releases/download/0.7.9/ImmersiveEngineering-1.7.10-0.7.9.jar
@@ -430,8 +434,8 @@ destination = mods/Morpheus-1.7.10-1.6.21.jar
 
 [OpenBlocks]
 type = url
-url = https://github.com/GTNewHorizons/OpenBlocks/releases/download/1.6.8-GTNH/OpenBlocks-1.7.10-1.6.8-GTNH.jar
-destination = mods/OpenBlocks-1.7.10-1.6.8-GTNH.jar
+url = https://github.com/GTNewHorizons/OpenBlocks/releases/download/1.6.9-GTNH/OpenBlocks-1.7.10-1.6.9-GTNH.jar
+destination = mods/OpenBlocks-1.7.10-1.6.9-GTNH.jar
 
 [Piston Everything]
 type = curseforge
@@ -523,10 +527,3 @@ type = url
 url = https://github.com/makamys/Mixingasm/releases/download/v0.2.1/mixingasm-1.7.10-0.2.1.jar
 destination = mods/mixingasm-1.7.10-0.2.1.jar
 side = client
-
-[Better Boat]
-type = curseforge
-projectId = 230898
-fileId = 2274165
-sourceFileName = BetterBoat-1.7.10-1.1.0.jar
-destination = mods/BetterBoat-1.7.10-1.1.0.jar
