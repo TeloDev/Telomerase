@@ -10,7 +10,8 @@ ImmersiveEngineering:[
     {hide:[[material],[3,4]]};
     {hide:[[fluidContainers],[]]};
     {keep:[[toolupgrade],[0,3,4,7,8,9]]};
-    {hide:[[stoneSlab,metalMultiblock],[0]]};
+    {hide:[[stoneSlab],[0]]};
+    {hide:[[metalMultiblock],[0,3]]};
     {keep:[[metal],[20]]};
     {hide:[[woodenDevice],[4]]}
 ]

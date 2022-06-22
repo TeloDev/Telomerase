@@ -1,0 +1,8 @@
+{
+betterquesting:[
+    {hide:[[submit_station,placeholder],[]]};
+],
+bq_standard:[
+    {hide:[[loot_chest],[]]}
+]
+}

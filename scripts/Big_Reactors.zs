@@ -35,6 +35,7 @@ unique coolants
 <ore:blockIce>.add(<terrafirmacraftplus:SaltWater>);
 <ore:blockIce>.add(<minecraft:flowing_water>);
 
+recipes.removeShaped(<BigReactors:BRMetalBlock:4>);
 <ImmersiveEngineering:storage:8>.addTooltip(format.green("can be used as a coil block in a turbine"));
 <ImmersiveEngineering:storage:9>.addTooltip(format.green("can be used as a coil block in a turbine"));
 <ImmersiveEngineering:storage:10>.addTooltip(format.green("can be used as a coil block in a turbine"));

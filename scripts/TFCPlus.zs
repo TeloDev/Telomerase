@@ -118,6 +118,9 @@ recipes.addShaped(<minecraft:painting>,[[<ore:stickWood>,<ore:stickWood>,<ore:st
 // dunk is a dummy
 recipes.addShaped(<terrafirmacraftplus:brickChimney>,[[<terrafirmacraftplus:item.Brick:1>,null,<terrafirmacraftplus:item.Brick:1>],[<terrafirmacraftplus:item.Mortar>,null,<terrafirmacraftplus:item.Mortar>],[<terrafirmacraftplus:item.Brick:1>,null,<terrafirmacraftplus:item.Brick:1>]]);
 
+// bookshelf (it's weird, by default only the vanilla bookshelf is craftable)
+recipes.addShaped(<terrafirmacraftplus:Bookshelf>, [[<ore:woodLumber>,<ore:woodLumber>,<ore:woodLumber>],[<minecraft:book>,<minecraft:book>,<minecraft:book>],[<ore:woodLumber>,<ore:woodLumber>,<ore:woodLumber>]]);
+
 //hopper oredict
 <ore:blockHopper>.add(<terrafirmacraftplus:Hopper>);
 
