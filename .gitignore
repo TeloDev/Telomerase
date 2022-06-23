@@ -4,6 +4,7 @@
 !*/
 !.gitignore
 
+!/bansoukou/**
 !/resources/**
 !/scripts/**
 !/LICENSE

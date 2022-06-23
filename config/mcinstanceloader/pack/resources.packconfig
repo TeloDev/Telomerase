@@ -1,3 +1,11 @@
+[Bansoukou]
+type = curseforge
+projectId = 434344
+fileId = 3233037
+sourceFileName = bansoukou-1.0-MC1.7.10.jar
+destination = mods/bansoukou-1.0-MC1.7.10.jar
+side = client
+
 [Telo Core Mod]
 type = url
 url = https://github.com/TeloDev/TelomeraseCoreMod/releases/download/2.7/TeloCoreMod-1.7.10-2.7.jar
@@ -42,7 +50,7 @@ type = curseforge
 projectId = 59489
 fileId = 2692129
 sourceFileName = [1.7.10]DamageIndicatorsMod-3.3.2.jar
-destination = mods/[1.7.10]DamageIndicatorsMod-3.3.2.jar
+destination = mods/DamageIndicators-1.7.10-3.3.2.jar
 side = client
 
 [Damage Tilt]
@@ -445,9 +453,11 @@ sourceFileName = PistonEverything-mc1.7.X-1.0.4.jar
 destination = mods/PistonEverything-mc1.7.X-1.0.4.jar
 
 [Pistronics 2]
-type = url
-url = https://github.com/TeloDev/TelomeraseFiles/releases/download/1.6/Pistronics2-1.7.10-0.6.4-patched.jar
-destination = mods/Pistronics2-1.7.10-0.6.4-patched.jar
+type = curseforge
+projectId = 237211
+fileId = 2273698
+sourceFileName = 1.7.10-Pistronics2-v0.6.4.jar
+destination = mods/Pistronics2-1.7.10-0.6.4.jar
 
 [Redstone Paste]
 type = curseforge
