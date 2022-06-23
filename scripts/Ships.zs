@@ -4,11 +4,6 @@ sheetColoredSteel.add(<terrafirmacraftplus:item.Blue Steel Sheet>);
 sheetColoredSteel.add(<terrafirmacraftplus:item.Red Steel Sheet>);
 
 //removing recipes
-recipes.remove(<cuchaz.cuchazinteractive:token>);
-recipes.remove(<cuchaz.cuchazinteractive:listOfSupporters>);
-recipes.remove(<cuchaz.cuchazinteractive:supporterPlaque>);
-recipes.remove(<cuchaz.cuchazinteractive:supporterPlaque:1>);
-recipes.remove(<cuchaz.cuchazinteractive:shipPlaque>);
 recipes.remove(<cuchaz.ships:berth>);
 recipes.remove(<cuchaz.ships:blockHelm>);
 recipes.remove(<cuchaz.ships:blockShip>);
