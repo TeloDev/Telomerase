@@ -8,8 +8,8 @@ side = client
 
 [Telo Core Mod]
 type = url
-url = https://github.com/TeloDev/TelomeraseCoreMod/releases/download/2.7/TeloCoreMod-1.7.10-2.7.jar
-destination = mods/TeloCoreMod-1.7.10-2.7.jar
+url = https://github.com/TeloDev/TelomeraseCoreMod/releases/download/2.8/TeloCoreMod-1.7.10-2.8.jar
+destination = mods/TeloCoreMod-1.7.10-2.8.jar
 side = client
 
 [It's the little things]
@@ -267,8 +267,8 @@ destination = mods/ModTweaker2-0.9.6-patched.jar
 
 [NotEnoughItems]
 type = url
-url = https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.16-dev-GTNH/NotEnoughItems-1.7.10-2.2.16-dev-GTNH.jar
-destination = mods/NotEnoughItems-1.7.10-2.2.16-dev-GTNH.jar
+url = https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.17-GTNH/NotEnoughItems-1.7.10-2.2.17-GTNH.jar
+destination = mods/NotEnoughItems-1.7.10-2.2.17-GTNH.jar
 
 [NEI Addons]
 type = url
@@ -281,13 +281,6 @@ projectId = 232131
 fileId = 2277197
 sourceFileName = defaultkeys-mc1.7.10-1.0.28.jar
 destination = mods/defaultkeys-mc1.7.10-1.0.28.jar
-
-[SkinPort]
-type = curseforge
-projectId = 234948
-fileId = 3212017
-sourceFileName = SkinPort-1.7.10-v10d.jar
-destination = mods/SkinPort-1.7.10-v10d.jar
 
 #------------------------------------------------------------------------------------------------------------------------
 #Cores
@@ -363,11 +356,9 @@ url = https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.0.355-
 destination = mods/BetterQuesting-1.7.10-3.0.355-GTNH.jar
 
 [Better Storage]
-type = curseforge
-projectId = 232919
-fileId = 2248061
-sourceFileName = BetterStorage-1.7.10-0.13.1.126.jar
-destination = mods/BetterStorage-1.7.10-0.13.1.126.jar
+type = url
+url = https://github.com/copygirl/BetterStorage/releases/download/v0.13.1.128/BetterStorage-1.7.10-0.13.1.128.jar
+destination = mods/BetterStorage-1.7.10-0.13.1.128.jar
 
 [BiblioCraft]
 type = curseforge

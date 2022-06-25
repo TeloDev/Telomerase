@@ -115,6 +115,10 @@ recipes.addShaped(<terrafirmacraftplus:item.Blue Steel Scythe>, [[<terrafirmacra
 // burlap can make a canvas. no?
 recipes.addShaped(<minecraft:painting>,[[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],[<ore:stickWood>,<ore:materialBurlap>,<ore:stickWood>],[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>]]);
 
+//no-duplicate item frame recipe
+recipes.remove(<minecraft:item_frame>);
+recipes.addShaped(<minecraft:item_frame>,[[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],[<ore:stickWood>,<terrafirmacraftplus:item.TFC Leather>,<ore:stickWood>],[<ore:stickWood>,<ore:stickWood>,<ore:stickWood>]]);
+
 // dunk is a dummy
 recipes.addShaped(<terrafirmacraftplus:brickChimney>,[[<terrafirmacraftplus:item.Brick:1>,null,<terrafirmacraftplus:item.Brick:1>],[<terrafirmacraftplus:item.Mortar>,null,<terrafirmacraftplus:item.Mortar>],[<terrafirmacraftplus:item.Brick:1>,null,<terrafirmacraftplus:item.Brick:1>]]);
 
@@ -459,9 +463,12 @@ recipes.addShapeless(<minecraft:stone_slab>*2,[<ore:stoneSmooth>,<ore:itemChisel
 recipes.addShapeless(<minecraft:stone_slab:4>*2,[<terrafirmacraftplus:Bricks>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
 recipes.addShapeless(<minecraft:brick_stairs>*2,[<minecraft:stone_slab:4>,<minecraft:stone_slab:4>,<minecraft:stone_slab:4>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
 recipes.addShapeless(<minecraft:brick_stairs>*2,[<terrafirmacraftplus:Bricks>,<minecraft:stone_slab:4>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<minecraft:brick_stairs>*4,[<terrafirmacraftplus:Bricks>,<terrafirmacraftplus:Bricks>,<terrafirmacraftplus:Bricks>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+
 recipes.addShaped(<minecraft:lapis_block>,[[<terrafirmacraftplus:item.Powder:6>,<terrafirmacraftplus:item.Powder:6>,<terrafirmacraftplus:item.Powder:6>],[<terrafirmacraftplus:item.Powder:6>,<terrafirmacraftplus:item.Powder:6>,<terrafirmacraftplus:item.Powder:6>],[<terrafirmacraftplus:item.Powder:6>,<terrafirmacraftplus:item.Powder:6>,<terrafirmacraftplus:item.Powder:6>]]);
 recipes.addShaped(<terrafirmacraftplus:item.Powder:6>*9,[[<minecraft:lapis_block>]]);
 recipes.addShaped(<terrafirmacraftplus:Bricks>, [[<minecraft:stone_slab:4>],[<minecraft:stone_slab:4>]]);
+recipes.addShaped(<etfuturum:smooth_stone>, [[<minecraft:stone_slab>],[<minecraft:stone_slab>]]);
 
 //carrot joke
 //mods.Terrafirmacraft.ItemHeat.addRecipe(<terrafirmacraftplus:item.Unknown Ingot>,<terrafirmacraftplus:item.Carrot>,400);
