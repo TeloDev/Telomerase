@@ -11,7 +11,7 @@
 		},
         "title":
         {
-            "image" : "custommainmenu:textures/gui/telomerase.png",
+            "image" : "telomerase:title.png",
             "posX" : -147,
             "posY" : 10,
             "width" : 282,

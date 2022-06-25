@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:1
 clouds:true
-resourcePacks:["mat_default2016","TelomeraseResources","VanillaThemedTFC","TFC+AlternateDefault"]
+resourcePacks:["mat_default2016","TFC+AlternateDefault","VanillaThemedTFC","TelomeraseResources"]
 lastServer:
 lang:en_US
 chatVisibility:0
