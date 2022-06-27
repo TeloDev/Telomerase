@@ -1,3 +1,0 @@
-ftbu, ftbl = New assets from FTB
-forestry = Taken from Unity
-big reactors = Taken from Unity and Bigger Reactors 
