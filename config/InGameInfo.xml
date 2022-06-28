@@ -30,12 +30,27 @@
                 <str>$4</str>
                 <str/>
             </op>
-            <max>
-                <var>equippeddamageleft</var>
-                <num>0.5</num>
-                <str>{equippeddamageleft}$f / $e{equippedmaxdamage}</str>
-                <var>equippedname</var>
-            </max>
+            <if>
+                <equal>
+                    <var>equippeduniquename</var>
+                    <str>teloaddon:Chainsaw</str>
+                </equal>
+                <concat>
+                    <sub><var>equippeddamageleft</var><num>1000001</num></sub>
+                    <str>$f / $e</str>
+                    <sub><var>equippedmaxdamage</var><num>1000001</num></sub>
+                </concat>
+                <max>
+                    <var>equippeddamageleft</var>
+                    <num>0.5</num>
+                    <concat>
+                        <sub><var>equippeddamageleft</var><num>1</num></sub>
+                        <str>$f / $e</str>
+                        <sub><var>equippedmaxdamage</var><num>1</num></sub>
+                    </concat>
+                    <var>equippedname</var>
+                </max>
+            </if>
         </line>
         <line>
             <str> </str>
@@ -135,7 +150,11 @@
             <max>
                 <var>helmetdamageleft</var>
                 <num>0.5</num>
-                <str>{helmetdamageleft}$f / $e{helmetmaxdamage}</str>
+                <concat>
+                    <sub><var>helmetdamageleft</var><num>1</num></sub>
+                    <str>$f / $e</str>
+                    <sub><var>helmetmaxdamage</var><num>1</num></sub>
+                </concat>
                 <str/>
             </max>
             <str> </str>
@@ -159,7 +178,11 @@
             <max>
                 <var>chestplatedamageleft</var>
                 <num>0.5</num>
-                <str>{chestplatedamageleft}$f / $e{chestplatemaxdamage}</str>
+                <concat>
+                    <sub><var>chestplatedamageleft</var><num>1</num></sub>
+                    <str>$f / $e</str>
+                    <sub><var>chestplatemaxdamage</var><num>1</num></sub>
+                </concat>
                 <str/>
             </max>
             <str> </str>
@@ -183,7 +206,11 @@
             <max>
                 <var>leggingsdamageleft</var>
                 <num>0.5</num>
-                <str>{leggingsdamageleft}$f / $e{leggingsmaxdamage}</str>
+                <concat>
+                    <sub><var>leggingsdamageleft</var><num>1</num></sub>
+                    <str>$f / $e</str>
+                    <sub><var>leggingsmaxdamage</var><num>1</num></sub>
+                </concat>
                 <str/>
             </max>
             <str> </str>
@@ -207,7 +234,11 @@
             <max>
                 <var>bootsdamageleft</var>
                 <num>0.5</num>
-                <str>{bootsdamageleft}$f / $e{bootsmaxdamage}</str>
+                <concat>
+                    <sub><var>bootsdamageleft</var><num>1</num></sub>
+                    <str>$f / $e</str>
+                    <sub><var>bootsmaxdamage</var><num>1</num></sub>
+                </concat>
                 <str/>
             </max>
             <str> </str>
