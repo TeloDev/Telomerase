@@ -8,8 +8,8 @@ side = client
 
 [Telo Core Mod]
 type = url
-url = https://github.com/TeloDev/TelomeraseCoreMod/releases/download/2.8/TeloCoreMod-1.7.10-2.8.jar
-destination = mods/TeloCoreMod-1.7.10-2.8.jar
+url = https://github.com/TeloDev/TelomeraseCoreMod/releases/download/2.7/TeloCoreMod-1.7.10-2.7.jar
+destination = mods/TeloCoreMod-1.7.10-2.7.jar
 side = client
 
 [It's the little things]
@@ -35,10 +35,18 @@ sourceFileName = CustomMainMenu-MC1.7.10-1.9.2.jar
 destination = mods/CustomMainMenu-MC1.7.10-1.9.2.jar
 side = client
 
-[Telo Loading Screen]
+[Resource Loader]
+type = curseforge
+projectId = 226447
+fileId = 2292845
+sourceFileName = ResourceLoader-MC1.7.10-1.3.jar
+destination = mods/ResourceLoader-MC1.7.10-1.3.jar
+side = client
+
+[Better Loading Screen]
 type = url
-url = https://github.com/TeloDev/TelomeraseLoadingScreen/releases/download/1.2.1/TeloLoadingScreen-1.7.10-1.2.1.jar
-destination = mods/TeloLoadingScreen-1.7.10-1.2.1.jar
+url = https://github.com/GTNewHorizons/BetterLoadingScreen/releases/download/1.3.33-GTNH/betterloadingscreen-1.7.10-1.3.33-GTNH.jar
+destination = mods/betterloadingscreen-1.7.10-1.3.33-GTNH.jar
 side = client
 
 #------------------------------------------------------------------------------------------------------------------------
