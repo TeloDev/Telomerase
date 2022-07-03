@@ -1,4 +1,5 @@
 import minetweaker.item.IItemStack;
+import minetweaker.oredict.IOreDictEntry;
 //remove all furnace recipes
 furnace.remove(<*>);
 //add a dummy recipe to avoid NEI divide by zero
@@ -177,12 +178,6 @@ recipes.addShapeless(<minecraft:compass>,[<terrafirmacraftplus:item.Brass Compas
 
 recipes.removeShaped(<minecraft:iron_bars>);
 recipes.addShaped(<minecraft:iron_bars>*8,[[<ore:stickIron>,<ore:stickIron>,<ore:stickIron>],[<ore:stickIron>,<ore:stickIron>,<ore:stickIron>]]);
-
-//hardened_clay
-recipes.removeShaped(<minecraft:clay>);
-recipes.addShaped(<minecraft:clay>,[[<ore:lumpClay>,<ore:lumpClay>,<ore:lumpClay>],[<ore:lumpClay>,<ore:lumpClay>,<ore:lumpClay>],[<ore:lumpClay>,<ore:lumpClay>,<ore:lumpClay>]]);
-recipes.addShapeless(<terrafirmacraftplus:item.Clay>*9,[<minecraft:clay>]);
-mods.Terrafirmacraft.ItemHeat.addRecipe(<minecraft:hardened_clay>, <minecraft:clay>);
 
 //glowstone
 //recipes.addShaped(<minecraft:glowstone>,[[<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,null],[<minecraft:glowstone_dust>,<minecraft:glowstone_dust>,null]]);
@@ -456,6 +451,36 @@ var dyes = [
 
 for item in dyes{
   <ore:dyePowder>.add(item);
+}
+
+var dyeOres = [
+<ore:dyeWhite>,
+<ore:dyeOrange>,
+<ore:dyeMagenta>,
+<ore:dyeLightBlue>,
+<ore:dyeYellow>,
+<ore:dyeLime>,
+<ore:dyePink>,
+<ore:dyeGray>,
+<ore:dyeLightGray>,
+<ore:dyeCyan>,
+<ore:dyePurple>,
+<ore:dyeBlue>,
+<ore:dyeBrown>,
+<ore:dyeGreen>,
+<ore:dyeRed>,
+<ore:dyeBlack>,
+] as IOreDictEntry[];
+
+//hardened_clay
+recipes.removeShaped(<minecraft:clay>);
+recipes.addShaped(<minecraft:clay>,[[<ore:lumpClay>,<ore:lumpClay>,<ore:lumpClay>],[<ore:lumpClay>,<ore:lumpClay>,<ore:lumpClay>],[<ore:lumpClay>,<ore:lumpClay>,<ore:lumpClay>]]);
+recipes.addShapeless(<terrafirmacraftplus:item.Clay>*9,[<minecraft:clay>]);
+mods.Terrafirmacraft.ItemHeat.addRecipe(<minecraft:hardened_clay>, <minecraft:clay>);
+
+recipes.removeShaped(<minecraft:stained_hardened_clay:*>);
+for i, dye in dyeOres{
+  recipes.addShapeless(<minecraft:stained_hardened_clay>.definition.makeStack(i) * 4, [<minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>, dye, <terrafirmacraftplus:item.Powder:1>]);
 }
 
 //recipes.addShapedMirrored(<minecraft:stone_slab:4>*6,[[<terrafirmacraftplus:Bricks>,<terrafirmacraftplus:Bricks>,<terrafirmacraftplus:Bricks>]]);
