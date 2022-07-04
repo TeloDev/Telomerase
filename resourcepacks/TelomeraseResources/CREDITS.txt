@@ -1,5 +1,0 @@
-ftbu, ftbl = New assets from FTB
-forestry, better questing = Taken from Unity
-big reactors = Taken from Unity and Bigger Reactors 
-redstone paste, betterquesting, hopperductmod = Modernity
-storage drawers = Storage Drawers Unlimited
