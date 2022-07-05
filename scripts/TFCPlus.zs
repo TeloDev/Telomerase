@@ -483,7 +483,12 @@ for i, dye in dyeOres{
   recipes.addShapeless(<minecraft:stained_hardened_clay>.definition.makeStack(i) * 4, [<minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>, dye, <terrafirmacraftplus:item.Powder:1>]);
 }
 
-//recipes.addShapedMirrored(<minecraft:stone_slab:4>*6,[[<terrafirmacraftplus:Bricks>,<terrafirmacraftplus:Bricks>,<terrafirmacraftplus:Bricks>]]);
+// stained glass panes
+for i, dye in dyeOres{
+  recipes.addShaped(<minecraft:stained_glass_pane>.definition.makeStack(i) * 8, [[<minecraft:glass_pane>, <minecraft:glass_pane>, <minecraft:glass_pane>], [<minecraft:glass_pane>, dye, <minecraft:glass_pane>], [<minecraft:glass_pane>, <minecraft:glass_pane>, <minecraft:glass_pane>]]);
+}
+
+// vanilla slabs and stairs
 recipes.addShapeless(<minecraft:stone_slab>*2,[<ore:stoneSmooth>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
 recipes.addShapeless(<minecraft:stone_slab:4>*2,[<terrafirmacraftplus:Bricks>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
 recipes.addShapeless(<minecraft:brick_stairs>*2,[<minecraft:stone_slab:4>,<minecraft:stone_slab:4>,<minecraft:stone_slab:4>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
