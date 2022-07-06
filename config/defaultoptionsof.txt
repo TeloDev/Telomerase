@@ -60,7 +60,7 @@ ofCustomSky:true
 ofShowCapes:true
 ofNaturalTextures:false
 ofLazyChunkLoading:false
-ofDynamicFov:false
+ofDynamicFov:true
 ofDynamicLights:2
 ofFullscreenMode:Default
 ofFastMath:false
