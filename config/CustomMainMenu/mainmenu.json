@@ -8,7 +8,7 @@
             "width": 120,
             "height": 4096,
             "alignment": "top_center"
-		},
+        },
         "title":
         {
             "image" : "telomerase:textures/title.png",
@@ -18,7 +18,6 @@
             "height" : 78,
             "alignment" : "top_center"
         }
-
     },
 
     "buttons":
@@ -27,15 +26,15 @@
         {
             
             "text" : "Singleplayer",
-	        "normalTextColor": -1,
-	        "hoverTextColor": 11513775,
+            "normalTextColor": -1,
+            "hoverTextColor": 11513775,
             "texture": "custommainmenu:textures/gui/button.png",
             "posX" : -58,
             "posY" : 38,
             "width" : 120,
             "height" : 20,
-	        "imageWidth": 1000,
-	        "imageHeight": 1,
+            "imageWidth": 1000,
+            "imageHeight": 1,
             "action" : 
             {
                 "type" : "openGui",
@@ -46,15 +45,15 @@
         "multiplayer":
         {
             "text" : "Multiplayer",
-	        "normalTextColor": -1,
-	        "hoverTextColor": 11513775,
+            "normalTextColor": -1,
+            "hoverTextColor": 11513775,
             "texture": "custommainmenu:textures/gui/button.png",
             "posX" : -58,
             "posY" : 58,
             "width" : 120,
             "height" : 20,
-	        "imageWidth": 1000,
-	        "imageHeight": 1,
+            "imageWidth": 1000,
+            "imageHeight": 1,
             "action" : 
             {
                 "type" : "openGui",
@@ -65,15 +64,15 @@
         "options":
         {
             "text" : "Options",
-	        "normalTextColor": -1,
-	        "hoverTextColor": 11513775,
+            "normalTextColor": -1,
+            "hoverTextColor": 11513775,
             "texture": "custommainmenu:textures/gui/button.png",
             "posX" : -58,
             "posY" : 78,
             "width" : 120,
             "height" : 20,
-	        "imageWidth": 1000,
-	        "imageHeight": 1,
+            "imageWidth": 1000,
+            "imageHeight": 1,
             "action" : 
             {
                 "type" : "openGui",
@@ -84,15 +83,15 @@
         "mods":
         {
             "text" : "Mods",
-	        "normalTextColor": -1,
-	        "hoverTextColor": 11513775,
+            "normalTextColor": -1,
+            "hoverTextColor": 11513775,
             "texture": "custommainmenu:textures/gui/button.png",
             "posX" : -59,
             "posY" : 98,
             "width" : 120,
             "height" : 20,
-	        "imageWidth": 1000,
-	        "imageHeight": 1,
+            "imageWidth": 1000,
+            "imageHeight": 1,
             "action" : 
             {
                 "type" : "openGui",
@@ -103,15 +102,15 @@
         "quit":
         {
             "text" : "Quit Game",
-	        "normalTextColor": 16728128,
-	        "hoverTextColor": 16711680,
+            "normalTextColor": 16728128,
+            "hoverTextColor": 16711680,
             "texture": "custommainmenu:textures/gui/button.png",
             "posX" : -58,
             "posY" : 132,
             "width" : 120,
             "height" : 20,
-	        "imageWidth": 1000,
-	        "imageHeight": 1,
+            "imageWidth": 1000,
+            "imageHeight": 1,
             "action" : 
             {
                 "type" : "quit"
