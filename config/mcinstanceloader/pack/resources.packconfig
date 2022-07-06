@@ -146,7 +146,13 @@ projectId = 32274
 fileId = 2367915
 sourceFileName = journeymap-1.7.10-5.1.4p2-unlimited.jar
 destination = mods/journeymap-1.7.10-5.1.4p2-unlimited.jar
-side = client
+
+[JourneyMap QOL Additions]
+type = curseforge
+projectId = 621947
+fileId = 3807189
+sourceFileName = JourneyMapQol_1.7.10-0.8.8.jar
+destination = mods/JourneyMapQol_1.7.10-0.8.8.jar
 
 [InGameXML]
 type = url
@@ -418,9 +424,10 @@ sourceFileName = hopperductmod-1.7.10-1.3.2.jar
 destination = mods/hopperductmod-1.7.10-1.3.2.jar
 
 [Et Futurum]
-type = url
-url = https://github.com/Jerome226/Et-Futurum-Requiem/releases/download/2.4.0-beta-2/Et_Futurum_Requiem-2.4.0-beta-2.jar
-destination = mods/Et_Futurum_Requiem-2.4.0-beta-2.jar
+type = modrinth
+versionId = UQvXbrL6
+sourceFileName = Et_Futurum_Requiem-2.4.0-rc-2.jar
+destination = mods/Et_Futurum_Requiem-2.4.0-rc-2.jar
 
 [Immersive Engineering]
 type = url
