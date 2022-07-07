@@ -313,6 +313,10 @@ file = "config/itlt.cfg"
 hash = "3d72afe73626a681cc0337af4cb2bd68c7fc13884b8765dd221b3218d4b4c2fe"
 
 [[files]]
+file = "config/LaunchGui.cfg"
+hash = "e8338fb88ef1766c934dcddc96dfe59e82003fb4bf30dbfccea3bfcd673e0665"
+
+[[files]]
 file = "config/itlt/icon.png"
 hash = "264adb627ae5917e3aff9dedc67052b41a16d5ebaf3c86f1810aef290dab546f"
 

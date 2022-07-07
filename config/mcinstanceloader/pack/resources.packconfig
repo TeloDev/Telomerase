@@ -210,6 +210,22 @@ sourceFileName = screenshots-1.0.0-1.7.10-hotfix.jar
 destination = mods/screenshots-1.0.0-1.7.10-hotfix.jar
 side = client
 
+[Advanced World Selection]
+type = curseforge
+projectId = 244464
+fileId = 2580520
+sourceFileName = WorldSelectionAdvanced-1.7.10-8.jar
+destination = mods/WorldSelectionAdvanced-1.7.10-8.jar
+side = client
+
+[LaunchGUI]
+type = curseforge
+projectId = 228810
+fileId = 2253271
+sourceFileName = LaunchGui-1.7.10-2.0-18-client.jar
+destination = mods/LaunchGui-1.7.10-2.0-18-client.jar
+side = client
+
 #------------------------------------------------------------------------------------------------------------------------
 #Essentials
 #------------------------------------------------------------------------------------------------------------------------
@@ -296,6 +312,13 @@ projectId = 621947
 fileId = 3807189
 sourceFileName = JourneyMapQol_1.7.10-0.8.8.jar
 destination = mods/JourneyMapQol_1.7.10-0.8.8.jar
+
+[YABM]
+type = curseforge
+projectId = 223260
+fileId = 2220024
+sourceFileName = YABM-1.7.10-1.0.6.jar
+destination = mods/YABM-1.7.10-1.0.6.jar
 
 [Default Options]
 type = curseforge
