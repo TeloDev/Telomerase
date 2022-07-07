@@ -1,13 +1,13 @@
 name = "MCInstance Loader"
-filename = "mcinstanceloader-1.0.jar"
+filename = "mcinstanceloader-2.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "e20a9975ff1701ca9c6201bf24e2c07c3ce5ac7b"
+hash = "52b38be4880381263ceeb6db4141035de7ed091b"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3636736
+file-id = 3857080
 project-id = 576287
