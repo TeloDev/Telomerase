@@ -15,8 +15,9 @@
 !/config/armourersWorkshop/**
 !/config/Betterloadingscreen/**
 !/config/betterquesting/**
-!config/betterquesting.cfg
+!/config/betterquesting.cfg
 !/config/BigReactors/**
+!/config/bugtorch/**
 !/config/cofh/**
 !/config/CustomMainMenu/**
 !/config/dsurround/**
@@ -46,7 +47,6 @@
 !/config/defaultkeys.txt
 !/config/defaultoptions.txt
 !/config/defaultoptionsof.txt
-!/config/foamfix.cfg
 !/config/forge.cfg
 !/config/gravestone.cfg
 !/config/ImmersiveEngineering.cfg
@@ -54,6 +54,7 @@
 !/config/InGameInfoXML.cfg
 !/config/InGameInfo.xml
 !/config/itlt.cfg
+!/config/LaunchGui.cfg
 !/config/LunatriusCore.cfg
 !/config/NEIAddons.cfg
 !/config/OpenBlocks.cfg

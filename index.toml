@@ -25,6 +25,10 @@ file = "config/BigReactors/BigReactors.cfg"
 hash = "a4658784d6ab96c8767a086d7ea55aeb4a3a60b5ce57a7157e0ddf560e852db4"
 
 [[files]]
+file = "config/bugtorch/mixins.cfg"
+hash = "e506d9e47ce1b37c83888b296cc7e51dfded326e3d56589929a3832eacac9f7f"
+
+[[files]]
 file = "config/CarpentersBlocks.cfg"
 hash = "8dc3674e17b14e617982ff9cb09261abce5d74d263ed01e17904c7308d819bae"
 
@@ -273,10 +277,6 @@ file = "config/endercore/endercore.cfg"
 hash = "2170e3c229f32a5d0abeac20ef4b9d03a036034e95f6c7591f06329c906c374a"
 
 [[files]]
-file = "config/foamfix.cfg"
-hash = "4d0134b2f2a1e7c6f0b32ca3caf21a502477235735185c775219c2b2473bf96e"
-
-[[files]]
 file = "config/forestry/apiculture.cfg"
 hash = "a2028701db5d6931d9a54606f337ed2142dc33ec5708130b9bf64a6b2da3df65"
 
@@ -311,6 +311,10 @@ hash = "570bb93b135183d9b08f04ca5fba370cec19a42f533e0ff77dcdfdd43ac3e57f"
 [[files]]
 file = "config/itlt.cfg"
 hash = "3d72afe73626a681cc0337af4cb2bd68c7fc13884b8765dd221b3218d4b4c2fe"
+
+[[files]]
+file = "config/LaunchGui.cfg"
+hash = "e8338fb88ef1766c934dcddc96dfe59e82003fb4bf30dbfccea3bfcd673e0665"
 
 [[files]]
 file = "config/itlt/icon.png"

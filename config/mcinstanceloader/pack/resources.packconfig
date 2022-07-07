@@ -101,6 +101,14 @@ sourceFileName = ReAuth-1.7.10-Forge-4.0.3.jar
 destination = mods/ReAuth-1.7.10-Forge-4.0.3.jar
 side = client
 
+[Better Invalid Session]
+type = curseforge
+projectId = 324881
+fileId = 2781339
+sourceFileName = BetterInvalidSession-1.7.10-1.0.3.jar
+destination = mods/BetterInvalidSession-1.7.10-1.0.3.jar
+side = client
+
 [FPS Reducer]
 type = curseforge
 projectId = 280294
@@ -140,20 +148,6 @@ sourceFileName = matmos-1.7.10-35.4.3.jar
 destination = mods/matmos-1.7.10-35.4.3.jar
 side = client
 
-[JourneyMap]
-type = curseforge
-projectId = 32274
-fileId = 2367915
-sourceFileName = journeymap-1.7.10-5.1.4p2-unlimited.jar
-destination = mods/journeymap-1.7.10-5.1.4p2-unlimited.jar
-
-[JourneyMap QOL Additions]
-type = curseforge
-projectId = 621947
-fileId = 3807189
-sourceFileName = JourneyMapQol_1.7.10-0.8.8.jar
-destination = mods/JourneyMapQol_1.7.10-0.8.8.jar
-
 [InGameXML]
 type = url
 url = https://github.com/GTNewHorizons/InGame-Info-XML/releases/download/2.8.3.91/InGameInfoXML-1.7.10-2.8.3.91.jar
@@ -161,11 +155,9 @@ destination = mods/InGameInfoXML-1.7.10-2.8.3.91.jar
 side = client
 
 [Schematica]
-type = curseforge
-projectId = 225603
-fileId = 2274295
-sourceFileName = Schematica-1.7.10-1.7.6.131-universal.jar
-destination = mods/Schematica-1.7.10-1.7.6.131-universal.jar
+type = url
+url = https://github.com/GTNewHorizons/Schematica/releases/download/1.8.7-GTNH/Schematica-1.7.10-1.8.7-GTNH.jar
+destination = mods/Schematica-1.7.10-1.8.7-GTNH.jar
 side = client
 
 [Controlling]
@@ -186,8 +178,8 @@ side = client
 
 [Waila]
 type = url
-url = https://github.com/GTNewHorizons/waila/releases/download/1.5.20/Waila-1.7.10-1.5.20.jar
-destination = mods/Waila-1.7.10-1.5.20.jar
+url = https://github.com/GTNewHorizons/waila/releases/download/1.5.21/Waila-1.7.10-1.5.21.jar
+destination = mods/Waila-1.7.10-1.5.21.jar
 side = client
 
 [Waila Harvestibility]
@@ -216,6 +208,22 @@ projectId = 228090
 fileId = 2228718
 sourceFileName = screenshots-1.0.0-1.7.10-hotfix.jar
 destination = mods/screenshots-1.0.0-1.7.10-hotfix.jar
+side = client
+
+[Advanced World Selection]
+type = curseforge
+projectId = 244464
+fileId = 2580520
+sourceFileName = WorldSelectionAdvanced-1.7.10-8.jar
+destination = mods/WorldSelectionAdvanced-1.7.10-8.jar
+side = client
+
+[LaunchGUI]
+type = curseforge
+projectId = 228810
+fileId = 2253271
+sourceFileName = LaunchGui-1.7.10-2.0-18-client.jar
+destination = mods/LaunchGui-1.7.10-2.0-18-client.jar
 side = client
 
 #------------------------------------------------------------------------------------------------------------------------
@@ -283,13 +291,34 @@ destination = mods/ModTweaker2-0.9.6-patched.jar
 
 [NotEnoughItems]
 type = url
-url = https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.17-GTNH/NotEnoughItems-1.7.10-2.2.17-GTNH.jar
-destination = mods/NotEnoughItems-1.7.10-2.2.17-GTNH.jar
+url = https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.19-GTNH/NotEnoughItems-1.7.10-2.2.19-GTNH.jar
+destination = mods/NotEnoughItems-1.7.10-2.2.19-GTNH.jar
 
 [NEI Addons]
 type = url
 url = https://github.com/GTNewHorizons/neiaddons/releases/download/1.12.19/NEIAddons-1.7.10-1.12.19.jar
 destination = mods/NEIAddons-1.7.10-1.12.19.jar
+
+[JourneyMap]
+type = curseforge
+projectId = 32274
+fileId = 2367915
+sourceFileName = journeymap-1.7.10-5.1.4p2-unlimited.jar
+destination = mods/journeymap-1.7.10-5.1.4p2-unlimited.jar
+
+[JourneyMap QOL Additions]
+type = curseforge
+projectId = 621947
+fileId = 3807189
+sourceFileName = JourneyMapQol_1.7.10-0.8.8.jar
+destination = mods/JourneyMapQol_1.7.10-0.8.8.jar
+
+[YABM]
+type = curseforge
+projectId = 223260
+fileId = 2220024
+sourceFileName = YABM-1.7.10-1.0.6.jar
+destination = mods/YABM-1.7.10-1.0.6.jar
 
 [Default Options]
 type = curseforge
@@ -314,8 +343,8 @@ destination = mods/1.7.10/CodeChickenLib-1.7.10-1.1.5.4.jar
 
 [EnderCore]
 type = url
-url = https://github.com/GTNewHorizons/EnderCore/releases/download/0.2.6/endercore-1.7.10-0.2.6.jar
-destination = mods/endercore-1.7.10-0.2.6.jar
+url = https://github.com/TeloDev/EnderCore/releases/download/1.0/endercore-1.7.10-1.0.jar
+destination = mods/endercore-1.7.10-1.0.jar
 
 [CoFH Core]
 type = curseforge
@@ -368,8 +397,8 @@ destination = mods/Armourers-Workshop-1.7.10-0.48.5.jar
 
 [Better Questing]
 type = url
-url = https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.0.355-GTNH/BetterQuesting-1.7.10-3.0.355-GTNH.jar
-destination = mods/BetterQuesting-1.7.10-3.0.355-GTNH.jar
+url = https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.0.360-GTNH-pre/BetterQuesting-1.7.10-3.0.360-GTNH-pre.jar
+destination = mods/BetterQuesting-1.7.10-3.0.360-GTNH-pre.jar
 
 [Better Storage]
 type = url
@@ -406,8 +435,8 @@ destination = mods/dakimakuramod-1.7.10-1.5.jar
 
 [Forestry]
 type = url
-url = https://github.com/TeloDev/ForestryMC/releases/download/4.3.4/Forestry-1.7.10-4.3.4.jar
-destination = mods/Forestry-1.7.10-4.3.4.jar
+url = https://github.com/TeloDev/ForestryMC/releases/download/4.3.5/Forestry-1.7.10-4.3.5.jar
+destination = mods/Forestry-1.7.10-4.3.5.jar
 
 [GraveStone Mod]
 type = curseforge
@@ -491,8 +520,8 @@ destination = mods/cuchaz.ships-1.7.10-1.1.2.jar
 
 [Better Questing - Standard Expansion]
 type = url
-url = https://github.com/GTNewHorizons/StandardQuestingPack/releases/download/3.0.190-GTNH/StandardExpansion-1.7.10-3.0.190-GTNH.jar
-destination = mods/StandardExpansion-1.7.10-3.0.190-GTNH.jar
+url = https://github.com/GTNewHorizons/StandardQuestingPack/releases/download/3.0.193-GTNH/StandardExpansion-1.7.10-3.0.193-GTNH.jar
+destination = mods/StandardExpansion-1.7.10-3.0.193-GTNH.jar
 
 [MmmMmmMmmMmm]
 type = curseforge
@@ -525,13 +554,6 @@ url = https://github.com/makamys/CoreTweaks/releases/download/v0.2.2/CoreTweaks-
 destination = mods/CoreTweaks-1.7.10-0.2.2.jar
 side = client
 
-[FoamFix]
-type = modrinth
-versionId = rWLeBADk
-sourceFileName = FoamFix-1.7.10-universal-1.0.0.jar
-destination = mods/FoamFix-1.7.10-universal-1.0.0.jar
-side = server
-
 [FastCraft]
 type = curseforge
 projectId = 242677
@@ -544,3 +566,14 @@ type = url
 url = https://github.com/makamys/Mixingasm/releases/download/v0.2.1/mixingasm-1.7.10-0.2.1.jar
 destination = mods/mixingasm-1.7.10-0.2.1.jar
 side = client
+
+[Bugtorch]
+type = url
+url = https://github.com/jss2a98aj/BugTorch/releases/download/1.1.6/bugtorch-1.7.10-1.1.6.jar
+destination = mods/bugtorch-1.7.10-1.1.6.jar
+
+[Healer]
+type = modrinth
+versionId = FBRCd3oB
+sourceFileName = Healer-1.2.0.jar
+destination = mods/Healer-1.2.0.jar
