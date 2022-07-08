@@ -583,11 +583,21 @@ recipes.addShapeless(<ImmersiveEngineering:concreteTileStairs>*4,[<ImmersiveEngi
 recipes.remove(<ImmersiveEngineering:woodenStairs>);
 recipes.addShapeless(<ImmersiveEngineering:woodenStairs>*2,[<ImmersiveEngineering:woodenDecoration:2>,<ImmersiveEngineering:woodenDecoration:2>,<ImmersiveEngineering:woodenDecoration:2>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
 recipes.addShapeless(<ImmersiveEngineering:woodenStairs>*2,[<ImmersiveEngineering:treatedWood>,<ImmersiveEngineering:woodenDecoration:2>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
-recipes.addShapeless(<ImmersiveEngineering:woodenStairs>*2,[<ImmersiveEngineering:treatedWood>,<ImmersiveEngineering:treatedWood>,<ImmersiveEngineering:treatedWood>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<ImmersiveEngineering:woodenStairs>*4,[<ImmersiveEngineering:treatedWood>,<ImmersiveEngineering:treatedWood>,<ImmersiveEngineering:treatedWood>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
 recipes.remove(<ImmersiveEngineering:woodenStairs1>);
-recipes.addShapeless(<ImmersiveEngineering:woodenStairs1>*2,[<ImmersiveEngineering:treatedWood:1>,<ImmersiveEngineering:treatedWood:1>,<ImmersiveEngineering:treatedWood:1>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<ImmersiveEngineering:woodenStairs1>*4,[<ImmersiveEngineering:treatedWood:1>,<ImmersiveEngineering:treatedWood:1>,<ImmersiveEngineering:treatedWood:1>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
 recipes.remove(<ImmersiveEngineering:woodenStairs2>);
-recipes.addShapeless(<ImmersiveEngineering:woodenStairs2>*2,[<ImmersiveEngineering:treatedWood:2>,<ImmersiveEngineering:treatedWood:2>,<ImmersiveEngineering:treatedWood:2>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<ImmersiveEngineering:woodenStairs2>*4,[<ImmersiveEngineering:treatedWood:2>,<ImmersiveEngineering:treatedWood:2>,<ImmersiveEngineering:treatedWood:2>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+
+recipes.removeShapeless(<ImmersiveEngineering:treatedWood>);
+recipes.removeShapeless(<ImmersiveEngineering:treatedWood:1>);
+recipes.removeShapeless(<ImmersiveEngineering:treatedWood:2>);
+recipes.addShapeless(<ImmersiveEngineering:treatedWood>,[<ImmersiveEngineering:treatedWood:2>,<ore:itemSaw>.transformDamage()]);
+recipes.addShapeless(<ImmersiveEngineering:treatedWood:2>,[<ImmersiveEngineering:treatedWood:1>,<ore:itemSaw>.transformDamage()]);
+recipes.addShapeless(<ImmersiveEngineering:treatedWood:1>,[<ImmersiveEngineering:treatedWood>,<ore:itemSaw>.transformDamage()]);
+recipes.addShapeless(<ImmersiveEngineering:woodenStairs>,[<ImmersiveEngineering:woodenStairs2>,<ore:itemSaw>.transformDamage()]);
+recipes.addShapeless(<ImmersiveEngineering:woodenStairs2>,[<ImmersiveEngineering:woodenStairs1>,<ore:itemSaw>.transformDamage()]);
+recipes.addShapeless(<ImmersiveEngineering:woodenStairs1>,[<ImmersiveEngineering:woodenStairs>,<ore:itemSaw>.transformDamage()]);
 
 //multiblocks
 recipes.removeShaped(<ImmersiveEngineering:metalMultiblock:2>, [[<ore:ingotIron>, <minecraft:piston:*>, <ore:ingotIron>], [<ImmersiveEngineering:material:11>, <ore:dyeGreen>, <ImmersiveEngineering:material:11>], [<ore:ingotIron>, <minecraft:piston:*>, <ore:ingotIron>]]);

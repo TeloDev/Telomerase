@@ -41,19 +41,19 @@ for i in 0 to 4{
   recipes.addShapeless(block, [<etfuturum:copper_block>.definition.makeStack(i), <ore:itemSaw>.transformDamage()]);
   recipes.addShapeless(blockWax, [<etfuturum:copper_block>.definition.makeStack(i+8), <ore:itemSaw>.transformDamage()]);
 
-  recipes.addShapeless(slab * 2, [block]);
-  recipes.addShapeless(slabWax * 2, [blockWax]);
+  recipes.addShapeless(slab * 2, [block,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+  recipes.addShapeless(slabWax * 2, [blockWax,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
   recipes.addShaped(block, [[slab], [slab]]);
   recipes.addShaped(blockWax, [[slabWax], [slabWax]]);
 
   recipes.removeShaped(copperStairs[i]);
   recipes.removeShaped(copperStairs[i+4]);
-  recipes.addShapeless(copperStairs[i] * 2, [slab, slab, slab]);
-  recipes.addShapeless(copperStairs[i+4] * 2, [slabWax, slabWax, slabWax]);
-  recipes.addShapeless(copperStairs[i] * 2, [block, slab]);
-  recipes.addShapeless(copperStairs[i+4] * 2, [blockWax, slabWax]);
-  recipes.addShapeless(copperStairs[i] * 4, [block, block, block]);
-  recipes.addShapeless(copperStairs[i+4] * 4, [blockWax, blockWax, blockWax]);
+  recipes.addShapeless(copperStairs[i] * 2, [slab, slab, slab,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+  recipes.addShapeless(copperStairs[i+4] * 2, [slabWax, slabWax, slabWax,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+  recipes.addShapeless(copperStairs[i] * 2, [block, slab,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+  recipes.addShapeless(copperStairs[i+4] * 2, [blockWax, slabWax,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+  recipes.addShapeless(copperStairs[i] * 4, [block, block, block,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+  recipes.addShapeless(copperStairs[i+4] * 4, [blockWax, blockWax, blockWax,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
 }
 
 #glazed terracotta
@@ -115,8 +115,16 @@ for i, dye in dyeOres{
 }
 
 #boat
+recipes.removeShaped(<etfuturum:oak_chest_boat>);
 recipes.removeShaped(<etfuturum:spruce_boat>);
+recipes.removeShaped(<etfuturum:spruce_chest_boat>);
 recipes.removeShaped(<etfuturum:birch_boat>);
+recipes.removeShaped(<etfuturum:birch_chest_boat>);
 recipes.removeShaped(<etfuturum:jungle_boat>);
+recipes.removeShaped(<etfuturum:jungle_chest_boat>);
 recipes.removeShaped(<etfuturum:acacia_boat>);
+recipes.removeShaped(<etfuturum:acacia_chest_boat>);
 recipes.removeShaped(<etfuturum:dark_oak_boat>);
+recipes.removeShaped(<etfuturum:dark_oak_chest_boat>);
+
+recipes.removeShapeless(<etfuturum:concrete_powder:*>);

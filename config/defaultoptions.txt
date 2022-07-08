@@ -27,7 +27,7 @@ snooperEnabled:false
 fullscreen:false
 enableVsync:false
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:true
 showCape:false
 touchscreen:false
@@ -54,7 +54,7 @@ streamChatUserFilter:0
 streamMicToggleBehavior:0
 forceUnicodeFont:false
 soundCategory_master:1.0
-soundCategory_music:1.0
+soundCategory_music:0.5
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

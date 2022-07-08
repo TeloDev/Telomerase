@@ -51,9 +51,9 @@ key_keys.armourersworkshop.equipmentWardrobe:25
 key_keys.armourersworkshop.undo:44
 key_key.betterstorage.backpackOpen:0
 key_key.betterstorage.drinkingHelmet:0
-key_FpsReducer.key.guiOpen:207
-key_MAtmos:35
-key_waila.keybind.wailaconfig:82
+key_FpsReducer.key.guiOpen:0
+key_MAtmos:0
+key_waila.keybind.wailaconfig:0
 key_waila.keybind.wailadisplay:79
 key_waila.keybind.liquid:80
 key_waila.keybind.recipe:81
