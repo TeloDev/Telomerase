@@ -10,6 +10,8 @@
 !/LICENSE
 !/schematics/**
 !/mods/mcinstance*
+!/armourersWorkshop/**
+!/journeymap/**
 
 # only include edited config files
 !/config/armourersWorkshop/**
