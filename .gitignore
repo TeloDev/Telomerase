@@ -10,7 +10,7 @@
 !/LICENSE
 !/schematics/**
 !/mods/mcinstance*
-!/armourersWorkshop/**
+!/armourersWorkshop/Telomerase_Official/**
 !/journeymap/**
 
 # only include edited config files
