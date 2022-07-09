@@ -41,19 +41,19 @@ for i in 0 to 4{
   recipes.addShapeless(block, [<etfuturum:copper_block>.definition.makeStack(i), <ore:itemSaw>.transformDamage()]);
   recipes.addShapeless(blockWax, [<etfuturum:copper_block>.definition.makeStack(i+8), <ore:itemSaw>.transformDamage()]);
 
-  recipes.addShapeless(slab * 2, [block,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
-  recipes.addShapeless(slabWax * 2, [blockWax,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+  recipes.addShapeless(slab * 2, [block]);
+  recipes.addShapeless(slabWax * 2, [blockWax]);
   recipes.addShaped(block, [[slab], [slab]]);
   recipes.addShaped(blockWax, [[slabWax], [slabWax]]);
 
   recipes.removeShaped(copperStairs[i]);
   recipes.removeShaped(copperStairs[i+4]);
-  recipes.addShapeless(copperStairs[i] * 2, [slab, slab, slab,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
-  recipes.addShapeless(copperStairs[i+4] * 2, [slabWax, slabWax, slabWax,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
-  recipes.addShapeless(copperStairs[i] * 2, [block, slab,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
-  recipes.addShapeless(copperStairs[i+4] * 2, [blockWax, slabWax,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
-  recipes.addShapeless(copperStairs[i] * 4, [block, block, block,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
-  recipes.addShapeless(copperStairs[i+4] * 4, [blockWax, blockWax, blockWax,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+  recipes.addShapeless(copperStairs[i] * 2, [slab, slab, slab]);
+  recipes.addShapeless(copperStairs[i+4] * 2, [slabWax, slabWax, slabWax]);
+  recipes.addShapeless(copperStairs[i] * 2, [block, slab]);
+  recipes.addShapeless(copperStairs[i+4] * 2, [blockWax, slabWax]);
+  recipes.addShapeless(copperStairs[i] * 4, [block, block, block]);
+  recipes.addShapeless(copperStairs[i+4] * 4, [blockWax, blockWax, blockWax]);
 }
 
 #glazed terracotta
