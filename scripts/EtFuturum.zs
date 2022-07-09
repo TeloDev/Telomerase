@@ -115,6 +115,9 @@ for i, dye in dyeOres{
 }
 
 #boat
+game.setLocalization("entity.etfuturum.new_boat.name", "Boat");
+game.setLocalization("item.etfuturum.oak_boat.name", "Boat");
+
 recipes.removeShaped(<etfuturum:oak_chest_boat>);
 recipes.removeShaped(<etfuturum:spruce_boat>);
 recipes.removeShaped(<etfuturum:spruce_chest_boat>);
