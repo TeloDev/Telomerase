@@ -758,11 +758,11 @@ hash = "1b8d130bb181dc6b19f7570339f5f8a1240e8f0b87a759b30da93bbd63b35169"
 
 [[files]]
 file = "config/mcinstanceloader/config.cfg"
-hash = "0f4f8e23be10bb28eea138fa0582752918ed87ad8e4fe1bb00794fd15e06f3c2"
+hash = "5197566bb919432f4ec0ca66a12cca4b14febcd3852a2240ab8a3c34092e1eed"
 
 [[files]]
 file = "config/mcinstanceloader/pack.mcinstance"
-hash = "d3122c78417b4c5d6c662ca9dac66890fcb22e2660b723815b014554fd5c7502"
+hash = "ab64911ef70b2c7c133bba0c289ae97146b54011349b5599bd6bbd0bec4ae351"
 
 [[files]]
 file = "config/mixingasm/transformer_exclusion_list.txt"
