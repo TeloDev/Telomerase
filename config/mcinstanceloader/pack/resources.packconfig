@@ -4,7 +4,6 @@ projectId = 434344
 fileId = 3233037
 sourceFileName = bansoukou-1.0-MC1.7.10.jar
 destination = mods/bansoukou-1.0-MC1.7.10.jar
-side = client
 
 [It's the little things]
 type = curseforge
