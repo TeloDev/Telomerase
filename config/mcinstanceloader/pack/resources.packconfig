@@ -70,12 +70,12 @@ sourceFileName = LanHostSkinReFixed-1.7.10-rv0.jar
 destination = mods/LanHostSkinReFixed-1.7.10-rv0.jar
 side = client
 
-[Triangulators]
-type = modrinth
-versionId = 28vSG0Ey
-sourceFileName = triangulator-mc1.7.10-1.4.2.jar
-destination = mods/triangulator-mc1.7.10-1.4.2.jar
-side = client
+#[Triangulators]
+#type = modrinth
+#versionId = 28vSG0Ey
+#sourceFileName = triangulator-mc1.7.10-1.4.2.jar
+#destination = mods/triangulator-mc1.7.10-1.4.2.jar
+#side = client
 
 [AnimFix]
 type = modrinth
