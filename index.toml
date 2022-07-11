@@ -406,7 +406,7 @@ hash = "eaf1dcbed92b2d7774f07f3484f4a41e158eaa3357b531e5f76094f93d9fa194"
 
 [[files]]
 file = "config/DIAdvancedCompatibility.cfg"
-hash = "94781e31cf546eef609655f49a14c627097bdeb857dd1d09b8f7c5246709773b"
+hash = "b12b120a3b9c8a66b4fb3343d9149a177edae0ed6b32ee7e7022e7902125e5e9"
 
 [[files]]
 file = "config/DamageIndicatorsMod.cfg"
@@ -586,7 +586,7 @@ hash = "72c2453abffaf424441a51d6120d5578a06c84fd558a146aff48e1326b5d3827"
 
 [[files]]
 file = "config/betterquesting.cfg"
-hash = "666b9768bab35ce66480a270300fd36bde463a8d53fb9317f316e1f4841d279c"
+hash = "c011a6635ae2e1b1b05f5fd327cdfe547b4e20da1f13af52706d66898d49b20d"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests.json"
@@ -682,11 +682,11 @@ hash = "2170e3c229f32a5d0abeac20ef4b9d03a036034e95f6c7591f06329c906c374a"
 
 [[files]]
 file = "config/etfuturum/blocksitems.cfg"
-hash = "ab09c0d7fffbf6442edb5f918753b2743076a296b2af1052d0ab0286414133dc"
+hash = "9ada6539f5048d9b1697a140a9e097f3d23d1f4142329792f125d28b44dfcbb2"
 
 [[files]]
 file = "config/etfuturum/enchantspotions.cfg"
-hash = "4cdf14011191019fcfc29144296b02bfc0501630673ed203df3bdf18a9047a9f"
+hash = "da8ac8049191a255f617df2fb9a8b49bafccb5f1b909353d7685a4361bc45ae6"
 
 [[files]]
 file = "config/etfuturum/entities.cfg"
@@ -694,11 +694,11 @@ hash = "0bf0a4ebe8edafd55b6c542f99eb558f4a73601bcaad8c777e61a7fb8d085407"
 
 [[files]]
 file = "config/etfuturum/functions.cfg"
-hash = "918a7cc4f600b010b7c91bdde3a32c76fc438be1364b137d7480ca97f61103db"
+hash = "ace2bd202c9ddbb8ff6d3e1d81d58deda6b42775610eaf598c41a58e6923b5ef"
 
 [[files]]
 file = "config/etfuturum/mixins.cfg"
-hash = "a5c3cab7de14aec90fbbe934063438cdd75480d1bd28477b0b6d91e5a73ca5bc"
+hash = "328c935407815b21f37666aeed2cc04e13bbc42d4385977a53db7a0e20eab288"
 
 [[files]]
 file = "config/etfuturum/tweaks.cfg"
@@ -706,7 +706,7 @@ hash = "ccc45cbe15fd9eabcadfc8a9e778f7ab274a7575ac2d1899ce6e155aad736658"
 
 [[files]]
 file = "config/etfuturum/world.cfg"
-hash = "fad98566d42f13fd3fe8852c27e0dc83faf533d828fd0c28172b6367fc009add"
+hash = "24d906d554e9ec082c9a2979f4d532199a1ab0f1d079f6be6308f147e8459933"
 
 [[files]]
 file = "config/forestry/apiculture.cfg"
@@ -762,7 +762,7 @@ hash = "5197566bb919432f4ec0ca66a12cca4b14febcd3852a2240ab8a3c34092e1eed"
 
 [[files]]
 file = "config/mcinstanceloader/pack.mcinstance"
-hash = "ab64911ef70b2c7c133bba0c289ae97146b54011349b5599bd6bbd0bec4ae351"
+hash = "0ef39062e24948b97c5fe0696c8f506de57f7eb2dc96474747ddef16956ae88e"
 
 [[files]]
 file = "config/mixingasm/transformer_exclusion_list.txt"
@@ -783,322 +783,6 @@ hash = "5ef2677e073dea4c099b97bc3d5601cf2e814482d27d3d31d5a346576d1318fc"
 [[files]]
 file = "config/splash.properties"
 hash = "ab3adb80bc214c43a5247accf6f3f6f28a56170fbc396156c78f16f2c3cb69f5"
-
-[[files]]
-file = "journeymap/colorpalette.json"
-hash = "54690880cdc366984a6e70c2182cdfa5538f3d6d0822fae43a119503d273bc44"
-
-[[files]]
-file = "journeymap/icon/entity/2D/horse/donkey.png"
-hash = "2830a34a41326254078a79bcda18b394a1aca014849580eb6c8af7148fe57ee7"
-
-[[files]]
-file = "journeymap/icon/entity/2D/horse/horse_brown.png"
-hash = "a6f3a8b9119d8c138326cd26e263eccef3ce028b9a08353967c8cf468abb8b3c"
-
-[[files]]
-file = "journeymap/icon/entity/2D/horse/horse_zombie.png"
-hash = "3a41ead90bcdde687c1f9cb5ad55ef9ad99a8679e60318c6606fb6647ce779c8"
-
-[[files]]
-file = "journeymap/icon/entity/2D/horse/mule.png"
-hash = "15330a7640b79190dd9723c29489beeabd97e96c8822ae2572d676b1f547d06f"
-
-[[files]]
-file = "journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/AngelFish.png"
-hash = "5891a6be2e65e66d4ba9d91b98ff7bfa6f65fe415102b6d8b59f717c05378676"
-
-[[files]]
-file = "journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Aurochs Bull.png"
-hash = "3bbfc1e652a343310d83fcf6ed02ccaf537bf956d8f2f086eb27bc99b09e8f7a"
-
-[[files]]
-file = "journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Aurochs Cow.png"
-hash = "7f93e399de3bf9ffaee0a43e6a404a8505eeae20ab1ce1e939f3c4602415e3c1"
-
-[[files]]
-file = "journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Bass.png"
-hash = "b3c494ee642c5428d506a3c454943ba44e0a7b8d6ab1da7ec1adc6c493e2a273"
-
-[[files]]
-file = "journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Bear.png"
-hash = "1b897ef3592b1fe5dc13994ea541f7d7c0bf8911da8fdbb233484b449ee314b0"
-
-[[files]]
-file = "journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Bison Bull.png"
-hash = "0f83310551041cbbc178c1c1dfa79eba41a4e18c27e17380d4841d637d0d9827"
-
-[[files]]
-file = "journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Bison Cow.png"
-hash = "d672756eb42ca616be45ed66befa6c4e38bf7a1dea9f9d133775e41d608721f7"
-
-[[files]]
-file = "journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Boar Piglet.png"
-hash = "84ba490bd5ecce99c134f7463ef36ec1247f32deff54a6c06ea0b0eaa72dd9f7"
-
-[[files]]
-file = "journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Boar.png"
-hash = "fc13313be1b7c70e9020a0dda2626d926bfefef2658b47436201d65d259da219"
-
-[[files]]
-file = "journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Buffalo Bull.png"
-hash = "4aa7d81f4ddb9de1f110d265f1e24fb30b90cd56f93c2bde514b510bf6762a0f"
-
-[[files]]
-file = "journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Buffalo Cow.png"
-hash = "2101f9ab2d34ccbda49427aa11a7c0ea9f834640c91e2d1a689b9ad85a6fbe22"
-
-[[files]]
-file = "journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/ButterflyFish.png"
-hash = "f76c595fba5b64784d786662d69dd4d14b737274d9a0575b61ea6f61cce81641"
-
-[[files]]
-file = "journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Cow.png"
-hash = "69a5696ac4f641cbe541d3b5ad64584987035c93094c069f2d8a68190fbb925e"
-
-[[files]]
-file = "journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/ParrotFish_pink.png"
-hash = "eb721b08c6f784cf5a99fdff86b60376e3fe5288c9ed943de15cb4790fbfa1c5"
-
-[[files]]
-file = "journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/ParrotFish_yellow.png"
-hash = "bd9799d5fe557f8bc1c6cc1c9fe02db695f53eb114c8336a05fdfca92212c2e9"
-
-[[files]]
-file = "journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Peccary.png"
-hash = "0fb659b212a2981b37d5694538b54a35d38584cd15069554aa1a4ec506bbd81e"
-
-[[files]]
-file = "journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/PheasantF.png"
-hash = "2117ab58d8c604c341d20cec1e96f4d5600693e0f1510f42b6eb2a8cd810ef46"
-
-[[files]]
-file = "journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/PheasantM.png"
-hash = "9c0826935bdc430dab2a0c739191cdc80dd0c4031b32d32046bb30ee91c40e0c"
-
-[[files]]
-file = "journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Pig.png"
-hash = "02eb80ba5d1538ec46fe6fb19cfebd4ae9fa8026c10e712e4fe9284d5ade365f"
-
-[[files]]
-file = "journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Pollock.png"
-hash = "d1ad2a44d948a05c4ccda1485184b92c119df278c12c4b191220abd02d1a4561"
-
-[[files]]
-file = "journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Shark.png"
-hash = "ef07f5b14b7b9ef93b9ef876792e31633b900e79919e64ada8e64deb2ca3c79e"
-
-[[files]]
-file = "journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Trout.png"
-hash = "757c35fe690c7eb7762a1617f1fe0fb8c0036b671fd5c862dcbe2355d78c945b"
-
-[[files]]
-file = "journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Wahoo.png"
-hash = "217df095aff97707c9773ba0c9831d4052228a217d27cc438ac663a25667d218"
-
-[[files]]
-file = "journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Warthog.png"
-hash = "27fa21de90361584de725814eca49e5905ce618e4b59b6aeb44b9275883ab206"
-
-[[files]]
-file = "journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Wrasse.png"
-hash = "486a0bde4ceaaa8a1fa3c0d2638bc78f0ced1ffa1bf8f0e45709eb4434663641"
-
-[[files]]
-file = "journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/bighornsheep.png"
-hash = "55ac83207da909eb19887a79d37a4f4330dc25dc24f0965c874ea43b78dc0f24"
-
-[[files]]
-file = "journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/bull.png"
-hash = "4d1ba471bf1ec33ae434bef5278d17fd59631a712420b3de00bb8f39ab2c9b81"
-
-[[files]]
-file = "journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/chick.png"
-hash = "9bb1cf7e5b8f6428dcc1767a49143b5e70a5bd0ecd5cfa9f59b2c04cfbdf7f73"
-
-[[files]]
-file = "journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/deer.png"
-hash = "789fb4a64db7adce199b51c68910a7d2475e43575faf740acbc9fb17e276a31e"
-
-[[files]]
-file = "journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/goat.png"
-hash = "d5a2a717e711b47164f021fa57f01d9cc115ede819101938f34ac36a369637c4"
-
-[[files]]
-file = "journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/ibex.png"
-hash = "4975a2255e50ee9026012e08820476ba0dc0d969c224f2d0f1e7d79f816ced6d"
-
-[[files]]
-file = "journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/mouflon.png"
-hash = "56359d5d44b62964abf016c1834de4f0a08ef8cebcc38db0a21a5524c93945ba"
-
-[[files]]
-file = "journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/pheasant_chick.png"
-hash = "8bb7356ceb6e8f9fe08e53b424c6786fd9425e9e407130c190d5b8269bd37ff0"
-
-[[files]]
-file = "journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/rooster.png"
-hash = "fef78671981deda979986fd45f300190bfafcc28787879536d537dc3de87538b"
-
-[[files]]
-file = "journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/sheep.png"
-hash = "9962ba2b2abd4b5087f0a541111225a8d920bd78691cabfef6ff7abb3f11c0d2"
-
-[[files]]
-file = "journeymap/icon/entity/3D/horse/donkey.png"
-hash = "2830a34a41326254078a79bcda18b394a1aca014849580eb6c8af7148fe57ee7"
-
-[[files]]
-file = "journeymap/icon/entity/3D/horse/horse_brown.png"
-hash = "a6f3a8b9119d8c138326cd26e263eccef3ce028b9a08353967c8cf468abb8b3c"
-
-[[files]]
-file = "journeymap/icon/entity/3D/horse/horse_zombie.png"
-hash = "3a41ead90bcdde687c1f9cb5ad55ef9ad99a8679e60318c6606fb6647ce779c8"
-
-[[files]]
-file = "journeymap/icon/entity/3D/horse/mule.png"
-hash = "15330a7640b79190dd9723c29489beeabd97e96c8822ae2572d676b1f547d06f"
-
-[[files]]
-file = "journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/AngelFish.png"
-hash = "5891a6be2e65e66d4ba9d91b98ff7bfa6f65fe415102b6d8b59f717c05378676"
-
-[[files]]
-file = "journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Aurochs Bull.png"
-hash = "3bbfc1e652a343310d83fcf6ed02ccaf537bf956d8f2f086eb27bc99b09e8f7a"
-
-[[files]]
-file = "journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Aurochs Cow.png"
-hash = "7f93e399de3bf9ffaee0a43e6a404a8505eeae20ab1ce1e939f3c4602415e3c1"
-
-[[files]]
-file = "journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Bass.png"
-hash = "b3c494ee642c5428d506a3c454943ba44e0a7b8d6ab1da7ec1adc6c493e2a273"
-
-[[files]]
-file = "journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Bear.png"
-hash = "1b897ef3592b1fe5dc13994ea541f7d7c0bf8911da8fdbb233484b449ee314b0"
-
-[[files]]
-file = "journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Bison Bull.png"
-hash = "0f83310551041cbbc178c1c1dfa79eba41a4e18c27e17380d4841d637d0d9827"
-
-[[files]]
-file = "journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Bison Cow.png"
-hash = "d672756eb42ca616be45ed66befa6c4e38bf7a1dea9f9d133775e41d608721f7"
-
-[[files]]
-file = "journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Boar Piglet.png"
-hash = "84ba490bd5ecce99c134f7463ef36ec1247f32deff54a6c06ea0b0eaa72dd9f7"
-
-[[files]]
-file = "journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Boar.png"
-hash = "fc13313be1b7c70e9020a0dda2626d926bfefef2658b47436201d65d259da219"
-
-[[files]]
-file = "journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Buffalo Bull.png"
-hash = "4aa7d81f4ddb9de1f110d265f1e24fb30b90cd56f93c2bde514b510bf6762a0f"
-
-[[files]]
-file = "journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Buffalo Cow.png"
-hash = "2101f9ab2d34ccbda49427aa11a7c0ea9f834640c91e2d1a689b9ad85a6fbe22"
-
-[[files]]
-file = "journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/ButterflyFish.png"
-hash = "f76c595fba5b64784d786662d69dd4d14b737274d9a0575b61ea6f61cce81641"
-
-[[files]]
-file = "journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Cow.png"
-hash = "69a5696ac4f641cbe541d3b5ad64584987035c93094c069f2d8a68190fbb925e"
-
-[[files]]
-file = "journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/ParrotFish_pink.png"
-hash = "eb721b08c6f784cf5a99fdff86b60376e3fe5288c9ed943de15cb4790fbfa1c5"
-
-[[files]]
-file = "journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/ParrotFish_yellow.png"
-hash = "bd9799d5fe557f8bc1c6cc1c9fe02db695f53eb114c8336a05fdfca92212c2e9"
-
-[[files]]
-file = "journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Peccary.png"
-hash = "0fb659b212a2981b37d5694538b54a35d38584cd15069554aa1a4ec506bbd81e"
-
-[[files]]
-file = "journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/PheasantF.png"
-hash = "2117ab58d8c604c341d20cec1e96f4d5600693e0f1510f42b6eb2a8cd810ef46"
-
-[[files]]
-file = "journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/PheasantM.png"
-hash = "9c0826935bdc430dab2a0c739191cdc80dd0c4031b32d32046bb30ee91c40e0c"
-
-[[files]]
-file = "journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Pig.png"
-hash = "02eb80ba5d1538ec46fe6fb19cfebd4ae9fa8026c10e712e4fe9284d5ade365f"
-
-[[files]]
-file = "journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Pollock.png"
-hash = "d1ad2a44d948a05c4ccda1485184b92c119df278c12c4b191220abd02d1a4561"
-
-[[files]]
-file = "journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Shark.png"
-hash = "ef07f5b14b7b9ef93b9ef876792e31633b900e79919e64ada8e64deb2ca3c79e"
-
-[[files]]
-file = "journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Trout.png"
-hash = "757c35fe690c7eb7762a1617f1fe0fb8c0036b671fd5c862dcbe2355d78c945b"
-
-[[files]]
-file = "journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Wahoo.png"
-hash = "217df095aff97707c9773ba0c9831d4052228a217d27cc438ac663a25667d218"
-
-[[files]]
-file = "journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Warthog.png"
-hash = "27fa21de90361584de725814eca49e5905ce618e4b59b6aeb44b9275883ab206"
-
-[[files]]
-file = "journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Wrasse.png"
-hash = "486a0bde4ceaaa8a1fa3c0d2638bc78f0ced1ffa1bf8f0e45709eb4434663641"
-
-[[files]]
-file = "journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/bighornsheep.png"
-hash = "55ac83207da909eb19887a79d37a4f4330dc25dc24f0965c874ea43b78dc0f24"
-
-[[files]]
-file = "journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/bull.png"
-hash = "4d1ba471bf1ec33ae434bef5278d17fd59631a712420b3de00bb8f39ab2c9b81"
-
-[[files]]
-file = "journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/chick.png"
-hash = "9bb1cf7e5b8f6428dcc1767a49143b5e70a5bd0ecd5cfa9f59b2c04cfbdf7f73"
-
-[[files]]
-file = "journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/deer.png"
-hash = "789fb4a64db7adce199b51c68910a7d2475e43575faf740acbc9fb17e276a31e"
-
-[[files]]
-file = "journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/goat.png"
-hash = "d5a2a717e711b47164f021fa57f01d9cc115ede819101938f34ac36a369637c4"
-
-[[files]]
-file = "journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/ibex.png"
-hash = "4975a2255e50ee9026012e08820476ba0dc0d969c224f2d0f1e7d79f816ced6d"
-
-[[files]]
-file = "journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/mouflon.png"
-hash = "56359d5d44b62964abf016c1834de4f0a08ef8cebcc38db0a21a5524c93945ba"
-
-[[files]]
-file = "journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/pheasant_chick.png"
-hash = "8bb7356ceb6e8f9fe08e53b424c6786fd9425e9e407130c190d5b8269bd37ff0"
-
-[[files]]
-file = "journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/rooster.png"
-hash = "fef78671981deda979986fd45f300190bfafcc28787879536d537dc3de87538b"
-
-[[files]]
-file = "journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/sheep.png"
-hash = "9962ba2b2abd4b5087f0a541111225a8d920bd78691cabfef6ff7abb3f11c0d2"
 
 [[files]]
 file = "mods/mcinstance-loader.pw.toml"
@@ -8584,10 +8268,6 @@ hash = "9f58b9bb8a1ee3c34d7fe76174dde4e6be56c6cf2a300a596fd12e20869db43c"
 [[files]]
 file = "resourcepacks/TelomeraseResources/assets/storagedrawers/textures/items/upgrade_obsidian.png"
 hash = "3fdd9862953b2a013007e5f0ec6657d8f5263a00de6fcc6fa87cc8e8886fa8f6"
-
-[[files]]
-file = "resourcepacks/TelomeraseResources/assets/terrafirmacraftplus/textures/items/peat.png"
-hash = "b04dd3f45d4848eb85ef8ea521421bf6f5ca7406fa073b51093005a4d037633c"
 
 [[files]]
 file = "resourcepacks/TelomeraseResources/pack.mcmeta"
@@ -25946,6 +25626,14 @@ file = "schematics/BigReactors-Starter.schematic"
 hash = "25d7986c5493a0ff5c68ef91985428c86532ac085850997e85ebd1802138a21c"
 
 [[files]]
+file = "schematics/FaceTorched-Auto-BF-v3.schematic"
+hash = "0cfd6092d3e1fe20086900beddc38c4ae1df1bd69c8e82db1bc2dc4c0efa3f3f"
+
+[[files]]
+file = "schematics/FaceTorched-Quarry-Engine.schematic"
+hash = "6f9b81704b4080b34ae2965333b63584f4dc536f0e497127ea62a4ca2830b84a"
+
+[[files]]
 file = "schematics/IE-Arc-Furnace.schematic"
 hash = "1775aa1712a52123675b6c93ca698c01375fbc40d40aaed5bc9842e13639958c"
 
@@ -26040,6 +25728,10 @@ hash = "446537cfde03979732967d6e5d708deae6a8da70ec49ca453fb267e6841a8ccb"
 [[files]]
 file = "scripts/StorageDrawers.zs"
 hash = "e7ac71c8fc6c2b86ed7e07da312f2d7bf0ab0d4d3620d569f967924a4c577e11"
+
+[[files]]
+file = "scripts/TFCAdditions.zs"
+hash = "8df5744d925bcee74659c781c9017249f36ce3154d5f217699458322f00dba2c"
 
 [[files]]
 file = "scripts/TFCPlus.zs"
