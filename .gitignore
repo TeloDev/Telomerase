@@ -79,3 +79,10 @@
 !index.toml
 !pack.toml
 !.packwizignore
+
+# serverpack files
+!ServerStart.bat
+!ServerStartLinux.sh
+!settings.cfg
+!server-icon.png
+!CreateServerPack.bat

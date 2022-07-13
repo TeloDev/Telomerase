@@ -2,4 +2,7 @@
 .gitignore
 mods/*.jar
 *.bat
+*.sh
 config/mcinstanceloader/pack/
+server-icon.png
+settings.cfg
