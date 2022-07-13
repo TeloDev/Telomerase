@@ -369,7 +369,6 @@ destination = mods/OpenModsLibs-1.7.10-0.10.6.jar
 type = url
 url = https://github.com/GTNewHorizons/SpongeMixins/releases/download/1.5.0/SpongeMixins-1.5.0.jar
 destination = mods/SpongeMixins-1.5.0.jar
-side = client
 
 [LunatriusCore]
 type = url
@@ -565,7 +564,6 @@ destination = mods/fastcraft-1.25.jar
 type = url
 url = https://github.com/makamys/Mixingasm/releases/download/v0.2.1/mixingasm-1.7.10-0.2.1.jar
 destination = mods/mixingasm-1.7.10-0.2.1.jar
-side = client
 
 [Bugtorch]
 type = url
