@@ -325,6 +325,7 @@ projectId = 232131
 fileId = 2277197
 sourceFileName = defaultkeys-mc1.7.10-1.0.28.jar
 destination = mods/defaultkeys-mc1.7.10-1.0.28.jar
+side = client
 
 #------------------------------------------------------------------------------------------------------------------------
 #Cores
