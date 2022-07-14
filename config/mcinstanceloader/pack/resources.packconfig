@@ -438,11 +438,9 @@ url = https://github.com/TeloDev/ForestryMC/releases/download/4.3.5/Forestry-1.7
 destination = mods/Forestry-1.7.10-4.3.5.jar
 
 [GraveStone Mod]
-type = curseforge
-projectId = 238551
-fileId = 2374232
-sourceFileName = GraveStone Mod 0.7.10.3.jar
-destination = mods/GraveStone Mod 0.7.10.3.jar
+type = url
+url = https://github.com/TeloDev/gravestone/releases/download/1.0.0/gravestone-1.7.10-1.0.0.jar
+destination = mods/gravestone-1.7.10-1.0.0.jar
 
 [Hopper Ducts]
 type = curseforge
