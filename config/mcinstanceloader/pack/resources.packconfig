@@ -240,9 +240,9 @@ destination = mods/[1.7.10]TerraFirmaCraftPlus-0.89.1.jar
 [TFC+ Additions]
 type = curseforge
 projectId = 442203
-fileId = 3828651
-sourceFileName = [1.7.10]TFC-Additions-1.7.10-1.0.9.jar
-destination = mods/[1.7.10]TFC-Additions-1.7.10-1.0.9.jar
+fileId = 3876523
+sourceFileName = [1.7.10]TFC-Additions-1.7.10-1.0.10.jar
+destination = mods/[1.7.10]TFC-Additions-1.7.10-1.0.10.jar
 
 [TFC+ Tweaker]
 type = modrinth
