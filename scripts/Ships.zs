@@ -41,4 +41,3 @@ recipes.addShaped(<cuchaz.ships:blockHelm>, [[null, <ore:stickWood>, null], [<or
 recipes.addShaped(<cuchaz.ships:shipClipboard>, [[<ore:materialPaper>, <ore:materialPaper>, <ore:materialPaper>], [<ore:materialPaper>, <ore:materialPaper>, <ore:materialPaper>], [<ore:woodLumber>, <cuchaz.ships:blockShip>, <ore:woodLumber>]]);
 recipes.addShaped(<cuchaz.ships:berth>, [[<ore:materialCloth>, <ore:materialCloth>, <ore:materialCloth>], [<minecraft:wool>, <minecraft:wool>, <minecraft:wool>], [<ImmersiveEngineering:woodenDecoration:5>, <ImmersiveEngineering:woodenDecoration:5>, <ImmersiveEngineering:woodenDecoration:5>]]);
 recipes.addShapedMirrored(<cuchaz.ships:magicShipLevitator>,[[null,null,<ore:ingotGold>],[null,<ore:stickWood>,null],[<ore:stickWood>,null,null]]);
-recipes.addShapeless(<minecraft:wool>, [<ore:materialCloth>]);

@@ -86,9 +86,56 @@ recipes.addShaped(<etfuturum:lantern> * 4, [[null, <minecraft:iron_bars>, null],
 
 #banner
 recipes.removeShaped(<etfuturum:banner:*>);
+recipes.addShaped(<etfuturum:banner>, [[<ore:materialCloth>],[<ore:materialCloth>],[<terrafirmacraftplus:item.pole>]]);
 for i in 0 to 16{
   recipes.addShaped(<etfuturum:banner>.definition.makeStack(i), [[<minecraft:wool>.definition.makeStack(i)], [<minecraft:wool>.definition.makeStack(i)], [<terrafirmacraftplus:item.pole>]]);
 }
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<etfuturum:banner>, <etfuturum:banner:3>, <liquid:whitedye>*250, 0, true, 4); # lb -> wh
+mods.Terrafirmacraft.Barrel.addItemConversion(<etfuturum:banner>, <etfuturum:banner:4>, <liquid:whitedye>*250, 0, true, 4); # yl -> wh
+mods.Terrafirmacraft.Barrel.addItemConversion(<etfuturum:banner>, <etfuturum:banner:6>, <liquid:whitedye>*250, 0, true, 4); # pk -> wh
+mods.Terrafirmacraft.Barrel.addItemConversion(<etfuturum:banner>, <etfuturum:banner:8>, <liquid:whitedye>*250, 0, true, 4); # lg -> wh
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<etfuturum:banner:1>, <etfuturum:banner:6>, <liquid:yellowdye>*250, 0, true, 4); # pk -> or
+mods.Terrafirmacraft.Barrel.addItemConversion(<etfuturum:banner:1>, <etfuturum:banner:4>, <liquid:reddye>*250, 0, true, 4); # yl -> or
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<etfuturum:banner:2>, <etfuturum:banner:6>, <liquid:bluedye>*250, 0, true, 4); # pk -> mg
+mods.Terrafirmacraft.Barrel.addItemConversion(<etfuturum:banner:2>, <etfuturum:banner:3>, <liquid:reddye>*250, 0, true, 4); # lb -> mg
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<etfuturum:banner:3>, <etfuturum:banner>, <liquid:bluedye>*250, 0, true, 4); # wh -> lb
+mods.Terrafirmacraft.Barrel.addItemConversion(<etfuturum:banner:3>, <etfuturum:banner:9>, <liquid:whitedye>*250, 0, true, 4); # cy -> lb
+mods.Terrafirmacraft.Barrel.addItemConversion(<etfuturum:banner:3>, <etfuturum:banner:11>, <liquid:whitedye>*250, 0, true, 4); # bl -> lb
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<etfuturum:banner:4>, <etfuturum:banner>, <liquid:yellowdye>*250, 0, true, 4); # wh -> yl
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<etfuturum:banner:5>, <etfuturum:banner:4>, <liquid:bluedye>*250, 0, true, 4); # yl -> lm
+mods.Terrafirmacraft.Barrel.addItemConversion(<etfuturum:banner:5>, <etfuturum:banner:3>, <liquid:yellowdye>*250, 0, true, 4); # lb -> lm
+mods.Terrafirmacraft.Barrel.addItemConversion(<etfuturum:banner:5>, <etfuturum:banner:13>, <liquid:yellowdye>*250, 0, true, 4); # gr -> lm
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<etfuturum:banner:6>, <etfuturum:banner>, <liquid:reddye>*250, 0, true, 4); # wh -> pk
+mods.Terrafirmacraft.Barrel.addItemConversion(<etfuturum:banner:6>, <etfuturum:banner:14>, <liquid:whitedye>*250, 0, true, 4); # rd -> pk
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<etfuturum:banner:7>, <etfuturum:banner:8>, <liquid:blackdye>*250, 0, true, 4); # lg -> gy
+mods.Terrafirmacraft.Barrel.addItemConversion(<etfuturum:banner:7>, <etfuturum:banner:15>, <liquid:whitedye>*250, 0, true, 4); # bk -> gy
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<etfuturum:banner:8>, <etfuturum:banner>, <liquid:blackdye>*250, 0, true, 4); # wh -> lg
+mods.Terrafirmacraft.Barrel.addItemConversion(<etfuturum:banner:8>, <etfuturum:banner:7>, <liquid:whitedye>*250, 0, true, 4); # dg -> lg
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<etfuturum:banner:9>, <etfuturum:banner:11>, <liquid:yellowdye>*250, 0, true, 4); # bl -> cy
+mods.Terrafirmacraft.Barrel.addItemConversion(<etfuturum:banner:9>, <etfuturum:banner:13>, <liquid:bluedye>*250, 0, true, 4); # gr -> cy
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<etfuturum:banner:10>, <etfuturum:banner:2>, <liquid:bluedye>*250, 0, true, 4); # mg -> pr
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<etfuturum:banner:11>, <etfuturum:banner:3>, <liquid:bluedye>*250, 0, true, 4); # lb -> bl
+mods.Terrafirmacraft.Barrel.addItemConversion(<etfuturum:banner:11>, <etfuturum:banner:9>, <liquid:bluedye>*250, 0, true, 4); # cy -> bl
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<etfuturum:banner:12>, <etfuturum:banner:1>, <liquid:blackdye>*250, 0, true, 4); # or -> br
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<etfuturum:banner:13>, <etfuturum:banner:5>, <liquid:bluedye>*250, 0, true, 4); # lm -> gr
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<etfuturum:banner:14>, <etfuturum:banner:6>, <liquid:reddye>*250, 0, true, 4); # pk -> rd
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<etfuturum:banner:15>, <etfuturum:banner:7>, <liquid:blackdye>*250, 0, true, 4); # gy -> bk
 
 var dyeOres = [
 <ore:dyeWhite>,
