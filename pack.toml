@@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "ad54677c0f24910b5dcb0cf43613c4c28efcb85cb837cea815cbad6808f8b80d"
+hash = "13f4926c54c74915901b1d4afa95d84c2e9f7a6a82b1441c92d0fd562ee3a975"
 
 [versions]
 forge = "10.13.4.1614"

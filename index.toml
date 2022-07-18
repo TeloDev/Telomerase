@@ -430,7 +430,7 @@ hash = "c85c1a03782c4482acb5c7f8da15915ba68a651dc58197dea96186cda020c0b2"
 
 [[files]]
 file = "config/LaunchGui.cfg"
-hash = "29c9cd9cf28813083ec250a74106772b189c8ccf431793fba73d3827a615ac60"
+hash = "89b53d29fa8d1b342fd22648d7716991808c959a4ed336c250bb1a6bae764553"
 
 [[files]]
 file = "config/LegibleNei/LegibleNei.cfg"
@@ -494,7 +494,7 @@ hash = "93df399cd89ab9740694206791b4a24d090fd4a4b6d68f7a5a568f6a479728aa"
 
 [[files]]
 file = "config/LegibleNei/filters/minecraft.json"
-hash = "fac7061d03646f4572b13f6b93cec9c24aa974554e1e131f7549750316c49186"
+hash = "7be2b222ec14e9350f65fafb6128ef6871d8ebf7819d8c8a07a41acd9746b2b9"
 
 [[files]]
 file = "config/LegibleNei/filters/ships.json"
@@ -734,7 +734,7 @@ hash = "517b7936cae33f3b4295767d097d59796b7e6060da66389009da7a18ae3c7db9"
 
 [[files]]
 file = "config/gravestone.cfg"
-hash = "ddb5e2a0e138cde7ae02a1f8a5c6842b759d095fe9f7c735890948e80920d62f"
+hash = "601ed06e69faac698522fb128bab7fd4d3cd914c253cfb6ddf4219b3b70b0a99"
 
 [[files]]
 file = "config/immersiverailroading.cfg"
@@ -762,7 +762,7 @@ hash = "5197566bb919432f4ec0ca66a12cca4b14febcd3852a2240ab8a3c34092e1eed"
 
 [[files]]
 file = "config/mcinstanceloader/pack.mcinstance"
-hash = "0ef39062e24948b97c5fe0696c8f506de57f7eb2dc96474747ddef16956ae88e"
+hash = "c152ce37f4b28729133ced2e36ade38097793adc4b88dc068ed841c8d2522302"
 
 [[files]]
 file = "config/mixingasm/transformer_exclusion_list.txt"
@@ -786,7 +786,7 @@ hash = "ab3adb80bc214c43a5247accf6f3f6f28a56170fbc396156c78f16f2c3cb69f5"
 
 [[files]]
 file = "mods/mcinstance-loader.pw.toml"
-hash = "6c16293901ba87b1ac82d662a2a45d92a2226c09f45f0cfebf54e9b35c48369c"
+hash = "60e21659388ccb0da2eec911d5afda21fa650230def14f080d7f37117c173296"
 metafile = true
 
 [[files]]
@@ -25699,7 +25699,7 @@ hash = "439e3a2fc970b0372d28d871e00c78479eabdd2654f043c95955fcf56ea8f3ea"
 
 [[files]]
 file = "scripts/EtFuturum.zs"
-hash = "4d903956335d5998b60f5dad3c70616d5f2ed9e95ea33b260c661de38d1237f0"
+hash = "a842c83003de33540fa86f849187c126dd63112097c42ec313205f6ad3c3a3d0"
 
 [[files]]
 file = "scripts/HopperDucts.zs"
@@ -25715,7 +25715,7 @@ hash = "0ce01ce1361f28689400651e9f00d95eecb298dd897aeec914b1ecbab6ee6654"
 
 [[files]]
 file = "scripts/MineralVeins.zs"
-hash = "48c75afd7bf844c77ef38f27a1cbfa071600ab9269a805e9a936b938049475f3"
+hash = "07549522f67dba2224f2a78a17b7a5626e09a11df5a97b296c9cb17f4b33d952"
 
 [[files]]
 file = "scripts/OpenBlocks.zs"
@@ -25723,19 +25723,15 @@ hash = "41b20b4177a8abfcba7157ac8014a784140d002c21bec8b343e497926ef9cc89"
 
 [[files]]
 file = "scripts/Ships.zs"
-hash = "446537cfde03979732967d6e5d708deae6a8da70ec49ca453fb267e6841a8ccb"
+hash = "508b9503634d4bab0643a259d8cc68b237f6dc629256f4f048c68028fb61a5f5"
 
 [[files]]
 file = "scripts/StorageDrawers.zs"
 hash = "e7ac71c8fc6c2b86ed7e07da312f2d7bf0ab0d4d3620d569f967924a4c577e11"
 
 [[files]]
-file = "scripts/TFCAdditions.zs"
-hash = "8df5744d925bcee74659c781c9017249f36ce3154d5f217699458322f00dba2c"
-
-[[files]]
 file = "scripts/TFCPlus.zs"
-hash = "34c8e618dbabee9e05935a06e74c877d6e1460028fd8c8127419b2295f5c5c4e"
+hash = "deeaa33b5230e23bd36ad92a66f7f7453586d8a0b1d7780eafd5cfc3e154fa67"
 
 [[files]]
 file = "scripts/TeloAddon.zs"
