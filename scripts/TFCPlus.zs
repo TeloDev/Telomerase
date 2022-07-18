@@ -271,7 +271,8 @@ recipes.remove(<minecraft:beacon>);
 recipes.remove(<minecraft:ender_chest>);
 recipes.remove(<minecraft:quartz_stairs>);
 recipes.remove(<minecraft:stonebrick:*>);
-recipes.remove(<minecraft:quartz_block:*>);
+recipes.remove(<minecraft:quartz_block:1>);
+recipes.remove(<minecraft:quartz_block:2>);
 recipes.remove(<minecraft:cobblestone_wall:*>);
 <ore:gemCoal>.remove(<minecraft:coal>);
 <ore:gemCoal>.remove(<minecraft:coal:1>);
@@ -544,6 +545,14 @@ recipes.addShapeless(<minecraft:stone_slab:4>*2,[<terrafirmacraftplus:Bricks>,<o
 recipes.addShapeless(<minecraft:brick_stairs>*2,[<minecraft:stone_slab:4>,<minecraft:stone_slab:4>,<minecraft:stone_slab:4>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
 recipes.addShapeless(<minecraft:brick_stairs>*2,[<terrafirmacraftplus:Bricks>,<minecraft:stone_slab:4>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
 recipes.addShapeless(<minecraft:brick_stairs>*4,[<terrafirmacraftplus:Bricks>,<terrafirmacraftplus:Bricks>,<terrafirmacraftplus:Bricks>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+
+recipes.addShapeless(<minecraft:stone_slab:7>*2,[<minecraft:quartz_block>,<ore:itemChisel>.transformDamage(), <ore:itemHammer>.reuse()]);
+recipes.addShaped(<minecraft:quartz_block:1>*2,[[<minecraft:stone_slab:7>,<minecraft:stone_slab:7>],[<minecraft:stone_slab:7>,<minecraft:stone_slab:7>]]);
+recipes.addShaped(<minecraft:quartz_block:2>,[[<minecraft:stone_slab:7>],[<minecraft:stone_slab:7>]]);
+recipes.addShapeless(<minecraft:quartz_stairs>*2,[<minecraft:stone_slab:7>,<minecraft:stone_slab:7>,<minecraft:stone_slab:7>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<minecraft:quartz_stairs>*2,[<minecraft:quartz_block>,<minecraft:stone_slab:7>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<minecraft:quartz_stairs>*4,[<minecraft:quartz_block>,<minecraft:quartz_block>,<minecraft:quartz_block>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
+recipes.addShapeless(<minecraft:quartz>*4,[<minecraft:quartz_block:*>,<ore:itemHammer>.transformDamage()]);
 
 recipes.addShaped(<minecraft:lapis_block>,[[<terrafirmacraftplus:item.Powder:6>,<terrafirmacraftplus:item.Powder:6>,<terrafirmacraftplus:item.Powder:6>],[<terrafirmacraftplus:item.Powder:6>,<terrafirmacraftplus:item.Powder:6>,<terrafirmacraftplus:item.Powder:6>],[<terrafirmacraftplus:item.Powder:6>,<terrafirmacraftplus:item.Powder:6>,<terrafirmacraftplus:item.Powder:6>]]);
 recipes.addShaped(<terrafirmacraftplus:item.Powder:6>*9,[[<minecraft:lapis_block>]]);

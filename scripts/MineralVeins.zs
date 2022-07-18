@@ -4,7 +4,7 @@ val oreNormalMagnetite = <ore:oreNormalMagnetite>;
 val oreNormalLimonite = <ore:oreNormalLimonite>;
 val oreNormalMalachite = <ore:oreNormalMalachite>;
 val oreSaltRock = <ore:oreSaltRock>;
-val oreQuartzRock = <ore:oreQuartzRock>;
+val oreNetherQuartz = <ore:oreNetherQuartz>;
 val oreGraniteRock = <ore:oreGraniteRock>;
 val oreNormalChalcopyrite = <ore:oreNormalChalcopyrite>;
 val gemTFCNormalDiamond = <ore:gemTFCNormalDiamond>;
@@ -27,7 +27,7 @@ oreNormalMalachite.add(<terrafirmacraftplus:item.Ore:9>);
 oreSaltRock.add(<terrafirmacraftplus:item.LooseRock:5>);
 oreNormalChalcopyrite.add(<terrafirmacraftplus:item.Ore:17>);
 gemTFCNormalDiamond.add(<terrafirmacraftplus:item.Diamond:2>);
-oreQuartzRock.add(<terrafirmacraftplus:item.LooseRock:15>);
+oreNetherQuartz.add(<minecraft:quartz>);
 oreCinnabar.add(<terrafirmacraftplus:item.Ore:311>);
 lumpTFCClay.add(<terrafirmacraftplus:item.Clay>);
 oreGraniteRock.add(<terrafirmacraftplus:item.LooseRock>);
@@ -49,8 +49,8 @@ mods.immersiveengineering.Excavator.addMineral("Copper Lode", 20, 0.4, ["oreRich
 mods.immersiveengineering.Excavator.addMineral("Coal Seam", 25, 0.2, ["gemCoal", "oreJet", "oreNormalChalcopyrite","oreGraphite","gemChippedDiamond","gemFlawedDiamond","gemTFCNormalDiamond","gemFlawlessDiamond","gemExquisiteDiamond"], [0.6, 0.01, 0.035, 0.15, 0.003, 0.0013, 0.0004,0.0002,0.0001]);
 //idea for plastic
 //mods.immersiveengineering.Excavator.addMineral("Coal Seam", 25, 0.2, ["gemCoal", "oreJet", "oreNormalChalcopyrite","oreGraphite","oreApatite","gemChippedDiamond","gemFlawedDiamond","gemTFCNormalDiamond","gemFlawlessDiamond","gemExquisiteDiamond"], [0.6, 0.01, 0.035, 0.15, 0.2, 0.003, 0.0013, 0.0004,0.0002,0.0001]);
-mods.immersiveengineering.Excavator.addMineral("Gold Lode", 10, 0.5, ["oreNormalGold", "oreNormalSilver","oreNormalChalcopyrite","oreQuartzRock","gemChippedJasper","gemChippedAmethyst","gemFlawedJasper","gemFlawedAmethyst","gemJasper","gemAmethyst","gemFlawlessJasper","gemFlawlessAmethyst","gemExquisiteJasper","gemExquisiteAmethyst"], [0.4, 0.2, 0.05, 0.15, 0.05, 0.05, 0.03, 0.03, 0.01, 0.01, 0.0052,  0.0052, 0.0048, 0.0048,]);
-mods.immersiveengineering.Excavator.addMineral("Cinnabar Vein", 15, 0.5, ["oreCinnabar","oreQuartzRock","gemChippedOpal","gemChippedAgate","gemFlawedOpal","gemFlawedAgate","gemOpal","gemAgate","gemFlawlessOpal","gemFlawlessAgate","gemExquisiteOpal","gemExquisiteAgate"], [0.6, 0.2, 0.05, 0.05, 0.03, 0.03, 0.01, 0.01, 0.0052,  0.0052, 0.0048, 0.0048,]);
+mods.immersiveengineering.Excavator.addMineral("Gold Lode", 10, 0.5, ["oreNormalGold", "oreNormalSilver","oreNormalChalcopyrite","oreNetherQuartz","gemChippedJasper","gemChippedAmethyst","gemFlawedJasper","gemFlawedAmethyst","gemJasper","gemAmethyst","gemFlawlessJasper","gemFlawlessAmethyst","gemExquisiteJasper","gemExquisiteAmethyst"], [0.4, 0.2, 0.07, 0.1, 0.05, 0.05, 0.03, 0.03, 0.02, 0.02, 0.01,  0.01, 0.005, 0.005,]);
+mods.immersiveengineering.Excavator.addMineral("Cinnabar Vein", 15, 0.5, ["oreCinnabar","oreNetherQuartz","gemChippedOpal","gemChippedAgate","gemFlawedOpal","gemFlawedAgate","gemOpal","gemAgate","gemFlawlessOpal","gemFlawlessAgate","gemExquisiteOpal","gemExquisiteAgate"], [0.6, 0.17, 0.05, 0.05, 0.03, 0.03, 0.02, 0.02, 0.01,  0.01, 0.005, 0.005,]);
 mods.immersiveengineering.Excavator.addMineral("Kaolin Clay", 20, 0.5, ["lumpTFCClay", "oreKaolinite"], [0.65, 0.35]);
 mods.immersiveengineering.Excavator.addMineral("Low Temperature Sulfide Deposit", 20, 0.4, ["oreNormalLead", "oreNormalZinc", "orePoorSilver", "gemExquisiteFluorite", "gemFlawlessFluorite", "gemNormalFluorite", "gemFlawedFluorite", "gemChippedFluorite"], [0.4, 0.4, 0.1, 0.002, 0.003, 0.015, 0.03, 0.05]);
 mods.immersiveengineering.Excavator.addMineral("Actinide Deposit", 15, 0.4, ["oreUranium", "orePoorLead", "oreNormalSilver"], [0.7, 0.25, 0.05]);
