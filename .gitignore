@@ -3,6 +3,8 @@
 # unignore subtrees
 !*/
 !.gitignore
+!.gitattributes
+!SetupGit.sh
 
 !/bansoukou/**
 !/resources/**

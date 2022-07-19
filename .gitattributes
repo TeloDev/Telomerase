@@ -1,0 +1,3 @@
+craftpresence.properties filter=telo-filter-craftpresence
+splash.properties filter=telo-filter-splash
+LaunchGui.cfg filter=telo-filter-launchgui
