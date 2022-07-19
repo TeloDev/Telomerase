@@ -405,10 +405,6 @@ file = "config/CustomMainMenu/mainmenu.json"
 hash = "eaf1dcbed92b2d7774f07f3484f4a41e158eaa3357b531e5f76094f93d9fa194"
 
 [[files]]
-file = "config/DIAdvancedCompatibility.cfg"
-hash = "b12b120a3b9c8a66b4fb3343d9149a177edae0ed6b32ee7e7022e7902125e5e9"
-
-[[files]]
 file = "config/DamageIndicatorsMod.cfg"
 hash = "8e4be7532b03ecd5318c6a2d633c548f39eccd8308274188e6b92cc237e450c6"
 
@@ -654,7 +650,7 @@ hash = "63ec6ba568933f64e25f764e3d9b6bc5e260a653cec7ac73efc1a768ba6509d8"
 
 [[files]]
 file = "config/craftpresence.properties"
-hash = "7c77865b7844a4f6a75cfa240c417a983293ded40e9a8994973744518acdcb86"
+hash = "6a7c9068676a1ccad41821b7e2bc6045494b3cd631a0c54454e337e27d91636f"
 
 [[files]]
 file = "config/dakimakuramod.cfg"
@@ -762,7 +758,7 @@ hash = "5197566bb919432f4ec0ca66a12cca4b14febcd3852a2240ab8a3c34092e1eed"
 
 [[files]]
 file = "config/mcinstanceloader/pack.mcinstance"
-hash = "c152ce37f4b28729133ced2e36ade38097793adc4b88dc068ed841c8d2522302"
+hash = "55dadaf521df2c207f8c10ced821af102668787d1dca9166cd30ed050a9eb2be"
 
 [[files]]
 file = "config/mixingasm/transformer_exclusion_list.txt"
@@ -782,7 +778,7 @@ hash = "5ef2677e073dea4c099b97bc3d5601cf2e814482d27d3d31d5a346576d1318fc"
 
 [[files]]
 file = "config/splash.properties"
-hash = "ab3adb80bc214c43a5247accf6f3f6f28a56170fbc396156c78f16f2c3cb69f5"
+hash = "40f7f46696af11e88a1bd76bdfa0f9e44c4b58172f5c0fb3fb44fa11117d4f68"
 
 [[files]]
 file = "mods/mcinstance-loader.pw.toml"
