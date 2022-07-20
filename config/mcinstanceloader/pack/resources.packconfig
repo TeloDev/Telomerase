@@ -62,14 +62,6 @@ sourceFileName = DamageTilt-1.7.10-0.1.0.jar
 destination = mods/DamageTilt-1.7.10-0.1.0.jar
 side = client
 
-[LanHostSkinReFixed]
-type = curseforge
-projectId = 364836
-fileId = 2890211
-sourceFileName = LanHostSkinReFixed-1.7.10-rv0.jar
-destination = mods/LanHostSkinReFixed-1.7.10-rv0.jar
-side = client
-
 #[Triangulator]
 #type = modrinth
 #versionId = 28vSG0Ey
