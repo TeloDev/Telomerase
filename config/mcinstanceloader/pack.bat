@@ -1,1 +1,0 @@
-jar -cfM pack.mcinstance -C .\pack\ .

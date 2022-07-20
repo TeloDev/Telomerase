@@ -4,7 +4,9 @@
 !*/
 !.gitignore
 !.gitattributes
-!SetupGit.sh
+!.github/**
+!*.bat
+!*.sh
 
 !/bansoukou/**
 !/resources/**
@@ -34,8 +36,6 @@
 !/config/matmos/expansions_userconfig/*atmospheres.cfg
 !/config/mcinstanceloader/pack/**
 !/config/mcinstanceloader/config.cfg
-!/config/mcinstanceloader/pack.bat
-!/config/mcinstanceloader/clear_mods.bat
 !/config/mixingasm/**
 !/config/NEI/**
 !/config/betterstorage.cfg
@@ -81,8 +81,5 @@
 !.packwizignore
 
 # serverpack files
-!ServerStart.bat
-!ServerStartLinux.sh
 !settings.cfg
 !server-icon.png
-!CreateServerPack.bat

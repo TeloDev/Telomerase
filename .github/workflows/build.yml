@@ -1,0 +1,48 @@
+name: build
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - build-workflows
+
+jobs:
+  curse:
+    name: Curseforge
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v3
+    - run: .\config\mcinstanceloader\Pack.bat
+    - uses: actions/setup-go@v3
+      with:
+          go-version: 1.18
+    - run: go install github.com/packwiz/packwiz@latest
+    - run: packwiz cf export
+    - uses: actions/upload-artifact@v3
+      with:
+        path: ./*.zip
+  modrinth:
+    name: Modrinth
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v3
+    - run: .\config\mcinstanceloader\Pack.bat
+    - uses: actions/setup-go@v3
+      with:
+            go-version: 1.18
+    - run: go install github.com/packwiz/packwiz@latest
+    - run: packwiz mr export
+    - uses: actions/upload-artifact@v3
+      with:
+        path: ./*.mrpack
+  server:
+    name: Server
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v3
+    - run: .\config\mcinstanceloader\Pack.bat
+    - run: .\CreateServerPack.bat
+    - uses: actions/upload-artifact@v3
+      with:
+        path: ./*.zip
