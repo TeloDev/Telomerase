@@ -168,10 +168,6 @@ mods.Terrafirmacraft.Loom.removeRecipe(<minecraft:string> * 24);
 recipes.remove(<minecraft:string>);
 recipes.addShapeless(<minecraft:string>,[<ore:materialString>]);
 
-//carpet
-recipes.removeShaped(<minecraft:carpet:*>);
-recipes.addShaped(<minecraft:carpet>*2,[[<ore:materialCloth>,<ore:materialCloth>,null]]);
-
 //compass
 recipes.removeShaped(<minecraft:compass>);
 recipes.addShapeless(<minecraft:compass>,[<terrafirmacraftplus:item.Brass Compass>, <ore:ingotIron>]);
@@ -488,56 +484,6 @@ for i, dye in dyeOres{
 for i, dye in dyeOres{
   recipes.addShaped(<minecraft:stained_glass_pane>.definition.makeStack(i) * 8, [[<minecraft:glass_pane>, <minecraft:glass_pane>, <minecraft:glass_pane>], [<minecraft:glass_pane>, dye, <minecraft:glass_pane>], [<minecraft:glass_pane>, <minecraft:glass_pane>, <minecraft:glass_pane>]]);
 }
-
-// wool
-recipes.removeShapeless(<minecraft:wool:*>);
-recipes.addShapeless(<minecraft:wool>, [<ore:materialCloth>]);
-
-mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool>, <minecraft:wool:3>, <liquid:whitedye>*250, 0, true, 4); # lb -> wh
-mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool>, <minecraft:wool:4>, <liquid:whitedye>*250, 0, true, 4); # yl -> wh
-mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool>, <minecraft:wool:6>, <liquid:whitedye>*250, 0, true, 4); # pk -> wh
-mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool>, <minecraft:wool:8>, <liquid:whitedye>*250, 0, true, 4); # lg -> wh
-
-mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:1>, <minecraft:wool:6>, <liquid:yellowdye>*250, 0, true, 4); # pk -> or
-mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:1>, <minecraft:wool:4>, <liquid:reddye>*250, 0, true, 4); # yl -> or
-
-mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:2>, <minecraft:wool:6>, <liquid:bluedye>*250, 0, true, 4); # pk -> mg
-mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:2>, <minecraft:wool:3>, <liquid:reddye>*250, 0, true, 4); # lb -> mg
-
-mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:3>, <minecraft:wool>, <liquid:bluedye>*250, 0, true, 4); # wh -> lb
-mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:3>, <minecraft:wool:9>, <liquid:whitedye>*250, 0, true, 4); # cy -> lb
-mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:3>, <minecraft:wool:11>, <liquid:whitedye>*250, 0, true, 4); # bl -> lb
-
-mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:4>, <minecraft:wool>, <liquid:yellowdye>*250, 0, true, 4); # wh -> yl
-
-mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:5>, <minecraft:wool:4>, <liquid:bluedye>*250, 0, true, 4); # yl -> lm
-mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:5>, <minecraft:wool:3>, <liquid:yellowdye>*250, 0, true, 4); # lb -> lm
-mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:5>, <minecraft:wool:13>, <liquid:yellowdye>*250, 0, true, 4); # gr -> lm
-
-mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:6>, <minecraft:wool>, <liquid:reddye>*250, 0, true, 4); # wh -> pk
-mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:6>, <minecraft:wool:14>, <liquid:whitedye>*250, 0, true, 4); # rd -> pk
-
-mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:7>, <minecraft:wool:8>, <liquid:blackdye>*250, 0, true, 4); # lg -> gy
-mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:7>, <minecraft:wool:15>, <liquid:whitedye>*250, 0, true, 4); # bk -> gy
-
-mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:8>, <minecraft:wool>, <liquid:blackdye>*250, 0, true, 4); # wh -> lg
-mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:8>, <minecraft:wool:7>, <liquid:whitedye>*250, 0, true, 4); # dg -> lg
-
-mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:9>, <minecraft:wool:11>, <liquid:yellowdye>*250, 0, true, 4); # bl -> cy
-mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:9>, <minecraft:wool:13>, <liquid:bluedye>*250, 0, true, 4); # gr -> cy
-
-mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:10>, <minecraft:wool:2>, <liquid:bluedye>*250, 0, true, 4); # mg -> pr
-
-mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:11>, <minecraft:wool:3>, <liquid:bluedye>*250, 0, true, 4); # lb -> bl
-mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:11>, <minecraft:wool:9>, <liquid:bluedye>*250, 0, true, 4); # cy -> bl
-
-mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:12>, <minecraft:wool:1>, <liquid:blackdye>*250, 0, true, 4); # or -> br
-
-mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:13>, <minecraft:wool:5>, <liquid:bluedye>*250, 0, true, 4); # lm -> gr
-
-mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:14>, <minecraft:wool:6>, <liquid:reddye>*250, 0, true, 4); # pk -> rd
-
-mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:15>, <minecraft:wool:7>, <liquid:blackdye>*250, 0, true, 4); # gy -> bk
 
 // vanilla slabs and stairs
 recipes.addShapeless(<minecraft:stone_slab>*2,[<ore:stoneSmooth>,<ore:itemChisel>.transformDamage(),<ore:itemHammer>.reuse()]);
@@ -882,3 +828,119 @@ mods.Terrafirmacraft.Barrel.addFireRecipe(<minecraft:slime_ball>, null, <terrafi
 mods.forestry.Carpenter.addRecipe(<terrafirmacraftplus:item.Ore:312> * 2, [[<teloaddon:Bauxite:100>,<teloaddon:Lye>]], <liquid:hydrofluoricacid> * 50, 50);
 mods.forestry.Carpenter.addRecipe(<terrafirmacraftplus:item.Ore:312> * 2, [[<teloaddon:Bauxite>,<teloaddon:Bauxite>,<teloaddon:Lye>]], <liquid:hydrofluoricacid> * 50, 50);
 mods.forestry.Carpenter.addRecipe(<terrafirmacraftplus:item.Ore:312> * 2, [[<teloaddon:Bauxite:200>,<teloaddon:Bauxite:200>,<teloaddon:Bauxite:200>],[<teloaddon:Lye>]], <liquid:hydrofluoricacid> * 50, 50);
+
+// wool
+recipes.removeShapeless(<minecraft:wool:*>);
+recipes.addShapeless(<minecraft:wool>, [<ore:materialCloth>]);
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool>, <minecraft:wool:3>, <liquid:whitedye>*250, 0, true, 4); # lb -> wh
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool>, <minecraft:wool:4>, <liquid:whitedye>*250, 0, true, 4); # yl -> wh
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool>, <minecraft:wool:6>, <liquid:whitedye>*250, 0, true, 4); # pk -> wh
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool>, <minecraft:wool:8>, <liquid:whitedye>*250, 0, true, 4); # lg -> wh
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool>, <minecraft:wool:1>, <liquid:whitedye>*500, 0, true, 8); # or -> wh
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool>, <minecraft:wool:2>, <liquid:whitedye>*500, 0, true, 8); # mg -> wh
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool>, <minecraft:wool:5>, <liquid:whitedye>*500, 0, true, 8); # lm -> wh
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool>, <minecraft:wool:9>, <liquid:whitedye>*750, 0, true, 12); # cy -> wh
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool>, <minecraft:wool:10>, <liquid:whitedye>*750, 0, true, 12); # pr -> wh
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool>, <minecraft:wool:12>, <liquid:whitedye>*750, 0, true, 12); # br -> wh
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool>, <minecraft:wool:13>, <liquid:whitedye>*750, 0, true, 12); # gr -> wh
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:1>, <minecraft:wool:6>, <liquid:yellowdye>*250, 0, true, 4); # pk -> or
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:1>, <minecraft:wool:4>, <liquid:reddye>*250, 0, true, 4); # yl -> or
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:2>, <minecraft:wool:6>, <liquid:bluedye>*250, 0, true, 4); # pk -> mg
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:2>, <minecraft:wool:3>, <liquid:reddye>*250, 0, true, 4); # lb -> mg
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:3>, <minecraft:wool>, <liquid:bluedye>*250, 0, true, 4); # wh -> lb
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:3>, <minecraft:wool:11>, <liquid:whitedye>*250, 0, true, 4); # bl -> lb
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:4>, <minecraft:wool>, <liquid:yellowdye>*250, 0, true, 4); # wh -> yl
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:5>, <minecraft:wool:4>, <liquid:bluedye>*250, 0, true, 4); # yl -> lm
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:5>, <minecraft:wool:3>, <liquid:yellowdye>*250, 0, true, 4); # lb -> lm
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:6>, <minecraft:wool>, <liquid:reddye>*250, 0, true, 4); # wh -> pk
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:6>, <minecraft:wool:14>, <liquid:whitedye>*250, 0, true, 4); # rd -> pk
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:7>, <minecraft:wool:8>, <liquid:blackdye>*250, 0, true, 4); # lg -> gy
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:7>, <minecraft:wool:15>, <liquid:whitedye>*250, 0, true, 4); # bk -> gy
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:8>, <minecraft:wool>, <liquid:blackdye>*250, 0, true, 4); # wh -> lg
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:8>, <minecraft:wool:7>, <liquid:whitedye>*250, 0, true, 4); # dg -> lg
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:9>, <minecraft:wool:11>, <liquid:yellowdye>*250, 0, true, 4); # bl -> cy
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:9>, <minecraft:wool:5>, <liquid:bluedye>*250, 0, true, 4); # lg -> cy
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:10>, <minecraft:wool:2>, <liquid:bluedye>*250, 0, true, 4); # mg -> pr
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:11>, <minecraft:wool:3>, <liquid:bluedye>*250, 0, true, 4); # lb -> bl
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:12>, <minecraft:wool:1>, <liquid:blackdye>*250, 0, true, 4); # or -> br
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:13>, <minecraft:wool:5>, <liquid:blackdye>*250, 0, true, 4); # lm -> gr
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:14>, <minecraft:wool:6>, <liquid:reddye>*250, 0, true, 4); # pk -> rd
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:wool:15>, <minecraft:wool:7>, <liquid:blackdye>*250, 0, true, 4); # gy -> bk
+
+// carpet
+recipes.removeShaped(<minecraft:carpet:*>);
+for i in 0 to 16{
+  recipes.addShaped(<minecraft:carpet>.definition.makeStack(i) * 2, [[<minecraft:wool>.definition.makeStack(i), <minecraft:wool>.definition.makeStack(i)]]);
+}
+recipes.addShaped(<minecraft:carpet>*2,[[<ore:materialCloth>,<ore:materialCloth>]]);
+recipes.removeShapeless(<minecraft:carpet:*>); # dye recipes
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:carpet>, <minecraft:carpet:3>, <liquid:whitedye>*125, 0, true, 4); # lb -> wh
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:carpet>, <minecraft:carpet:4>, <liquid:whitedye>*125, 0, true, 4); # yl -> wh
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:carpet>, <minecraft:carpet:6>, <liquid:whitedye>*125, 0, true, 4); # pk -> wh
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:carpet>, <minecraft:carpet:8>, <liquid:whitedye>*125, 0, true, 4); # lg -> wh
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:carpet>, <minecraft:carpet:1>, <liquid:whitedye>*250, 0, true, 8); # or -> wh
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:carpet>, <minecraft:carpet:2>, <liquid:whitedye>*250, 0, true, 8); # mg -> wh
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:carpet>, <minecraft:carpet:5>, <liquid:whitedye>*250, 0, true, 8); # lm -> wh
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:carpet>, <minecraft:carpet:9>, <liquid:whitedye>*375, 0, true, 12); # cy -> wh
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:carpet>, <minecraft:carpet:10>, <liquid:whitedye>*375, 0, true, 12); # pr -> wh
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:carpet>, <minecraft:carpet:12>, <liquid:whitedye>*375, 0, true, 12); # br -> wh
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:carpet>, <minecraft:carpet:13>, <liquid:whitedye>*375, 0, true, 12); # gr -> wh
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:carpet:1>, <minecraft:carpet:6>, <liquid:yellowdye>*125, 0, true, 4); # pk -> or
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:carpet:1>, <minecraft:carpet:4>, <liquid:reddye>*125, 0, true, 4); # yl -> or
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:carpet:2>, <minecraft:carpet:6>, <liquid:bluedye>*125, 0, true, 4); # pk -> mg
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:carpet:2>, <minecraft:carpet:3>, <liquid:reddye>*125, 0, true, 4); # lb -> mg
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:carpet:3>, <minecraft:carpet>, <liquid:bluedye>*125, 0, true, 4); # wh -> lb
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:carpet:3>, <minecraft:carpet:11>, <liquid:whitedye>*125, 0, true, 4); # bl -> lb
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:carpet:4>, <minecraft:carpet>, <liquid:yellowdye>*125, 0, true, 4); # wh -> yl
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:carpet:5>, <minecraft:carpet:4>, <liquid:bluedye>*125, 0, true, 4); # yl -> lm
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:carpet:5>, <minecraft:carpet:3>, <liquid:yellowdye>*125, 0, true, 4); # lb -> lm
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:carpet:6>, <minecraft:carpet>, <liquid:reddye>*125, 0, true, 4); # wh -> pk
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:carpet:6>, <minecraft:carpet:14>, <liquid:whitedye>*125, 0, true, 4); # rd -> pk
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:carpet:7>, <minecraft:carpet:8>, <liquid:blackdye>*125, 0, true, 4); # lg -> gy
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:carpet:7>, <minecraft:carpet:15>, <liquid:whitedye>*125, 0, true, 4); # bk -> gy
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:carpet:8>, <minecraft:carpet>, <liquid:blackdye>*125, 0, true, 4); # wh -> lg
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:carpet:8>, <minecraft:carpet:7>, <liquid:whitedye>*125, 0, true, 4); # dg -> lg
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:carpet:9>, <minecraft:carpet:11>, <liquid:yellowdye>*125, 0, true, 4); # bl -> cy
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:carpet:9>, <minecraft:carpet:5>, <liquid:bluedye>*125, 0, true, 4); # lg -> cy
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:carpet:10>, <minecraft:carpet:2>, <liquid:bluedye>*125, 0, true, 4); # mg -> pr
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:carpet:11>, <minecraft:carpet:3>, <liquid:bluedye>*125, 0, true, 4); # lb -> bl
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:carpet:12>, <minecraft:carpet:1>, <liquid:blackdye>*125, 0, true, 4); # or -> br
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:carpet:13>, <minecraft:carpet:5>, <liquid:blackdye>*125, 0, true, 4); # lm -> gr
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:carpet:14>, <minecraft:carpet:6>, <liquid:reddye>*125, 0, true, 4); # pk -> rd
+
+mods.Terrafirmacraft.Barrel.addItemConversion(<minecraft:carpet:15>, <minecraft:carpet:7>, <liquid:blackdye>*125, 0, true, 4); # gy -> bk
