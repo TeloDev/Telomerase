@@ -154,9 +154,9 @@ side = client
 [Controlling]
 type = curseforge
 projectId = 250398
-fileId = 2328181
-sourceFileName = Controlling-1.7.10-1.0.0.jar
-destination = mods/Controlling-1.7.10-1.0.0.jar
+fileId = 3812685
+sourceFileName = Controlling-1.7.10-1.0.0.3.jar
+destination = mods/Controlling-1.7.10-1.0.0.3.jar
 side = client
 
 [Sound Filters]
@@ -370,9 +370,9 @@ side = client
 
 [FalsePatternLib]
 type = modrinth
-versionId = hqE0VM5o
-sourceFileName = falsepatternlib-mc1.7.10-0.9.2.jar
-destination = mods/falsepatternlib-mc1.7.10-0.9.2.jar
+versionId = m5d6TSCW
+sourceFileName = falsepatternlib-mc1.7.10-0.9.4.jar
+destination = mods/falsepatternlib-mc1.7.10-0.9.4.jar
 side = client
 
 #------------------------------------------------------------------------------------------------------------------------
@@ -388,8 +388,8 @@ destination = mods/Armourers-Workshop-1.7.10-0.48.5.jar
 
 [Better Questing]
 type = url
-url = https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.0.360-GTNH-pre/BetterQuesting-1.7.10-3.0.360-GTNH-pre.jar
-destination = mods/BetterQuesting-1.7.10-3.0.360-GTNH-pre.jar
+url = https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.0.363-GTNH/BetterQuesting-1.7.10-3.0.363-GTNH.jar
+destination = mods/BetterQuesting-1.7.10-3.0.363-GTNH.jar
 
 [Better Storage]
 type = url
