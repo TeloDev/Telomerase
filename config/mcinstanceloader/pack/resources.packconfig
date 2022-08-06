@@ -217,6 +217,14 @@ sourceFileName = LaunchGui-1.7.10-2.0-18-client.jar
 destination = mods/LaunchGui-1.7.10-2.0-18-client.jar
 side = client
 
+[LanHostSkinReFixed]
+type = curseforge
+projectId = 364836
+fileId = 3920698
+sourceFileName = LanHostSkinReFixed-1.7.10-rv1.jar
+destination = mods/LanHostSkinReFixed-1.7.10-rv1.jar
+side = client
+
 #------------------------------------------------------------------------------------------------------------------------
 #Essentials
 #------------------------------------------------------------------------------------------------------------------------
