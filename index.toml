@@ -782,7 +782,7 @@ hash = "40f7f46696af11e88a1bd76bdfa0f9e44c4b58172f5c0fb3fb44fa11117d4f68"
 
 [[files]]
 file = "mods/mcinstance-loader.pw.toml"
-hash = "60e21659388ccb0da2eec911d5afda21fa650230def14f080d7f37117c173296"
+hash = "422f0f7b71f8036eb1b74076997b8b7e364e194665bd38913d4e5cf6ef44dd2a"
 metafile = true
 
 [[files]]
