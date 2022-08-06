@@ -79,9 +79,9 @@ side = client
 [CraftPresence]
 type = curseforge
 projectId = 297038
-fileId = 3475678
-sourceFileName = CraftPresence-Forge-1.7.10-Release-1.8.8.jar
-destination = mods/CraftPresence-Forge-1.7.10-Release-1.8.8.jar
+fileId = 3901322
+sourceFileName = CraftPresence-Forge-1.7.10-Release-1.8.9.jar
+destination = mods/CraftPresence-Forge-1.7.10-Release-1.8.9.jar
 side = client
 
 [ReAuth]
@@ -154,9 +154,9 @@ side = client
 [Controlling]
 type = curseforge
 projectId = 250398
-fileId = 2328181
-sourceFileName = Controlling-1.7.10-1.0.0.jar
-destination = mods/Controlling-1.7.10-1.0.0.jar
+fileId = 3812685
+sourceFileName = Controlling-1.7.10-1.0.0.3.jar
+destination = mods/Controlling-1.7.10-1.0.0.3.jar
 side = client
 
 [Sound Filters]
@@ -370,9 +370,9 @@ side = client
 
 [FalsePatternLib]
 type = modrinth
-versionId = hqE0VM5o
-sourceFileName = falsepatternlib-mc1.7.10-0.9.2.jar
-destination = mods/falsepatternlib-mc1.7.10-0.9.2.jar
+versionId = m5d6TSCW
+sourceFileName = falsepatternlib-mc1.7.10-0.9.4.jar
+destination = mods/falsepatternlib-mc1.7.10-0.9.4.jar
 side = client
 
 #------------------------------------------------------------------------------------------------------------------------
