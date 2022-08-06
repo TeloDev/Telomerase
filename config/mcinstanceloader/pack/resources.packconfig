@@ -388,8 +388,8 @@ destination = mods/Armourers-Workshop-1.7.10-0.48.5.jar
 
 [Better Questing]
 type = url
-url = https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.0.360-GTNH-pre/BetterQuesting-1.7.10-3.0.360-GTNH-pre.jar
-destination = mods/BetterQuesting-1.7.10-3.0.360-GTNH-pre.jar
+url = https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.0.363-GTNH/BetterQuesting-1.7.10-3.0.363-GTNH.jar
+destination = mods/BetterQuesting-1.7.10-3.0.363-GTNH.jar
 
 [Better Storage]
 type = url
