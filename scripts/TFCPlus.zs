@@ -824,6 +824,9 @@ recipes.addShaped(<minecraft:minecart>,[[<terrafirmacraftplus:item.Wrought Iron 
 // slime ball from sinew
 mods.Terrafirmacraft.Barrel.addFireRecipe(<minecraft:slime_ball>, null, <terrafirmacraftplus:item.Sinew>*4, <liquid:freshwater>*800, 4000);
 
+// sinew from rotten flesh
+recipes.addShapeless(<terrafirmacraftplus:item.Sinew>, [<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <ore:itemKnife>.transformDamage()]);
+
 //synthetic cryolite
 mods.forestry.Carpenter.addRecipe(<terrafirmacraftplus:item.Ore:312> * 2, [[<teloaddon:Bauxite:100>,<teloaddon:Lye>]], <liquid:hydrofluoricacid> * 50, 50);
 mods.forestry.Carpenter.addRecipe(<terrafirmacraftplus:item.Ore:312> * 2, [[<teloaddon:Bauxite>,<teloaddon:Bauxite>,<teloaddon:Lye>]], <liquid:hydrofluoricacid> * 50, 50);
