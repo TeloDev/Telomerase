@@ -141,8 +141,8 @@ side = client
 
 [InGameXML]
 type = url
-url = https://github.com/GTNewHorizons/InGame-Info-XML/releases/download/2.8.3.91/InGameInfoXML-1.7.10-2.8.3.91.jar
-destination = mods/InGameInfoXML-1.7.10-2.8.3.91.jar
+url = https://github.com/GTNewHorizons/InGame-Info-XML/releases/download/2.8.3.92/InGameInfoXML-1.7.10-2.8.3.92.jar
+destination = mods/InGameInfoXML-1.7.10-2.8.3.92.jar
 side = client
 
 [Schematica]
@@ -355,8 +355,8 @@ destination = mods/CoFHCore-[1.7.10]3.1.4-329.jar
 
 [CTMLib]
 type = url
-url = https://github.com/GTNewHorizons/OpenModsLib/releases/download/0.10.6/OpenModsLibs-1.7.10-0.10.6.jar
-destination = mods/OpenModsLibs-1.7.10-0.10.6.jar
+url = https://github.com/GTNewHorizons/CTMLib/releases/download/1.4.4/CTMLib-1.7.10-1.4.4.jar
+destination = mods/CTMLib-1.7.10-1.4.4.jar
 
 [OpenModsLib]
 type = url
