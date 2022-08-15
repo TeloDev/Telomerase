@@ -38,6 +38,7 @@
 !/config/mcinstanceloader/config.cfg
 !/config/mixingasm/**
 !/config/NEI/**
+!/config/archaicfix.cfg
 !/config/betterstorage.cfg
 !/config/BiblioCraft.cfg
 !/config/bq_standard.cfg

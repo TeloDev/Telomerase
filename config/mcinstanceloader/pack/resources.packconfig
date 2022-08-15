@@ -566,6 +566,11 @@ type = url
 url = https://github.com/jss2a98aj/BugTorch/releases/download/1.1.6/bugtorch-1.7.10-1.1.6.jar
 destination = mods/bugtorch-1.7.10-1.1.6.jar
 
+[ArchaicFix]
+type = url
+url = https://github.com/embeddedt/ArchaicFix/releases/download/0.2.0/archaicfix-mc1.7.10-0.2.0.jar
+destination = mods/archaicfix-mc1.7.10-0.2.0.jar
+
 [Healer]
 type = modrinth
 versionId = FBRCd3oB
