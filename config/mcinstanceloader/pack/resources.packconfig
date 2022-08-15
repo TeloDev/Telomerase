@@ -38,8 +38,8 @@ side = client
 
 [Better Loading Screen]
 type = url
-url = https://github.com/TeloDev/BetterLoadingScreen/releases/download/1.3.33-GTNH-NA/betterloadingscreen-1.7.10-1.3.33-GTNH-NA.jar
-destination = mods/betterloadingscreen-1.7.10-1.3.33-GTNH-NA.jar
+url = https://github.com/TeloDev/BetterLoadingScreen/releases/download/1.3.34-GTNH-NA/betterloadingscreen-1.7.10-1.3.34-GTNH-NA.jar
+destination = mods/betterloadingscreen-1.7.10-1.3.34-GTNH-NA.jar
 side = client
 
 #------------------------------------------------------------------------------------------------------------------------
@@ -354,11 +354,9 @@ sourceFileName = CoFHCore-[1.7.10]3.1.4-329.jar
 destination = mods/CoFHCore-[1.7.10]3.1.4-329.jar
 
 [CTMLib]
-type = curseforge
-projectId = 232154
-fileId = 2273524
-sourceFileName = CTMLib-MC1.7.10-1.4.1.5.jar
-destination = mods/CTMLib-MC1.7.10-1.4.1.5.jar
+type = url
+url = https://github.com/GTNewHorizons/OpenModsLib/releases/download/0.10.6/OpenModsLibs-1.7.10-0.10.6.jar
+destination = mods/OpenModsLibs-1.7.10-0.10.6.jar
 
 [OpenModsLib]
 type = url
@@ -507,8 +505,8 @@ destination = mods/questbook-1.7.10-2.1.3-GTNH.jar
 
 [Storage Drawers]
 type = url
-url = https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.13-GTNH/StorageDrawers-1.7.10-1.11.13-GTNH.jar
-destination = mods/StorageDrawers-1.7.10-1.11.13-GTNH.jar
+url = https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.14-GTNH/StorageDrawers-1.7.10-1.11.14-GTNH.jar
+destination = mods/StorageDrawers-1.7.10-1.11.14-GTNH.jar
 
 [Ships Mod]
 type = url
