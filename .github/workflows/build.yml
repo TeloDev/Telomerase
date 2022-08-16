@@ -40,6 +40,10 @@ jobs:
     name: Server
     runs-on: windows-latest
     steps:
+    - name: Set git to use LF
+      run: |
+        git config --global core.autocrlf false
+        git config --global core.eol lf
     - uses: actions/checkout@v3
     - run: .\config\mcinstanceloader\Pack.bat
     - run: .\CreateServerPack.bat
