@@ -57,7 +57,7 @@ ofSmoothBiomes:true
 ofCustomFonts:true
 ofCustomColors:true
 ofCustomSky:true
-ofShowCapes:true
+ofShowCapes:false
 ofNaturalTextures:false
 ofLazyChunkLoading:false
 ofDynamicFov:true
