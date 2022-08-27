@@ -122,7 +122,7 @@ recipes.addShapeless(<Forestry:beePrincessGE>.withTag({MaxH: 20, Health: 20, IsA
 	"forestry.toleranceNone", Slot: 4 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 5 as byte}, {UID1: "forestry.toleranceNone", UID0: "forestry.toleranceNone", Slot: 7 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 8 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 9 as byte}, {UID1: "forestry.flowersVanilla", UID0: "forestry.flowersVanilla", Slot: 10 as byte}, {UID1: "forestry.floweringSlower", UID0:
 	"forestry.floweringSlower", Slot: 11 as byte}, {UID1: "forestry.territoryAverage", UID0: "forestry.territoryAverage", Slot: 12 as byte}, {UID1: "forestry.effectNone", UID0: "forestry.effectNone", Slot: 13 as byte}]}, Health: 20, IsAnalyzed: 0 as byte, Genome: {Chromosomes: [{UID1: "forestry.speciesForest", UID0: "forestry.speciesForest", Slot: 0 as byte}, {UID1: "forestry.speedSlowest", UID0: "forestry.speedSlowest", Slot: 1 as byte}, {UID1: "forestry.lifespanShorter", UID0:
 	"forestry.lifespanShorter", Slot: 2 as byte}, {UID1: "forestry.fertilityHigh", UID0: "forestry.fertilityHigh", Slot: 3 as byte}, {UID1: "forestry.toleranceNone", UID0: "forestry.toleranceNone", Slot: 4 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 5 as byte}, {UID1: "forestry.toleranceNone", UID0: "forestry.toleranceNone", Slot: 7 as byte}, {UID1: "forestry.boolFalse", UID0: "forestry.boolFalse", Slot: 8 as byte}, {UID1: "forestry.boolFalse", UID0:
-	"forestry.boolFalse", Slot: 9 as byte}, {UID1: "forestry.flowersVanilla", UID0: "forestry.flowersVanilla", Slot: 10 as byte}, {UID1: "forestry.floweringSlower", UID0: "forestry.floweringSlower", Slot: 11 as byte}, {UID1: "forestry.territoryAverage", UID0: "forestry.territoryAverage", Slot: 12 as byte}, {UID1: "forestry.effectNone", UID0: "forestry.effectNone", Slot: 13 as byte}]}}) * 2), <Forestry:scoop:*>.transformDamage()]);
+	"forestry.boolFalse", Slot: 9 as byte}, {UID1: "forestry.flowersVanilla", UID0: "forestry.flowersVanilla", Slot: 10 as byte}, {UID1: "forestry.floweringSlower", UID0: "forestry.floweringSlower", Slot: 11 as byte}, {UID1: "forestry.territoryAverage", UID0: "forestry.territoryAverage", Slot: 12 as byte}, {UID1: "forestry.effectNone", UID0: "forestry.effectNone", Slot: 13 as byte}]}}) * 2)]);
 
 //alveary
 recipes.removeShaped(<Forestry:alveary:0>);
@@ -139,7 +139,7 @@ recipes.removeShaped(<Forestry:apiculture>);
 recipes.addShaped(<Forestry:apiculture>,[[<ore:woodLumber>,<ore:woodLumber>,<ore:woodLumber>],[<ore:plankWood>,<Forestry:impregnatedCasing>,<ore:plankWood>],[<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]]);
 
 //scoop
-recipes.addShaped(<Forestry:scoop>,[[null,<ore:materialString>],[<terrafirmacraftplus:item.stick>,null]]);
+//recipes.addShaped(<Forestry:scoop>,[[null,<ore:materialCloth>],[<terrafirmacraftplus:item.stick>,null]]);
 
 <ore:combBee>.add(<Forestry:beeCombs:0>);
 <ore:combBee>.add(<Forestry:beeCombs:3>);

@@ -2,7 +2,7 @@
 Forestry:[
     {hide:[[crated*,*BagT2,soil,resources,resourceStorage,beehives,candle,stump,beeLarvaeGE,fruits,fertilizerBio,fertilizerCompound,apatite,researchNote,ingotCopper,ingotTin,
     ingotBronze,crate,waxCast,carton,kit*,bronzePickaxe,bronzeShovel,brokenBronzePickaxe,brokenBronzeShovel,can*,refractory*,waxCapsule*,bucket*,*Wheat,frameProven,
-	iodineCapsule,alveary,core,beealyzer,chipsets,solderingIron,thermionicTubes,mulch,phosphor,sturdyMachine,hardenedMachine,habitatLocator,gearTin,honeydew,beeswax],[]]};
+	iodineCapsule,alveary,core,beealyzer,chipsets,solderingIron,thermionicTubes,mulch,phosphor,sturdyMachine,hardenedMachine,habitatLocator,gearTin,honeydew,beeswax,scoop],[]]};
     {hide:[[factory],[4,7]]};
     {hide:[[craftingMaterial],[]]};
     {keep:[[propolis,pollen],[0]]};
