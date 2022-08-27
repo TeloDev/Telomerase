@@ -13,6 +13,7 @@ itemStrawHat.add(<terrafirmacraftplus:item.Straw Hat2>);
 <ore:itemFurHood>.add(<terrafirmacraftplus:item.Wolf Fur Hat>);
 
 <ore:fenceWood>.add(<minecraft:fence>);
+<ore:fenceWood>.add(<terrafirmacraftplus:Fence3>);
 
 <ore:oreSmallCopper>.add(<terrafirmacraftplus:item.Small Ore:16>);
 <ore:oreSmallCopper>.add(<terrafirmacraftplus:item.Small Ore:17>);
