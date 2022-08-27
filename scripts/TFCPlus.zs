@@ -3,7 +3,10 @@ import minetweaker.oredict.IOreDictEntry;
 //remove all furnace recipes
 furnace.remove(<*>);
 //add a dummy recipe to avoid NEI divide by zero
-furnace.addRecipe(<minecraft:dirt>,<minecraft:dirt>);
+furnace.addRecipe(<betterquesting:placeholder>,<betterquesting:placeholder>);
+//log localization
+game.setLocalization("item.Log.name", "Log");
+
 //make high tier tools require better tool rods. Thanks Autrey
 recipes.removeShaped(<terrafirmacraftplus:item.Steel ProPick>, [[<terrafirmacraftplus:item.Steel ProPick Head>], [<ore:stickWood>]]);
 recipes.addShaped(<terrafirmacraftplus:item.Steel ProPick>, [[<terrafirmacraftplus:item.Steel ProPick Head>], [<ImmersiveEngineering:material>]]);
