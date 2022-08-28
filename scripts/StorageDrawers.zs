@@ -16,11 +16,11 @@ recipes.removeShaped(<StorageDrawers:fullCustom4>);
 recipes.removeShaped(<StorageDrawers:trimCustom>);
 
 // trim
-recipes.addShaped(<StorageDrawers:trim>, [[<ore:plankTreatedWood>, <ore:treatedStick>, <ore:plankTreatedWood>], [<ore:treatedStick>, null, <ore:treatedStick>], [<ore:plankTreatedWood>, <ore:treatedStick>, <ore:plankTreatedWood>]]);
+recipes.addShaped(<StorageDrawers:trim>*4, [[<ore:plankTreatedWood>, <ore:treatedStick>, <ore:plankTreatedWood>], [<ore:treatedStick>, null, <ore:treatedStick>], [<ore:plankTreatedWood>, <ore:treatedStick>, <ore:plankTreatedWood>]]);
 
 // framing table
 recipes.removeShaped(<StorageDrawers:framingTable>);
-recipes.addShaped(<StorageDrawers:framingTable>, [[<ore:plankTreatedWood>, <StorageDrawers:trim>, <ore:plankTreatedWood>], [<ore:treatedStick>, null, <ore:treatedStick>]]);
+recipes.addShaped(<StorageDrawers:framingTable>, [[<StorageDrawers:trim>, <StorageDrawers:trim>, <StorageDrawers:trim>], [<ore:treatedStick>, null, <ore:treatedStick>]]);
 
 // framed drawers
 recipes.addShaped(<StorageDrawers:fullCustom2>, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], [<ore:stickWood>, <StorageDrawers:fullDrawers2>, <ore:stickWood>], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
