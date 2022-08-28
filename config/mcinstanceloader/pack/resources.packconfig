@@ -134,9 +134,9 @@ side = client
 
 [MAtmos]
 type = modrinth
-versionId = CKQrNJKq
-sourceFileName = matmos-1.7.10-35.4.3.jar
-destination = mods/matmos-1.7.10-35.4.3.jar
+versionId = Iwnl1FCo
+sourceFileName = matmos-1.7.10-35.4.5.jar
+destination = mods/matmos-1.7.10-35.4.5.jar
 side = client
 
 [InGameXML]
@@ -259,9 +259,9 @@ destination = mods/TerraFirmaCraftPlusNEIplugin-1.7.10-1.8.0.jar
 
 [TFC+ Aesthetics]
 type = modrinth
-versionId = 798lYxWi
-sourceFileName = TFCPlusAesthetics-1.6.3.jar
-destination = mods/TFCPlusAesthetics-1.6.3.jar
+versionId = SUHK2sfi
+sourceFileName = TFCPlusAesthetics-1.6.4.jar
+destination = mods/TFCPlusAesthetics-1.6.4.jar
 
 [Telomerase Addon]
 type = modrinth
