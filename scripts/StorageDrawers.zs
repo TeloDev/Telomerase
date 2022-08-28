@@ -1,3 +1,9 @@
+//rename
+<StorageDrawers:fullDrawers1>.displayName = "Drawer";
+<StorageDrawers:fullDrawers2>.displayName = "Drawers 1x2";
+<StorageDrawers:fullDrawers4>.displayName = "Drawers 2x2";
+<StorageDrawers:trim>.displayName = "Trim";
+
 //drawers removal
 recipes.removeShaped(<StorageDrawers:fullDrawers1:*>);
 recipes.removeShaped(<StorageDrawers:fullDrawers2:*>);
@@ -10,11 +16,11 @@ recipes.removeShaped(<StorageDrawers:fullCustom4>);
 recipes.removeShaped(<StorageDrawers:trimCustom>);
 
 // trim
-recipes.addShaped(<StorageDrawers:trim>, [[<ore:stickWood>, <ore:plankWood>, <ore:stickWood>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:stickWood>, <ore:plankWood>, <ore:stickWood>]]);
+recipes.addShaped(<StorageDrawers:trim>, [[<ore:plankTreatedWood>, <ore:treatedStick>, <ore:plankTreatedWood>], [<ore:treatedStick>, null, <ore:treatedStick>], [<ore:plankTreatedWood>, <ore:treatedStick>, <ore:plankTreatedWood>]]);
 
 // framing table
 recipes.removeShaped(<StorageDrawers:framingTable>);
-recipes.addShaped(<StorageDrawers:framingTable>, [[<StorageDrawers:trim>, <StorageDrawers:trim>, <StorageDrawers:trim>], [<StorageDrawers:trim>, null, <StorageDrawers:trim>]]);
+recipes.addShaped(<StorageDrawers:framingTable>, [[<ore:plankTreatedWood>, <StorageDrawers:trim>, <ore:plankTreatedWood>], [<ore:treatedStick>, null, <ore:treatedStick>]]);
 
 // framed drawers
 recipes.addShaped(<StorageDrawers:fullCustom2>, [[<ore:stickWood>, <ore:stickWood>, <ore:stickWood>], [<ore:stickWood>, <StorageDrawers:fullDrawers2>, <ore:stickWood>], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);

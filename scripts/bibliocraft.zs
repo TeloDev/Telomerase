@@ -1,3 +1,30 @@
+//rename
+<BiblioCraft:BiblioPaneler>.displayName = "Furniture Paneler";
+<BiblioCraft:BiblioClock>.displayName = "Pendulum Clock";
+<BiblioCraft:BiblioClock:6>.displayName = "Framed Pendulum Clock";
+<BiblioCraft:BiblioFlatPainting>.displayName = "Painting Frame";
+<BiblioCraft:BiblioFancySign>.displayName = "Fancy Sign";
+<BiblioCraft:BiblioWorkbench>.displayName = "Fancy Workbench";
+<BiblioCraft:Bibliotheca>.displayName = "Bookcase";
+<BiblioCraft:BiblioPotionShelf>.displayName = "Bottle Shelf";
+<BiblioCraft:BiblioPotionShelf:6>.displayName = "Framed Bottle Shelf";
+<BiblioCraft:BiblioShelf>.displayName = "Shelf";
+<BiblioCraft:BiblioRack>.displayName = "Fancy Tool Rack";
+<BiblioCraft:BiblioRack:6>.displayName = "Framed Fancy Tool Rack";
+<BiblioCraft:BiblioCase>.displayName = "Case";
+<BiblioCraft:BiblioLabel>.displayName = "Label";
+<BiblioCraft:BiblioDesk>.displayName = "Desk";
+<BiblioCraft:BiblioTable>.displayName = "Table";
+<BiblioCraft:BiblioMapFrames>.displayName = "Map Frame";
+<BiblioCraft:BiblioSeats>.displayName = "Seat";
+<BiblioCraft:item.seatBack>.displayName = "Seat Back";
+<BiblioCraft:item.seatBack2>.displayName = "Seat Back";
+<BiblioCraft:item.seatBack3>.displayName = "Seat Back";
+<BiblioCraft:item.seatBack4>.displayName = "Seat Back";
+<BiblioCraft:item.seatBack5>.displayName = "Seat Back";
+game.setLocalization("tile.BiblioClipboard.name", "Clipboard");
+
+//remove
 recipes.removeShaped(<BiblioCraft:item.FramingSaw>);
 recipes.removeShapeless(<BiblioCraft:item.FramingBoard>);
 recipes.removeShapeless(<BiblioCraft:item.FramingSheet>);
