@@ -379,7 +379,6 @@ type = modrinth
 versionId = m5d6TSCW
 sourceFileName = falsepatternlib-mc1.7.10-0.9.4.jar
 destination = mods/falsepatternlib-mc1.7.10-0.9.4.jar
-side = client
 
 #------------------------------------------------------------------------------------------------------------------------
 #Content Mods
