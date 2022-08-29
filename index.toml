@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".github/workflows/build.yml"
+hash = "b57f91c64b14410a8d1f74178922c01da306b70ca7c57bf8001639243005588a"
+
+[[files]]
 file = "LICENSE"
 hash = "e557f6f9724d7f778ea7ee7d177040dacabc978a1d190ec97bc52ec11db4ac62"
 
@@ -450,7 +454,7 @@ hash = "346446cc02ffa924eb8c98361daa9272664fdd54a7de84c2ecde84189eace734"
 
 [[files]]
 file = "config/LegibleNei/filters/Forestry.json"
-hash = "1ea007416e35bc7eed06d12633e8e28951f8a958111999c878352cec2e429856"
+hash = "ce28158bdf3682f733738c1a28ad982cfd50bb8646b939f5af0880e40b6cbab1"
 
 [[files]]
 file = "config/LegibleNei/filters/Gravestones.json"
@@ -486,7 +490,7 @@ hash = "994aefd22f4292465758ca8a02cb7385bb30d476035b94b8bbbf00b1ab1cf4ab"
 
 [[files]]
 file = "config/LegibleNei/filters/etfuturum.json"
-hash = "93df399cd89ab9740694206791b4a24d090fd4a4b6d68f7a5a568f6a479728aa"
+hash = "4bc3684f9f670960c925ee1460dbb05bd22c8a1026a8fd31fc3e90849e380105"
 
 [[files]]
 file = "config/LegibleNei/filters/minecraft.json"
@@ -506,7 +510,7 @@ hash = "c6ff405dd927c5a3031bb248be3cdbe767492611b9d55c35089174817a631e8b"
 
 [[files]]
 file = "config/NEI/catalysts.csv"
-hash = "4f9cf50c310bd5c38d1e54a12996e1864621b1dbb2dc98bc2da451505106f3f8"
+hash = "c78f3d7d736f40b87d6676eeed6bf9f33539b752fd914bffc5aea53152b9a855"
 
 [[files]]
 file = "config/NEI/client.cfg"
@@ -569,6 +573,10 @@ file = "config/YABM.cfg"
 hash = "4e50cad792623793a2a31149dd8021d696ec9962aa12b3c878c6faa50fbb881b"
 
 [[files]]
+file = "config/archaicfix.cfg"
+hash = "fbe73c5344b2f3c096c513183d904fc7695e56b7a6d53a6d2fe21777cbcd0199"
+
+[[files]]
 file = "config/armourersWorkshop/client.cfg"
 hash = "e1caea7ab9be6f69e9c0e3f4046d2ca3c8372b296af325c20d25e7799e174e6e"
 
@@ -586,7 +594,7 @@ hash = "c011a6635ae2e1b1b05f5fd327cdfe547b4e20da1f13af52706d66898d49b20d"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests.json"
-hash = "9819f374840eb68689d462f69fd1bee8fd849f3727f90dfacb155dfe228647f5"
+hash = "fa181c3785b32ede305c9eec714c0b7a511c26efef8353a62310a100ef37f527"
 
 [[files]]
 file = "config/betterquesting/questbook.cfg"
@@ -646,7 +654,7 @@ hash = "60b89b49e3eb3381c1765a4ce3c64aa2b5ea1258697af7c413bc2a3df7c454a6"
 
 [[files]]
 file = "config/coretweaks.cfg"
-hash = "63ec6ba568933f64e25f764e3d9b6bc5e260a653cec7ac73efc1a768ba6509d8"
+hash = "48bb5a34780a8dcf1f4a433eee82af258bb24cfe97838ab48f9b3b3f1bc97c16"
 
 [[files]]
 file = "config/craftpresence.properties"
@@ -666,7 +674,7 @@ hash = "fef3df5a7d90f808722558c90d580008add57bcea8ba52117addb6dfd468e3f0"
 
 [[files]]
 file = "config/defaultoptionsof.txt"
-hash = "f7919a1f694c938828ff36e7bd18316a408468c4a1032417c39ef9fe8e3ce0a4"
+hash = "77e6caa5965d43ef7bd5468b58e3d56b1a2a46ed99b65340cfaa0fd6e729583e"
 
 [[files]]
 file = "config/dsurround/dsurround.cfg"
@@ -674,7 +682,7 @@ hash = "bff4ab0d75a5e6595e632c9346d36cb2eb483ce01776e24be5db9304fa7a1038"
 
 [[files]]
 file = "config/endercore/endercore.cfg"
-hash = "2170e3c229f32a5d0abeac20ef4b9d03a036034e95f6c7591f06329c906c374a"
+hash = "84768e82f5febe4dcc6343ff506089c420ec9a59a5510a201087daa58483baf3"
 
 [[files]]
 file = "config/etfuturum/blocksitems.cfg"
@@ -703,6 +711,10 @@ hash = "ccc45cbe15fd9eabcadfc8a9e778f7ab274a7575ac2d1899ce6e155aad736658"
 [[files]]
 file = "config/etfuturum/world.cfg"
 hash = "24d906d554e9ec082c9a2979f4d532199a1ab0f1d079f6be6308f147e8459933"
+
+[[files]]
+file = "config/falsepatternlib.cfg"
+hash = "934759aad2e96387f824ad37565ff1d4359b16ff1bf2e3c99df0ef8ab840813b"
 
 [[files]]
 file = "config/forestry/apiculture.cfg"
@@ -757,10 +769,6 @@ file = "config/mcinstanceloader/config.cfg"
 hash = "5197566bb919432f4ec0ca66a12cca4b14febcd3852a2240ab8a3c34092e1eed"
 
 [[files]]
-file = "config/mcinstanceloader/pack.mcinstance"
-hash = "55dadaf521df2c207f8c10ced821af102668787d1dca9166cd30ed050a9eb2be"
-
-[[files]]
 file = "config/mixingasm/transformer_exclusion_list.txt"
 hash = "3dcc859696ac82ea8975e962574c186ddf4228dee13cb81850b1fdbd18a808ce"
 
@@ -782,7 +790,7 @@ hash = "40f7f46696af11e88a1bd76bdfa0f9e44c4b58172f5c0fb3fb44fa11117d4f68"
 
 [[files]]
 file = "mods/mcinstance-loader.pw.toml"
-hash = "422f0f7b71f8036eb1b74076997b8b7e364e194665bd38913d4e5cf6ef44dd2a"
+hash = "cbc7253fe7ad0bb6ee7d3b83d769cfe659f0db965f374efd129b4af86245c8ef"
 metafile = true
 
 [[files]]
@@ -7800,6 +7808,10 @@ hash = "7a9ae6c20397c4729126cdef4019d601e72f5e2b78c3d414fcfb58d355535699"
 [[files]]
 file = "resourcepacks/TelomeraseResources/assets/immersiveengineering/textures/gui/blastFurnace.png"
 hash = "d8de1b0e043e73d1e554ff0ae2944c40ff108ebb32a9b25a459f022e4d9f1006"
+
+[[files]]
+file = "resourcepacks/TelomeraseResources/assets/immersiveengineering/textures/items/metal_ingotHOPGraphite.png"
+hash = "ecd955c78c20449c241e006465d5aceaaaf4042490ab163ecef98f2e62586a6d"
 
 [[files]]
 file = "resourcepacks/TelomeraseResources/assets/openblocks/textures/blocks/bigbutton.png"
@@ -20847,19 +20859,19 @@ hash = "bfb2ce418f7b903c2d8bad2bb7e2073d46446426602f6ed4c87418054b0099b2"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Bismuth Bronze Double Ingot.png"
-hash = "a65c26ebda5cbc42d12ac5c6d6aebb5d251d2f179218434688f87fdc7f799424"
+hash = "5d838e18d9f8a910ec7d121108b773030c8b80cc09f9e9e610b738e78e2bcff2"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Bismuth Bronze Double Sheet.png"
-hash = "8a22c6fbd48be9554499a14ee13aba9e11fbeacab04faf05053f0fe0c792bff8"
+hash = "58d6c48ad44c6cf998e61f6aef228a90e13eff8edf1fe1036a61bc621580111b"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Bismuth Bronze Ingot.png"
-hash = "e4c199ca8130abaad42af2d72fc849012bd044f9be0ec41bd077320a19ce81c1"
+hash = "8c4db09b2ba0e1b49a164df892a09b6d195f76fb4c122c5e55652c723e7ba60a"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Bismuth Bronze Sheet.png"
-hash = "8a2ef2d04ffbb76b4864925080e517c62ded213fd9e3ecedf4d854d8e1b10018"
+hash = "c596ea60a539077fac7581ba2c4e89bc13e572226dc8f794ccf09b180938396d"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Bismuth Bronze Unshaped.png"
@@ -20887,7 +20899,7 @@ hash = "e4fc90f371f3c73e5d5f0a5749e42936fb453d9d37124dc60e97fa2e6e9160c6"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Black Bronze Double Ingot.png"
-hash = "71f4e2df71735208218dff72e5bf6f4911bcb7faebc569f7386370339f5a1fa4"
+hash = "ac35d47e321d0b1f9ccf454cd98fbaa33931837d22d8993f1b777e2ca7edf27b"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Black Bronze Double Sheet.png"
@@ -20907,7 +20919,7 @@ hash = "452badafed6095b54d70b6e5eb1fd03f838abad963848673a38446d55800f278"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Black Steel Double Ingot.png"
-hash = "e4188ad6960ef4825a74ef68ae29fc962de820d941fae9aa6f09c10a56cc7d4e"
+hash = "63470569b5c0f8f39cd0ed48d8d22b99a4ccef34ab3f0bc552cbdc44c853e13f"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Black Steel Double Sheet.png"
@@ -20931,7 +20943,7 @@ hash = "c005ec081e2ba6fb2d88f1acd30923084472d118f3e5e68fcc6e1515509a4e10"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Blue Steel Double Ingot.png"
-hash = "ef8bacee86347f94dadb003b7e5890fd4096772f3093760633dad4cc14e8ac68"
+hash = "7de248d47bcc4b32ea8194033f63debe5d92aeb5297aa365d8b9f33c1f796d2b"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Blue Steel Double Sheet.png"
@@ -20955,7 +20967,7 @@ hash = "838ea25d7c3c5f861766b2a3988187b5ee333fd93d7ea6998af1394460b96580"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Brass Double Ingot.png"
-hash = "719bc36b84b5ecfbecb92f83b1ab62bf81721ebed427146205b384eee06165a7"
+hash = "4e1b9932402ea21d8f20fc48a7eb1b6c3b6d741e03b3df668e0e81b8b020d9e8"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Brass Double Sheet.png"
@@ -21031,7 +21043,7 @@ hash = "61d0f6f6b3ffc8233a9b693c57852bf33f68f76474d07cae19990ab313ff6fd2"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Gold Double Ingot.png"
-hash = "b50f88720cb10e5c777ff42fd5c7d122c79a02f3815b1c249a4f548f0041b21d"
+hash = "9f2ff113052a12a7fac94a4d4befb2ba0bc35b0d88f6630f8a1b2ac3858f6f28"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Gold Double Sheet.png"
@@ -21063,7 +21075,7 @@ hash = "98210c6eea0b76beb85e74b60bfba801a01a3aadc02314f64efab9689354185a"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Lead Double Ingot.png"
-hash = "cf3a599126db3576b24f8030c5a83c498bac041ffa146301e02b5395eaa602a3"
+hash = "336f51dce1ff58aa60e0479480d5611236f0b6a86015d8eddbb4775f7ee27d6b"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Lead Double Sheet.png"
@@ -21083,7 +21095,7 @@ hash = "78d27eafd3ace32466f8d73f701e868e219ce2ad4bb585fc53d4b001be332210"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Nickel Double Ingot.png"
-hash = "2debe9946e2baec290e4dde329a35065e983bad0eb275d7af33134907979b54d"
+hash = "2c885a30694c2f63e61d8dcebce71f6c79b86e02d627dd3faf264c4cd7219880"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Nickel Double Sheet.png"
@@ -21103,7 +21115,7 @@ hash = "46d570a0de139572d7ca743f8df5619e43e2f9b174871c7d2f4e1d9ae327e00b"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Pig Iron Double Ingot.png"
-hash = "567bbdc9ab980373e4374e73a3cb77bf0cf2511ce3c644b0f081b9d9dbc8fd47"
+hash = "4a88d8642b8799b198217066a366943d01b0934d9abfbd13a35e948bf3351194"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Pig Iron Double Sheet.png"
@@ -21127,7 +21139,7 @@ hash = "ab68eec30abdc05676c6d70258bf4eb912ae83c48cf62e6435661aa22781ecc4"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Platinum Double Ingot.png"
-hash = "8b4908c253f63ee8355ee919395398140dcb9460530e73e97887e7ef2ba9bd62"
+hash = "fb22cd3f44567882817fb7f2d40f9a925d1f5209662b21f3d3b360fd58ac1143"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Platinum Double Sheet.png"
@@ -21151,7 +21163,7 @@ hash = "cfcc6af60a40967c9d7db5553be03df25e99acc2f5d5524012e5ec9c54dd0bed"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Red Steel Double Ingot.png"
-hash = "08c7f9e1bc53214f72871d21b362574ac4dfd4232b04811338f1277ca48e6c03"
+hash = "60c90832bba86b36e14ab07a3e86a39a6751c625063827d1cc54c4d92a88ab6a"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Red Steel Double Sheet.png"
@@ -21171,7 +21183,7 @@ hash = "9578cf229184e7122524f27097d3a0d6aa8536bb9be352386d1a173505c45c9b"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Rose Gold Double Ingot.png"
-hash = "529109f45345ef97d65e8166ae768507f55807bf6cd9de68637c343f7b0c53f1"
+hash = "b1684f010f02082e12a79b2b46d3b00afa68ff02ea8cbe88abcb2ec7d2dfa8ac"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Rose Gold Double Sheet.png"
@@ -21195,7 +21207,7 @@ hash = "f88561bb715b81f8019ef56d6706b0392c54bed5c649907924fd008aa6e4dece"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Silver Double Ingot.png"
-hash = "48e2496f85fbd30448ecec8c84a10e9d25593f901972f2611bac1bb9f1fff298"
+hash = "7c2c602c662ce07c4f7b33d2405594f5ae4bf2a73ed69dee65ebd7ebd9791b7e"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Silver Double Sheet.png"
@@ -21215,7 +21227,7 @@ hash = "fe4994f1335711099a5f1984929cf94327d4e074a4b73f6151886c595dd826b4"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Steel Double Ingot.png"
-hash = "c7ad6136b78ce6a206bdaceadd72226b3b775cfe2de29ae4d78430b07a5719f9"
+hash = "307e129631645e4c58a5fea7ff0d32a382cceeac1d5c9b12be0b7e372c6d527b"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Steel Double Sheet.png"
@@ -21235,7 +21247,7 @@ hash = "05d50ec3a0ddc788703f3b73b7301a2d477d16c024fbf58b1f5cfb5e16e5ad74"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Sterling Silver Double Ingot.png"
-hash = "b1fc55450d949d1c31ff7c7ea5ddf6789128591a6d49e46569883dd4a3be2034"
+hash = "803a98c5d49c5b143e205e219e23f917dcdcf2a81b621828fe606e71dc3d70e7"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Sterling Silver Double Sheet.png"
@@ -21255,7 +21267,7 @@ hash = "4774fb34a55a0df71e413b868fff384f5c0558e09d7f4d2ea28ebd30d9a3247f"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Tin Double Ingot.png"
-hash = "715b48e42833ca0c5d2313e9c7538a8b442d351476adea1f78bb979331738004"
+hash = "b136fc911939bd91ce94bec2da2e260021b027bc75f91363b131708d7ee728a1"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Tin Double Sheet.png"
@@ -21315,7 +21327,7 @@ hash = "9e3523d572e6e314cc045994b2a3ca07039ae5961c529ffe43751358c16c7d4b"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Zinc Double Ingot.png"
-hash = "6bedc6988778fe1c06be2cf572dbdb4d1de5add759645cc6e87fc6c81a71d102"
+hash = "6c2694afe889a3c1e93cce7234570052794bd09e427df449d8bfaa379c6168b1"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/terrafirmacraftplus/textures/items/ingots/Zinc Double Sheet.png"
@@ -25679,7 +25691,7 @@ hash = "6338ec6ef56ce0c0332a05a3f08f0b0116e207832646461ffafb8c90782a8885"
 
 [[files]]
 file = "scripts/BetterQuesting.zs"
-hash = "1e8d13fe0acc073182b4aa039d8e3495abcbfb598ea7c6642ad109b947a7604e"
+hash = "28b3037118ab48554936749b0cea45e21c570cc6769f70434de019b4f70fd939"
 
 [[files]]
 file = "scripts/BetterStorage.zs"
@@ -25695,7 +25707,7 @@ hash = "439e3a2fc970b0372d28d871e00c78479eabdd2654f043c95955fcf56ea8f3ea"
 
 [[files]]
 file = "scripts/EtFuturum.zs"
-hash = "a842c83003de33540fa86f849187c126dd63112097c42ec313205f6ad3c3a3d0"
+hash = "19b20a90e486ac2a36443fbb03bb4cda5269e2bc53cca64f8dbfb3a3fdb019f7"
 
 [[files]]
 file = "scripts/HopperDucts.zs"
@@ -25723,11 +25735,11 @@ hash = "508b9503634d4bab0643a259d8cc68b237f6dc629256f4f048c68028fb61a5f5"
 
 [[files]]
 file = "scripts/StorageDrawers.zs"
-hash = "e7ac71c8fc6c2b86ed7e07da312f2d7bf0ab0d4d3620d569f967924a4c577e11"
+hash = "f96f000189655aad7c26d0775731d9131df04abd4d6a6a31a7cefabb287fae10"
 
 [[files]]
 file = "scripts/TFCPlus.zs"
-hash = "deeaa33b5230e23bd36ad92a66f7f7453586d8a0b1d7780eafd5cfc3e154fa67"
+hash = "ca5bf62abb3d00f74bcd10581639e2b653fb43d1ec0bcb9e42c0db2c44b5da9c"
 
 [[files]]
 file = "scripts/TeloAddon.zs"
@@ -25739,7 +25751,7 @@ hash = "f65a85ff959dab79299f8377067df34450cea6efbaceb5c4470e33ba33358c6a"
 
 [[files]]
 file = "scripts/bibliocraft.zs"
-hash = "8243160e40c63cc1af300018e1f70a1f683571ca3dd7975f3744d1df6862c1b3"
+hash = "95c922543d4c164f81ac02bea1a7bb2241066f3e9bb47c80656edd910300b70a"
 
 [[files]]
 file = "scripts/dakimakura.zs"
@@ -25747,7 +25759,7 @@ hash = "2bca31526e6d5957c25223cfeacc84caa3f3c70bc04ccfeeca2dba65b28b9409"
 
 [[files]]
 file = "scripts/forestry.zs"
-hash = "01f5a5775471b8b04246b7872a31d7e87738698ea321c1a71cb695aa34b60438"
+hash = "484d328d8b157d0e077c99c1d0d9b5ed56fc7c6e411e40ce1ade6989777f75d1"
 
 [[files]]
 file = "scripts/immersiveRailroading.zs.disabled"

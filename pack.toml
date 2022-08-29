@@ -1,12 +1,12 @@
 name = "Telomerase"
 author = "FaceTorched, Yeahminecraft16, Jerome226"
-version = "1.20"
+version = "1.20.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "24183de70276a38274c00dd7456cf826c6e77b2003c137ed1b12803ca1481918"
+hash = "8ffabf723eef560e9e6b566fe04e2b6b15500534e7dfdd17d4d53e99a2054001"
 
 [versions]
 forge = "10.13.4.1614"
