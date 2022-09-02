@@ -154,7 +154,7 @@ recipes.addShapeless(<terrafirmacraftplus:item.HoneyBowl:1>,[<ore:combBee>,<ore:
 
 recipes.removeShapeless(<terrafirmacraftplus:item.Ceramic Bucket Honey>);
 recipes.removeShapeless(<terrafirmacraftplus:item.Wooden Bucket Honey>);
-recipes.addShapeless(<terrafirmacraftplus:item.Ceramic Bucket Honey>,[<ore:combBee>,<ore:combBee>,<ore:combBee>,<ore:combBee>,<terrafirmacraftplus:item.Ceramic Bucket Empty>,<ore:itemKnife>]);
+recipes.addShapeless(<terrafirmacraftplus:item.Ceramic Bucket Honey>,[<ore:combBee>,<ore:combBee>,<ore:combBee>,<ore:combBee>,<terrafirmacraftplus:item.Ceramic Bucket Empty>,<ore:itemKnife>.transformDamage().giveBack(<terrafirmacraftplus:item.EmptyHoneycomb> * 4)]);
 //recipes.addShapeless(<terrafirmacraftplus:item.Ceramic Bucket Honey>,[<Forestry:honeyDrop>,<Forestry:honeyDrop>,<Forestry:honeyDrop>,<Forestry:honeyDrop>,<terrafirmacraftplus:item.Ceramic Bucket Empty>]);
 recipes.addShapeless(<terrafirmacraftplus:item.Wooden Bucket Honey>,[<ore:combBee>,<ore:combBee>,<ore:combBee>,<ore:combBee>,<terrafirmacraftplus:item.Wooden Bucket Empty>,<ore:itemKnife>]);
 //recipes.addShapeless(<terrafirmacraftplus:item.Wooden Bucket Honey>,[<Forestry:honeyDrop>,<Forestry:honeyDrop>,<Forestry:honeyDrop>,<Forestry:honeyDrop>,<terrafirmacraftplus:item.Wooden Bucket Empty>]);
