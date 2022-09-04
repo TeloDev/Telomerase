@@ -134,9 +134,9 @@ side = client
 
 [MAtmos]
 type = modrinth
-versionId = Iwnl1FCo
-sourceFileName = matmos-1.7.10-35.4.5.jar
-destination = mods/matmos-1.7.10-35.4.5.jar
+versionId = zyIFTDUI
+sourceFileName = matmos-1.7.10-35.4.6+nomixin.jar
+destination = mods/matmos-1.7.10-35.4.6+nomixin.jar
 side = client
 
 [InGameXML]
