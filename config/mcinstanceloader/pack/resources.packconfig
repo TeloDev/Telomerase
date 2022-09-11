@@ -134,9 +134,9 @@ side = client
 
 [MAtmos]
 type = modrinth
-versionId = zyIFTDUI
-sourceFileName = matmos-1.7.10-35.4.6+nomixin.jar
-destination = mods/matmos-1.7.10-35.4.6+nomixin.jar
+versionId = 3WBCx6r6
+sourceFileName = matmos-1.7.10-35.4.7+nomixin.jar
+destination = mods/matmos-1.7.10-35.4.7+nomixin.jar
 side = client
 
 [InGameXML]
@@ -259,9 +259,9 @@ destination = mods/TerraFirmaCraftPlusNEIplugin-1.7.10-1.8.0.jar
 
 [TFC+ Aesthetics]
 type = modrinth
-versionId = SUHK2sfi
-sourceFileName = TFCPlusAesthetics-1.6.4.jar
-destination = mods/TFCPlusAesthetics-1.6.4.jar
+versionId = 7TEhSsD1
+sourceFileName = TFCPlusAesthetics-1.6.5.jar
+destination = mods/TFCPlusAesthetics-1.6.5.jar
 
 [Telomerase Addon]
 type = modrinth
@@ -308,9 +308,9 @@ destination = mods/journeymap-1.7.10-5.1.4p2-unlimited.jar
 [JourneyMap QOL Additions]
 type = curseforge
 projectId = 621947
-fileId = 3807189
-sourceFileName = JourneyMapQol_1.7.10-0.8.8.jar
-destination = mods/JourneyMapQol_1.7.10-0.8.8.jar
+fileId = 3966316
+sourceFileName = JourneyMapQol_1.7.10-0.8.9.jar
+destination = mods/JourneyMapQol_1.7.10-0.8.9.jar
 
 [YABM]
 type = curseforge
@@ -544,9 +544,8 @@ destination = mods/mobspawningfix-1.0a.jar
 
 [Core Tweaks]
 type = url
-url = https://github.com/makamys/CoreTweaks/releases/download/v0.2.5/CoreTweaks-1.7.10-0.2.5.jar
-destination = mods/CoreTweaks-1.7.10-0.2.5.jar
-side = client
+url = https://github.com/makamys/CoreTweaks/releases/download/v0.2.6_1/CoreTweaks-1.7.10-0.2.6_1.jar
+destination = mods/CoreTweaks-1.7.10-0.2.6_1.jar
 
 [FastCraft]
 type = curseforge
