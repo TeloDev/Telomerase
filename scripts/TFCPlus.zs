@@ -1,5 +1,8 @@
 import minetweaker.item.IItemStack;
 import minetweaker.oredict.IOreDictEntry;
+// TEMPORARY
+recipes.addShaped(<minecraft:ender_pearl>,[[null,<ore:gemChipped>,null,],[<ore:gemChipped>,<minecraft:slime_ball>,<ore:gemChipped>],[null,<ore:gemChipped>,null,]]);
+<minecraft:ender_pearl>.addTooltip(format.red("placeholder recipe"));
 //remove all furnace recipes
 furnace.remove(<*>);
 //add a dummy recipe to avoid NEI divide by zero
