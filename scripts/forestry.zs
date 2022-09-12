@@ -357,6 +357,7 @@ var distilledAlcohols = [<liquid:tequila>, <liquid:barleywhiskey>, <liquid:vodka
 
 for alcohol in distilledAlcohols{
 	mods.forestry.Still.addRecipe(<liquid:ethanol> * 5, alcohol * 10, 100);
+	mods.Terrafirmacraft.Barrel.addFireDistillationRecipe(<liquid:ethanol>*5, alcohol*10, 200);
 }
 
 var distilledAlcoholsIndex = [<liquid:tequila>, <liquid:barleywhiskey>, <liquid:vodka>, <liquid:berrybrandy>, <liquid:rum>, <liquid:fruitbrandy>, <liquid:applejack>,
