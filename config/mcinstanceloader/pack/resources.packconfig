@@ -507,10 +507,12 @@ type = url
 url = https://github.com/GTNewHorizons/StorageDrawers/releases/download/1.11.14-GTNH/StorageDrawers-1.7.10-1.11.14-GTNH.jar
 destination = mods/StorageDrawers-1.7.10-1.11.14-GTNH.jar
 
-[Ships Mod]
-type = url
-url = https://github.com/TeloDev/Cuchaz-Ships/releases/download/1.1.2/cuchaz.ships-1.7.10-1.1.2.jar
-destination = mods/cuchaz.ships-1.7.10-1.1.2.jar
+[Cuchaz Ships Unofficial]
+type = curseforge
+projectId = 687501
+fileId = 4028099
+sourceFileName = cuchaz.ships-1.7.10-1.1.4.jar
+destination = mods/cuchaz.ships-1.7.10-1.1.4.jar
 
 [Better Questing - Standard Expansion]
 type = url
