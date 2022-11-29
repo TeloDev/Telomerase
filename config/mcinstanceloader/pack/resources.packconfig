@@ -84,6 +84,14 @@ sourceFileName = CraftPresence-Forge-1.7.10-Release-1.8.9.jar
 destination = mods/CraftPresence-Forge-1.7.10-Release-1.8.9.jar
 side = client
 
+[NoSecrets]
+type = curseforge
+projectId = 711519
+fileId = 4111188
+sourceFileName = NoSecrets-Forge-1.7.10-1.0.0.jar
+destination = mods/NoSecrets-Forge-1.7.10-1.0.0.jar
+side = client
+
 [ReAuth]
 type = curseforge
 projectId = 237701
