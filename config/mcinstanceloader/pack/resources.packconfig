@@ -69,19 +69,12 @@ side = client
 #destination = mods/triangulator-mc1.7.10-1.4.2.jar
 #side = client
 
-[AnimFix]
-type = modrinth
-versionId = MAuFfNco
-sourceFileName = animfix-mc1.7.10-2.0.0-hotfix1.jar
-destination = mods/animfix-mc1.7.10-2.0.0-hotfix1.jar
-side = client
-
 [CraftPresence]
 type = curseforge
 projectId = 297038
-fileId = 3901322
-sourceFileName = CraftPresence-Forge-1.7.10-Release-1.8.9.jar
-destination = mods/CraftPresence-Forge-1.7.10-Release-1.8.9.jar
+fileId = 4076976
+sourceFileName = CraftPresence-Forge-1.7.10-Release-1.9.6.jar
+destination = mods/CraftPresence-Forge-1.7.10-Release-1.9.6.jar
 side = client
 
 [NoSecrets]
@@ -162,9 +155,9 @@ side = client
 [Controlling]
 type = curseforge
 projectId = 250398
-fileId = 3812685
-sourceFileName = Controlling-1.7.10-1.0.0.3.jar
-destination = mods/Controlling-1.7.10-1.0.0.3.jar
+fileId = 4173844
+sourceFileName = Controlling-1.7.10-1.0.0.4.jar
+destination = mods/Controlling-1.7.10-1.0.0.4.jar
 side = client
 
 [Sound Filters]
@@ -177,8 +170,8 @@ side = client
 
 [Waila]
 type = url
-url = https://github.com/GTNewHorizons/waila/releases/download/1.5.21/Waila-1.7.10-1.5.21.jar
-destination = mods/Waila-1.7.10-1.5.21.jar
+url = https://github.com/GTNewHorizons/waila/releases/download/1.5.22/Waila-1.7.10-1.5.22.jar
+destination = mods/Waila-1.7.10-1.5.22.jar
 side = client
 
 [Waila Harvestibility]
@@ -297,9 +290,11 @@ url = https://github.com/DrParadox7/ModTweaker/releases/download/0.9.6/ModTweake
 destination = mods/ModTweaker2-0.9.6-patched.jar
 
 [NotEnoughItems]
-type = url
-url = https://github.com/GTNewHorizons/NotEnoughItems/releases/download/2.2.19-GTNH/NotEnoughItems-1.7.10-2.2.19-GTNH.jar
-destination = mods/NotEnoughItems-1.7.10-2.2.19-GTNH.jar
+type = curseforge
+projectId = 358228
+fileId = 4275622
+sourceFileName = NotEnoughItems-1.7.10-2.3.19-GTNH.jar
+destination = mods/NotEnoughItems-1.7.10-2.3.19-GTNH.jar
 
 [NEI Addons]
 type = url
@@ -372,9 +367,10 @@ url = https://github.com/GTNewHorizons/OpenModsLib/releases/download/0.10.6/Open
 destination = mods/OpenModsLibs-1.7.10-0.10.6.jar
 
 [Mixin]
-type = url
-url = https://github.com/GTNewHorizons/SpongeMixins/releases/download/1.5.0/SpongeMixins-1.5.0.jar
-destination = mods/SpongeMixins-1.5.0.jar
+type = modrinth
+versionId = cRx6XZaN
+sourceFileName = 00gasstation-mc1.7.10-0.5.1.jar
+destination = mods/00gasstation-mc1.7.10-0.5.1.jar
 
 [LunatriusCore]
 type = url
@@ -384,9 +380,9 @@ side = client
 
 [FalsePatternLib]
 type = modrinth
-versionId = m5d6TSCW
-sourceFileName = falsepatternlib-mc1.7.10-0.9.4.jar
-destination = mods/falsepatternlib-mc1.7.10-0.9.4.jar
+versionId = QTZ5wUWT
+sourceFileName = falsepatternlib-mc1.7.10-0.10.14.jar
+destination = mods/falsepatternlib-mc1.7.10-0.10.14.jar
 
 #------------------------------------------------------------------------------------------------------------------------
 #Content Mods
@@ -518,9 +514,9 @@ destination = mods/StorageDrawers-1.7.10-1.11.14-GTNH.jar
 [Cuchaz Ships Unofficial]
 type = curseforge
 projectId = 687501
-fileId = 4028099
-sourceFileName = cuchaz.ships-1.7.10-1.1.4.jar
-destination = mods/cuchaz.ships-1.7.10-1.1.4.jar
+fileId = 4259777
+sourceFileName = cuchaz.ships-1.7.10-1.1.6.jar
+destination = mods/cuchaz.ships-1.7.10-1.1.6.jar
 
 [Better Questing - Standard Expansion]
 type = url
@@ -554,8 +550,8 @@ destination = mods/mobspawningfix-1.0a.jar
 
 [Core Tweaks]
 type = url
-url = https://github.com/makamys/CoreTweaks/releases/download/v0.2.6_1/CoreTweaks-1.7.10-0.2.6_1.jar
-destination = mods/CoreTweaks-1.7.10-0.2.6_1.jar
+url = https://github.com/makamys/CoreTweaks/releases/download/v0.2.6_3/CoreTweaks-1.7.10-0.2.6_3+nomixin.jar
+destination = mods/CoreTweaks-1.7.10-0.2.6_3+nomixin.jar
 
 [FastCraft]
 type = curseforge
@@ -564,20 +560,28 @@ fileId = 2522249
 sourceFileName = fastcraft-1.25.jar
 destination = mods/fastcraft-1.25.jar
 
-[Mixing ASM]
-type = url
-url = https://github.com/makamys/Mixingasm/releases/download/v0.2.1/mixingasm-1.7.10-0.2.1.jar
-destination = mods/mixingasm-1.7.10-0.2.1.jar
-
 [Bugtorch]
 type = url
-url = https://github.com/jss2a98aj/BugTorch/releases/download/1.1.6/bugtorch-1.7.10-1.1.6.jar
-destination = mods/bugtorch-1.7.10-1.1.6.jar
+url = https://github.com/jss2a98aj/BugTorch/releases/download/1.1.8/bugtorch-1.7.10-1.1.8.jar
+destination = mods/bugtorch-1.7.10-1.1.8.jar
+
+[Neodymium]
+type = url
+url = https://github.com/makamys/Neodymium/releases/download/0.1.6/neodymium-1.7.10-0.1.6+nomixin.jar
+destination = mods/neodymium-1.7.10-0.1.6+nomixin.jar
 
 [ArchaicFix]
-type = url
-url = https://github.com/embeddedt/ArchaicFix/releases/download/0.2.0/archaicfix-mc1.7.10-0.2.0.jar
-destination = mods/archaicfix-mc1.7.10-0.2.0.jar
+type = curseforge
+projectId = 677782
+fileId = 4071176
+sourceFileName = archaicfix-mc1.7.10-0.3.5.jar
+destination = mods/archaicfix-mc1.7.10-0.3.5.jar
+
+[TileEntity Reset Fix]
+type = modrinth
+versionId = uxSWLWki
+sourceFileName = TileEntityResetFix-1.0.1-noreq.jar
+destination = mods/TileEntityResetFix-1.0.1-noreq.jar
 
 [Healer]
 type = modrinth

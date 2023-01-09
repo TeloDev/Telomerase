@@ -1,3 +1,6 @@
+# Disable Git line ending conversion, to prevent packwiz index hashes changing when committing from Windows
+* -text
+
 craftpresence.properties filter=telo-filter-craftpresence
 splash.properties filter=telo-filter-splash
 LaunchGui.cfg filter=telo-filter-launchgui

@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".github/workflows/build.yml"
-hash = "b57f91c64b14410a8d1f74178922c01da306b70ca7c57bf8001639243005588a"
-
-[[files]]
 file = "LICENSE"
 hash = "e557f6f9724d7f778ea7ee7d177040dacabc978a1d190ec97bc52ec11db4ac62"
 
@@ -430,7 +426,7 @@ hash = "c85c1a03782c4482acb5c7f8da15915ba68a651dc58197dea96186cda020c0b2"
 
 [[files]]
 file = "config/LaunchGui.cfg"
-hash = "89b53d29fa8d1b342fd22648d7716991808c959a4ed336c250bb1a6bae764553"
+hash = "5194988abb52fe54d1ceda2dc6e4446e27e89f8483ea7711b2ea07a05af88a50"
 
 [[files]]
 file = "config/LegibleNei/LegibleNei.cfg"
@@ -557,6 +553,10 @@ file = "config/TFCOre.cfg"
 hash = "aafdcab1461f934e80e54f116d8d2dd360f3de1035d9f8d735ebda4ce02a2d47"
 
 [[files]]
+file = "config/TFCPlusAesthetics.cfg"
+hash = "ab9f675ec82bd22cd8d3251058c438979f3ffca578062899a9c03adf19c4bf5b"
+
+[[files]]
 file = "config/TeloAddon.cfg"
 hash = "cdbde31c5c540777f134dd46d8a33e27ae6bd26dd0391b23a5b7de4c72b60cce"
 
@@ -578,11 +578,11 @@ hash = "fbe73c5344b2f3c096c513183d904fc7695e56b7a6d53a6d2fe21777cbcd0199"
 
 [[files]]
 file = "config/armourersWorkshop/client.cfg"
-hash = "e1caea7ab9be6f69e9c0e3f4046d2ca3c8372b296af325c20d25e7799e174e6e"
+hash = "5016160e4c93554b30fdfdc2537c92b65e15cc4960a98005039833c4291a44a8"
 
 [[files]]
 file = "config/armourersWorkshop/common.cfg"
-hash = "a92bb8be78693478ad68401d1345f1a08fb753eaf9321ce2749da2c954501508"
+hash = "4849afd1adee27758b5bdab6a14dced85515b3c02e28f21758686fc8aeb0d12f"
 
 [[files]]
 file = "config/armourersWorkshop/overrides.cfg"
@@ -654,7 +654,7 @@ hash = "60b89b49e3eb3381c1765a4ce3c64aa2b5ea1258697af7c413bc2a3df7c454a6"
 
 [[files]]
 file = "config/coretweaks.cfg"
-hash = "48bb5a34780a8dcf1f4a433eee82af258bb24cfe97838ab48f9b3b3f1bc97c16"
+hash = "2cce6531b87cb16d3137bdc52f68b8e7e3a6192b1d5d29f73ae4519c01367a06"
 
 [[files]]
 file = "config/craftpresence.properties"
@@ -682,7 +682,7 @@ hash = "bff4ab0d75a5e6595e632c9346d36cb2eb483ce01776e24be5db9304fa7a1038"
 
 [[files]]
 file = "config/endercore/endercore.cfg"
-hash = "84768e82f5febe4dcc6343ff506089c420ec9a59a5510a201087daa58483baf3"
+hash = "e1960d0303e02f5159377b7ab05bfb914df913265cc8a5c559a47e5bb1a5ecb2"
 
 [[files]]
 file = "config/etfuturum/blocksitems.cfg"
@@ -750,7 +750,7 @@ hash = "570bb93b135183d9b08f04ca5fba370cec19a42f533e0ff77dcdfdd43ac3e57f"
 
 [[files]]
 file = "config/itlt.cfg"
-hash = "3d72afe73626a681cc0337af4cb2bd68c7fc13884b8765dd221b3218d4b4c2fe"
+hash = "c18e686c2a987f38e1b13827fd115d9da1c8ed7e3da1c7b3651161cef71e9c34"
 
 [[files]]
 file = "config/itlt/icon.png"
@@ -767,6 +767,10 @@ hash = "1b8d130bb181dc6b19f7570339f5f8a1240e8f0b87a759b30da93bbd63b35169"
 [[files]]
 file = "config/mcinstanceloader/config.cfg"
 hash = "5197566bb919432f4ec0ca66a12cca4b14febcd3852a2240ab8a3c34092e1eed"
+
+[[files]]
+file = "config/mcinstanceloader/pack.mcinstance"
+hash = "a3d4d1a9a741eecc32ccc8b2ec8590b071d6d749dd6c501d8cb6e953856593fe"
 
 [[files]]
 file = "config/mixingasm/transformer_exclusion_list.txt"
@@ -790,7 +794,7 @@ hash = "40f7f46696af11e88a1bd76bdfa0f9e44c4b58172f5c0fb3fb44fa11117d4f68"
 
 [[files]]
 file = "mods/mcinstance-loader.pw.toml"
-hash = "cbc7253fe7ad0bb6ee7d3b83d769cfe659f0db965f374efd129b4af86245c8ef"
+hash = "682313364e329a03cb65b0957e6956a6bff8a39105678290b642ba9c48dfd7b0"
 metafile = true
 
 [[files]]
@@ -15467,7 +15471,7 @@ hash = "ba62fc1a8d2155af84ac652e60b96137e5067637aeaa9f9d173cc9b6b8d837ee"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/teloaddon/textures/items/Aluminum_Double_Ingot.png"
-hash = "23b9bc072011b755c9f5f7ff319a8aa4a430cd4e13db587e73192504fc017700"
+hash = "3862dff502c8cb244e2c32586174f16f9bd6a4aa48ca83a49ebf97e8ceb2c4fa"
 
 [[files]]
 file = "resourcepacks/VanillaThemedTFC/assets/teloaddon/textures/items/Aluminum_Double_Sheet.png"
@@ -25591,7 +25595,7 @@ hash = "f876683da6ede35a8787b54b3b680abc4721a9fc232ed83b70141dd8383f32e4"
 
 [[files]]
 file = "resources/telomerase/version.txt"
-hash = "3bd96030c4ed40b9ab44701148426d9e95eeb7fb71d952364e246b136f42df0e"
+hash = "66bf45ec90e5cb24b6415eaae1f91e5446ff4cd9775e00e9739f61fd30aa1c09"
 
 [[files]]
 file = "resources/terrafirmacraftplus/textures/gui/gui_barrel.png"
@@ -25735,11 +25739,11 @@ hash = "508b9503634d4bab0643a259d8cc68b237f6dc629256f4f048c68028fb61a5f5"
 
 [[files]]
 file = "scripts/StorageDrawers.zs"
-hash = "f96f000189655aad7c26d0775731d9131df04abd4d6a6a31a7cefabb287fae10"
+hash = "6df76cd81b1e725c2d6097123fcd260e3aeeccdc65f52ee7381ea897629fa1f0"
 
 [[files]]
 file = "scripts/TFCPlus.zs"
-hash = "ca5bf62abb3d00f74bcd10581639e2b653fb43d1ec0bcb9e42c0db2c44b5da9c"
+hash = "c8c6b6cf66936af5301a45773e39690c834885d3ee24097eaa9846c06122268b"
 
 [[files]]
 file = "scripts/TeloAddon.zs"
@@ -25751,7 +25755,7 @@ hash = "f65a85ff959dab79299f8377067df34450cea6efbaceb5c4470e33ba33358c6a"
 
 [[files]]
 file = "scripts/bibliocraft.zs"
-hash = "95c922543d4c164f81ac02bea1a7bb2241066f3e9bb47c80656edd910300b70a"
+hash = "511ef42c7d8750d140c441fff64a2315f2b3a3b7692c838df206c0de80a28b1c"
 
 [[files]]
 file = "scripts/dakimakura.zs"
@@ -25759,7 +25763,7 @@ hash = "2bca31526e6d5957c25223cfeacc84caa3f3c70bc04ccfeeca2dba65b28b9409"
 
 [[files]]
 file = "scripts/forestry.zs"
-hash = "484d328d8b157d0e077c99c1d0d9b5ed56fc7c6e411e40ce1ade6989777f75d1"
+hash = "179d53b61a866047b1c8461618bafe444525486622e3cd12ed26ded5a807cf6b"
 
 [[files]]
 file = "scripts/immersiveRailroading.zs.disabled"
