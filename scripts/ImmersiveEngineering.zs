@@ -673,6 +673,7 @@ recipes.addShaped(<ImmersiveEngineering:metalDevice2:10>, [[<terrafirmacraftplus
 <ore:compass>.add(<minecraft:compass>);
 <ore:compass>.add(<terrafirmacraftplus:item.Brass Compass>);
 recipes.removeShaped(<ImmersiveEngineering:tool:2>, [[null, <minecraft:compass>, null], [<ore:treatedStick>, <ore:ingotCopper>, <ore:treatedStick>]]);
+recipes.addShaped(<ImmersiveEngineering:tool:2>, [[null, <ore:compass>, null], [<ore:treatedStick>, <ore:itemWireCoil>, <ore:treatedStick>]]);
 
 <ore:slabConcrete>.add(<ImmersiveEngineering:stoneSlab:1>);
 <ore:slabConcrete>.add(<ImmersiveEngineering:stoneSlab:2>);

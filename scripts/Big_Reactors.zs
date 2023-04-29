@@ -158,6 +158,12 @@ recipes.removeShaped(<BigReactors:BRTurbineRotorPart:1>,[[<BigReactors:BRIngot:1
 recipes.removeShaped(<BigReactors:BRMultiblockGlass>,[[<ore:blockGlass>, <BigReactors:BRReactorPart>, <ore:blockGlass>]]);
 mods.immersiveengineering.ArcFurnace.addRecipe(<BigReactors:BRMultiblockGlass>, <ore:ingotLead>, null, 40, 1024, [<ore:blockGlass>], "Glassworking");
 recipes.removeShaped(<BigReactors:BRMultiblockGlass:1>,[[<ore:blockGlass>, <BigReactors:BRTurbinePart>, <ore:blockGlass>]]);
+<ore:blockSandSilica>.add(<terrafirmacraftplus:Sand:0>);
+<ore:blockSandSilica>.add(<terrafirmacraftplus:Sand2:1>);
+<ore:blockSandSilica>.add(<terrafirmacraftplus:Sand:7>);
+<ore:blockSandSilica>.add(<terrafirmacraftplus:Sand:9>);
+<ore:blockSandSilica>.add(<terrafirmacraftplus:Sand:11>);
+<ore:blockSandSilica>.add(<terrafirmacraftplus:Sand:15>);
 for sand in <ore:blockSandSilica>.items{ // for some reason we can't add oredict with amount multiplier
   mods.immersiveengineering.ArcFurnace.addRecipe(<BigReactors:BRMultiblockGlass:1>*5, sand*7, null, 100, 2048,[<terrafirmacraftplus:item.Soda>*3,<terrafirmacraftplus:item.Ore:316>*2,<teloaddon:Alumina>], "Glassworking");
 }
