@@ -1,0 +1,545 @@
+{
+	"url": [
+		{
+			"url": "https://github.com/GTNewHorizons/Custom-Main-Menu/releases/download/1.12.1/custommainmenu-1.12.1.jar",
+			"metadata": {
+				"side": "CLIENT"
+			}
+		},
+		{
+			"url": "https://github.com/TeloDev/BetterLoadingScreen/releases/download/1.3.34-GTNH-NA/betterloadingscreen-1.7.10-1.3.34-GTNH-NA.jar",
+			"metadata": {
+				"side": "CLIENT"
+			}
+		},
+		{
+			"url": "https://github.com/GTNewHorizons/InGame-Info-XML/releases/download/2.8.25/InGameInfoXML-2.8.25.jar",
+			"metadata": {
+				"side": "CLIENT"
+			}
+		},
+		{
+			"url": "https://github.com/GTNewHorizons/Schematica/releases/download/1.12.6-GTNH/Schematica-1.12.6-GTNH.jar",
+			"metadata": {
+				"side": "CLIENT"
+			}
+		},
+		{
+			"url": "https://github.com/GTNewHorizons/WDMla/releases/download/2.7.3/wdmla-2.7.3.jar",
+			"metadata": {
+				"side": "CLIENT"
+			}
+		},
+		{
+			"url": "https://github.com/GTNewHorizons/WAILAPlugins/releases/download/0.6.0/WAILAPlugins-0.6.0.jar",
+			"metadata": {
+				"side": "CLIENT"
+			}
+		},
+		{
+			"url": "https://github.com/makamys/CoreTweaks/releases/download/0.3.3.2/CoreTweaks-1.7.10-0.3.3.2+nomixin.jar",
+			"metadata": {
+				"side": "CLIENT"
+			}
+		},
+		{
+			"url": "https://github.com/PufferTeam-ModArchive/CraftTweaker/releases/download/3.4.2-JB/CraftTweaker-3.4.2-JB.jar"
+		},
+		{
+			"url": "https://github.com/GTNewHorizons/ModTweaker/releases/download/0.12.0/ModTweaker2-0.12.0.jar"
+		},
+		{
+			"url": "https://github.com/GTNewHorizons/neiaddons/releases/download/1.16.0/NEIAddons-1.16.0.jar"
+		},
+		{
+			"url": "https://github.com/GTNewHorizons/CTMLib/releases/download/1.4.5/CTMLib-1.4.5.jar"
+		},
+		{
+			"url": "https://github.com/LegacyModdingMC/UniMixins/releases/download/0.1.20/+unimixins-all-1.7.10-0.1.20.jar"
+		},
+		{
+			"url": "https://github.com/GTNewHorizons/LunatriusCore/releases/download/1.2.1-GTNH/LunatriusCore-1.2.1-GTNH.jar"
+		},
+		{
+			"url": "https://github.com/GTNewHorizons/OpenModsLib/releases/download/0.10.10/OpenModsLibs-0.10.10.jar"
+		},
+		{
+			"url": "https://github.com/GTNewHorizons/EnderCore/releases/download/0.4.8/endercore-0.4.8.jar"
+		},
+		{
+			"url": "https://github.com/GTNewHorizons/BetterQuesting/releases/download/3.7.6-GTNH-pre/BetterQuesting-3.7.6-GTNH-pre.jar"
+		},
+		{
+			"url": "https://github.com/copygirl/BetterStorage/releases/download/v0.13.1.128/BetterStorage-1.7.10-0.13.1.128.jar"
+		},
+		{
+			"url": "https://github.com/GTNewHorizons/CarpentersBlocks/releases/download/3.7.0-GTNH/CarpentersBlocks-3.7.0-GTNH.jar"
+		},
+		{
+			"url": "https://github.com/TeloDev/ForestryMC/releases/download/4.3.5/Forestry-1.7.10-4.3.5.jar"
+		},
+		{
+			"url": "https://github.com/TeloDev/gravestone/releases/download/1.1.0/gravestone-1.7.10-1.1.0.jar"
+		},
+		{
+			"url": "https://github.com/TeloDev/ImmersiveEngineering/releases/download/0.7.9/ImmersiveEngineering-1.7.10-0.7.9.jar"
+		},
+		{
+			"url": "https://github.com/GTNewHorizons/OpenBlocks/releases/download/1.11.6-GTNH/OpenBlocks-1.11.6-GTNH.jar"
+		},
+		{
+			"url": "https://github.com/PufferTeam-ModArchive/Pistronics-2/releases/download/2.2/Pistronics2-1.7.10-0.6.4-patched.jar"
+		},
+		{
+			"url": "https://github.com/GTNewHorizons/StorageDrawers/releases/download/2.1.4-GTNH/StorageDrawers-2.1.4-GTNH.jar"
+		},
+		{
+			"url": "https://github.com/PufferTeam-ModArchive/Cuchaz-Ships/releases/download/1.1.7-JB/cuchaz.ships-1.1.7-JB.jar"
+		},
+		{
+			"url": "https://github.com/GTNewHorizons/CodeChickenLib/releases/download/1.3.0/CodeChickenLib-1.3.0.jar"
+		},
+		{
+			"url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.6.86/hodgepodge-2.6.86.jar"
+		},
+		{
+			"url": "https://github.com/GTNewHorizons/TX-Loader/releases/download/1.8.5/txloader-1.8.5.jar"
+		},
+		{
+			"url": "https://github.com/Myask-sl/adjachest-1.7.10/releases/download/v0.9.9.9beta10/adjachest-0.9.9.9beta10.jar"
+		}
+	],
+	"curse": [
+		{
+			"addonId": 232791,
+			"fileId": 3335234,
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "It's the little Things"
+			},
+			"metadata": {
+				"side": "CLIENT"
+			}
+		},
+		{
+			"addonId": 59489,
+			"fileId": 2692129,
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "DamageIndicators"
+			},
+			"metadata": {
+				"side": "CLIENT"
+			}
+		},
+		{
+			"addonId": 411705,
+			"fileId": 3097543,
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "DamageTilt"
+			},
+			"metadata": {
+				"side": "CLIENT"
+			}
+		},
+		{
+			"addonId": 297038,
+			"fileId": 6511472,
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "CraftPresence"
+			},
+			"metadata": {
+				"side": "CLIENT"
+			}
+		},
+		{
+			"addonId": 237701,
+			"fileId": 4407995,
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "ReAuth"
+			},
+			"metadata": {
+				"side": "CLIENT"
+			}
+		},
+		{
+			"addonId": 324881,
+			"fileId": 2781339,
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "BetterInvalidSession"
+			},
+			"metadata": {
+				"side": "CLIENT"
+			}
+		},
+		{
+			"addonId": 238891,
+			"fileId": 2642381,
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "Dynamic Surroundings"
+			},
+			"metadata": {
+				"side": "CLIENT"
+			}
+		},
+		{
+			"addonId": 252373,
+			"fileId": 2542340,
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "LegibleNei"
+			},
+			"metadata": {
+				"side": "CLIENT"
+			}
+		},
+		{
+			"addonId": 250398,
+			"fileId": 5507281,
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "Controlling"
+			},
+			"metadata": {
+				"side": "CLIENT"
+			}
+		},
+		{
+			"addonId": 222789,
+			"fileId": 2224003,
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "Sound Filters"
+			},
+			"metadata": {
+				"side": "CLIENT"
+			}
+		},
+		{
+			"addonId": 270441,
+			"fileId": 2462371,
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "ItemPhysic Lite"
+			},
+			"metadata": {
+				"side": "CLIENT"
+			}
+		},
+		{
+			"addonId": 228090,
+			"fileId": 2228718,
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "Screenshots Enhanced"
+			},
+			"metadata": {
+				"side": "CLIENT"
+			}
+		},
+		{
+			"addonId": 244464,
+			"fileId": 2580520,
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "Advanced World Selection"
+			},
+			"metadata": {
+				"side": "CLIENT"
+			}
+		},
+		{
+			"addonId": 228810,
+			"fileId": 2253271,
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "LaunchGUI"
+			},
+			"metadata": {
+				"side": "CLIENT"
+			}
+		},
+		{
+			"addonId": 287053,
+			"fileId": 3779225,
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "TerraFirmaCraft+"
+			}
+		},
+		{
+			"addonId": 442203,
+			"fileId": 3876523,
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "TFC+ Additions"
+			}
+		},
+		{
+			"addonId": 345516,
+			"fileId": 3377679,
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "TFC+ NEI"
+			}
+		},
+		{
+			"addonId": 345516,
+			"fileId": 3377679,
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "TFC+ NEI"
+			}
+		},
+		{
+			"addonId": 32274,
+			"fileId": 6706111,
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "JourneyMap"
+			}
+		},
+		{
+			"addonId": 621947,
+			"fileId": 5342314,
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "JourneyMap QOL Additions"
+			}
+		},
+		{
+			"addonId": 223260,
+			"fileId": 2220024,
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "YABM"
+			}
+		},
+		{
+			"addonId": 232131,
+			"fileId": 2277197,
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "Default Options"
+			}
+		},
+		{
+			"addonId": 69162,
+			"fileId": 2388750,
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "CoFH Core"
+			}
+		},
+		{
+			"addonId": 229523,
+			"fileId": 3005075,
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "Armourer's Workshop"
+			}
+		},
+		{
+			"addonId": 228027,
+			"fileId": 2423369,
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "BiblioCraft"
+			}
+		},
+		{
+			"addonId": 241994,
+			"fileId": 2282591,
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "Big Reactors"
+			}
+		},
+		{
+			"addonId": 301478,
+			"fileId": 2747016,
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "Dakimakura"
+			}
+		},
+		{
+			"addonId": 72210,
+			"fileId": 2211247,
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "Hopper Ducts"
+			}
+		},
+		{
+			"addonId": 232159,
+			"fileId": 2289306,
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "Immersive Integration"
+			}
+		},
+		{
+			"addonId": 69118,
+			"fileId": 2280761,
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "Morpheus"
+			}
+		},
+		{
+			"addonId": 79038,
+			"fileId": 2209728,
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "Piston Everything"
+			}
+		},
+		{
+			"addonId": 67508,
+			"fileId": 2211249,
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "Redstone Paste"
+			}
+		},
+		{
+			"addonId": 225738,
+			"fileId": 2265493,
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "MmmMmmMmmMmm"
+			}
+		}
+	],
+	"modrinth": [
+		{
+			"addonId": "wPfV83mL",
+			"fileId": "uC0HAPwp",
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "MATmos"
+			},
+			"metadata": {
+				"side": "CLIENT"
+			}
+		},
+		{
+			"addonId": "aOhPZnW2",
+			"fileId": "xSAsRC63",
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "TFC+ Tweaker"
+			}
+		},
+		{
+			"addonId": "VOTkxmn6",
+			"fileId": "da0wnJ0f",
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "TFC+ Aesthetics"
+			}
+		},
+		{
+			"addonId": "wr2wAOhP",
+			"fileId": "2WcUtrOS",
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "Telomerase Addon"
+			}
+		},
+		{
+			"addonId": "C080x9ra",
+			"fileId": "fbXIEoyh",
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "Immersive Engineering Blueprint Tweaker"
+			}
+		},
+		{
+			"addonId": "iNPc3Onu",
+			"fileId": "Ya1aJT0j",
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "NotEnoughItems Unofficial 1.7.10"
+			}
+		},
+		{
+			"addonId": "qMOdaUOs",
+			"fileId": "Dbl4pDXW",
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "CodeChickenCore Unofficial 1.7.10"
+			}
+		},
+		{
+			"addonId": "o56psTwz",
+			"fileId": "u63ixvSd",
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "Et Futurum Requiem"
+			}
+		},
+		{
+			"addonId": "6su8A6OH",
+			"fileId": "lKTW0So5",
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "BugTorch"
+			}
+		},
+		{
+			"addonId": "xTJanN3v",
+			"fileId": "qJAPtr6M",
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "ArchaicFix"
+			}
+		},
+		{
+			"addonId": "cKitwCSu",
+			"fileId": "uxSWLWki",
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "TileEntity Reset Fix"
+			}
+		},
+		{
+			"addonId": "4Xu8f6VS",
+			"fileId": "OaAWZEgq",
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "Healer"
+			}
+		},
+		{
+			"addonId": "XN5jnYB4",
+			"fileId": "eViGqFHR",
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "Angelica"
+			}
+		},
+		{
+			"addonId": "vTvnv7qp",
+			"fileId": "c7f0mByL",
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "GTNHLib"
+			}
+		},
+		{
+			"addonId": "nT86WUER",
+			"fileId": "eBzLvC0X",
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "UniLib"
+			}
+		}
+	]
+}

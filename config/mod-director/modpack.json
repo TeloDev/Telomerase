@@ -1,0 +1,9 @@
+{
+	"packName": "Telomerase",
+	"icon":
+	{
+		"path": "icon.png",
+		"width": 55,
+		"height": 55
+	}
+}

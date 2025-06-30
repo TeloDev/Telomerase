@@ -1,7 +1,0 @@
-{
-BiblioCraft:[
-    {keep:[[BiblioPaneler,BiblioClock,*Painting,BiblioFancySign,BiblioWorkbench,Bibliotheca,BiblioPotionShelf,BiblioShelf,BiblioRack,BiblioCase,BiblioLabel,BiblioDesk,BiblioTable,BiblioMapFrames,item.seatBack*,BiblioSeats],[0,6]]};
-    {hide:[[item.framing*,BookcaseFilled,BiblioClipboard],[]]};
-    {hide:[[BiblioSwordPedestal],[12]]};
-]
-}

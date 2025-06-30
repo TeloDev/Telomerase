@@ -1,0 +1,100 @@
+{
+armourersWorkshop:[
+    {hide:[[*Glowing,*Glass,block.outfit_maker,paintbrush,paintRoller,colourPicker,burnTool,dodgeTool,colourNoiseTool,shadeNoiseTool,hueTool,blockMarker,blendingTool,wandOfStyle,debugTool,skinUnlock,armourContainer,armourers],[]]};
+],
+betterquesting:[
+    {hide:[[submit_station,placeholder],[]]};
+],
+bq_standard:[
+    {hide:[[loot_chest],[]]}
+],
+BiblioCraft:[
+    {keep:[[BiblioPaneler,BiblioClock,*Painting,BiblioFancySign,BiblioWorkbench,Bibliotheca,BiblioPotionShelf,BiblioShelf,BiblioRack,BiblioCase,BiblioLabel,BiblioDesk,BiblioTable,BiblioMapFrames,item.seatBack*,BiblioSeats],[0,6]]};
+    {hide:[[item.framing*,BookcaseFilled,BiblioClipboard],[]]};
+    {hide:[[BiblioSwordPedestal],[12]]};
+],
+BigReactors:[
+    {hide:[[YelloriteOre,BRDevice,bucketYellorium,bucketCyanite,BRDebugTool,BRMultiblockCreativePart,tile.fluid*],[]]};
+    {hide:[[BRMetalBlock],[3,4]]};
+    {hide:[[BRReactorPart],[3,6,7]]};
+    {hide:[[BRTurbinePart],[5]]};
+    {hide:[[BRIngot],[2,3,4,5,6,7,8,9]]};
+],
+CarpentersBlocks:[
+    {hide:[[BlockCarpentersBed,BlockCarpentersDoor],[]]};
+]
+StorageDrawersForestry:[
+    {hide:[[*],[]]};
+],
+etfuturum:[
+    {hide:[[double_cut_copper_slab, *boat, copper_ingot, copper_ore, daylight_detector_inverted],[]]};
+    {hide:[[concrete_powder*],[]]};
+],
+Forestry:[
+    {hide:[[crated*,*BagT2,soil,resources,resourceStorage,beehives,candle,stump,beeLarvaeGE,fruits,fertilizerBio,fertilizerCompound,apatite,researchNote,ingotCopper,ingotTin,
+    ingotBronze,crate,waxCast,carton,kit*,bronzePickaxe,bronzeShovel,brokenBronzePickaxe,brokenBronzeShovel,can*,refractory*,waxCapsule*,bucket*,*Wheat,frameProven,
+	iodineCapsule,alveary,core,beealyzer,chipsets,solderingIron,thermionicTubes,mulch,phosphor,sturdyMachine,hardenedMachine,habitatLocator,gearTin,honeydew,beeswax,scoop],[]]};
+    {hide:[[factory],[4,7]]};
+    {hide:[[craftingMaterial],[]]};
+    {keep:[[propolis,pollen],[0]]};
+    {keep:[[beeCombs],[0,3,5]]};
+    {hide:[[engine],[2]]};
+],
+gravestone:[
+    {hide:[[gravestone,death_info],[]]};
+],
+ImmersiveEngineering:[
+    {hide:[[*Shader*,ore,metalDecoration2,multiblock,clothDevice,hemp,seed,stoneDevice,toolbox],[]]};
+    {hide:[[storage,storageSlab],[0,1,2,3,4,5,6]]};
+    {hide:[[woodenDecoration],[4]]};
+    {hide:[[fakeLight],[]]};
+    {show:[[metalDecoration2],[0,1,2]]};
+    {hide:[[bullet],[10,9,3]]};
+    {keep:[[stoneDecoration],[1,3,4,5,6]]};
+    {hide:[[metalDecoration],[2]]};
+    {hide:[[material],[3,4]]};
+    {hide:[[fluidContainers],[]]};
+    {keep:[[toolupgrade],[0,3,4,7,8,9]]};
+    {hide:[[stoneSlab],[0]]};
+    {hide:[[metalMultiblock],[0,3]]};
+    {keep:[[metal],[20]]};
+    {hide:[[woodenDevice],[4]]}
+],
+minecraft:[
+    {hide:[[*],[]]};
+    {show:[[*rail,noteblock,piston,sticky_piston,glass,glass_pane,trapdoor,ladder,iron_bars,daylight_detector,*pressure_plate,redstone_block,redstone,clay,hardened_clay,coal_block,dropper,tripwire_hook,string,feather,
+    gunpowder,flint,lever,stone_button,painting,sign,*door,minecart,tnt_minecart,hopper_minecart,snow,snowball,boat,paper,book,slime_ball,compass,clock,bed,repeater,ender_pearl,spider_eye,rotten_flesh,writable_book,written_book,
+	item_frame,map,fireworks,firework_charge,comparator,cauldron,tnt,hopper,dispenser,redstone_lamp,lapis_block,brick_stairs,glowstone,glowstone_dust,fence,quartz_block,quartz,quartz_stairs],[]]};
+    {show:[[stained_hardened_clay,stained_glass_pane,stained_glass],[]]};
+    {show:[[carpet],[]]};
+    {show:[[wool],[]]};
+    {show:[[stone_slab],[0,4,7]]};
+],
+OpenBlocks:[
+    {hide:[[genericUnstackable],[]]};
+    {keep:[[generic],[0]]};
+],
+Pistronics2:[
+    {hide:[[Gear,GearPart,Wrapper,Petrify*,Partblock],[]]};
+],
+cuchaz.ships:[
+    {hide:[[blockAirWall,blockBerth,BlockAirRoof],[]]};
+],
+storageDrawers:[
+    {hide:[[half*],[]]};
+    {keep:[[full*,trim],[0]]};
+],
+teloaddon:[
+    {hide:[[teloIngotPile,BauxiteOre],[]]};
+],
+terrafirmacraftplus:[
+    {hide:[[Branch*,Fake*,cLights,MangroveRoot*,Coracle*,dryingBricks,leafLitter,undergrowth*,lowUndergrowth,fern,*Teepee,SaltWater*,FreshWater*,HotWater*,TanninWater,TanninWaterStationary,Lava*,Starfish,Scallop,moss,*Road,
+    	ResinKnife,Treehive,WildBeehive,Snow,item.Liquid*,item.Silica*,item.Flat*,blockInvisible,StackedWoodVert*,WoodVert*,StackedWoodHoriz*,WoodHoriz*,mudStructure*,
+    	Clay2,Grass2,ClayGrass2,DryGrass2,tilledSoil2,skinnyLog,skinnyLog2,skinnyLog3,WoodenSpear,WoodGears,leaves*],[]]};
+    {hide:[[item.Ore,item.Small*],[114,115,214,215,14,15]]};
+    {hide:[[item.Ore],[302,303,305,306,307,309,313,314,317]]};
+    {keep:[[Clay,Grass,ClayGrass,DryGrass,tilledSoil],[0]]};
+    {keep:[[item.Mud*],[0,32]]};
+    {show:[[item.Oak*,Forge,Firepit],[]]};
+]
+}

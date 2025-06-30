@@ -34,8 +34,7 @@
 !/config/LegibleNei/filters/**
 !/config/matmos/expansions_userconfig/*earthlies.cfg
 !/config/matmos/expansions_userconfig/*atmospheres.cfg
-!/config/mcinstanceloader/pack/**
-!/config/mcinstanceloader/config.cfg
+!/config/mod-director/**
 !/config/mixingasm/**
 !/config/NEI/**
 !/config/archaicfix.cfg
@@ -50,6 +49,7 @@
 !/config/defaultkeys.txt
 !/config/defaultoptions.txt
 !/config/defaultoptionsof.txt
+!/config/defaultoptionsnf.txt
 !/config/falsepatternlib.cfg
 !/config/forge.cfg
 !/config/gravestone.cfg
@@ -74,6 +74,12 @@
 !/config/YABM.cfg
 !/config/shipBlockProperties.cfg
 !/config/craftpresence.properties
+!/config/txloader/**
+!/config/wdmla/**
+!/config/angelica**
+!/config/hodgepodge.cfg
+!/config/journeymap/**
+!/config/adjachests.cfg
 !background.png
 !/resourcepacks/**
 

@@ -1,0 +1,5 @@
+reauth.gui.title.main=Authentication
+reauth.gui.button=Re-Login
+reauth.gui.button.authcode=Direct Link
+reauth.gui.button.devicecode=Code Link
+reauth.gui.text.microsoft=Login using a Microsoft Account

@@ -1,6 +1,0 @@
-{
-storageDrawers:[
-    {hide:[[half*],[]]};
-    {keep:[[full*,trim],[0]]};
-]
-}
