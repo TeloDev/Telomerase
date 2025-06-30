@@ -43,6 +43,12 @@
 			}
 		},
 		{
+			"url": "https://github.com/makamys/MAtmos/releases/download/v36.0.1/matmos-1.7.10-36.0.1+nomixin.jar",
+			"metadata": {
+				"side": "CLIENT"
+			}
+		},
+		{
 			"url": "https://github.com/PufferTeam-ModArchive/CraftTweaker/releases/download/3.4.2-JB/CraftTweaker-3.4.2-JB.jar"
 		},
 		{
@@ -418,17 +424,6 @@
 		}
 	],
 	"modrinth": [
-		{
-			"addonId": "wPfV83mL",
-			"fileId": "uC0HAPwp",
-			"installationPolicy": {
-				"selectedByDefault": true,
-				"name": "MATmos"
-			},
-			"metadata": {
-				"side": "CLIENT"
-			}
-		},
 		{
 			"addonId": "aOhPZnW2",
 			"fileId": "xSAsRC63",
