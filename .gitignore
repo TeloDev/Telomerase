@@ -13,7 +13,7 @@
 !/scripts/**
 !/LICENSE
 !/schematics/**
-!/mods/mcinstance*
+!/mods/!*
 !/armourersWorkshop/Telomerase_Official/**
 
 # only include edited config files
