@@ -49,12 +49,6 @@
 			}
 		},
 		{
-			"url": "https://github.com/PufferTeam-ModArchive/DefaultOptions/releases/download/1.0.29-JB/defaultkeys-1.0.29-JB.jar",
-			"metadata": {
-				"side": "CLIENT"
-			}
-		},
-		{
 			"url": "https://github.com/PufferTeam-ModArchive/CraftTweaker/releases/download/3.4.2-JB/CraftTweaker-3.4.2-JB.jar"
 		},
 		{
@@ -241,6 +235,14 @@
 			},
 			"metadata": {
 				"side": "CLIENT"
+			}
+		},
+		{
+			"addonId": 232131,
+			"fileId": 2277197,
+			"installationPolicy": {
+				"selectedByDefault": true,
+				"name": "Default Options"
 			}
 		},
 		{
