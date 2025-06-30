@@ -22,7 +22,7 @@ BigReactors:[
 ],
 CarpentersBlocks:[
     {hide:[[BlockCarpentersBed,BlockCarpentersDoor],[]]};
-]
+],
 StorageDrawersForestry:[
     {hide:[[*],[]]};
 ],
