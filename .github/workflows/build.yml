@@ -9,36 +9,7 @@ on:
 
 jobs:
   curse:
-    name: Curseforge
-    runs-on: windows-latest
-    steps:
-    - uses: actions/checkout@v4
-    - uses: actions/setup-go@v5
-      with:
-          go-version: 1.24.1
-    - run: go install github.com/packwiz/packwiz@latest
-    - run: packwiz cf export
-    - uses: actions/upload-artifact@v4
-      with:
-        name: curseforge-artifact
-        path: ./*.zip
-  modrinth:
-    name: Modrinth
-    runs-on: windows-latest
-    steps:
-    - uses: actions/checkout@v4
-    - uses: actions/setup-go@v5
-      with:
-            go-version: 1.24.1
-    - run: go install github.com/packwiz/packwiz@latest
-    - run: packwiz mr install filedirector
-    - run: packwiz mr export
-    - uses: actions/upload-artifact@v4
-      with:
-        name: modrinth-artifact
-        path: ./*.mrpack
-  server:
-    name: Server
+    name: Build and Package
     runs-on: windows-latest
     steps:
     - name: Set git to use LF
@@ -46,8 +17,26 @@ jobs:
         git config --global core.autocrlf false
         git config --global core.eol lf
     - uses: actions/checkout@v4
+    - uses: actions/setup-go@v5
+      with:
+          go-version: 1.24.1
+    - run: go install github.com/packwiz/packwiz@latest
+
+    # Create the CurseForge pack
+    - run: packwiz cf install filedirector
+    - run: packwiz cf export
+
+    # Create Modrinth pack
+    - run: packwiz mr install filedirector
+    - run: packwiz mr export
+
+    # Create the server pack
     - run: .\CreateServerPack.bat
+
+    # upload all files
     - uses: actions/upload-artifact@v4
       with:
-        name: server-artifact
-        path: ./*.zip
+        name: all-modpacks
+        path: |
+            ./*.zip
+            ./*.mrpack
