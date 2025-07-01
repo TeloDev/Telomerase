@@ -12,29 +12,30 @@ jobs:
     name: Curseforge
     runs-on: windows-latest
     steps:
-    - uses: actions/checkout@v3
-    - run: .\config\mcinstanceloader\Pack.bat
-    - uses: actions/setup-go@v3
+    - uses: actions/checkout@v4
+    - uses: actions/setup-go@v5
       with:
-          go-version: 1.18
+          go-version: 1.24.1
     - run: go install github.com/packwiz/packwiz@latest
     - run: packwiz cf export
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4
       with:
+        name: curseforge-artifact
         path: ./*.zip
   modrinth:
     name: Modrinth
     runs-on: windows-latest
     steps:
-    - uses: actions/checkout@v3
-    - run: .\config\mcinstanceloader\Pack.bat
-    - uses: actions/setup-go@v3
+    - uses: actions/checkout@v4
+    - uses: actions/setup-go@v5
       with:
-            go-version: 1.18
+            go-version: 1.24.1
     - run: go install github.com/packwiz/packwiz@latest
+    - run: packwiz mr install filedirector
     - run: packwiz mr export
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4
       with:
+        name: modrinth-artifact
         path: ./*.mrpack
   server:
     name: Server
@@ -44,9 +45,9 @@ jobs:
       run: |
         git config --global core.autocrlf false
         git config --global core.eol lf
-    - uses: actions/checkout@v3
-    - run: .\config\mcinstanceloader\Pack.bat
+    - uses: actions/checkout@v4
     - run: .\CreateServerPack.bat
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4
       with:
+        name: server-artifact
         path: ./*.zip

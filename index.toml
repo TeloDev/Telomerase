@@ -5,6 +5,10 @@ file = "LICENSE"
 hash = "e557f6f9724d7f778ea7ee7d177040dacabc978a1d190ec97bc52ec11db4ac62"
 
 [[files]]
+file = "README.md"
+hash = "227fcf0c7ede3cd693ea6ca3f8e24cb4671f193cf8eed6381f2a154406468353"
+
+[[files]]
 file = "armourersWorkshop/Telomerase_Official/Antenna Sword.armour"
 hash = "e7fccdf2ab48523dff2a90591850afcd9bf5a8d90066b9c35ca15c04b7812e88"
 
@@ -301,78 +305,6 @@ file = "background.png"
 hash = "5fd0282c20bb8f9499c9f5a85d0ceaa6c9bf0ca27b7722399d5f5c3e7496f829"
 
 [[files]]
-file = "bansoukou/Pistronics2-1.7.10-0.6.4/letiu/modbase/integration/nei/RecipeHandlers.class"
-hash = "a551d00d3f4b94811fd1d54ad0f6a118ba15a4a14af69fd12691d6253b3a51c6"
-
-[[files]]
-file = "bansoukou/Pistronics2-1.7.10-0.6.4/letiu/modbase/integration/nei/ShapedHandler.class"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "bansoukou/Pistronics2-1.7.10-0.6.4/letiu/modbase/integration/nei/ShapelessHandler$CachedBaseShapelessRecipe.class"
-hash = "19ba1bc57e1cfc96ca0934daa2731f1f068dc00184784e61159e37044a4d6930"
-
-[[files]]
-file = "bansoukou/Pistronics2-1.7.10-0.6.4/letiu/modbase/integration/nei/ShapelessHandler.class"
-hash = "7d17b14c55c716f2eb58109b4110a6caffbb113f4835458ea9de7ec2d9582d69"
-
-[[files]]
-file = "bansoukou/Pistronics2-1.7.10-0.6.4/letiu/modbase/util/ItemReference.class"
-hash = "5c47312b7636455009103058d89d126d7d73236dfc1fd1411b40cd5f4a90355a"
-
-[[files]]
-file = "bansoukou/Pistronics2-1.7.10-0.6.4/letiu/pistronics/blocks/machines/BCreativeMachine.class"
-hash = "c66f1bb646c065971721191bdd605d34e452dfe2fa53c965a9f2ef5adcc7b1cd"
-
-[[files]]
-file = "bansoukou/Pistronics2-1.7.10-0.6.4/letiu/pistronics/gui/GuiBookOfGears.class"
-hash = "062ec46b4598b3829d55cc48ff2015342c56cf73c77fcab91310382da9c0db13"
-
-[[files]]
-file = "bansoukou/Pistronics2-1.7.10-0.6.4/letiu/pistronics/gui/pages/PageExtUpgrades1.class"
-hash = "31b3a8bef4427fc03ea32d0af3c603455d87236df4f2671ae756fee98e1e26c3"
-
-[[files]]
-file = "bansoukou/Pistronics2-1.7.10-0.6.4/letiu/pistronics/gui/pages/PageGear.class"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "bansoukou/Pistronics2-1.7.10-0.6.4/letiu/pistronics/gui/pages/PagePetrifyArrow.class"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "bansoukou/Pistronics2-1.7.10-0.6.4/letiu/pistronics/itemblocks/BISlimeblock.class"
-hash = "ced5d08dc37ecd8b1a22ae5d1d7ff39bdc1d2d90ea98ddad9ac225def9db0b98"
-
-[[files]]
-file = "bansoukou/Pistronics2-1.7.10-0.6.4/letiu/pistronics/recipes/PRecipeRegistry.class"
-hash = "880e3013318b13c86cdc6f7de06d3b3b837db0312460797faeb1fff7d95b6082"
-
-[[files]]
-file = "bansoukou/Pistronics2-1.7.10-0.6.4/letiu/pistronics/recipes/PShapedRecipe.class"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "bansoukou/Pistronics2-1.7.10-0.6.4/letiu/pistronics/recipes/PShapelessRecipe.class"
-hash = "4052fd7a0dd82a27eb66c70c664106f3158ab47bf1dbde29e77cb179c4e888f4"
-
-[[files]]
-file = "bansoukou/Pistronics2-1.7.10-0.6.4/letiu/pistronics/recipes/Recipes.class"
-hash = "5978938a420e513e69e7e8c6f740c4889982b346f050bab344fc1c0879f1929d"
-
-[[files]]
-file = "bansoukou/Pistronics2-1.7.10-0.6.4/letiu/pistronics/recipes/custom/ExtensionMatRecipes.class"
-hash = "62735fc1d5e4895a60c931109a2304512725bf773a6a6563ce053e5b3bc18e91"
-
-[[files]]
-file = "bansoukou/Pistronics2-1.7.10-0.6.4/letiu/pistronics/recipes/custom/NBTSensitiveRecipes.class"
-hash = "882269c7b95c34874af6f3ee64d2818f37831e898815020889477de56409165c"
-
-[[files]]
-file = "bansoukou/Pistronics2-1.7.10-0.6.4/letiu/pistronics/tiles/TileMotion.class"
-hash = "4ecdb36ea26edb8e980e3401dafbed89afb945a992cd100eb650fbb45972ae22"
-
-[[files]]
 file = "config.json"
 hash = "968b56131f3f1969e9d9ad47fe6f0ed70103203c7a44b5e1e9fb0fa0e9ab1d77"
 
@@ -433,72 +365,8 @@ file = "config/LegibleNei/LegibleNei.cfg"
 hash = "75b9abce9009331ba447fcbb12975943e81900ddcfcb3ed57c56efce332d3280"
 
 [[files]]
-file = "config/LegibleNei/filters/Armourers Workshop.json"
-hash = "0459ba711f4533b32018e67f2eab0bb39a9b6c44dffe9da04c5e25b65b1e2cd1"
-
-[[files]]
-file = "config/LegibleNei/filters/Bibliocraft.json"
-hash = "a60737f819b78368f714d11c5abc2d8b51131c9928329ecd412153eceeab320e"
-
-[[files]]
-file = "config/LegibleNei/filters/Big reactors.json"
-hash = "b3e7be8c9a7d249234403a15c6038c85dd3b828559df9a9b05d472220f12e45f"
-
-[[files]]
-file = "config/LegibleNei/filters/CarpentersBlocks.json"
-hash = "346446cc02ffa924eb8c98361daa9272664fdd54a7de84c2ecde84189eace734"
-
-[[files]]
-file = "config/LegibleNei/filters/Forestry.json"
-hash = "ce28158bdf3682f733738c1a28ad982cfd50bb8646b939f5af0880e40b6cbab1"
-
-[[files]]
-file = "config/LegibleNei/filters/Gravestones.json"
-hash = "e8d5f820de906e13043950c2028fe232b265b3d3e37e78c168b7d4fa72e4fee3"
-
-[[files]]
-file = "config/LegibleNei/filters/Immersive Engineering.json"
-hash = "03d432759a9a180104b03a68cea0ec24c59ced7a64354a33d130a9c20643cd24"
-
-[[files]]
-file = "config/LegibleNei/filters/OpenBlocks.json"
-hash = "8625951ed6130d29ffdca133eb6860047baa227ac3e2fa8fecc3aa4519a93747"
-
-[[files]]
-file = "config/LegibleNei/filters/Pistronics2.json"
-hash = "79190dd9c5cd88bd7a6a55b713168a20ecddb33841393d8a2f5a1ff6391c6b31"
-
-[[files]]
-file = "config/LegibleNei/filters/SmallBoats.json"
-hash = "d53d8d9e3ae64c4b3882af708cb5e3d423cc688ee7bf89a986bcd32790394a3b"
-
-[[files]]
-file = "config/LegibleNei/filters/StorageDrawers.json"
-hash = "4f872323fb519e1862ed0e739089ee502297b11b08a17cbd26f3d7b0045d8788"
-
-[[files]]
-file = "config/LegibleNei/filters/Terrafirmacraft Plus.json"
-hash = "2c1a679badeb1c3d1ddd55109a2be525d8e95f8f0199fdf73a11cb88bf407b11"
-
-[[files]]
-file = "config/LegibleNei/filters/betterquesting.json"
-hash = "994aefd22f4292465758ca8a02cb7385bb30d476035b94b8bbbf00b1ab1cf4ab"
-
-[[files]]
-file = "config/LegibleNei/filters/etfuturum.json"
-hash = "4bc3684f9f670960c925ee1460dbb05bd22c8a1026a8fd31fc3e90849e380105"
-
-[[files]]
-file = "config/LegibleNei/filters/minecraft.json"
-hash = "7be2b222ec14e9350f65fafb6128ef6871d8ebf7819d8c8a07a41acd9746b2b9"
-
-[[files]]
-file = "config/LegibleNei/filters/ships.json"
-hash = "c55f094f4bb4763601c3a3b84bb984916a480b80056f1166eb6a9aca99324736"
-
-[[files]]
-file = "config/LegibleNei/filters/teloaddon.json"
-hash = "c3255fcb0d353caa2196a0a857ac0a9d47f67c900660ecf3f44f797ec1d0feed"
+file = "config/LegibleNei/filters/filter.json"
+hash = "ac2b46249dbd4144241d2fc1d65090aa127f89d58acbebbf22affc3e4d3fd0d0"
 
 [[files]]
 file = "config/LunatriusCore.cfg"
@@ -510,7 +378,19 @@ hash = "c78f3d7d736f40b87d6676eeed6bf9f33539b752fd914bffc5aea53152b9a855"
 
 [[files]]
 file = "config/NEI/client.cfg"
-hash = "1d366483a1c037e866e095215b5329dee639aaa7bbd489ead083528ec7cfc866"
+hash = "89f804ce167ee4f2dcf10852021b7d9e351255af10c0e0ad4e8ad2863735f264"
+
+[[files]]
+file = "config/NEI/collapsibleitems.cfg"
+hash = "dbe7dba4577dd51b1fbfc7a97e3abdacc805ecab045cb8dac766de21ce983c78"
+
+[[files]]
+file = "config/NEI/enableautofocus.cfg"
+hash = "0e23694895239e786f0f839dd4083c3c34cad26ffd9bb15588c2203cd4c751da"
+
+[[files]]
+file = "config/NEI/guidfilters.cfg"
+hash = "e3cae81087e2b1b13d0b9e002f7ffd4c1bed4c90b58abc22f7e8f4665ff3a1d3"
 
 [[files]]
 file = "config/NEI/handlerordering.csv"
@@ -523,6 +403,14 @@ hash = "8a004ce77d221dd65b0cf759e8ee5e1730a431cc58c82075ec024b3e65fdf741"
 [[files]]
 file = "config/NEI/heighthackhandlers.cfg"
 hash = "50a5e0f61bbeba826c16e91f51f689cdcd8a7496d66a672802cfe6b71614edab"
+
+[[files]]
+file = "config/NEI/hiddenhandlers.cfg"
+hash = "057f9263c3620365798f589e124e590cd82e7bd585f0ee3efa6b51ab66eecdbb"
+
+[[files]]
+file = "config/NEI/hiddenitems.cfg"
+hash = "1c75641e19513cdf8be0d9ee1ab028a5414bb22a2989aa2b285270cf2c13db05"
 
 [[files]]
 file = "config/NEI/serialhandlers.cfg"
@@ -546,7 +434,7 @@ hash = "7fc46d8c1c85d95b1ec7a510051635caa0ebb5187bb80d5eb81e8a8c5de2be1f"
 
 [[files]]
 file = "config/StorageDrawers.cfg"
-hash = "c9736f6d738ca1390eb585500e156467318a6f6007224f2f008f706f891b76d5"
+hash = "159c0567451e9f9e8d571f5e055d3d1c3003de9be0fe302561e642be99e4a773"
 
 [[files]]
 file = "config/TFCOre.cfg"
@@ -554,7 +442,7 @@ hash = "aafdcab1461f934e80e54f116d8d2dd360f3de1035d9f8d735ebda4ce02a2d47"
 
 [[files]]
 file = "config/TFCPlusAesthetics.cfg"
-hash = "ab9f675ec82bd22cd8d3251058c438979f3ffca578062899a9c03adf19c4bf5b"
+hash = "dc632cfd343d4f9abd3dfd463e76a676277be8a5b6c185943150a1e8d26a7cda"
 
 [[files]]
 file = "config/TeloAddon.cfg"
@@ -565,6 +453,18 @@ file = "config/UpdateCheckLib.cfg"
 hash = "25976176cc4d53567ec8579bba58a3c413ea18678964b3d0b6616a7e032e04ad"
 
 [[files]]
+file = "config/WDMla/general.cfg"
+hash = "bca14247e4cae510ef93598f58bf5a3528d2df9e19ffbd5541a092eaa18ea7a4"
+
+[[files]]
+file = "config/WDMla/plugins.cfg"
+hash = "554f2ec51faf53b546946b1fb9b61fcf13858b81422a0c66234f5b9fdd0fa4b6"
+
+[[files]]
+file = "config/WDMla/plugins_autogen.cfg"
+hash = "b6cec76dd085e1cd57159a727ee2f210691d68d89f694f089dd89c5533018e36"
+
+[[files]]
 file = "config/Waila.cfg"
 hash = "f0711a7b3394591acc4ab61127a8938573b1e1e0d4ead9c91a4ee3e4b3495358"
 
@@ -573,8 +473,20 @@ file = "config/YABM.cfg"
 hash = "4e50cad792623793a2a31149dd8021d696ec9962aa12b3c878c6faa50fbb881b"
 
 [[files]]
+file = "config/angelica-compat.cfg"
+hash = "8b4df14395429fc56fae9fb7886f2c3378c0494b5fda8deff2626fa08fd75c28"
+
+[[files]]
+file = "config/angelica-modules.cfg"
+hash = "0335cded9b027c0e7a773e97c7fbba785b9c7751225b795ecd14eb65d6438d28"
+
+[[files]]
+file = "config/angelica-options.json"
+hash = "4be4b8d959fea872614306a1bc32457263b451d5bac361a917caae0faa4a27cf"
+
+[[files]]
 file = "config/archaicfix.cfg"
-hash = "fbe73c5344b2f3c096c513183d904fc7695e56b7a6d53a6d2fe21777cbcd0199"
+hash = "b88f05ce87b54e3e433fb5950ed24ea75d5649c752215d10e46004432f3d95ba"
 
 [[files]]
 file = "config/armourersWorkshop/client.cfg"
@@ -582,7 +494,7 @@ hash = "5016160e4c93554b30fdfdc2537c92b65e15cc4960a98005039833c4291a44a8"
 
 [[files]]
 file = "config/armourersWorkshop/common.cfg"
-hash = "4849afd1adee27758b5bdab6a14dced85515b3c02e28f21758686fc8aeb0d12f"
+hash = "a92bb8be78693478ad68401d1345f1a08fb753eaf9321ce2749da2c954501508"
 
 [[files]]
 file = "config/armourersWorkshop/overrides.cfg"
@@ -590,7 +502,7 @@ hash = "72c2453abffaf424441a51d6120d5578a06c84fd558a146aff48e1326b5d3827"
 
 [[files]]
 file = "config/betterquesting.cfg"
-hash = "c011a6635ae2e1b1b05f5fd327cdfe547b4e20da1f13af52706d66898d49b20d"
+hash = "3bd4ead27708fbc68fa9317022d4f6262d094f6bc1b1cafbe296deefa0667157"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests.json"
@@ -618,19 +530,19 @@ hash = "952d538be376a696ca36066d70e02069521c66999740c1589f64cf8ee2465df2"
 
 [[files]]
 file = "config/bugtorch/base.cfg"
-hash = "c716efb4ef330b678af416d11406d7a3a91b3e815928d384ecc7ea7a079aec65"
+hash = "22c7c400ad4d4f05483546c3aa8322f54461c65a913d04c4755c099498ee07c1"
 
 [[files]]
 file = "config/bugtorch/mixins.cfg"
-hash = "e506d9e47ce1b37c83888b296cc7e51dfded326e3d56589929a3832eacac9f7f"
+hash = "a25df13048bd598d2f0a90138ceb60064f659cd7d336ee5a16d1392e7a922bc5"
 
 [[files]]
 file = "config/bugtorch/mixinsModSupport.cfg"
-hash = "cf862fc1941fdd01571863e473377a48f7972bb52595e35235fdd3a22d5f0420"
+hash = "bb45db1cfe2f1cec810905f5d0d4ccd74094581ae9e507059ff912a7f904b2a1"
 
 [[files]]
 file = "config/bugtorch/modSupport.cfg"
-hash = "fedb03766ee066e9cb36f075414080df647ee588aee0a73bbc3ef1b4284bee07"
+hash = "3152bce064cf30a7bddfd46d632880ade0e7ec0aabaebacb2c2c10f213cc3a41"
 
 [[files]]
 file = "config/cofh/core/client.cfg"
@@ -654,11 +566,11 @@ hash = "60b89b49e3eb3381c1765a4ce3c64aa2b5ea1258697af7c413bc2a3df7c454a6"
 
 [[files]]
 file = "config/coretweaks.cfg"
-hash = "2cce6531b87cb16d3137bdc52f68b8e7e3a6192b1d5d29f73ae4519c01367a06"
+hash = "c4926f96e887d26e397bd9d63762b0258ea283f2164b78856f54cf1804ed4850"
 
 [[files]]
 file = "config/craftpresence.properties"
-hash = "6a7c9068676a1ccad41821b7e2bc6045494b3cd631a0c54454e337e27d91636f"
+hash = "23e54cdaebcb4c75fe06f7f41490b7bb9b8929b1aae3085bfd5dd7145c1afb21"
 
 [[files]]
 file = "config/dakimakuramod.cfg"
@@ -671,6 +583,10 @@ hash = "ae14bf5c1b2c9090d97ed95a4eaffebef8a038b70762e6b632ab2bb95cf84db8"
 [[files]]
 file = "config/defaultoptions.txt"
 hash = "fef3df5a7d90f808722558c90d580008add57bcea8ba52117addb6dfd468e3f0"
+
+[[files]]
+file = "config/defaultoptionsnf.txt"
+hash = "eb019e6460ef17c7bffc8f0f3ab874e9327eec6e55a2f2240cfea1eaa4eaadcd"
 
 [[files]]
 file = "config/defaultoptionsof.txt"
@@ -686,7 +602,7 @@ hash = "e1960d0303e02f5159377b7ab05bfb914df913265cc8a5c559a47e5bb1a5ecb2"
 
 [[files]]
 file = "config/etfuturum/blocksitems.cfg"
-hash = "9ada6539f5048d9b1697a140a9e097f3d23d1f4142329792f125d28b44dfcbb2"
+hash = "171025aa88ad9c179ad384242abb2dc03cc1bd7ef6d8126cfcbccd5f4e3ebf16"
 
 [[files]]
 file = "config/etfuturum/enchantspotions.cfg"
@@ -694,27 +610,39 @@ hash = "da8ac8049191a255f617df2fb9a8b49bafccb5f1b909353d7685a4361bc45ae6"
 
 [[files]]
 file = "config/etfuturum/entities.cfg"
-hash = "0bf0a4ebe8edafd55b6c542f99eb558f4a73601bcaad8c777e61a7fb8d085407"
+hash = "09cbd09e3d49c7169e9359b132fe4a3d8292b8a72940f2988445ca13679c6b2d"
+
+[[files]]
+file = "config/etfuturum/experiments.cfg"
+hash = "dc35ab9d35af27e0974fe17c586910f7e18a9f794fcf769a89e74d845177dd75"
 
 [[files]]
 file = "config/etfuturum/functions.cfg"
-hash = "ace2bd202c9ddbb8ff6d3e1d81d58deda6b42775610eaf598c41a58e6923b5ef"
+hash = "fbd2b2f48ec71a0a23a729366e0fea09f16970901b6dad15ff54aa29378a3f92"
 
 [[files]]
 file = "config/etfuturum/mixins.cfg"
-hash = "328c935407815b21f37666aeed2cc04e13bbc42d4385977a53db7a0e20eab288"
+hash = "26a464cc0583dd56d8a63593d865dbb9f1327a3fff25d68dbb461f382bf33ecc"
+
+[[files]]
+file = "config/etfuturum/modcompat.cfg"
+hash = "279e4d8e9091e4296e55bb3c4ad99a15479cdfb5473abb9855efd862e146c1e3"
+
+[[files]]
+file = "config/etfuturum/sounds.cfg"
+hash = "442ba1a6efd64419eb42a204c5b29768b3e07a8809cb5ec4ed42c9d7edeee9eb"
 
 [[files]]
 file = "config/etfuturum/tweaks.cfg"
-hash = "ccc45cbe15fd9eabcadfc8a9e778f7ab274a7575ac2d1899ce6e155aad736658"
+hash = "5a7eab90b7ffe433153341cbb69eb0e07d7af04924852887beb8ac6758f6d0b7"
 
 [[files]]
 file = "config/etfuturum/world.cfg"
-hash = "24d906d554e9ec082c9a2979f4d532199a1ab0f1d079f6be6308f147e8459933"
+hash = "ba163cccfb04c9a83612a01df8f2fa4ef44739b631168afc0d990140a51ea58e"
 
 [[files]]
 file = "config/falsepatternlib.cfg"
-hash = "934759aad2e96387f824ad37565ff1d4359b16ff1bf2e3c99df0ef8ab840813b"
+hash = "d5aec86ddcfea592c5b9635f684c92e5fac6485c896879643a30897ba278d527"
 
 [[files]]
 file = "config/forestry/apiculture.cfg"
@@ -745,16 +673,336 @@ file = "config/gravestone.cfg"
 hash = "601ed06e69faac698522fb128bab7fd4d3cd914c253cfb6ddf4219b3b70b0a99"
 
 [[files]]
+file = "config/hodgepodge.cfg"
+hash = "4bf128e2794921b40528b079e8186ec76202fedaab4bea7a6ff4dc31959e18f7"
+
+[[files]]
 file = "config/immersiverailroading.cfg"
 hash = "570bb93b135183d9b08f04ca5fba370cec19a42f533e0ff77dcdfdd43ac3e57f"
 
 [[files]]
 file = "config/itlt.cfg"
-hash = "c18e686c2a987f38e1b13827fd115d9da1c8ed7e3da1c7b3651161cef71e9c34"
+hash = "38def3e70ea6f6c0f4180d416b116b5e912cb0da1520c9847cfdcddf2df865e6"
 
 [[files]]
 file = "config/itlt/icon.png"
 hash = "264adb627ae5917e3aff9dedc67052b41a16d5ebaf3c86f1810aef290dab546f"
+
+[[files]]
+file = "config/journeymap/colorpalette.json"
+hash = "e4d753f4e9056b1353e4a92ceaf56531186c0e80c45ba84bd6bf8d0d7260c33f"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/horse/donkey.png"
+hash = "2830a34a41326254078a79bcda18b394a1aca014849580eb6c8af7148fe57ee7"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/horse/horse_brown.png"
+hash = "a6f3a8b9119d8c138326cd26e263eccef3ce028b9a08353967c8cf468abb8b3c"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/horse/horse_zombie.png"
+hash = "3a41ead90bcdde687c1f9cb5ad55ef9ad99a8679e60318c6606fb6647ce779c8"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/horse/mule.png"
+hash = "15330a7640b79190dd9723c29489beeabd97e96c8822ae2572d676b1f547d06f"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/AngelFish.png"
+hash = "5891a6be2e65e66d4ba9d91b98ff7bfa6f65fe415102b6d8b59f717c05378676"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Aurochs Bull.png"
+hash = "3bbfc1e652a343310d83fcf6ed02ccaf537bf956d8f2f086eb27bc99b09e8f7a"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Aurochs Cow.png"
+hash = "7f93e399de3bf9ffaee0a43e6a404a8505eeae20ab1ce1e939f3c4602415e3c1"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Bass.png"
+hash = "b3c494ee642c5428d506a3c454943ba44e0a7b8d6ab1da7ec1adc6c493e2a273"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Bear.png"
+hash = "1b897ef3592b1fe5dc13994ea541f7d7c0bf8911da8fdbb233484b449ee314b0"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Bison Bull.png"
+hash = "0f83310551041cbbc178c1c1dfa79eba41a4e18c27e17380d4841d637d0d9827"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Bison Cow.png"
+hash = "d672756eb42ca616be45ed66befa6c4e38bf7a1dea9f9d133775e41d608721f7"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Boar Piglet.png"
+hash = "84ba490bd5ecce99c134f7463ef36ec1247f32deff54a6c06ea0b0eaa72dd9f7"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Boar.png"
+hash = "fc13313be1b7c70e9020a0dda2626d926bfefef2658b47436201d65d259da219"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Buffalo Bull.png"
+hash = "4aa7d81f4ddb9de1f110d265f1e24fb30b90cd56f93c2bde514b510bf6762a0f"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Buffalo Cow.png"
+hash = "2101f9ab2d34ccbda49427aa11a7c0ea9f834640c91e2d1a689b9ad85a6fbe22"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/ButterflyFish.png"
+hash = "f76c595fba5b64784d786662d69dd4d14b737274d9a0575b61ea6f61cce81641"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Cow.png"
+hash = "69a5696ac4f641cbe541d3b5ad64584987035c93094c069f2d8a68190fbb925e"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/ParrotFish_pink.png"
+hash = "eb721b08c6f784cf5a99fdff86b60376e3fe5288c9ed943de15cb4790fbfa1c5"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/ParrotFish_yellow.png"
+hash = "bd9799d5fe557f8bc1c6cc1c9fe02db695f53eb114c8336a05fdfca92212c2e9"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Peccary.png"
+hash = "0fb659b212a2981b37d5694538b54a35d38584cd15069554aa1a4ec506bbd81e"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/PheasantF.png"
+hash = "2117ab58d8c604c341d20cec1e96f4d5600693e0f1510f42b6eb2a8cd810ef46"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/PheasantM.png"
+hash = "9c0826935bdc430dab2a0c739191cdc80dd0c4031b32d32046bb30ee91c40e0c"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Pig.png"
+hash = "02eb80ba5d1538ec46fe6fb19cfebd4ae9fa8026c10e712e4fe9284d5ade365f"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Pollock.png"
+hash = "d1ad2a44d948a05c4ccda1485184b92c119df278c12c4b191220abd02d1a4561"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Shark.png"
+hash = "ef07f5b14b7b9ef93b9ef876792e31633b900e79919e64ada8e64deb2ca3c79e"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Trout.png"
+hash = "757c35fe690c7eb7762a1617f1fe0fb8c0036b671fd5c862dcbe2355d78c945b"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Wahoo.png"
+hash = "217df095aff97707c9773ba0c9831d4052228a217d27cc438ac663a25667d218"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Warthog.png"
+hash = "27fa21de90361584de725814eca49e5905ce618e4b59b6aeb44b9275883ab206"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/Wrasse.png"
+hash = "486a0bde4ceaaa8a1fa3c0d2638bc78f0ced1ffa1bf8f0e45709eb4434663641"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/bighornsheep.png"
+hash = "55ac83207da909eb19887a79d37a4f4330dc25dc24f0965c874ea43b78dc0f24"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/bull.png"
+hash = "4d1ba471bf1ec33ae434bef5278d17fd59631a712420b3de00bb8f39ab2c9b81"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/chick.png"
+hash = "9bb1cf7e5b8f6428dcc1767a49143b5e70a5bd0ecd5cfa9f59b2c04cfbdf7f73"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/deer.png"
+hash = "789fb4a64db7adce199b51c68910a7d2475e43575faf740acbc9fb17e276a31e"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/goat.png"
+hash = "d5a2a717e711b47164f021fa57f01d9cc115ede819101938f34ac36a369637c4"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/ibex.png"
+hash = "4975a2255e50ee9026012e08820476ba0dc0d969c224f2d0f1e7d79f816ced6d"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/mouflon.png"
+hash = "56359d5d44b62964abf016c1834de4f0a08ef8cebcc38db0a21a5524c93945ba"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/pheasant_chick.png"
+hash = "8bb7356ceb6e8f9fe08e53b424c6786fd9425e9e407130c190d5b8269bd37ff0"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/rooster.png"
+hash = "fef78671981deda979986fd45f300190bfafcc28787879536d537dc3de87538b"
+
+[[files]]
+file = "config/journeymap/icon/entity/2D/terrafirmacraftplus/textures/mob/sheep.png"
+hash = "9962ba2b2abd4b5087f0a541111225a8d920bd78691cabfef6ff7abb3f11c0d2"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/horse/donkey.png"
+hash = "2830a34a41326254078a79bcda18b394a1aca014849580eb6c8af7148fe57ee7"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/horse/horse_brown.png"
+hash = "a6f3a8b9119d8c138326cd26e263eccef3ce028b9a08353967c8cf468abb8b3c"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/horse/horse_zombie.png"
+hash = "3a41ead90bcdde687c1f9cb5ad55ef9ad99a8679e60318c6606fb6647ce779c8"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/horse/mule.png"
+hash = "15330a7640b79190dd9723c29489beeabd97e96c8822ae2572d676b1f547d06f"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/AngelFish.png"
+hash = "5891a6be2e65e66d4ba9d91b98ff7bfa6f65fe415102b6d8b59f717c05378676"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Aurochs Bull.png"
+hash = "3bbfc1e652a343310d83fcf6ed02ccaf537bf956d8f2f086eb27bc99b09e8f7a"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Aurochs Cow.png"
+hash = "7f93e399de3bf9ffaee0a43e6a404a8505eeae20ab1ce1e939f3c4602415e3c1"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Bass.png"
+hash = "b3c494ee642c5428d506a3c454943ba44e0a7b8d6ab1da7ec1adc6c493e2a273"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Bear.png"
+hash = "1b897ef3592b1fe5dc13994ea541f7d7c0bf8911da8fdbb233484b449ee314b0"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Bison Bull.png"
+hash = "0f83310551041cbbc178c1c1dfa79eba41a4e18c27e17380d4841d637d0d9827"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Bison Cow.png"
+hash = "d672756eb42ca616be45ed66befa6c4e38bf7a1dea9f9d133775e41d608721f7"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Boar Piglet.png"
+hash = "84ba490bd5ecce99c134f7463ef36ec1247f32deff54a6c06ea0b0eaa72dd9f7"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Boar.png"
+hash = "fc13313be1b7c70e9020a0dda2626d926bfefef2658b47436201d65d259da219"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Buffalo Bull.png"
+hash = "4aa7d81f4ddb9de1f110d265f1e24fb30b90cd56f93c2bde514b510bf6762a0f"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Buffalo Cow.png"
+hash = "2101f9ab2d34ccbda49427aa11a7c0ea9f834640c91e2d1a689b9ad85a6fbe22"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/ButterflyFish.png"
+hash = "f76c595fba5b64784d786662d69dd4d14b737274d9a0575b61ea6f61cce81641"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Cow.png"
+hash = "69a5696ac4f641cbe541d3b5ad64584987035c93094c069f2d8a68190fbb925e"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/ParrotFish_pink.png"
+hash = "eb721b08c6f784cf5a99fdff86b60376e3fe5288c9ed943de15cb4790fbfa1c5"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/ParrotFish_yellow.png"
+hash = "bd9799d5fe557f8bc1c6cc1c9fe02db695f53eb114c8336a05fdfca92212c2e9"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Peccary.png"
+hash = "0fb659b212a2981b37d5694538b54a35d38584cd15069554aa1a4ec506bbd81e"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/PheasantF.png"
+hash = "2117ab58d8c604c341d20cec1e96f4d5600693e0f1510f42b6eb2a8cd810ef46"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/PheasantM.png"
+hash = "9c0826935bdc430dab2a0c739191cdc80dd0c4031b32d32046bb30ee91c40e0c"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Pig.png"
+hash = "02eb80ba5d1538ec46fe6fb19cfebd4ae9fa8026c10e712e4fe9284d5ade365f"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Pollock.png"
+hash = "d1ad2a44d948a05c4ccda1485184b92c119df278c12c4b191220abd02d1a4561"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Shark.png"
+hash = "ef07f5b14b7b9ef93b9ef876792e31633b900e79919e64ada8e64deb2ca3c79e"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Trout.png"
+hash = "757c35fe690c7eb7762a1617f1fe0fb8c0036b671fd5c862dcbe2355d78c945b"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Wahoo.png"
+hash = "217df095aff97707c9773ba0c9831d4052228a217d27cc438ac663a25667d218"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Warthog.png"
+hash = "27fa21de90361584de725814eca49e5905ce618e4b59b6aeb44b9275883ab206"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/Wrasse.png"
+hash = "486a0bde4ceaaa8a1fa3c0d2638bc78f0ced1ffa1bf8f0e45709eb4434663641"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/bighornsheep.png"
+hash = "55ac83207da909eb19887a79d37a4f4330dc25dc24f0965c874ea43b78dc0f24"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/bull.png"
+hash = "4d1ba471bf1ec33ae434bef5278d17fd59631a712420b3de00bb8f39ab2c9b81"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/chick.png"
+hash = "9bb1cf7e5b8f6428dcc1767a49143b5e70a5bd0ecd5cfa9f59b2c04cfbdf7f73"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/deer.png"
+hash = "789fb4a64db7adce199b51c68910a7d2475e43575faf740acbc9fb17e276a31e"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/goat.png"
+hash = "d5a2a717e711b47164f021fa57f01d9cc115ede819101938f34ac36a369637c4"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/ibex.png"
+hash = "4975a2255e50ee9026012e08820476ba0dc0d969c224f2d0f1e7d79f816ced6d"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/mouflon.png"
+hash = "56359d5d44b62964abf016c1834de4f0a08ef8cebcc38db0a21a5524c93945ba"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/pheasant_chick.png"
+hash = "8bb7356ceb6e8f9fe08e53b424c6786fd9425e9e407130c190d5b8269bd37ff0"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/rooster.png"
+hash = "fef78671981deda979986fd45f300190bfafcc28787879536d537dc3de87538b"
+
+[[files]]
+file = "config/journeymap/icon/entity/3D/terrafirmacraftplus/textures/mob/sheep.png"
+hash = "9962ba2b2abd4b5087f0a541111225a8d920bd78691cabfef6ff7abb3f11c0d2"
 
 [[files]]
 file = "config/matmos/expansions_userconfig/eu.ha3.default.earthlies.cfg"
@@ -763,14 +1011,6 @@ hash = "3db2077142dffeeaec0e0c3f2179901b0efa86c7fec12beeedb901e636c31b93"
 [[files]]
 file = "config/matmos/expansions_userconfig/makamys.zen.atmospheres.cfg"
 hash = "1b8d130bb181dc6b19f7570339f5f8a1240e8f0b87a759b30da93bbd63b35169"
-
-[[files]]
-file = "config/mcinstanceloader/config.cfg"
-hash = "5197566bb919432f4ec0ca66a12cca4b14febcd3852a2240ab8a3c34092e1eed"
-
-[[files]]
-file = "config/mcinstanceloader/pack.mcinstance"
-hash = "a3d4d1a9a741eecc32ccc8b2ec8590b071d6d749dd6c501d8cb6e953856593fe"
 
 [[files]]
 file = "config/mixingasm/transformer_exclusion_list.txt"
@@ -782,7 +1022,19 @@ hash = "08abf5c19dd2b36b87abd1b3b352ce69812463903e7a71348d1b1973882fab16"
 
 [[files]]
 file = "config/mixingasm/transformer_inclusion_list_default.txt"
-hash = "5270f6b5a356fc8fd2a378489c2d46aef7d7672184c932886f03a6d54b0f7677"
+hash = "c3eeec5571ab725b754509a1b5720c3cc1119c90d0442fc92acc531244fb3f3a"
+
+[[files]]
+file = "config/mod-director/icon.png"
+hash = "264adb627ae5917e3aff9dedc67052b41a16d5ebaf3c86f1810aef290dab546f"
+
+[[files]]
+file = "config/mod-director/modpack.json"
+hash = "9089c9a66cee8e3520322eb7b906db1a775fd9fef7967c685d6d1f7359a96771"
+
+[[files]]
+file = "config/mod-director/mods.bundle.json"
+hash = "e01634d66bd75fc8557a5c0d3d2b6ab65ba2f6872e9c1a41bb5f53d2e56416b4"
 
 [[files]]
 file = "config/shipBlockProperties.cfg"
@@ -793,8 +1045,160 @@ file = "config/splash.properties"
 hash = "40f7f46696af11e88a1bd76bdfa0f9e44c4b58172f5c0fb3fb44fa11117d4f68"
 
 [[files]]
-file = "mods/mcinstance-loader.pw.toml"
-hash = "682313364e329a03cb65b0957e6956a6bff8a39105678290b642ba9c48dfd7b0"
+file = "config/txloader/config.json"
+hash = "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+
+[[files]]
+file = "config/txloader/forceload/betterloadingscreen/sounds/rhapsodia_orb.ogg"
+hash = "5998bf8ee2eecc2779ef896f04a540f9d48d4e96cc9227aae4646f4d9b817749"
+
+[[files]]
+file = "config/txloader/forceload/betterloadingscreen/textures/backgrounds/telomerase/01.png"
+hash = "5d417fd95133c1bd56f50a11e9af28c65f176fdff6651278c41c52722fa798f2"
+
+[[files]]
+file = "config/txloader/forceload/betterloadingscreen/textures/backgrounds/telomerase/02.png"
+hash = "84f1eab890bbe9c50a719ba640709830ef623fe63dc468ce03dae4d4928da674"
+
+[[files]]
+file = "config/txloader/forceload/betterloadingscreen/textures/backgrounds/telomerase/03.png"
+hash = "e65ae7149fb9c9fbe01ce00d50b26b3a146280b78a1d53739b6d8143751f4784"
+
+[[files]]
+file = "config/txloader/forceload/betterloadingscreen/textures/backgrounds/telomerase/04.png"
+hash = "b9754aee006ff6d3a060046d7ec872de0ed6554865551a4711b2bbf808cc4c76"
+
+[[files]]
+file = "config/txloader/forceload/betterloadingscreen/textures/backgrounds/telomerase/05.png"
+hash = "4ffcdd9cb605624d71e8749c5d4370ad177213a4d98d4050b74ac0243f44c25c"
+
+[[files]]
+file = "config/txloader/forceload/betterloadingscreen/textures/backgrounds/telomerase/06.png"
+hash = "460dfdfea3127121b8ae3077a56454e71160fb751c8cd9a6588b575377ece7b4"
+
+[[files]]
+file = "config/txloader/forceload/betterloadingscreen/textures/backgrounds/telomerase/07.png"
+hash = "b7a6ce1849eb682d8a58b99ae76ce083fbd168a16ef710098813f0ea9699170a"
+
+[[files]]
+file = "config/txloader/forceload/betterloadingscreen/textures/backgrounds/telomerase/08.png"
+hash = "705ff6fc2cd16d9e281a92fcd9437116697c6e53102606215dd00ad8473dd143"
+
+[[files]]
+file = "config/txloader/forceload/betterloadingscreen/textures/backgrounds/telomerase/09.png"
+hash = "016597114eb0db827a836e7c9698ba76c90208b976184a727b0d7fa17129f58a"
+
+[[files]]
+file = "config/txloader/forceload/betterloadingscreen/textures/backgrounds/telomerase/10.png"
+hash = "995fd5edea07d180943dc44fbeecbc92cfcf7f172971ebda895447d2f2e26061"
+
+[[files]]
+file = "config/txloader/forceload/betterloadingscreen/textures/backgrounds/telomerase/11.png"
+hash = "9dd3634c7bcaaa3ef8e29cb37e354360bed17a64e17a4968ffc705ebd4e22121"
+
+[[files]]
+file = "config/txloader/forceload/betterloadingscreen/textures/backgrounds/telomerase/12.png"
+hash = "238a950696af9cd23563ed2b04cb0fea194ab1558915f9fe8a96e75b2de48e38"
+
+[[files]]
+file = "config/txloader/forceload/betterloadingscreen/textures/backgrounds/telomerase/13.png"
+hash = "09cd7a4464cc5e5812ae4f65d2002558ce204277e21451bc6c62428a5fc98f51"
+
+[[files]]
+file = "config/txloader/forceload/betterloadingscreen/textures/backgrounds/telomerase/14.png"
+hash = "6f58920101fb87aeee74ac14f02eca92db59e260480571ef712084c465a10769"
+
+[[files]]
+file = "config/txloader/forceload/betterloadingscreen/textures/backgrounds/telomerase/telomeraseloadingtemplate.png"
+hash = "5efb43692ad0368625605186d561cee97151f613a8ea586e93b638475317db03"
+
+[[files]]
+file = "config/txloader/forceload/betterloadingscreen/textures/telomeraseProgressBar.png"
+hash = "c1293649f93aadcce4f7853efe44f1575e29046b92eee4f13338b45f5e36b77e"
+
+[[files]]
+file = "config/txloader/forceload/custommainmenu/textures/backgrounds/telomerase/01.png"
+hash = "eb538d4f6ba328e6152495ae1f20b87d9751504090c71cb126dcd31708720b13"
+
+[[files]]
+file = "config/txloader/forceload/custommainmenu/textures/backgrounds/telomerase/02.png"
+hash = "8578833a46f6490716389b515f1358bdd7ba2f642f9604ca25da929f94511998"
+
+[[files]]
+file = "config/txloader/forceload/custommainmenu/textures/backgrounds/telomerase/03.png"
+hash = "1058de5ca37bc0fa2a7414afc404e81dfa3114e047ae709c24b3e9748a92637b"
+
+[[files]]
+file = "config/txloader/forceload/custommainmenu/textures/backgrounds/telomerase/04.png"
+hash = "b5e420b870134c2279a0911514056a745ed1030927a35ceb945f7a6231c9b695"
+
+[[files]]
+file = "config/txloader/forceload/custommainmenu/textures/backgrounds/telomerase/05.png"
+hash = "f34484419dbf7324692261a47acf1e5fbd211a088b34fba39b7b7b1eb2e1a47a"
+
+[[files]]
+file = "config/txloader/forceload/custommainmenu/textures/gui/button.png"
+hash = "97b9bee57d169116092834d4b0972409d848664886d94896414d188de95c5a2c"
+
+[[files]]
+file = "config/txloader/forceload/custommainmenu/textures/gui/menu_bar.png"
+hash = "36e412013b551317ff3a9f61206247b6f7eedc729453724f11c4fd3a2061cbca"
+
+[[files]]
+file = "config/txloader/forceload/reauth/lang/en_US.lang"
+hash = "e08d1fe025c4b41f1081cc442f9338a223c1614838c2b37eeb9302dd5bbe8f56"
+
+[[files]]
+file = "config/txloader/forceload/telomerase/textures/title.png"
+hash = "f876683da6ede35a8787b54b3b680abc4721a9fc232ed83b70141dd8383f32e4"
+
+[[files]]
+file = "config/txloader/forceload/telomerase/version.txt"
+hash = "66bf45ec90e5cb24b6415eaae1f91e5446ff4cd9775e00e9739f61fd30aa1c09"
+
+[[files]]
+file = "config/txloader/forceload/terrafirmacraftplus/textures/gui/gui_barrel.png"
+hash = "fc4ab4e53e21dd9cf68e3c54c2cf386eb0063903e450e13a5e43d475fd2e0baf"
+
+[[files]]
+file = "config/txloader/forceload/terrafirmacraftplus/textures/gui/gui_calendar.png"
+hash = "ac9ac025c3c954038c47b90ef3295dd7700760067e9d5534b4730c2f0dd8ba15"
+
+[[files]]
+file = "config/txloader/forceload/terrafirmacraftplus/textures/gui/gui_health.png"
+hash = "92da685cdcffc865a8b73ff2b80494096c0de4957d3b17258249ccddb672edfa"
+
+[[files]]
+file = "config/txloader/forceload/terrafirmacraftplus/textures/gui/gui_inventory2x2_expanded.png"
+hash = "e52c98f133ec819374abc6774e235b87ed8bfaf7f5d3032d0516602da472544a"
+
+[[files]]
+file = "config/txloader/forceload/terrafirmacraftplus/textures/gui/gui_inventory2x2_expanded_beta.png"
+hash = "23e348541ca8a8fa29cd1809012781c66a939728cd93434bcc91cbe73fac3c9a"
+
+[[files]]
+file = "config/txloader/forceload/terrafirmacraftplus/textures/gui/gui_largevessel.png"
+hash = "d9b4bfa205538927b31ed8db4f26850e8c88198a2339a7ee9a267e9577861ad2"
+
+[[files]]
+file = "config/txloader/forceload/terrafirmacraftplus/textures/gui/gui_skills.png"
+hash = "3bdda2194afbc2e0f5e616ab7c046b7a2a58937af155659f1508524119dd1956"
+
+[[files]]
+file = "config/txloader/forceload/terrafirmacraftplus/textures/gui/inventory_expanded.png"
+hash = "9933873aa4a11ad86cfc443951256c0ad39a164581335632102e8e5e77b1bc50"
+
+[[files]]
+file = "config/txloader/forceload/terrafirmacraftplus/textures/gui/inventory_expanded_beta.png"
+hash = "66d3c26a1bc043b5bed451eac65cb4f6381f46de03c07840eada47df039243d5"
+
+[[files]]
+file = "config/txloader/load/bugtorch/sounds/mob/ghast/fireball4.ogg"
+hash = "d88d1eea0f64ebbe1eae9faf2826ad26298d0f1844f1f94ff98b5b5a51b33f89"
+
+[[files]]
+file = "mods/filedirector.pw.toml"
+hash = "0ddcec2015472db25761070735e16ad8624896edc9cafd3709f83d21c28eaeaf"
 metafile = true
 
 [[files]]
@@ -24807,7 +25211,7 @@ hash = "935353b66077e00336e62d83b22c52516fed78cc20b28910513fc7c190d94263"
 
 [[files]]
 file = "resourcepacks/mat_default2016/README.md"
-hash = "5a56bbe4e3d76212e79bb97a1571097b56cbf09372117954c1da0a83fd081fe1"
+hash = "30648c8df3b6d641c5bf817d05df1fcdb7a5331a8c483c83949aa1eb2a9eaac1"
 
 [[files]]
 file = "resourcepacks/mat_default2016/assets/matmos/expansions.json"
@@ -24819,7 +25223,7 @@ hash = "bc4a182becd93c3816e9bf330f65c36d15964648b123b057c054d6bfc74da1b3"
 
 [[files]]
 file = "resourcepacks/mat_default2016/assets/matmos/expansions/interactions_environments.json"
-hash = "ebe2a494da9c32f9c9deb6eb4dbca5a2ecc16ef9051c69ce2b3706e727d89360"
+hash = "84f5c34e1cb6808d0bfe4b8db2ae1c956a3120718854c29ee04e39f500dd0796"
 
 [[files]]
 file = "resourcepacks/mat_default2016/assets/matmos/expansions/interactions_extras.json"
@@ -24831,11 +25235,11 @@ hash = "987116950bb6d421a71d424717519ee9971080932eea7268c5d58e6f150dd5f3"
 
 [[files]]
 file = "resourcepacks/mat_default2016/assets/matmos/expansions/interactions_weapons.json"
-hash = "84440ae4cb3c302e52d70ed6f10b00548443e777b612df5a129098c231a821d3"
+hash = "6a5951e395aca5312340e406cb5ef86a1d9f808b486cab1106b85fd2b7a4bf0b"
 
 [[files]]
 file = "resourcepacks/mat_default2016/assets/matmos/mat_pack.json"
-hash = "da4f3c220feffc27467b6d70a33114ac1440ccf83167ced7880df839e9b09abb"
+hash = "805170271917621d24b4063834477b9b8d90e971b15df272f49b233bc6883c9f"
 
 [[files]]
 file = "resourcepacks/mat_default2016/assets/minecraft/sounds.json"
@@ -25482,158 +25886,6 @@ file = "resourcepacks/mat_default2016/pack.png"
 hash = "9ea0da82d43fb442c657d6518ddadde21c99776d67767be5a04a1c727f277bd1"
 
 [[files]]
-file = "resources/assets/fml/textures/gui/downloading.gif"
-hash = "7272d52e126288b4aa6c48d964a91d0e833f6cd8b9b2644c1506d085c60330b3"
-
-[[files]]
-file = "resources/assets/fml/textures/gui/logo.png"
-hash = "3ab54612ebf866c44cc4d09f527eef1035762d5dada0bf85385ec1c3d8408d05"
-
-[[files]]
-file = "resources/betterloadingscreen/sounds/rhapsodia_orb.ogg"
-hash = "5998bf8ee2eecc2779ef896f04a540f9d48d4e96cc9227aae4646f4d9b817749"
-
-[[files]]
-file = "resources/betterloadingscreen/textures/backgrounds/telomerase/01.png"
-hash = "5d417fd95133c1bd56f50a11e9af28c65f176fdff6651278c41c52722fa798f2"
-
-[[files]]
-file = "resources/betterloadingscreen/textures/backgrounds/telomerase/02.png"
-hash = "84f1eab890bbe9c50a719ba640709830ef623fe63dc468ce03dae4d4928da674"
-
-[[files]]
-file = "resources/betterloadingscreen/textures/backgrounds/telomerase/03.png"
-hash = "e65ae7149fb9c9fbe01ce00d50b26b3a146280b78a1d53739b6d8143751f4784"
-
-[[files]]
-file = "resources/betterloadingscreen/textures/backgrounds/telomerase/04.png"
-hash = "b9754aee006ff6d3a060046d7ec872de0ed6554865551a4711b2bbf808cc4c76"
-
-[[files]]
-file = "resources/betterloadingscreen/textures/backgrounds/telomerase/05.png"
-hash = "4ffcdd9cb605624d71e8749c5d4370ad177213a4d98d4050b74ac0243f44c25c"
-
-[[files]]
-file = "resources/betterloadingscreen/textures/backgrounds/telomerase/06.png"
-hash = "460dfdfea3127121b8ae3077a56454e71160fb751c8cd9a6588b575377ece7b4"
-
-[[files]]
-file = "resources/betterloadingscreen/textures/backgrounds/telomerase/07.png"
-hash = "b7a6ce1849eb682d8a58b99ae76ce083fbd168a16ef710098813f0ea9699170a"
-
-[[files]]
-file = "resources/betterloadingscreen/textures/backgrounds/telomerase/08.png"
-hash = "705ff6fc2cd16d9e281a92fcd9437116697c6e53102606215dd00ad8473dd143"
-
-[[files]]
-file = "resources/betterloadingscreen/textures/backgrounds/telomerase/09.png"
-hash = "016597114eb0db827a836e7c9698ba76c90208b976184a727b0d7fa17129f58a"
-
-[[files]]
-file = "resources/betterloadingscreen/textures/backgrounds/telomerase/10.png"
-hash = "995fd5edea07d180943dc44fbeecbc92cfcf7f172971ebda895447d2f2e26061"
-
-[[files]]
-file = "resources/betterloadingscreen/textures/backgrounds/telomerase/11.png"
-hash = "9dd3634c7bcaaa3ef8e29cb37e354360bed17a64e17a4968ffc705ebd4e22121"
-
-[[files]]
-file = "resources/betterloadingscreen/textures/backgrounds/telomerase/12.png"
-hash = "238a950696af9cd23563ed2b04cb0fea194ab1558915f9fe8a96e75b2de48e38"
-
-[[files]]
-file = "resources/betterloadingscreen/textures/backgrounds/telomerase/13.png"
-hash = "09cd7a4464cc5e5812ae4f65d2002558ce204277e21451bc6c62428a5fc98f51"
-
-[[files]]
-file = "resources/betterloadingscreen/textures/backgrounds/telomerase/14.png"
-hash = "6f58920101fb87aeee74ac14f02eca92db59e260480571ef712084c465a10769"
-
-[[files]]
-file = "resources/betterloadingscreen/textures/backgrounds/telomerase/telomeraseloadingtemplate.png"
-hash = "5efb43692ad0368625605186d561cee97151f613a8ea586e93b638475317db03"
-
-[[files]]
-file = "resources/betterloadingscreen/textures/telomeraseProgressBar.png"
-hash = "c1293649f93aadcce4f7853efe44f1575e29046b92eee4f13338b45f5e36b77e"
-
-[[files]]
-file = "resources/custommainmenu/textures/backgrounds/telomerase/01.png"
-hash = "eb538d4f6ba328e6152495ae1f20b87d9751504090c71cb126dcd31708720b13"
-
-[[files]]
-file = "resources/custommainmenu/textures/backgrounds/telomerase/02.png"
-hash = "8578833a46f6490716389b515f1358bdd7ba2f642f9604ca25da929f94511998"
-
-[[files]]
-file = "resources/custommainmenu/textures/backgrounds/telomerase/03.png"
-hash = "1058de5ca37bc0fa2a7414afc404e81dfa3114e047ae709c24b3e9748a92637b"
-
-[[files]]
-file = "resources/custommainmenu/textures/backgrounds/telomerase/04.png"
-hash = "b5e420b870134c2279a0911514056a745ed1030927a35ceb945f7a6231c9b695"
-
-[[files]]
-file = "resources/custommainmenu/textures/backgrounds/telomerase/05.png"
-hash = "f34484419dbf7324692261a47acf1e5fbd211a088b34fba39b7b7b1eb2e1a47a"
-
-[[files]]
-file = "resources/custommainmenu/textures/gui/button.png"
-hash = "97b9bee57d169116092834d4b0972409d848664886d94896414d188de95c5a2c"
-
-[[files]]
-file = "resources/custommainmenu/textures/gui/menu_bar.png"
-hash = "36e412013b551317ff3a9f61206247b6f7eedc729453724f11c4fd3a2061cbca"
-
-[[files]]
-file = "resources/reauth/lang/en_US.lang"
-hash = "11ba0395143030e40595a06f98899eb688acf329f0b07308177d06d36bf95c87"
-
-[[files]]
-file = "resources/telomerase/textures/title.png"
-hash = "f876683da6ede35a8787b54b3b680abc4721a9fc232ed83b70141dd8383f32e4"
-
-[[files]]
-file = "resources/telomerase/version.txt"
-hash = "66bf45ec90e5cb24b6415eaae1f91e5446ff4cd9775e00e9739f61fd30aa1c09"
-
-[[files]]
-file = "resources/terrafirmacraftplus/textures/gui/gui_barrel.png"
-hash = "fc4ab4e53e21dd9cf68e3c54c2cf386eb0063903e450e13a5e43d475fd2e0baf"
-
-[[files]]
-file = "resources/terrafirmacraftplus/textures/gui/gui_calendar.png"
-hash = "ac9ac025c3c954038c47b90ef3295dd7700760067e9d5534b4730c2f0dd8ba15"
-
-[[files]]
-file = "resources/terrafirmacraftplus/textures/gui/gui_health.png"
-hash = "92da685cdcffc865a8b73ff2b80494096c0de4957d3b17258249ccddb672edfa"
-
-[[files]]
-file = "resources/terrafirmacraftplus/textures/gui/gui_inventory2x2_expanded.png"
-hash = "e52c98f133ec819374abc6774e235b87ed8bfaf7f5d3032d0516602da472544a"
-
-[[files]]
-file = "resources/terrafirmacraftplus/textures/gui/gui_inventory2x2_expanded_beta.png"
-hash = "23e348541ca8a8fa29cd1809012781c66a939728cd93434bcc91cbe73fac3c9a"
-
-[[files]]
-file = "resources/terrafirmacraftplus/textures/gui/gui_largevessel.png"
-hash = "d9b4bfa205538927b31ed8db4f26850e8c88198a2339a7ee9a267e9577861ad2"
-
-[[files]]
-file = "resources/terrafirmacraftplus/textures/gui/gui_skills.png"
-hash = "3bdda2194afbc2e0f5e616ab7c046b7a2a58937af155659f1508524119dd1956"
-
-[[files]]
-file = "resources/terrafirmacraftplus/textures/gui/inventory_expanded.png"
-hash = "9933873aa4a11ad86cfc443951256c0ad39a164581335632102e8e5e77b1bc50"
-
-[[files]]
-file = "resources/terrafirmacraftplus/textures/gui/inventory_expanded_beta.png"
-hash = "66d3c26a1bc043b5bed451eac65cb4f6381f46de03c07840eada47df039243d5"
-
-[[files]]
 file = "schematics/BigReactors-Starter.schematic"
 hash = "25d7986c5493a0ff5c68ef91985428c86532ac085850997e85ebd1802138a21c"
 
@@ -25703,7 +25955,7 @@ hash = "fb13a73aed5cabf2a31f32a3edc1f92c3760ee92d8960642364860818c74ff04"
 
 [[files]]
 file = "scripts/Big_Reactors.zs"
-hash = "a167ad0f7b2fb5bacbc1e479eda4d2b64b5f492e01552b0386896314d03135e0"
+hash = "4d78e59aee8da789f876b1535f6f3df9ad505216451fb21cc9dfb9034b856b3c"
 
 [[files]]
 file = "scripts/CarpentersBlocks.zs"
@@ -25719,7 +25971,7 @@ hash = "cf53e9bde1ecfd61554e43c1fbe781385b3426a8b88da8702001da22c21ec5d0"
 
 [[files]]
 file = "scripts/ImmersiveEngineering.zs"
-hash = "87f6f33221c339d97a5e477899c6536ec91cc7a93b51bed1567e2ee86d0bc1e8"
+hash = "34aa1faf14e435babbc51ce6150f921115cce7e75734b725ef51e9e449d97d7f"
 
 [[files]]
 file = "scripts/ImmersiveIntegration.zs"
