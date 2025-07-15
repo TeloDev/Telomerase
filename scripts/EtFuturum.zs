@@ -184,3 +184,14 @@ recipes.removeShaped(<etfuturum:dark_oak_boat>);
 recipes.removeShaped(<etfuturum:dark_oak_chest_boat>);
 
 recipes.removeShapeless(<etfuturum:concrete_powder:*>);
+
+#target block
+recipes.addShaped(<etfuturum:target>,[[null,<minecraft:redstone>,null],[<minecraft:redstone>,<terrafirmacraftplus:Thatch>,<minecraft:redstone>],[null,<minecraft:redstone>,null]]);
+
+#chains
+game.setLocalization("gui.plans.chain", "Chain");
+mods.Terrafirmacraft.Anvil.addPlanRecipe("chain", 2, 6, 13);
+mods.Terrafirmacraft.Anvil.addAnvilRecipe(<etfuturum:chain>*24, <terrafirmacraftplus:item.Wrought Iron Ingot>, "chain", 6);
+
+#honeyblocks
+mods.Terrafirmacraft.Barrel.addItemConversion(<etfuturum:honey_block>, <minecraft:slimeball>, <liquid:honey> * 250, 0, true, 4, true);
